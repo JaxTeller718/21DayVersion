@@ -6393,7 +6393,7 @@
 		<property name="LPHardnessScale" value="8"/>
 		<property name="DowngradeBlock" value="cntStorageChest"/>
 		<property name="Group" value="Basics,Building"/>
-		<property name="DescriptionKey" value="cntSecureStorageChestDesc"/>
+		<property name="DescriptionKey" value="cntSecureStorageChest1Desc"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="10"/>
 		<property name="SellableToTrader" value="false"/>
@@ -20979,7 +20979,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Model" value="OutdoorDecor/tire" param1="main_mesh"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
-		<drop event="Destroy" name="HDMinibikeWheels" count="1" prob="0.25"/>
+		<drop event="Destroy" name="HDMinibikeWheels" count="1" prob="0.05"/>
 	</block>
 	<block id="83" name="ironSpikes">
 		<property name="Extends" value="trapSpikesNew"/>

@@ -2394,9 +2394,16 @@
 			<blockontop blockname="randomCarsHelper" prob="0.0015" rotatemax="3"/>
 			<blockontop blockname="tire" rotatemax="3" prob="0.0007"/>
 			<blockontop blockname="HDTire" rotatemax="3" prob="0.0007"/>
-			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0007"/>
-			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0007"/>
-			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0007"/>
+		<blockontop blockname="driftwood" rotatemax="3" prob="0.0004" />
+		<blockontop blockname="driftwood2" rotatemax="3" prob="0.0004" />
+		<blockontop blockname="plywoodOsbPlate" rotatemax="3" prob="0.0004" />
+		<blockontop blockname="graveStone08" rotatemax="3" prob="0.0004" />
+		<blockontop blockname="mattressFlat" rotatemax="7" prob="0.0003" />
+		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0002" />
+		<blockontop blockname="burntWoodBlock6" rotatemax="3" prob="0.0003" />
+			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0002"/>
+			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0002"/>
+			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="rock01" prob="0.0007"/>
 			<blockontop blockname="rock02" prob="0.0007"/>
 			<blockontop blockname="rock04"  prob="0.0007"/>
@@ -2422,9 +2429,16 @@
 			<blockontop blockname="randomCarsHelper" prob="0.0015" rotatemax="3"/>
 			<blockontop blockname="tire" rotatemax="3" prob="0.0007"/>
 			<blockontop blockname="HDTire" rotatemax="3" prob="0.0007"/>
-			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0007"/>
-			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0007"/>
-			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0007"/>
+		<blockontop blockname="driftwood" rotatemax="3" prob="0.0004" />
+		<blockontop blockname="driftwood2" rotatemax="3" prob="0.0004" />
+		<blockontop blockname="plywoodOsbPlate" rotatemax="3" prob="0.0004" />
+		<blockontop blockname="graveStone08" rotatemax="3" prob="0.0004" />
+		<blockontop blockname="mattressFlat" rotatemax="7" prob="0.0003" />
+		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0002" />
+		<blockontop blockname="burntWoodBlock6" rotatemax="3" prob="0.0003" />
+			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0002"/>
+			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0002"/>
+			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="rock01" prob="0.0007"/>
 			<blockontop blockname="rock02" prob="0.0007"/>
 			<blockontop blockname="rock04" prob="0.0007"/>

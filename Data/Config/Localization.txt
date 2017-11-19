@@ -7172,3 +7172,4 @@ Blade_Kit,,,,Blades Class,,,,
 Blunt_Kit,,,,Blunt Class,,,,
 Farmer_Kit,,,,Farmers Class,,,,
 Medic_Kit,,,,Medic Class,,,,
+cntSecureStorageChest1Desc,blocks,Container,KgNone,A basic storage box used to store stuff in. You can lock this box and code it by Holding E,Maintenez [activate] pour le verrouiller ou définir un code.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación.

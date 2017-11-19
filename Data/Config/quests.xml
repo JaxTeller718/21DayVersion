@@ -997,13 +997,13 @@
 		<reward type="SkillPoints" value="1"/>
 		<reward type="Exp" value="300"/>
 	</quest>
-	<quest id="challenge_junkhunt1" group_name_key="Junkhunt" name_key="Scavenging for orphans" subtitle_key="Scavenging for orphans" offer_key="A little orphan girl showed up at the tradingpost and won't stop crying about her lost dolly.  Find her a doll and you will be rewarded!" description_key="Find a doll and you will be rewarded!!" icon="ui_game_symbol_rubberDoll" category_key="challenge">
+	<quest id="challenge_junkhunt1" group_name_key="Hunt For Junk" name_key="Scavenging For Orphans 1/2" subtitle_key="Scavenging For Orphans" offer_key="A little orphan girl showed up at the tradingpost and won't stop crying about her lost dolly.  Find her a doll and you will be rewarded!" description_key="Find a doll and you will be rewarded!!" icon="ui_game_symbol_rubberDoll" category_key="challenge" difficulty="medium">
 		<objective type="FetchKeep" id="rubberDoll" value="1"/>
 		<reward type="Exp" value="400"/>
 		<reward type="SkillPoints" value="1"/>
 		<reward type="Quest" id="challenge_junkhunt2"/>
 	</quest>
-	<quest id="challenge_junkhunt2" group_name_key="Junkhunt" name_key="Scavenging for orphans again" subtitle_key="Scavenging for orphans again" offer_key="That girl's brother just showed up.  All he talks about is becoming a zombie killing soldier and is missing his toy soldier collection.  Collect some toy soldiers and you will be rewarded!  Are you up for this one too?" description_key="Collect some toy soldiers and you will be rewarded!" icon="ui_game_symbol_plasticSoldier" category_key="challenge">
+	<quest id="challenge_junkhunt2" group_name_key="Hunt For Junk" name_key="Scavenging For Orphans 2/2" subtitle_key="Scavenging For Orphans" offer_key="That girl's brother just showed up.  All he talks about is becoming a zombie killing soldier and is missing his toy soldier collection.  Collect some toy soldiers and you will be rewarded!  Are you up for this one too?" description_key="Collect some toy soldiers and you will be rewarded!" icon="ui_game_symbol_plasticSoldier" category_key="challenge" difficulty="medium">
 		<objective type="FetchKeep" id="plasticSoldier" value="1"/>
 		<objective type="FetchKeep" id="woodSoldier" value="1"/>
 		<objective type="FetchKeep" id="ironSoldier" value="1"/>

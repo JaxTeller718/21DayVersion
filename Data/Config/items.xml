@@ -1188,7 +1188,7 @@
 			<property name="DamageEntity" value="12"/>
 			<property name="DamageBlock" value="20"/>
 			<property name="Buff" value="bleeding,infection,stunned,biteMark"/>
-			<property name="Buff_chance" value="0.04,0.04,0.35,0.5"/>
+			<property name="Buff_chance" value="0.04,0.04,0.35,0.4"/>
 		</property>
 	</item>
 	<item id="77" name="handZombie02">
@@ -1199,7 +1199,7 @@
 		<property class="Action0">
 			<property name="Delay" value="2.0"/>
 			<property name="Buff" value="sprainedLeg,infection,biteMark"/>
-			<property name="Buff_chance" value="0.2,0.025,0.5"/>
+			<property name="Buff_chance" value="0.2,0.025,0.4"/>
 		</property>
 	</item>
 	<item id="78" name="handZombieBurning">
@@ -1211,7 +1211,7 @@
 			<property name="DamageEntity" value="12"/>
 			<property name="DamageBlock" value="2"/>
 			<property name="Buff" value="burningSmall,infection,stunned,biteMark"/>
-			<property name="Buff_chance" value="0.5,0.07,0.3,0.5"/>
+			<property name="Buff_chance" value="0.5,0.07,0.3,0.4"/>
 		</property>
 	</item>
 	<item id="79" name="handZombieCop">
@@ -1274,7 +1274,7 @@
 			<property name="DamageEntity" value="15"/>
 			<property name="DamageBlock" value="15"/>
 			<property name="Buff" value="bleeding,infection,biteMark"/>
-			<property name="Buff_chance" value="0.3,0.2,0.6"/>
+			<property name="Buff_chance" value="0.3,0.1,0.6"/>
 			<property name="DamageBonus.earth" value="4"/>
 		</property>
 	</item>
@@ -1285,7 +1285,7 @@
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="50"/>
 			<property name="Buff" value="bleeding,infection,stunned,biteMark"/>
-			<property name="Buff_chance" value="0.2,0.2,0.4,0.6"/>
+			<property name="Buff_chance" value="0.2,0.1,0.4,0.6"/>
 		</property>
 	</item>
 	<item id="83" name="handAnimalBear">
@@ -1347,7 +1347,7 @@
 		<property class="Action0">
 			<property name="DamageEntity" value="8"/>
 			<property name="Buff" value="bleeding,infection,stunned,biteMark"/>
-			<property name="Buff_chance" value="0.02,0.2,0.11,0.6"/>
+			<property name="Buff_chance" value="0.02,0.1,0.11,0.6"/>
 		</property>
 	</item>
 	<item id="89" name="handZombieBurningCrawler">
@@ -2670,7 +2670,7 @@
 			<property name="EntityDamage" value="25,45"/>
 			<property name="BlockDamage" value="1,5"/>
 		</property>
-		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
+		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
 		<property name="Group" value="Ammo/Weapons"/>
 	</item>
 	<item id="171" name="ironCrossbowBolt">
@@ -6580,7 +6580,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<!-- ,Medicine -->
-		<property name="CraftingIngredientExp" value="5"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="702" name="foodYuccaJuice">
 		<property name="Meshfile" value="Items/Food/yucca_juicePrefab"/>
@@ -6625,7 +6625,7 @@
 			<property name="Create_item" value="canEmpty"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="708" name="canChicken">
 		<property name="Extends" value="canBeef"/>
@@ -6651,7 +6651,7 @@
 			<property name="Create_item" value="canEmpty"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="712" name="canDogfood">
 		<property name="Extends" value="canCatfood"/>
@@ -6673,7 +6673,7 @@
 			<property name="Gain_water" value="-5"/>
 			<property name="Gain_gas" value="0"/>
 		</property>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="714" name="canMiso">
 		<property name="Extends" value="canCatfood"/>
@@ -6684,7 +6684,7 @@
 			<property name="Buff" value="eatFood_3_Trigger"/>
 			<property name="Gain_water" value="10"/>
 		</property>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="715" name="canPasta">
 		<property name="Extends" value="canMiso"/>
@@ -6760,7 +6760,7 @@
 			<property name="Create_item" value="canEmpty"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="724" name="canSalmon">
 		<property name="Extends" value="canHam"/>
@@ -6806,7 +6806,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="5"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="728" name="cornOnTheCob">
 		<property name="Meshfile" value="Items/Food/corn_cooked"/>
@@ -6852,7 +6852,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="730" name="cornBread">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
@@ -7361,7 +7361,7 @@
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="2"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="780" name="bottledWater">
@@ -7385,7 +7385,7 @@
 			<property name="Buff" value="extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
-		<property name="CraftingIngredientExp" value="2"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -7426,7 +7426,7 @@
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="2"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="783" name="redTea">
@@ -7451,7 +7451,7 @@
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="2"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="784" name="yuccaCocktail">
@@ -8548,7 +8548,7 @@
 			<property name="Gain_water" value="0"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="8"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="1338" name="insulator">
@@ -8809,7 +8809,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="5"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="1364" name="tallow">
@@ -9088,7 +9088,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="1430" name="candle">
@@ -9486,7 +9486,7 @@
 		</property>
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="2003" name="scrapZinc">
@@ -9787,7 +9787,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="mushroomGrilledDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="2030" name="cornGrilled">
@@ -9813,7 +9813,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="cornGrilledDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="2031" name="MasterSkillCrafted">
@@ -9981,7 +9981,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="wheatDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="2050" name="Flour">
@@ -9993,7 +9993,7 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="DescriptionKey" value="flourDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="2051" name="Bread">
@@ -10002,7 +10002,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="250"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -10016,7 +10016,7 @@
 		</property>
 		<property name="DescriptionKey" value="breadDesc"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="2052" name="handFeralZombie">
@@ -10132,7 +10132,7 @@
 		<property name="Material" value="organic"/>
 		<property name="EconomicValue" value="80"/>
 		<property name="HoldType" value="16"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="DescriptionKey" value="purifyingTabletsDesc"/>
 		<property name="ActionSkillGroup" value="Medicine"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -10561,7 +10561,7 @@
 			<property name="Create_item" value="bowl"/>
 			<property name="Buff" value="dysentery"/>
 			<property name="Buff_chance" value="0.5"/>
-			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientExp" value="0"/>
 			<property name="CraftingSkillGroup" value="Cooking"/>
 			<property name="Group" value="Food/Cooking"/>
 		</property>
@@ -10581,7 +10581,7 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="Stacknumber" value="50"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -10664,7 +10664,7 @@
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_wellness" value="0.5"/>
 		</property>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="2075" name="soupChunkyBeef">
@@ -10692,7 +10692,7 @@
 			<property name="Pos" value="0,-0.03"/>
 			<property name="Rot" value="90,45,0"/>
 		</property>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="BowlSoupDesc"/>
 	</item>
@@ -10785,7 +10785,7 @@
 			<property name="Pos" value="0,-0.03"/>
 			<property name="Rot" value="90,45,0"/>
 		</property>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="2085" name="soupMushroom">
@@ -10813,7 +10813,7 @@
 			<property name="Pos" value="0,-0.03"/>
 			<property name="Rot" value="90,45,0"/>
 		</property>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="warmBowlDesc"/>
 	</item>
@@ -15516,7 +15516,7 @@
 		<property name="Candrop" value="false"/>
 		<property name="Stacknumber" value="5"/>
 		<!-- STK explosives -->
-		<property name="EconomicValue" value="2000"/>
+		<property name="EconomicValue" value="500"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="True"/>
 			<property name="EntityDamage" value="975,975"/>
@@ -16114,7 +16114,7 @@
 		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
@@ -16151,7 +16151,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="PancakesDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -16174,7 +16174,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="BlueberryPancakesDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -16198,7 +16198,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="PizzaDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16209,7 +16209,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="250"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16266,7 +16266,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="slicedHamDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16292,7 +16292,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="SandwichDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16317,7 +16317,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="slicedCheeseDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16328,7 +16328,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="250"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16341,7 +16341,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="CheeseDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16350,7 +16350,7 @@
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="250"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="25"/>
 		<property name="EconomicBundleSize" value="5"/>
@@ -16366,7 +16366,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="DoughDesc"/>
 	</item>
@@ -16394,7 +16394,7 @@
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="DescriptionKey" value="SoyMilkDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
@@ -16417,7 +16417,7 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="5"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="SoyBeansDesc"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16441,7 +16441,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="YogurtDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16465,7 +16465,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="BlueberryYogurtDesc"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -16915,7 +16915,7 @@
 		<property name="HoldType" value="21"/>
 		<property name="Material" value="weapon_Parts"/>
 		<property name="Weight" value="1"/>
-		<property name="Stacknumber" value="500"/>
+		<property name="Stacknumber" value="1000"/>
 		<property name="FuelValue" value="20"/>
 		<property name="Group" value="Resources"/>
 	</item>
@@ -18142,7 +18142,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="DescriptionKey" value="rollingPaperDesc"/>
 		<property name="Material" value="paper"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="250"/>
 		<!-- STK resource -->
 		<property name="FuelValue" value="1"/>
 		<property name="Weight" value="1"/>
@@ -18420,7 +18420,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="3127" name="Tomato">
@@ -18446,7 +18446,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="3128" name="handZombieMechanic">
@@ -21547,7 +21547,7 @@
 		<property name="Meshfile" value="Items/Food/blueberry_pie"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
-		<property name="Stacknumber" value="20"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="EconomicValue" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -21844,7 +21844,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Smell" value="largeSmell"/>
-		<property name="Stacknumber" value="20"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
@@ -21853,7 +21853,7 @@
 		<property name="Meshfile" value="Items/Crafting/candy_tin"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="10"/>
+		<property name="Stacknumber" value="15"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -22068,7 +22068,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Smell" value="mediumSmell"/>
-		<property name="Stacknumber" value="25"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="friedEggsDesc"/>
 	</item>
@@ -22088,7 +22088,7 @@
 			<property name="Create_item" value="bowl"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
-		<property name="Stacknumber" value="20"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="friedPotatoDesc"/>
@@ -22133,7 +22133,7 @@
 	</item>
 	<item id="3287" name="pasta">
 		<property name="CustomIcon" value="pasta"/>
-		<property name="Stacknumber" value="400"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="Meshfile" value="Items/Food/seed_blueberryPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
@@ -22201,7 +22201,7 @@
 		</property>
 	</item>
 	<item id="3290" name="broadsword">
-		<property name="CustomIcon" value="sword" />
+		<property name="CustomIcon" value="sword"/>
 		<property name="Meshfile" value="#broadsword?BroadswordPrefab"/>
 		<property name="DescriptionKey" value="broadswordDesc"/>
 		<property name="Material" value="metal"/>
@@ -22246,15 +22246,15 @@
 		<property name="RepairExpMultiplier" value="5.5"/>
 	</item>
 <item id="3291" name="HouseholdChemicals">
-    <property name="CustomIcon" value="HouseholdChemicals" />
-    <property name="Meshfile" value="Items/Food/bottled_waterPrefab" />
-    <property name="Material" value="organic" />
-    <property name="HoldType" value="3" />
-    <property name="Stacknumber" value="50" />
-	<property name="Weight" value="10" />
-    <property name="Group" value="Resources" />
-	<property name="EconomicValue" value="150" />
-	<property name="CraftingSkillGroup" value="craftSkillScience" />
+    <property name="CustomIcon" value="HouseholdChemicals"/>
+    <property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
+    <property name="Material" value="organic"/>
+    <property name="HoldType" value="3"/>
+    <property name="Stacknumber" value="250"/>
+	<property name="Weight" value="10"/>
+    <property name="Group" value="Resources"/>
+	<property name="EconomicValue" value="150"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="DescriptionKey" value="HouseholdChemicalsDesc"/>
 </item>
 	<item id="3292" name="slicedrawMeat">
@@ -22302,7 +22302,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="Weight" value="5"/>
-		<property name="Stacknumber" value="1"/>
+		<property name="Stacknumber" value="15"/>
 		<property name="Group" value="Resources"/>
 		<property name="EconomicValue" value="100"/>
 	</item>
@@ -22326,7 +22326,7 @@
 		</property>
 		<property name="Smell" value="smallSmell"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="3296" name="soda">
@@ -22349,29 +22349,30 @@
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="canEmpty"/>
 		</property>
-		<property name="CraftingIngredientExp" value="2"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="sodaDesc"/>
 	</item>
 	<item id="3297" name="itemMaster">
-		<property name="Meshfile" value="Items/Misc/sackPrefab" />
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
-		<property name="Material" value="organic" />
-		<property name="HoldType" value="45" />
-		<property name="Stacknumber" value="5000" />
-		<property name="Weight" value="5" />
-		<property name="Group" value="Resources" />
-		<property name="SellableToTrader" value="false" />
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="45"/>
+		<property name="Stacknumber" value="5000"/>
+		<property name="Weight" value="5"/>
+		<property name="Group" value="Resources"/>
+		<property name="SellableToTrader" value="false"/>
 	</item>
     <item id="3298" name="stick">
-		<property name="Extends" value="itemMaster" />
-		<property name="Material" value="wood" />
-		<property name="Weight" value="1" />
-		<property name="RepairAmount" value="10" />
-		<property name="FuelValue" value="1" />
-		<property name="DescriptionKey" value="stickDesc" />
-        <property name="CustomIcon" value="ui_game_symbol_stick" />
+		<property name="Extends" value="itemMaster"/>
+		<property name="Material" value="wood"/>
+		<property name="Weight" value="1"/>
+		<property name="RepairAmount" value="10"/>
+		<property name="FuelValue" value="1"/>
+		<property name="DescriptionKey" value="stickDesc"/>
+        <property name="CustomIcon" value="ui_game_symbol_stick"/>
+		<property name="Group" value="Basics"/>
 	</item>
 	<item id="3299" name="stoneArrowHead">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -22385,7 +22386,7 @@
 		<property name="Weight" value="2"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="100"/>
-		<property name="Group" value="Ammo/Weapons"/>
+		<property name="Group" value="Basics, Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
 	</item>
 	<item id="3300" name="plasticBottle">
@@ -22393,7 +22394,7 @@
 		<property name="Meshfile" value="#PBottleEmpty?PBottleEmpty"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="Weight" value="10"/>
 		<property class="Action0">
 			<!-- UseAction -->
@@ -22428,7 +22429,7 @@
 		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="15"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="500"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -22450,7 +22451,7 @@
 			<property name="Create_item" value="plasticBottle"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="2"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="3302" name="Towel">
@@ -22460,7 +22461,7 @@
 		<property name="HoldType" value="14"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="FuelValue" value="1"/>
 		<property class="Action0">
 			<!-- UseAction -->
@@ -22529,7 +22530,7 @@
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="organic"/>
 	<property name="HoldType" value="45"/>
-	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>

@@ -123,7 +123,7 @@
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="300"/>
 		<property name="DropScale" value="2"/>
-		<drop event="Harvest" name="potassiumNitratePowder" count="20" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="potassiumNitratePowder" count="15" tool_category="harvestingTools"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="potassiumNitratePowder" count="20" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
@@ -134,9 +134,9 @@
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="33"/>
 		<property name="DropScale" value="2"/>
-		<drop event="Harvest" name="ironFragment" count="37" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="ironFragment" count="24" tool_category="harvestingTools"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="ironFragment" count="36" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="ironFragment" count="20" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 	</block>
 	<block id="8" name="sand">
@@ -170,7 +170,7 @@
 		<property class="RepairItems">
 			<property name="snowBall" value="10"/>
 		</property>
-		<drop event="Harvest" name="snowBall" count="10" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="snowBall" count="5" tool_category="harvestingTools"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="snow" count="1" prob="0.25" stick_chance="1"/>
 		<drop event="Fall" name="snowBall" count="20" prob="0.187" stick_chance="0"/>
@@ -446,9 +446,9 @@
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="34"/>
 		<property name="DropScale" value="2"/>
-		<drop event="Harvest" name="coal" count="20" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="coal" count="14" tool_category="harvestingTools"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="coal" count="20" prob="0.5" stick_chance="0"/>
+		<drop event="Fall" name="coal" count="14" prob="0.5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 		<drop event="Harvest" name="coal" count="2,4" tool_category="Shovel"/>
 	</block>

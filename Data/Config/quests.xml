@@ -1168,7 +1168,7 @@
 		<reward type="Item" id="painkillers" value="10"/>
 	</quest>
 	<quest id="farmingclass1" 	name_key="Farmer Class" 	group_name="SurvivalClasses" 	subtitle_key="Farmer Class" 	offer_key="Accepting this will give you some seeds and access to a Composter and fertilizer" 	description_key="Become an expert in Farming" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
-		<reward type="Skill" id="FarmingClass" value="1"/>
+		<reward type="Skill" id="FarmerClass" value="1"/>
 		<reward type="Skill" id="Farming Skills" value="1"/>
 		<reward type="Item" id="fertilizer" value="5"/>
 		<reward type="Item" id="mortarAndPestle" value="1"/>

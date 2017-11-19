@@ -508,10 +508,10 @@
 	 	<buff id="chestTrap" duration="0.5" icon="ui_game_symbol_stunned">
 		<modify id="0" stat="health" amount="-100" rate="0.4"/>
 	</buff>	
-<buff id="Dirty1" smell="smallSmell" duration="800" onexpired="Dirty2"  name_key="Messy" tooltip_key="You Are Dirty" description_key="Digging through those bodies has made you quite dirty. Use some soap soon or it will get worse." icon="ui_game_symbol_dirty" />
+<buff id="Dirty1" smell="smallSmell" duration="800" onexpired="Dirty2"  name_key="Messy" tooltip_key="You Are Dirty" description_key="Digging through those bodies has made you quite dirty. Use some soap soon or it will get worse." icon="ui_game_symbol_dirty" cures="wetTowel,wetTowelSoap,soap"/>
 
-<buff id="Dirty2" smell="mediumSmell" duration="600" onexpired="Dirty3"  name_key="Dirty" tooltip_key="You Are Getting Dirtier" description_key="Its been a while and the smell is getting worse. You need to clean off soon or you could become infected" icon="ui_game_symbol_dirty" />
-<buff id="Dirty3" smell="exLargeSmell" duration="400" onexpired="infection"  name_key="Filthy Mess" tooltip_key="You Need to Wash Up Or Else" description_key="Its gotten pretty bad. Use a washcloth and soap very soon or you will become infected" icon="ui_game_symbol_dirty" />
+<buff id="Dirty2" smell="mediumSmell" duration="600" onexpired="Dirty3"  name_key="Dirty" tooltip_key="You Are Getting Dirtier" description_key="Its been a while and the smell is getting worse. You need to clean off soon or you could become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap,soap"/>
+<buff id="Dirty3" smell="exLargeSmell" duration="400" onexpired="infection"  name_key="Filthy Mess" tooltip_key="You Need to Wash Up Or Else" description_key="Its gotten pretty bad. Use a washcloth and soap very soon or you will become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap"/>
 
 
 		</buffs>

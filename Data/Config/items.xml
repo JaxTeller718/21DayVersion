@@ -17093,8 +17093,44 @@
 	<!-- New item will be Katana -->
 	<item id="3081" name="katanamichonne">
 		<!-- Extend it from the machete, but add the custom mesh -->
-		<property name="Extends" value="machete"/>
 		<property name="Meshfile" value="#michonnekatana?katana"/>
+		<property name="Material" value="metal"/>
+		<property name="RepairTools" value="forgedSteel"/>
+		<property name="HoldType" value="47"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="FuelValue" value="12"/>
+		<property name="EconomicValue" value="2000"/>
+		<property name="SoundJammed" value="ItemNeedsRepair"/>
+		<property name="SoundDestroy" value="metaldestroy1"/>
+		<property name="Weight" value="200"/>
+		<property class="Action0">
+			<!-- AttackAction -->
+			<property name="Class" value="Melee"/>
+			<property name="Delay" value="1.2"/>
+			<property name="Range" value="3.1"/>
+			<property name="Sphere" value="0.1"/>
+			<property name="Sound_start" value="swoosh"/>
+			<property name="Stamina_usage" value="4.51"/>
+			<property name="DamageBonus.wood" value="3"/>
+			<property name="DamageBonus.head" value="10"/>
+			<property name="DamageBonus.body" value=".01"/>
+			<property name="DamageBonus.glass" value="1"/>
+			<property name="DamageBonus.leaves" value="25"/>
+			<property name="DamageBonus.organic" value="3"/>
+			<property name="ToolCategory.Butcher" value="1" param1="7"/>
+			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		</property>
+		<property class="Attributes">
+			<property name="EntityDamage" value="20,36"/>
+			<property name="BlockDamage" value="7,12"/>
+			<property name="DegradationMax" value="300,800"/>
+			<property name="DegradationRate" value="1,1"/>
+			<property name="DismembermentBaseChance" value="0.3,0.4"/>
+		</property>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="ActionSkillGroup" value="Blade Weapons"/>
+		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons"/>
+		<property name="RepairExpMultiplier" value="5.5"/>
 	</item>
 	<item id="3082" name="Peroxide">
 		<property name="DescriptionKey" value="PeroxideDesc"/>
@@ -18336,8 +18372,44 @@
 	</item>
 	<item id="3122" name="katanamichonne">
 		<!-- Extend it from the machete, but add the custom mesh -->
-		<property name="Extends" value="machete"/>
 		<property name="Meshfile" value="#michonnekatana?katana"/>
+		<property name="Material" value="metal"/>
+		<property name="RepairTools" value="forgedSteel"/>
+		<property name="HoldType" value="47"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="FuelValue" value="12"/>
+		<property name="EconomicValue" value="2000"/>
+		<property name="SoundJammed" value="ItemNeedsRepair"/>
+		<property name="SoundDestroy" value="metaldestroy1"/>
+		<property name="Weight" value="200"/>
+		<property class="Action0">
+			<!-- AttackAction -->
+			<property name="Class" value="Melee"/>
+			<property name="Delay" value="1.2"/>
+			<property name="Range" value="3.1"/>
+			<property name="Sphere" value="0.1"/>
+			<property name="Sound_start" value="swoosh"/>
+			<property name="Stamina_usage" value="4.51"/>
+			<property name="DamageBonus.wood" value="3"/>
+			<property name="DamageBonus.head" value="10"/>
+			<property name="DamageBonus.body" value=".01"/>
+			<property name="DamageBonus.glass" value="1"/>
+			<property name="DamageBonus.leaves" value="25"/>
+			<property name="DamageBonus.organic" value="3"/>
+			<property name="ToolCategory.Butcher" value="1" param1="7"/>
+			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		</property>
+		<property class="Attributes">
+			<property name="EntityDamage" value="20,36"/>
+			<property name="BlockDamage" value="7,12"/>
+			<property name="DegradationMax" value="300,800"/>
+			<property name="DegradationRate" value="1,1"/>
+			<property name="DismembermentBaseChance" value="0.3,0.4"/>
+		</property>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="ActionSkillGroup" value="Blade Weapons"/>
+		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons"/>
+		<property name="RepairExpMultiplier" value="5.5"/>
 	</item>
 	<item id="3123" name="butcherKnife">
 		<property name="Extends" value="huntingKnife"/>

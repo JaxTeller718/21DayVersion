@@ -326,7 +326,7 @@
 		<entity name="zombieWightFeral"  prob="0.05"/>
 		<entity name="zombieFatHawaiian"/>
 		<entity name="zombieFemaleFat"/>
-		<entity name="followerSargentSlaughter01"  prob="0.1"/>
+<!-- 		<entity name="followerSargentSlaughter01"  prob="0.1"/>
 		<entity name="followerSargentSlaughter02"  prob="0.1"/>
 		<entity name="followerSargentSlaughter03"  prob="0.1"/>
 		<entity name="followerSargentSlaughter04"  prob="0.1"/>
@@ -397,7 +397,7 @@
 		<entity name="followerBittercup01"  prob="0.1"/>
 		<entity name="followerBittercup02"  prob="0.1"/>
 		<entity name="followerBittercup03"  prob="0.1"/>
-		<entity name="followerBittercup04"  prob="0.1"/>
+		<entity name="followerBittercup04"  prob="0.1"/> -->
 	</entitygroup>
 	<entitygroup name="ZombiesWastelandNight">
 		<entity name="zombieSpiderFeral"/>

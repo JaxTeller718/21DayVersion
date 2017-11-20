@@ -997,8 +997,8 @@
 		<reward type="SkillPoints" value="1"/>
 		<reward type="Exp" value="300"/>
 	</quest>
-	<quest id="challenge_junkhunt1" group_name_key="Hunt For Junk" name_key="Scavenging For Orphans 1/2" subtitle_key="Scavenging For Orphans" offer_key="A little orphan girl showed up at the tradingpost and won't stop crying about her lost dolly.  Find her a doll and you will be rewarded!" description_key="Find a doll and you will be rewarded!!" icon="ui_game_symbol_rubberDoll" category_key="challenge" difficulty="medium">
-		<objective type="FetchKeep" id="rubberDoll" value="1"/>
+	<quest id="challenge_junkhunt1" group_name_key="Hunt For Junk" name_key="Scavenging For Orphans 1/2" subtitle_key="Scavenging For Orphans" offer_key="A little orphan girl showed up at the tradingpost and won't stop crying about her lost teddy.  Find her a teddy bear and you will be rewarded!" description_key="Find a teddy bear and you will be rewarded!!" icon="ui_game_symbol_rubberDoll" category_key="challenge" difficulty="medium">
+		<objective type="FetchKeep" id="clothTeddyBear" value="1"/>
 		<reward type="Exp" value="400"/>
 		<reward type="SkillPoints" value="1"/>
 		<reward type="Quest" id="challenge_junkhunt2"/>

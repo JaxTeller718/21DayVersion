@@ -4317,9 +4317,9 @@
 		<property name="AnimationSpecialAttack" value="NC_Arma|thc2_attack3"/>
 		<property name="SoundRandom" value="afroShamanSounds"/>
 		<property name="SoundAlert" value="afroShamanSounds"/>
-		<property name="SoundAttack" value="newzombieslurp" />
-		<property name="SoundHurt" value="newzombiegrowl" />
-		<property name="SoundDeath" value="newzombiebreath" />
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="afroShamanSounds"/>
 	</entity_class>
 	<entity_class name="Nightmare_c3" extends="SDXTemplate">
@@ -4336,9 +4336,9 @@
 		<property name="AnimationSpecialAttack" value="thc3_arma|attack3"/>
 		<property name="SoundRandom" value="afroShamanSounds"/>
 		<property name="SoundAlert" value="afroShamanSounds"/>
-		<property name="SoundAttack" value="newzombieslurp" />
-		<property name="SoundHurt" value="newzombiegrowl" />
-		<property name="SoundDeath" value="newzombiebreath" />
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="afroShamanSounds"/>
 	</entity_class>
 	<entity_class name="Nightmare_c4" extends="SDXTemplate">
@@ -4356,9 +4356,9 @@
 		<property name="AnimationSpecialAttack" value="thc4_arma|do_attack3"/>
 		<property name="SoundRandom" value="afroShamanSounds"/>
 		<property name="SoundAlert" value="afroShamanSounds"/>
-		<property name="SoundAttack" value="newzombieslurp" />
-		<property name="SoundHurt" value="newzombiegrowl" />
-		<property name="SoundDeath" value="newzombiebreath" />
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="afroShamanSounds"/>
 	</entity_class>
 	<entity_class name="Nightmare_c5" extends="SDXTemplate">
@@ -4375,9 +4375,9 @@
 		<property name="AnimationSpecialAttack" value="thc5_armature_O|attack3"/>
 		<property name="SoundRandom" value="afroShamanSounds"/>
 		<property name="SoundAlert" value="afroShamanSounds"/>
-		<property name="SoundAttack" value="newzombieslurp" />
-		<property name="SoundHurt" value="newzombiegrowl" />
-		<property name="SoundDeath" value="newzombiebreath" />
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="afroShamanSounds"/>
 	</entity_class>
 	<entity_class name="Mutant" extends="SDXTemplate">
@@ -4393,9 +4393,9 @@
 		<!-- property name="AnimationSpecialAttack" value="false" /-->
 		<property name="SoundRandom" value="afroShamanSounds"/>
 		<property name="SoundAlert" value="afroShamanSounds"/>
-		<property name="SoundAttack" value="newzombieslurp" />
-		<property name="SoundHurt" value="newzombiegrowl" />
-		<property name="SoundDeath" value="newzombiebreath" />
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="afroShamanSounds"/>
 	</entity_class>
 	<entity_class name="Beast" extends="SDXTemplate">
@@ -4518,177 +4518,177 @@
 		<drop event="Harvest" name="rawMeat" tool_category="ButcherBonus" count="2"/>
 	</entity_class>
 	<entity_class name="dog01" extends="animalTemplateTimid">
-		<property name="EntityType" value="Zombie" />
-		<property name="Faction" value="animals" />
-		<property name="Mesh" value="#dog01?dog01Prefab" />
-		<property name="ModelType" value="Standard" />
-		<property name="Parent" value="Animals" />
-		<property name="HasRagdoll" value="false" />
-		<property name="SurfaceCategory" value="organic" />
-		<property name="Prefab" value="Dog" />
-		<property name="WalkType" value="0" />
-		<property name="HandItem" value="handAnimalZombieDog" />
-		<property name="Class" value="EntityZombieDog" />
-		<property name="AvatarController" value="AnimationSDX, Mods" />
-		<property name="WanderSpeed" value="0.5" />
-		<property name="ApproachSpeed" value="1.6" />
-		<property name="NightWanderSpeed" value="0.3" />
-		<property name="NightApproachSpeed" value="1.6" />
-		<property name="PanicSpeed" value="1.6" />
-		<property name="MaxHealth" value="120" />
-		<property name="AnimationIdle" value="idle0" />
-		<property name="AnimationSecondIdle" value="idle1" />
-		<property name="AnimationMainAttack" value="anger" />
-		<property name="AnimationSecondAttack" value="anger" />
-		<property name="AnimationPain" value="flighty" />
-		<property name="AnimationJump" value="happy" />
-		<property name="AnimationDeath" value="flighty" />
-		<property name="AnimationRun" value="run" />
-		<property name="AnimationWalk" value="walk" />
-		<property name="AnimationSpecialAttack" value="anger" />
-		<property name="SoundRandomTime" value="45.0" />
-		<property name="SoundAlertTime" value="25.0" />
-		<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam" />
-		<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert" />
-		<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain" />
-		<property name="SoundDeath" value="Enemies/Zombie_Dogs/zombiedogdeath" />
-		<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack" />
-		<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense" />
-		<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup" />
-		<property name="ExperienceGain" value="1407" />
-		<property name="Immunity" value="sickness;disease;bleeding;wellness" />
-		<property name="AITask-1" value="Swim" />
-		<property name="AITask-2" value="RunawayWhenHurt" />
-		<property name="AITask-3" value="RunawayFromEntity" param1="EntityZombie" />
-		<property name="AITask-4" value="Wander" />
-		<property name="AITask-5" value="ApproachSpot" />
-		<property name="AITask-6" value="Wander" />
-		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie" />
-		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC" />
-		<property name="SleeperSmellSenseThreshold" value="5,30" />
-		<property name="SleeperSmellWakeThreshold" value="10,40" />
-		<property name="SmellAlertThreshold" value="5" />
-		<property name="PhysicsBody" value="zombieDog" />
-		<property name="IsEnemyEntity" value="false" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="6" />
-		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9" />
-		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4" />
-		<drop event="Harvest" name="femur" tool_category="Butcher" count="2" />
+		<property name="EntityType" value="Zombie"/>
+		<property name="Faction" value="animals"/>
+		<property name="Mesh" value="#dog01?dog01Prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="Parent" value="Animals"/>
+		<property name="HasRagdoll" value="false"/>
+		<property name="SurfaceCategory" value="organic"/>
+		<property name="Prefab" value="Dog"/>
+		<property name="WalkType" value="0"/>
+		<property name="HandItem" value="handAnimalZombieDog"/>
+		<property name="Class" value="EntityZombieDog"/>
+		<property name="AvatarController" value="AnimationSDX, Mods"/>
+		<property name="WanderSpeed" value="0.5"/>
+		<property name="ApproachSpeed" value="1.6"/>
+		<property name="NightWanderSpeed" value="0.3"/>
+		<property name="NightApproachSpeed" value="1.6"/>
+		<property name="PanicSpeed" value="1.6"/>
+		<property name="MaxHealth" value="120"/>
+		<property name="AnimationIdle" value="idle0"/>
+		<property name="AnimationSecondIdle" value="idle1"/>
+		<property name="AnimationMainAttack" value="anger"/>
+		<property name="AnimationSecondAttack" value="anger"/>
+		<property name="AnimationPain" value="flighty"/>
+		<property name="AnimationJump" value="happy"/>
+		<property name="AnimationDeath" value="flighty"/>
+		<property name="AnimationRun" value="run"/>
+		<property name="AnimationWalk" value="walk"/>
+		<property name="AnimationSpecialAttack" value="anger"/>
+		<property name="SoundRandomTime" value="45.0"/>
+		<property name="SoundAlertTime" value="25.0"/>
+		<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>
+		<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert"/>
+		<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain"/>
+		<property name="SoundDeath" value="Enemies/Zombie_Dogs/zombiedogdeath"/>
+		<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack"/>
+		<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
+		<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
+		<property name="ExperienceGain" value="1407"/>
+		<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
+		<property name="AITask-1" value="Swim"/>
+		<property name="AITask-2" value="RunawayWhenHurt"/>
+		<property name="AITask-3" value="RunawayFromEntity" param1="EntityZombie"/>
+		<property name="AITask-4" value="Wander"/>
+		<property name="AITask-5" value="ApproachSpot"/>
+		<property name="AITask-6" value="Wander"/>
+		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie"/>
+		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC"/>
+		<property name="SleeperSmellSenseThreshold" value="5,30"/>
+		<property name="SleeperSmellWakeThreshold" value="10,40"/>
+		<property name="SmellAlertThreshold" value="5"/>
+		<property name="PhysicsBody" value="zombieDog"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="6"/>
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
 	</entity_class>
 	<entity_class name="dog02" extends="animalTemplateTimid">
-		<property name="EntityType" value="Zombie" />
-		<property name="Faction" value="animals" />
-		<property name="Mesh" value="#dog02?dog02Prefab" />
-		<property name="ModelType" value="Standard" />
-		<property name="Parent" value="Animals" />
-		<property name="HasRagdoll" value="false" />
-		<property name="SurfaceCategory" value="organic" />
-		<property name="Prefab" value="Dog" />
-		<property name="WalkType" value="0" />
-		<property name="HandItem" value="handAnimalZombieDog" />
-		<property name="Class" value="EntityZombieDog" />
-		<property name="AvatarController" value="AnimationSDX, Mods" />
-		<property name="WanderSpeed" value="0.5" />
-		<property name="ApproachSpeed" value="1.6" />
-		<property name="NightWanderSpeed" value="0.3" />
-		<property name="NightApproachSpeed" value="1.6" />
-		<property name="PanicSpeed" value="1.6" />
-		<property name="MaxHealth" value="120" />
-		<property name="AnimationIdle" value="idle0" />
-		<property name="AnimationSecondIdle" value="idle1" />
-		<property name="AnimationMainAttack" value="anger" />
-		<property name="AnimationSecondAttack" value="anger" />
-		<property name="AnimationPain" value="flighty" />
-		<property name="AnimationJump" value="happy" />
-		<property name="AnimationDeath" value="flighty" />
-		<property name="AnimationRun" value="run" />
-		<property name="AnimationWalk" value="walk" />
-		<property name="AnimationSpecialAttack" value="anger" />
-		<property name="SoundRandomTime" value="45.0" />
-		<property name="SoundAlertTime" value="25.0" />
-		<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam" />
-		<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert" />
-		<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain" />
-		<property name="SoundDeath" value="Enemies/Zombie_Dogs/zombiedogdeath" />
-		<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack" />
-		<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense" />
-		<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup" />
-		<property name="ExperienceGain" value="1407" />
-		<property name="Immunity" value="sickness;disease;bleeding;wellness" />
-		<property name="AITask-1" value="Swim" />
-		<property name="AITask-2" value="RunawayWhenHurt" />
-		<property name="AITask-3" value="RunawayFromEntity" param1="EntityZombie" />
-		<property name="AITask-4" value="Wander" />
-		<property name="AITask-5" value="ApproachSpot" />
-		<property name="AITask-6" value="Wander" />
-		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie" />
-		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC" />
-		<property name="SleeperSmellSenseThreshold" value="5,30" />
-		<property name="SleeperSmellWakeThreshold" value="10,40" />
-		<property name="SmellAlertThreshold" value="5" />
-		<property name="PhysicsBody" value="zombieDog" />
-		<property name="IsEnemyEntity" value="false" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="6" />
-		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9" />
-		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4" />
-		<drop event="Harvest" name="femur" tool_category="Butcher" count="2" />
+		<property name="EntityType" value="Zombie"/>
+		<property name="Faction" value="animals"/>
+		<property name="Mesh" value="#dog02?dog02Prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="Parent" value="Animals"/>
+		<property name="HasRagdoll" value="false"/>
+		<property name="SurfaceCategory" value="organic"/>
+		<property name="Prefab" value="Dog"/>
+		<property name="WalkType" value="0"/>
+		<property name="HandItem" value="handAnimalZombieDog"/>
+		<property name="Class" value="EntityZombieDog"/>
+		<property name="AvatarController" value="AnimationSDX, Mods"/>
+		<property name="WanderSpeed" value="0.5"/>
+		<property name="ApproachSpeed" value="1.6"/>
+		<property name="NightWanderSpeed" value="0.3"/>
+		<property name="NightApproachSpeed" value="1.6"/>
+		<property name="PanicSpeed" value="1.6"/>
+		<property name="MaxHealth" value="120"/>
+		<property name="AnimationIdle" value="idle0"/>
+		<property name="AnimationSecondIdle" value="idle1"/>
+		<property name="AnimationMainAttack" value="anger"/>
+		<property name="AnimationSecondAttack" value="anger"/>
+		<property name="AnimationPain" value="flighty"/>
+		<property name="AnimationJump" value="happy"/>
+		<property name="AnimationDeath" value="flighty"/>
+		<property name="AnimationRun" value="run"/>
+		<property name="AnimationWalk" value="walk"/>
+		<property name="AnimationSpecialAttack" value="anger"/>
+		<property name="SoundRandomTime" value="45.0"/>
+		<property name="SoundAlertTime" value="25.0"/>
+		<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>
+		<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert"/>
+		<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain"/>
+		<property name="SoundDeath" value="Enemies/Zombie_Dogs/zombiedogdeath"/>
+		<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack"/>
+		<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
+		<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
+		<property name="ExperienceGain" value="1407"/>
+		<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
+		<property name="AITask-1" value="Swim"/>
+		<property name="AITask-2" value="RunawayWhenHurt"/>
+		<property name="AITask-3" value="RunawayFromEntity" param1="EntityZombie"/>
+		<property name="AITask-4" value="Wander"/>
+		<property name="AITask-5" value="ApproachSpot"/>
+		<property name="AITask-6" value="Wander"/>
+		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie"/>
+		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC"/>
+		<property name="SleeperSmellSenseThreshold" value="5,30"/>
+		<property name="SleeperSmellWakeThreshold" value="10,40"/>
+		<property name="SmellAlertThreshold" value="5"/>
+		<property name="PhysicsBody" value="zombieDog"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="6"/>
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
 	</entity_class>
 	<entity_class name="dog03" extends="animalTemplateTimid">
-		<property name="EntityType" value="Zombie" />
-		<property name="Faction" value="animals" />
-		<property name="Mesh" value="#dog03?dog03Prefab" />
-		<property name="ModelType" value="Standard" />
-		<property name="Parent" value="Animals" />
-		<property name="HasRagdoll" value="false" />
-		<property name="SurfaceCategory" value="organic" />
-		<property name="Prefab" value="Dog" />
-		<property name="WalkType" value="0" />
-		<property name="HandItem" value="handAnimalZombieDog" />
-		<property name="Class" value="EntityZombieDog" />
-		<property name="AvatarController" value="AnimationSDX, Mods" />
-		<property name="WanderSpeed" value="0.5" />
-		<property name="ApproachSpeed" value="1.6" />
-		<property name="NightWanderSpeed" value="0.3" />
-		<property name="NightApproachSpeed" value="1.6" />
-		<property name="PanicSpeed" value="1.6" />
-		<property name="MaxHealth" value="120" />
-		<property name="AnimationIdle" value="idle0" />
-		<property name="AnimationSecondIdle" value="idle1" />
-		<property name="AnimationMainAttack" value="anger" />
-		<property name="AnimationSecondAttack" value="anger" />
-		<property name="AnimationPain" value="flighty" />
-		<property name="AnimationJump" value="happy" />
-		<property name="AnimationDeath" value="flighty" />
-		<property name="AnimationRun" value="run" />
-		<property name="AnimationWalk" value="walk" />
-		<property name="AnimationSpecialAttack" value="anger" />
-		<property name="SoundRandomTime" value="45.0" />
-		<property name="SoundAlertTime" value="25.0" />
-		<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam" />
-		<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert" />
-		<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain" />
-		<property name="SoundDeath" value="Enemies/Zombie_Dogs/zombiedogdeath" />
-		<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack" />
-		<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense" />
-		<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup" />
-		<property name="ExperienceGain" value="1407" />
-		<property name="Immunity" value="sickness;disease;bleeding;wellness" />
-		<property name="AITask-1" value="Swim" />
-		<property name="AITask-2" value="RunawayWhenHurt" />
-		<property name="AITask-3" value="RunawayFromEntity" param1="EntityZombie" />
-		<property name="AITask-4" value="Wander" />
-		<property name="AITask-5" value="ApproachSpot" />
-		<property name="AITask-6" value="Wander" />
-		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie" />
-		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC" />
-		<property name="SleeperSmellSenseThreshold" value="5,30" />
-		<property name="SleeperSmellWakeThreshold" value="10,40" />
-		<property name="SmellAlertThreshold" value="5" />
-		<property name="PhysicsBody" value="zombieDog" />
-		<property name="IsEnemyEntity" value="false" />
-		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="6" />
-		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9" />
-		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4" />
-		<drop event="Harvest" name="femur" tool_category="Butcher" count="2" />
+		<property name="EntityType" value="Zombie"/>
+		<property name="Faction" value="animals"/>
+		<property name="Mesh" value="#dog03?dog03Prefab"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="Parent" value="Animals"/>
+		<property name="HasRagdoll" value="false"/>
+		<property name="SurfaceCategory" value="organic"/>
+		<property name="Prefab" value="Dog"/>
+		<property name="WalkType" value="0"/>
+		<property name="HandItem" value="handAnimalZombieDog"/>
+		<property name="Class" value="EntityZombieDog"/>
+		<property name="AvatarController" value="AnimationSDX, Mods"/>
+		<property name="WanderSpeed" value="0.5"/>
+		<property name="ApproachSpeed" value="1.6"/>
+		<property name="NightWanderSpeed" value="0.3"/>
+		<property name="NightApproachSpeed" value="1.6"/>
+		<property name="PanicSpeed" value="1.6"/>
+		<property name="MaxHealth" value="120"/>
+		<property name="AnimationIdle" value="idle0"/>
+		<property name="AnimationSecondIdle" value="idle1"/>
+		<property name="AnimationMainAttack" value="anger"/>
+		<property name="AnimationSecondAttack" value="anger"/>
+		<property name="AnimationPain" value="flighty"/>
+		<property name="AnimationJump" value="happy"/>
+		<property name="AnimationDeath" value="flighty"/>
+		<property name="AnimationRun" value="run"/>
+		<property name="AnimationWalk" value="walk"/>
+		<property name="AnimationSpecialAttack" value="anger"/>
+		<property name="SoundRandomTime" value="45.0"/>
+		<property name="SoundAlertTime" value="25.0"/>
+		<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>
+		<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert"/>
+		<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain"/>
+		<property name="SoundDeath" value="Enemies/Zombie_Dogs/zombiedogdeath"/>
+		<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack"/>
+		<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
+		<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
+		<property name="ExperienceGain" value="1407"/>
+		<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
+		<property name="AITask-1" value="Swim"/>
+		<property name="AITask-2" value="RunawayWhenHurt"/>
+		<property name="AITask-3" value="RunawayFromEntity" param1="EntityZombie"/>
+		<property name="AITask-4" value="Wander"/>
+		<property name="AITask-5" value="ApproachSpot"/>
+		<property name="AITask-6" value="Wander"/>
+		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie"/>
+		<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityNPC"/>
+		<property name="SleeperSmellSenseThreshold" value="5,30"/>
+		<property name="SleeperSmellWakeThreshold" value="10,40"/>
+		<property name="SmellAlertThreshold" value="5"/>
+		<property name="PhysicsBody" value="zombieDog"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="6"/>
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
 	</entity_class>
 </entity_classes>

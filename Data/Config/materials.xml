@@ -164,7 +164,7 @@
 		<property name="plant" value="true"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="MaxDamage" value="1"/>
-		<property name="Experience" value="5"/>
+		<property name="Experience" value="7"/>
 	</material>
 	<material id="leaves">
 		<property name="damage_category" value="earth"/>
@@ -221,7 +221,7 @@
 		<property name="Mass" type="int" value="1"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="MaxDamage" value="1"/>
-		<property name="Experience" value="5"/>
+		<property name="Experience" value="6"/>
 	</material>
 	<material id="Mtallgrass">
 		<property name="damage_category" value="earth"/>
@@ -318,7 +318,7 @@
 		<property name="stability_glue" value="120"/>
 		<property name="Mass" type="int" value="10"/>
 		<property name="MaxDamage" value="500"/>
-		<property name="Experience" value="3.0"/>
+		<property name="Experience" value="2.0"/>
 	</material>
 	<!-- cobblestone and concrete -->
 	<material id="Mconcrete">
@@ -355,7 +355,7 @@
 		<property name="stability_glue" value="120"/>
 		<property name="Mass" type="int" value="10"/>
 		<property name="MaxDamage" value="50000"/>
-		<property name="Experience" value="3.0"/>
+		<property name="Experience" value="1.0"/>
 	</material>
 	<material id="coal">
 		<property name="damage_category" value="stone"/>
@@ -365,7 +365,7 @@
 		<property name="stability_glue" value="20"/>
 		<property name="Mass" type="int" value="10"/>
 		<property name="MaxDamage" value="400"/>
-		<property name="Experience" value="6"/>
+		<property name="Experience" value="3"/>
 	</material>
 	<material id="Mbrick">
 		<property name="damage_category" value="stone"/>
@@ -585,7 +585,7 @@
 		<property name="stability_glue" value="9"/>
 		<property name="Mass" type="int" value="10"/>
 		<property name="MaxDamage" value="100"/>
-		<property name="Experience" value="3.0"/>
+		<property name="Experience" value="1.0"/>
 	</material>
 	<material id="Msandstone">
 		<property name="damage_category" value="earth"/>
@@ -929,7 +929,7 @@
 		<property name="stability_glue" value="1"/>
 		<property name="Mass" type="int" value="1"/>
 		<property name="MaxDamage" value="400"/>
-		<property name="Experience" value="3.0"/>
+		<property name="Experience" value="2.0"/>
 	</material>
 	<material id="Mcobblestone">
 		<property name="damage_category" value="stone"/>

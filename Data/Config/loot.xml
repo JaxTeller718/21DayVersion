@@ -686,7 +686,6 @@
 		<item name="ironPaperClips" count="1,6"/>
 		<item name="ironWeight"/>
 		<item name="ironHinge"/>
-		<item name="trophy3"/>
 		<item name="ironHairSpray"/>
 		<item name="ironScissors"/>
 		<item name="padlock"/>
@@ -1603,7 +1602,7 @@
 		<item name="paint" count="20,80" prob="0.15"/>
 		<item name="assortedDyes" count="5,20" prob="0.15"/>
 		<item group="cupboardCookbooks" count="1" prob="0.25"/>
-		<item name="Twine" count="1,5"/>
+		<item name="Twine" count="1,3"/>
 		<item name="nail" count="1,10"/>
 		<item name="cookingPot" count="1" prob="0.15"/>
 		<item name="cookingGrill" count="1" prob="0.15"/>
@@ -1644,7 +1643,7 @@
 		<item group="trophyGroup"/>
 		<item name="candleStick"/>
 		<item name="bowl" count="1,2"/>
-		<item name="Twine" count="1,5"/>
+		<item name="Twine" count="1,3"/>
 		<item name="dinnerPlate" count="1,2"/>
 		<item name="glassCTRSheet"/>
 		<item name="gunPowder" count="10,30"/>
@@ -1904,7 +1903,7 @@
 		<item name="Crowbar" prob="0.15"/>
 		<item name="lugWrench" prob="0.25"/>
 		<item name="pipeWrench" prob="0.15"/>
-		<item name="Twine" count="1,10"/>
+		<item name="Twine" count="1,5"/>
 		<item name="boxNails" count="1,4"/>
 	</lootgroup>
 	<lootgroup name="garbage">
@@ -2136,7 +2135,7 @@
 		<item name="nail" count="1,10"/>
 		<item group="householdQuestItems" prob="0.25"/>
 		<item name="inkPen" prob="0.12"/>
-		<item name="Twine" count="1,5"/>
+		<item name="Twine" count="1,3"/>
 	</lootcontainer>
 	<!-- garbage-->
 	<lootcontainer id="2" count="0,2" size="4,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
@@ -2154,7 +2153,7 @@
 		<item name="paint" count="10,80" prob="0.15"/>
 		<item name="assortedDyes" count="3,10" prob="0.15"/>
 		<item group="cupboardCookbooks" count="1" prob="0.15"/>
-		<item name="Twine" count="1,5"/>
+		<item name="Twine" count="1,3"/>
 		<item name="cookingPot" count="1" prob="0.15"/>
 		<item name="cookingGrill" count="1" prob="0.15"/>
 		<item name="emptyJar" count="1,4"/>
@@ -2212,7 +2211,7 @@
 		<item group="householdQuestItems" prob="0.28"/>
 		<item name="rollingPaper" count="1,2" prob="0.18"/>
 		<item name="Weed" count="1,2" prob="0.18"/>
-		<item name="Twine" count="1,5"/>
+		<item name="Twine" count="1,3"/>
 		<item name="boxNails" count="1,2"/>
 	</lootcontainer>
 	<!-- medicine cabinets -->
@@ -2228,7 +2227,7 @@
 		<item name="paint" count="10,80" prob="0.15"/>
 		<item name="assortedDyes" count="3,10" prob="0.15"/>
 		<item group="cupboardCookbooks" count="1" prob="0.15"/>
-		<item name="Twine" count="1,5"/>
+		<item name="Twine" count="1,3"/>
 		<item name="cookingPot" count="1" prob="0.15"/>
 		<item name="cookingGrill" count="1" prob="0.15"/>
 		<item name="emptyJar" count="1,4"/>
@@ -2251,7 +2250,7 @@
 		<item group="backpacks"/>
 	</lootcontainer>
 	<!-- empty, storage containers the player crafts-->
-	<lootcontainer id="10" count="0" size="10,10" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+	<lootcontainer id="10" count="0" size="10,12" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
 		<item name="cobweb" count="1,2"/>
 	</lootcontainer>
 	<!-- safes, weapon caches rare good loot -->
@@ -2333,7 +2332,7 @@
 		<item name="paintTool" prob="0.005"/>
 		<item name="paintMagazineMetal" prob="0.03"/>
 		<item group="electricalDevices" prob="0.05"/>
-		<item name="Twine" count="1,5"/>
+		<item name="Twine" count="1,3"/>
 		<item group="flares" prob="0.01"/>
 		<item group="gunparts"  count="1" prob="0.4"/>
 		<item name="boxNails" count="1,2"/>
@@ -2439,7 +2438,7 @@
 		<item group="gunparts"  count="1,3" prob="0.1"/>
 	</lootcontainer>
 	<!-- player dropped backpacks, they only destroy on close when they are empty -->
-	<lootcontainer id="41" count="0" size="10,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate"/>
+	<lootcontainer id="41" count="0" size="10,12" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate"/>
 	<!-- gun safe -->
 	<lootcontainer id="42" count="2,4" size="8,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
 		<item group="weaponsBasicGuns+ammo"/>
@@ -2595,7 +2594,7 @@
 		<item group="junkPersonal"/>
 	</lootcontainer>
 	<!-- minibike storage -->
-	<lootcontainer id="62" count="0" size="8,14" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
+	<lootcontainer id="62" count="0" size="6,8" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
 	</lootcontainer>
 	<!-- mountain man loot -->
 	<lootcontainer id="63" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
@@ -3011,40 +3010,40 @@
 	<!-- "bag" container that gets dropped when a zombie gore block is destroyed but still contained loot -->
 	<lootcontainer id="99" count="0" size="5,10" destroy_on_close="false"  buff="Dirty1" buff_chance="0.005" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="baseTemplate"/>
 	<!-- Expanded Player Storage -->
-	<lootcontainer id="100" size="10,10" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case"> </lootcontainer>
-	<lootcontainer id="101" size="10,10" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> </lootcontainer>
-	<lootcontainer id="102" size="10,10" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard"> </lootcontainer>
-	<lootcontainer id="103" size="10,10" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet"> </lootcontainer>
-	<lootcontainer id="104" size="10,10" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge"> </lootcontainer>
-	<lootcontainer id="105" size="10,10" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker"> </lootcontainer>
-	<lootcontainer id="106" size="10,10" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer"> </lootcontainer>
-	<lootcontainer id="107" size="10,10" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler"> </lootcontainer>
-	<lootcontainer id="108" size="10,10" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe"> </lootcontainer>
-	<lootcontainer id="109" size="10,10" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler"> </lootcontainer>
-	<lootcontainer id="110" size="10,10" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
-	<lootcontainer id="111" size="10,10" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
-	<lootcontainer id="112" size="10,10" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer"> </lootcontainer>
-	<lootcontainer id="113" size="10,10" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer"> </lootcontainer>
-	<lootcontainer id="114" size="10,10" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe"> </lootcontainer>
-	<lootcontainer id="115" size="10,10" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster"> </lootcontainer>
-	<lootcontainer id="116" size="10,10" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe"> </lootcontainer>
-	<lootcontainer id="117" size="10,10" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox"> </lootcontainer>
-	<lootcontainer id="118" size="10,10" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox"> </lootcontainer>
-	<lootcontainer id="119" size="10,10" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox"> </lootcontainer>
-	<lootcontainer id="120" size="10,10" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer"> </lootcontainer>
-	<lootcontainer id="121" size="10,10" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet"> </lootcontainer>
-	<lootcontainer id="122" size="10,10" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet"> </lootcontainer>
-	<lootcontainer id="123" size="10,10" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet"> </lootcontainer>
-	<lootcontainer id="124" size="10,10" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
-	<lootcontainer id="125" size="10,10" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
-	<lootcontainer id="126" size="10,10" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack"> </lootcontainer>
-	<lootcontainer id="127" size="10,10" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
-	<lootcontainer id="128" size="10,10" sound_open="UseActions/open_suitcase" sound_close="UseActions/close_suitcase"> </lootcontainer>
-	<lootcontainer id="129" size="10,10" sound_open="UseActions/open_trashcan" sound_close="UseActions/close_trashcan"> </lootcontainer>
-	<lootcontainer id="130" size="10,10" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
-	<lootcontainer id="131" size="10,10" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster"> </lootcontainer>
-	<lootcontainer id="132" size="10,10" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge"> </lootcontainer>
-	<lootcontainer id="133" size="10,10" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"/>
+	<lootcontainer id="100" size="10,12" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case"> </lootcontainer>
+	<lootcontainer id="101" size="10,12" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest"> </lootcontainer>
+	<lootcontainer id="102" size="10,12" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard"> </lootcontainer>
+	<lootcontainer id="103" size="10,12" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet"> </lootcontainer>
+	<lootcontainer id="104" size="10,12" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge"> </lootcontainer>
+	<lootcontainer id="105" size="10,12" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker"> </lootcontainer>
+	<lootcontainer id="106" size="10,12" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer"> </lootcontainer>
+	<lootcontainer id="107" size="10,12" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler"> </lootcontainer>
+	<lootcontainer id="108" size="10,12" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe"> </lootcontainer>
+	<lootcontainer id="109" size="10,12" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler"> </lootcontainer>
+	<lootcontainer id="110" size="10,12" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
+	<lootcontainer id="111" size="10,12" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
+	<lootcontainer id="112" size="10,12" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer"> </lootcontainer>
+	<lootcontainer id="113" size="10,12" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer"> </lootcontainer>
+	<lootcontainer id="114" size="10,12" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe"> </lootcontainer>
+	<lootcontainer id="115" size="10,12" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster"> </lootcontainer>
+	<lootcontainer id="116" size="10,12" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe"> </lootcontainer>
+	<lootcontainer id="117" size="10,12" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox"> </lootcontainer>
+	<lootcontainer id="118" size="10,12" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox"> </lootcontainer>
+	<lootcontainer id="119" size="10,12" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox"> </lootcontainer>
+	<lootcontainer id="120" size="10,12" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer"> </lootcontainer>
+	<lootcontainer id="121" size="10,12" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet"> </lootcontainer>
+	<lootcontainer id="122" size="10,12" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet"> </lootcontainer>
+	<lootcontainer id="123" size="10,12" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet"> </lootcontainer>
+	<lootcontainer id="124" size="10,12" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
+	<lootcontainer id="125" size="10,12" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
+	<lootcontainer id="126" size="10,12" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack"> </lootcontainer>
+	<lootcontainer id="127" size="10,12" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
+	<lootcontainer id="128" size="10,12" sound_open="UseActions/open_suitcase" sound_close="UseActions/close_suitcase"> </lootcontainer>
+	<lootcontainer id="129" size="10,12" sound_open="UseActions/open_trashcan" sound_close="UseActions/close_trashcan"> </lootcontainer>
+	<lootcontainer id="130" size="10,12" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"> </lootcontainer>
+	<lootcontainer id="131" size="10,12" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster"> </lootcontainer>
+	<lootcontainer id="132" size="10,12" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge"> </lootcontainer>
+	<lootcontainer id="133" size="10,12" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard"/>
 	<!-- for dew collector -->
 	<lootgroup name="dewCollection" count="all">
 		<item name="bottledRiverWater" count="1,5"/>

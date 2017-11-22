@@ -7173,3 +7173,5 @@ Blunt_Kit,,,,Blunt Class,,,,
 Farmer_Kit,,,,Farmers Class,,,,
 Medic_Kit,,,,Medic Class,,,,
 cntSecureStorageChest1Desc,blocks,Container,KgNone,A basic storage box used to store stuff in. You can lock this box and code it by Holding E,Maintenez [activate] pour le verrouiller ou définir un code.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación.
+caneggboiled,items,Food,KgNone,Boiled Egg,Œuf dur,Gekochtes Ei,,Huevo cocido
+caneggboiledDesc,items,Food,KgNone,A boiled egg can fill you up and offers a small wellness boost.\n [ Crafted in Campfire. ],L'œuf dur vous remplit l'estomac et améliore légèrement votre bien-être.,Ein gekochtes Ei macht satt und erhöht dein Wohlbefinden leicht.,,Un huevo cocido te saciará y mejorará un poco tu bienestar.

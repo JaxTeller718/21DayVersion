@@ -3631,27 +3631,27 @@
 	</recipe>
 	<recipe name="scrapIronAxe" count="1">
 		<ingredient name="scrapIron" count="10"/>
-		<ingredient name="ductTape" count="2"/>
+		<ingredient name="Twine" count="2"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="scrapIronHoe" count="1">
 		<ingredient name="scrapIron" count="10"/>
-		<ingredient name="ductTape" count="2"/>
+		<ingredient name="Twine" count="2"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="scrapIronPickaxe" count="1">
 		<ingredient name="scrapIron" count="15"/>
-		<ingredient name="ductTape" count="2"/>
+		<ingredient name="Twine" count="2"/>
 		<ingredient name="wood" count="20"/>
 	</recipe>
 	<recipe name="scrapIronShovel" count="1">
 		<ingredient name="scrapIron" count="15"/>
-		<ingredient name="ductTape" count="2"/>
+		<ingredient name="Twine" count="2"/>
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="scrapIronShiv" count="1" craft_exp_gain="20">
 		<ingredient name="scrapIron" count="3"/>
-		<ingredient name="ductTape" count="1"/>
+		<ingredient name="Twine" count="1"/>
 	</recipe>
 	<recipe name="reinforcedSplint" count="1">
 		<ingredient name="firstAidBandage" count="2"/>
@@ -6597,7 +6597,7 @@
 		<ingredient name="bellows" count="1"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-	<recipe name="eggboiled" count="1" craft_area="campfire">
+	<recipe name="caneggboiled" count="1" craft_area="campfire">
 		<ingredient name="egg" count="2"/>
 		<ingredient name="canBoiledWater" count="1"/>
 	</recipe>

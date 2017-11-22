@@ -123,11 +123,11 @@
 		<buff id="steroids" duration="3000" actions="addimmunity(sickness)" icon="ui_game_symbol_pills" name_key="steroids" description_key="steroidsDesc" tooltip_key="steroidsTooltip"/>
 		<buff id="cured" duration="3000" stack="reset" icon="ui_game_symbol_pills" name_key="cured" description_key="curedDesc" tooltip_key="curedTooltip"/>
 		<buff id="smelly" duration="30" smell="largeSmell" icon="ui_game_symbol_dysentery" name_key="smelly" description_key="smellyDesc" tooltip_key="smellyTooltip"/>
-		<buff id="infection" mutex="cured,infection1,infection2,infection3,infection4" duration="9000" onexpired="infection1" type="sickness" 	icon="ui_game_symbol_infection" name_key="infection" description_key="infectionDesc" tooltip_key="infectionTooltip" cures="foodHoney,antibiotics,herbalAntibiotics"/>
-		<buff id="infection1" duration="6000" actions="debuff(infection)" onexpired="infection2" type="sickness" 	icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
+		<buff id="infection" mutex="cured,infection1,infection2,infection3,infection4" duration="6000" onexpired="infection1" type="sickness" 	icon="ui_game_symbol_infection" name_key="infection" description_key="infectionDesc" tooltip_key="infectionTooltip" cures="foodHoney,antibiotics,herbalAntibiotics"/>
+		<buff id="infection1" duration="3000" actions="debuff(infection)" onexpired="infection2" type="sickness" 	icon="ui_game_symbol_infection" name_key="infection1" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics">
 			<modify id="0" stat="stamina" amount="-0.3" rate="1"/>
 		</buff>
-		<buff id="infection2" duration="3000" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1)" onexpired="infection3" type="sickness" 	icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
+		<buff id="infection2" duration="2000" actions="damage(25,2100t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1)" onexpired="infection3" type="sickness" 	icon="ui_game_symbol_infection" name_key="infection2" description_key="infection2Desc" tooltip_key="infection2Tooltip" cures="antibiotics">
 			<modify id="0" stat="stamina" amount="-1" rate="1"/>
 		</buff>
 		<buff id="infection3" duration="1000" actions="damage(25,800t,0,3);increment(@wellness, -0.25, 100t, 0, 0);debuff(infection);debuff(infection1);debuff(infection2)" onexpired="infection4" type="sickness" 	icon="ui_game_symbol_infection" name_key="infection3" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics">

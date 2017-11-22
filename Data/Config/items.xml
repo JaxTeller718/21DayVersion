@@ -7146,7 +7146,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="3"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="753" name="eggboiled">
 		<property name="Meshfile" value="Items/Food/eggPrefab"/>
@@ -7167,7 +7167,6 @@
 			<property name="Gain_wellness" value="0.32"/>
 			<property name="Sound_start" value="player_eating"/>
 			<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
-			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>

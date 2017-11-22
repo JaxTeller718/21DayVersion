@@ -1963,7 +1963,7 @@
 		<ingredient name="ZincFragment" count="2"/>
 		<ingredient name="CopperFragment" count="2"/>
 	</recipe>
-	<recipe name="scrapBrass" count="4" craft_time="2" craft_area="BigCampFire" craft_tool="beaker">
+	<recipe name="scrapBrass" count="4" craft_time="2" craft_area="BigCampFire" >
 		<ingredient name="ZincFragment" count="4"/>
 		<ingredient name="CopperFragment" count="4"/>
 	</recipe>
@@ -6597,10 +6597,7 @@
 		<ingredient name="bellows" count="1"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-	<recipe name="caneggboiled" count="1" craft_area="campfire">
-		<ingredient name="egg" count="2"/>
-		<ingredient name="canBoiledWater" count="1"/>
-	</recipe>
+
 	<recipe name="ECOAuger" count="1" craft_area="assembly" craft_exp_gain="50">
 		<ingredient name="SteelHandlebars" count="1"/>
 		<ingredient name="ECOSmallEngine" count="1"/>
@@ -7240,6 +7237,6 @@
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="aloeCream" count="1"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
-
 	</recipe>
+
 </recipes>

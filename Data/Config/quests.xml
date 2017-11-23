@@ -1120,7 +1120,7 @@
 	<quest id="survivalclass1" 	name_key="Survival Class" 	group_name="SurvivalClasses" 	subtitle_key="Survival Class" 	offer_key="Accepting this will give you a claw hammer skills in medicine, cooking and Traps and extra supplies" 	description_key="Become an expert in Survival" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
 		<reward type="Skill" id="SurvivorClass" value="1"/>
 		<reward type="Skill" id="Survival Skills" value="1"/>
-		<reward type="Skill" id="Traps" value="15"/>
+		<reward type="Skill" id="Traps" value="1"/>
 		<reward type="Item" id="clawHammer" value="250"/>
 		<reward type="Item" id="skinningKnife2" value="250"/>
 		<reward type="Item" id="firstAidKit" value="1"/>

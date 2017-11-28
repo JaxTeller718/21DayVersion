@@ -248,25 +248,25 @@
 	</quest>
 	<!--Treasures-->
 	<quest id="treasure_taylor" name_key="treasure_taylor" subtitle_key="treasure_taylor_subtitle" description_key="treasure_taylor_offer" icon="ui_game_symbol_treasure" 	repeatable="true" category_key="treasure" offer_key="treasure_taylor_offer" difficulty="medium">
-		<objective type="TreasureChest" id="treasureChest" value="500-1750"/>
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750"/>
 	</quest>
 	<quest id="treasure_nickole" name_key="treasure_nickole" subtitle_key="treasure_nickole_subtitle" description_key="treasure_nickole_offer" icon="ui_game_symbol_treasure" 	repeatable="true" category_key="treasure" offer_key="treasure_nickole_offer" difficulty="medium">
-		<objective type="TreasureChest" id="treasureChest" value="500-1750"/>
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750"/>
 	</quest>
 	<quest id="treasure_stephan" name_key="treasure_stephan" subtitle_key="treasure_stephan_subtitle" description_key="treasure_stephan_offer" icon="ui_game_symbol_treasure" 	repeatable="true" category_key="treasure" offer_key="treasure_stephan_offer" difficulty="medium">
-		<objective type="TreasureChest" id="treasureChest" value="500-1750"/>
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750"/>
 	</quest>
 	<quest id="treasure_jennifer" name_key="treasure_jennifer" subtitle_key="treasure_jennifer_subtitle" description_key="treasure_jennifer_offer" icon="ui_game_symbol_treasure" 	repeatable="true" category_key="treasure" offer_key="treasure_jennifer_offer" difficulty="medium">
-		<objective type="TreasureChest" id="treasureChest" value="500-1750"/>
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750"/>
 	</quest>
 	<quest id="treasure_claude" name_key="treasure_claude" subtitle_key="treasure_claude_subtitle" description_key="treasure_claude_offer" icon="ui_game_symbol_treasure" 	repeatable="true" category_key="treasure" offer_key="treasure_claude_offer" difficulty="medium">
-		<objective type="TreasureChest" id="treasureChest" value="500-1750"/>
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750"/>
 	</quest>
 	<quest id="treasure_sarah" name_key="treasure_sarah" subtitle_key="treasure_sarah_subtitle" description_key="treasure_sarah_offer" icon="ui_game_symbol_treasure" 	repeatable="true" category_key="treasure" offer_key="treasure_sarah_offer" difficulty="medium">
-		<objective type="TreasureChest" id="treasureChest" value="500-1750"/>
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750"/>
 	</quest>
 	<quest id="treasure_raphael" name_key="treasure_raphael" subtitle_key="treasure_raphael_subtitle" description_key="treasure_raphael_offer" icon="ui_game_symbol_treasure" 	repeatable="true" category_key="treasure" offer_key="treasure_raphael_offer" difficulty="medium">
-		<objective type="TreasureChest" id="treasureChest" value="500-1750"/>
+		<objective type="TreasureChest" id="treasureChest" value="1000-1750"/>
 	</quest>
 	<!--Bladed Weapons-->
 	<quest id="quest_WeaponBlade01" group_name_key="Master of Blades" name_key="Master of Blades 1/9" subtitle_key="Kill 15 zombies" description_key="Kill 15 zombies with a bone shiv." icon="ui_game_symbol_zombie"  	repeatable="true" category_key="Quest" difficulty="medium">
@@ -883,41 +883,41 @@
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_wallet" name_key="Fancy Wallet" subtitle_key="Fancy Wallet" description_key="Nothing shows ones worth like a luxurious wallet. Bring me something worthy of holding my cash and I will reward you." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Nothing shows ones worth like a luxurious wallet. Bring me something worthy of holding my cash and I will reward you." difficulty="easy">
+	<quest id="challenge_wallet" name_key="Fancy Wallet" subtitle_key="Fetch a Wallet" description_key="Nothing shows ones worth like a luxurious wallet. Bring me something worthy of holding my cash and I will reward you." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Nothing shows ones worth like a luxurious wallet. Bring me something worthy of holding my cash and I will reward you." difficulty="easy">
 		<objective type="Fetch" id="questItemWallet" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_books"   group_name_key="Avid Reader" name_key="Avid Reader 1/5" subtitle_key="Avid Reader" description_key="Greetings there fellow traveler. In todays hellish world it is a tragic shame and loss that many of the classic novels and stories that have lasted for generations have so quickly and easily been tossed aside - or worse, scrapped for mere paper! Please, should you find any of these timeless treasures send them my way. I will reward you handsomely for your troubles." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Greetings there fellow traveler. In todays hellish world it is a tragic shame and loss that many of the classic novels and stories that have lasted for generations have so quickly and easily been tossed aside - or worse, scrapped for mere paper! Please, should you find any of these timeless treasures send them my way. I will reward you handsomely for your troubles." difficulty="easy">
+	<quest id="challenge_books"   group_name_key="Avid Reader" name_key="Avid Reader 1/5" subtitle_key="Fetch Books" description_key="Greetings there fellow traveler. In todays hellish world it is a tragic shame and loss that many of the classic novels and stories that have lasted for generations have so quickly and easily been tossed aside - or worse, scrapped for mere paper! Please, should you find any of these timeless treasures send them my way. I will reward you handsomely for your troubles." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Greetings there fellow traveler. In todays hellish world it is a tragic shame and loss that many of the classic novels and stories that have lasted for generations have so quickly and easily been tossed aside - or worse, scrapped for mere paper! Please, should you find any of these timeless treasures send them my way. I will reward you handsomely for your troubles." difficulty="easy">
 		<objective type="Fetch" id="questItemBook" value="1"/>
 		<reward type="Item" id="casinoCoin" value="150"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="challenge_books2"/>
 	</quest>
-	<quest id="challenge_books2"   group_name_key="Avid Reader" name_key="Avid Reader 2/5" subtitle_key="Avid Reader" description_key="Gather classic novels from before the outbreak for the avid reader." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" difficulty="easy">
+	<quest id="challenge_books2"   group_name_key="Avid Reader" name_key="Avid Reader 2/5" subtitle_key="Fetch More Books" description_key="Gather classic novels from before the outbreak for the avid reader." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" difficulty="easy">
 		<objective type="Fetch" id="questItemBook" value="1"/>
 		<reward type="Item" id="casinoCoin" value="150"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="challenge_books3"/>
 	</quest>
-	<quest id="challenge_books3"   group_name_key="Avid Reader" name_key="Avid Reader 3/5" subtitle_key="Avid Reader" description_key="Gather classic novels from before the outbreak for the avid reader." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" difficulty="easy">
+	<quest id="challenge_books3"   group_name_key="Avid Reader" name_key="Avid Reader 3/5" subtitle_key="Fetch More Books Again" description_key="Gather classic novels from before the outbreak for the avid reader." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" difficulty="easy">
 		<objective type="Fetch" id="questItemBook" value="1"/>
 		<reward type="Item" id="casinoCoin" value="150"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="challenge_books4"/>
 	</quest>
-	<quest id="challenge_books4"   group_name_key="Avid Reader" name_key="Avid Reader 4/5" subtitle_key="Avid Reader" description_key="Gather classic novels from before the outbreak for the avid reader." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" difficulty="easy">
+	<quest id="challenge_books4"   group_name_key="Avid Reader" name_key="Avid Reader 4/5" subtitle_key="Yep Fetch MORE Books" description_key="Gather classic novels from before the outbreak for the avid reader." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" difficulty="easy">
 		<objective type="Fetch" id="questItemBook" value="1"/>
 		<reward type="Item" id="casinoCoin" value="150"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="challenge_books5"/>
 	</quest>
-	<quest id="challenge_books5"  group_name_key="Avid Reader" name_key="Avid Reader 5/5" subtitle_key="Avid Reader" description_key="Gather classic novels from before the outbreak for the avid reader." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" difficulty="easy">
+	<quest id="challenge_books5"  group_name_key="Avid Reader" name_key="Avid Reader 5/5" subtitle_key="You Guessed It Fetch Books" description_key="Gather classic novels from before the outbreak for the avid reader." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" difficulty="easy">
 		<objective type="Fetch" id="questItemBook" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="SkillPoints" value="5"/>
@@ -941,56 +941,56 @@
 		<reward type="Item" id="casinoCoin" value="250"/>
 		<reward type="SkillPoints" value="5"/>
 	</quest>
-	<quest id="challenge_toilet" name_key="A Clean Wipe" subtitle_key="A Clean Wipe" description_key="Hey traveler. While every trader I come across seems to have plenty of random bits and bobs - the one thing I really miss and want is toilet paper. I am sick of paper cuts and rashes! Please, if you find any out there send it my way." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Hey traveler. While every trader I come across seems to have plenty of random bits and bobs - the one thing I really miss and want is toilet paper. I am sick of paper cuts and rashes! Please, if you find any out there send it my way." difficulty="easy">
+	<quest id="challenge_toilet" name_key="A Clean Wipe" subtitle_key="Fetch Toilet Paper" description_key="Hey traveler. While every trader I come across seems to have plenty of random bits and bobs - the one thing I really miss and want is toilet paper. I am sick of paper cuts and rashes! Please, if you find any out there send it my way." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Hey traveler. While every trader I come across seems to have plenty of random bits and bobs - the one thing I really miss and want is toilet paper. I am sick of paper cuts and rashes! Please, if you find any out there send it my way." difficulty="easy">
 		<objective type="Fetch" id="questItemToiletPaper" value="5"/>
 		<reward type="Item" id="casinoCoin" value="400"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_walkman" name_key="Music Lover" subtitle_key="Music Lover" description_key="Hello traveler. I recently came across a stash of old cassette tapes but have no way to enjoy them. If you come across any old walkmans out there, send it my way. I'll pay you handsomely!" icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Hello traveler. I recently came across a stash of old cassette tapes but have no way to enjoy them. If you come across any old walkmans out there, send it my way. I'll pay you handsomely!" difficulty="easy">
+	<quest id="challenge_walkman" name_key="Music Lover" subtitle_key="Fetch a Walkman" description_key="Hello traveler. I recently came across a stash of old cassette tapes but have no way to enjoy them. If you come across any old walkmans out there, send it my way. I'll pay you handsomely!" icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Hello traveler. I recently came across a stash of old cassette tapes but have no way to enjoy them. If you come across any old walkmans out there, send it my way. I'll pay you handsomely!" difficulty="easy">
 		<objective type="Fetch" id="questItemWalkman" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_condoms" name_key="Planned Parenthood" subtitle_key="Planned Parenthood" description_key="Certain members of our group have been getting more roudy than usual lately. We all cope in different ways, I suppose, but the last thing we need is more mouths to feed or a little screamer to draw the bitter's attention. If you find any rubbers out there send it our way and we'll make it worth your while. No used ones, either, smartass!" icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Certain members of our group have been getting more roudy than usual lately. We all cope in different ways, I suppose, but the last thing we need is more mouths to feed or a little screamer to draw the bitter's attention. If you find any rubbers out there send it our way and we'll make it worth your while. No used ones, either, smartass!" difficulty="easy">
+	<quest id="challenge_condoms" name_key="Planned Parenthood" subtitle_key="Fetch Condoms" description_key="Certain members of our group have been getting more roudy than usual lately. We all cope in different ways, I suppose, but the last thing we need is more mouths to feed or a little screamer to draw the bitter's attention. If you find any rubbers out there send it our way and we'll make it worth your while. No used ones, either, smartass!" icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Certain members of our group have been getting more roudy than usual lately. We all cope in different ways, I suppose, but the last thing we need is more mouths to feed or a little screamer to draw the bitter's attention. If you find any rubbers out there send it our way and we'll make it worth your while. No used ones, either, smartass!" difficulty="easy">
 		<objective type="Fetch" id="questItemCondoms" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_baseball" name_key="American Pasttime" subtitle_key="American Pasttime" description_key="Hey there slugger! If you find any autographed baseballs out there send them my way and I'll make it worth your while. Someone has to keep the tradition alive - might as well be me!" icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Hey there slugger! If you find any autographed baseballs out there send them my way and I'll make it worth your while. Someone has to keep the tradition alive - might as well be me!" difficulty="easy">
+	<quest id="challenge_baseball" name_key="American Pasttime" subtitle_key="Fetch Baseball" description_key="Hey there slugger! If you find any autographed baseballs out there send them my way and I'll make it worth your while. Someone has to keep the tradition alive - might as well be me!" icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Hey there slugger! If you find any autographed baseballs out there send them my way and I'll make it worth your while. Someone has to keep the tradition alive - might as well be me!" difficulty="easy">
 		<objective type="Fetch" id="questItemBaseball" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_cards" name_key="Texas Hold'Em" subtitle_key="Texas Hold'Em" description_key="Howdy survivor. I lost my last good pack of playing cards after a bunch of bitters overran our last camp. I miss them almost as much as our cook. If you come across any on your travels I'd be mighty grateful!" icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Howdy survivor. I lost my last good pack of playing cards after a bunch of bitters overran our last camp. I miss them almost as much as our cook. If you come across any on your travels I'd be mighty grateful! " difficulty="easy">
+	<quest id="challenge_cards" name_key="Texas Hold'Em" subtitle_key="Fetch Playing Crads" description_key="Howdy survivor. I lost my last good pack of playing cards after a bunch of bitters overran our last camp. I miss them almost as much as our cook. If you come across any on your travels I'd be mighty grateful!" icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Howdy survivor. I lost my last good pack of playing cards after a bunch of bitters overran our last camp. I miss them almost as much as our cook. If you come across any on your travels I'd be mighty grateful! " difficulty="easy">
 		<objective type="Fetch" id="questItemCards" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_cigarettes" name_key="Cancerous Addiction" subtitle_key="Cancerous Addiction" description_key="Listen bud, It won't be a biter that takes me down. If I'm going out, Im going out with my smokes. But its hard to do that when you can't find the bloody things. Please, if you come across a pack in your journey I'll pay you well for it." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Listen bud, It won't be a bitter that takes me down. If I'm going out, Im going out with my smokes. But its hard to do that when you can't find the bloody things. Please, if you come across a pack in your journey I'll pay you well for it." difficulty="easy">
+	<quest id="challenge_cigarettes" name_key="Cancerous Addiction" subtitle_key="Fetch Cigarettes" description_key="Listen bud, It won't be a biter that takes me down. If I'm going out, Im going out with my smokes. But its hard to do that when you can't find the bloody things. Please, if you come across a pack in your journey I'll pay you well for it." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Listen bud, It won't be a bitter that takes me down. If I'm going out, Im going out with my smokes. But its hard to do that when you can't find the bloody things. Please, if you come across a pack in your journey I'll pay you well for it." difficulty="easy">
 		<objective type="Fetch" id="questItemCigarettes" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_artsupplies" name_key="Artistic Integrity" subtitle_key="Artistic Integrity" description_key="People just don't understand! I must express myself, how else will I leave my mark on this world? I must capture the struggle of man in todays harsh world through paint! However these savages I'm stuck with don't seem to appreciate the necessity of what I'm trying to do! If you find any art supplies in your adventures I'll pay you well for it." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="People just don't understand! I must express myself, how else will I leave my mark on this world? I must capture the struggle of man in todays harsh world through paint! However these savages I'm stuck with don't seem to appreciate the necessity of what I'm trying to do! If you find any art supplies in your adventures I'll pay you well for it." difficulty="easy">
+	<quest id="challenge_artsupplies" name_key="Artistic Integrity" subtitle_key="Fetch Art Supplies" description_key="People just don't understand! I must express myself, how else will I leave my mark on this world? I must capture the struggle of man in todays harsh world through paint! However these savages I'm stuck with don't seem to appreciate the necessity of what I'm trying to do! If you find any art supplies in your adventures I'll pay you well for it." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="People just don't understand! I must express myself, how else will I leave my mark on this world? I must capture the struggle of man in todays harsh world through paint! However these savages I'm stuck with don't seem to appreciate the necessity of what I'm trying to do! If you find any art supplies in your adventures I'll pay you well for it." difficulty="easy">
 		<objective type="Fetch" id="questItemArtSupplies" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_bong" name_key="Up In Smoke" subtitle_key="Up In Smoke" description_key="Hey man. Check it, this jack-off in our group smashed my only bong in a druken rage. If you find one out there in one of your wild journeys could you send it my way? I can sneak you some coins if you do, man." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Hey man. Check it, this jack-off in our group smashed my only bong in a druken rage. If you find one out there in one of your wild journeys could you send it my way? I can sneak you some coins if you do, man." difficulty="easy">
+	<quest id="challenge_bong" name_key="Up In Smoke" subtitle_key="Fetch a Bong" description_key="Hey man. Check it, this jack-off in our group smashed my only bong in a druken rage. If you find one out there in one of your wild journeys could you send it my way? I can sneak you some coins if you do, man." icon="ui_game_symbol_treasure"  	repeatable="true" category_key="challenge" offer_key="Hey man. Check it, this jack-off in our group smashed my only bong in a druken rage. If you find one out there in one of your wild journeys could you send it my way? I can sneak you some coins if you do, man." difficulty="easy">
 		<objective type="Fetch" id="questItemBong" value="1"/>
 		<reward type="Item" id="casinoCoin" value="200"/>
 		<reward type="Item" id="Joint" value="1"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 	</quest>
-	<quest id="challenge_walmart" group_name_key="quest_walmart" name_key="Walmart Shoppers" subtitle_key="Walmart Shoppers" description_key="Find and kill three fat male and female zombies." icon="ui_game_symbol_zombie" 	repeatable="true" category_key="challenge" offer_key="Kill 6 Fat Zombies." difficulty="medium">
+	<quest id="challenge_walmart" group_name_key="quest_walmart" name_key="Walmart Shoppers" subtitle_key="Kill Walmart Shoppers" description_key="Find and kill three fat male and female zombies." icon="ui_game_symbol_zombie" 	repeatable="true" category_key="challenge" offer_key="Kill 6 Fat Zombies." difficulty="medium">
 		<action type="TrackQuest"/>
 		<objective type="ZombieKill" id="zombieMoe,zombieMoeFeral" value="3"/>
 		<objective type="ZombieKill" id="zombieFatHawaiian" value="3"/>
@@ -1171,7 +1171,9 @@
 		<reward type="Skill" id="FarmerClass" value="1"/>
 		<reward type="Skill" id="Farming Skills" value="1"/>
 		<reward type="Skill" id="Green Thumb" value="1"/>
-		<reward type="Item" id="fertilizer" value="5"/>
+		<reward type="Item" id="blunderbuss" value="250"/>
+		<reward type="Item" id="blunderbussAmmo" value="150"/>
+		<reward type="Item" id="fertilizer" value="10"/>
 		<reward type="Item" id="mortarAndPestle" value="1"/>
 		<reward type="Item" id="seedPack" value="10"/>
 		<reward type="Item" id="hoeIron" value="250"/>

@@ -648,8 +648,8 @@
 			</effect>
 			<recipe name="ironBow" unlock_level="15"/>
 			<recipe name="crossbow" unlock_level="30"/>
-			<recipe name="compoundBow" unlock_level="45"/>
-			<recipe name="ironCrossbow" unlock_level="60"/>
+			<recipe name="ironCrossbow" unlock_level="45"/>
+			<recipe name="compoundBow" unlock_level="60"/>ironCrossbow
 		</action_skill>
 		<player_skill name="Medicine" exp_to_level="25" icon="medical" description_key="medicineDesc" title_key="medicine" group="health">
 			<effect name="HealthGain">
@@ -1309,9 +1309,12 @@
 			<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="7"/>
 			<recipe name="autoTurret" unlock_level="3"/>
 		</perk>
-		<perk name="electricGeneratorPerk" icon="electric_generator" description_key="electricGeneratorDesc" title_key="electricGeneratorName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="science">
+		<perk name="electricGeneratorPerk" icon="electric_generator" description_key="electricGeneratorDesc" title_key="electricGeneratorName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="science">
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="2"/>
 			<recipe name="generatorbank" unlock_level="1"/>
+			<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="5"/>
+			<recipe name="Generator" unlock_level="2"/>
+			<recipe name="GeneratorCop" unlock_level="2"/>
 		</perk>
 		<perk name="electricBatteryBankPerk" icon="battery" description_key="electricBatteryBankDesc" title_key="electricBatteryBankName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="science">
 			<recipe name="batterybank" unlock_level="1"/>

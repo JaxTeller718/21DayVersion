@@ -1522,7 +1522,7 @@
 		<ingredient name="wood" count="2"/>
 	</recipe>
 	<recipe name="woodLogPillar100" count="1">
-		<ingredient name="wood" count="4"/>
+		<ingredient name="wood" count="8"/>
 	</recipe>
 	<recipe name="woodLogSpike1" count="1">
 		<!-- trap -->
@@ -2078,7 +2078,7 @@
 	<recipe name="chickenCoopEmpty" count="1" craft_time = "20"  craft_area="NewWorkBench">
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="15"/>
-		<ingredient name="glue" count="5"/>
+		<ingredient name="Twine" count="5"/>
 		<ingredient name="egg" count="8"/>
 	</recipe>
 	<recipe name="Empty_Composter" count="1" craft_time = "20"  craft_area="NewWorkBench">
@@ -2330,187 +2330,187 @@
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsSniperRifle_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsSniperRifle_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsSniperRifle_stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsSniperRifle_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsSniperRifle_receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsSniperRifle_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsSniperRifle_barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsSniperRifle_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="M25SniperRifle_Stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="M25SniperRifle_Stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="M25SniperRifle_Receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="M25SniperRifle_Receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="M25SniperRifle_Barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="M25SniperRifle_Barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="M25SniperRifle_Parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="M25SniperRifle_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPumpShotgun_stockShort" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPumpShotgun_stockShort" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPumpShotgun_barrelShort" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPumpShotgun_barrelShort" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPumpShotgun_stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPumpShotgun_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPumpShotgun_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPumpShotgun_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPumpShotgun_receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPumpShotgun_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPumpShotgun_barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPumpShotgun_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="FAMAS_Stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="FAMAS_Stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="FAMAS_Receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="FAMAS_Receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="FAMAS_Barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="FAMAS_Barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="FAMAS_Parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="FAMAS_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="gunBoltRifle_Stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="gunBoltRifle_Stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="gunBoltRifle_Receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="gunBoltRifle_Receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="gunBoltRifle_Barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="gunBoltRifle_Barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="gunBoltRifle_Parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="gunBoltRifle_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPistol_grip" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPistol_grip" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPistol_receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPistol_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPistol_barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPistol_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsPistol_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsPistol_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsMP5_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsMP5_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsMP5_barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsMP5_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsMP5_receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsMP5_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsMP5_stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsMP5_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsHuntingRifle_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsHuntingRifle_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsHuntingRifle_receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsHuntingRifle_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsHuntingRifle_stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsHuntingRifle_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsHuntingRifle_barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsHuntingRifle_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsCompoundBow_string" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsCompoundBow_string" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsCompoundBow_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsCompoundBow_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsCompoundBow_grip" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsCompoundBow_grip" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsCompoundBow_body" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsCompoundBow_body" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsAK47_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsAK47_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsAK47_barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsAK47_barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsAK47_receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsAK47_receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsAK47_stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsAK47_stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="parts44Magnum_grip" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="parts44Magnum_grip" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="parts44Magnum_parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="parts44Magnum_parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="parts44Magnum_cylinder" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="parts44Magnum_cylinder" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="parts44Magnum_frame" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="parts44Magnum_frame" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
@@ -2565,7 +2565,7 @@
 	<recipe name="gunStation" count="1">
 		<ingredient name="forgedSteel" count="100"/>
 		<ingredient name="mechanicalParts" count="50"/>
-		<ingredient name="spring" count="20"/>
+		<ingredient name="Twine" count="20"/>
 		<ingredient name="wood" count="100"/>
 	</recipe>
 	<!-- Ammo Conversions -->
@@ -3700,11 +3700,11 @@
 		<ingredient name="gunBoltRifle_Barrel" count="1"/>
 		<ingredient name="gunBoltRifle_Parts" count="1"/>
 	</recipe>
-	<recipe name="Scope" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="Scope" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="ExtendedScope" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="ExtendedScope" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
@@ -4084,19 +4084,19 @@
 		<ingredient name="potato" count="1"/>
 		<ingredient name="animalFat" count="1"/>
 	</recipe>
-	<recipe name="ExtendedRifleMagazine" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="ExtendedRifleMagazine" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="ExtendedHandgunMagazine" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="ExtendedHandgunMagazine" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="gunrifleSilencer" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="gunrifleSilencer" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="gunhandgunSilencer" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="gunhandgunSilencer" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
@@ -4166,7 +4166,7 @@
 		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="forgedSteel" count="10"/>
 	</recipe>
-	<recipe name="M.O.A.B" count="1" craft_time="60" craft_area="chemistryStation" craft_tool="weldingMask" material_based="true">
+	<recipe name="M.O.A.B" count="1" craft_time="60" craft_area="ammunitionTable" craft_tool="toolAndDieSet" material_based="true">
 		<ingredient name="plutoniumNuclearTip" count="1"/>
 		<ingredient name="reinforcedRocketCasing" count="1"/>
 		<ingredient name="forgedSteel" count="15"/>
@@ -5518,12 +5518,7 @@
 		<ingredient name="unit_clay" count="5"/>
 		<ingredient name="unit_iron" count="100"/>
 	</recipe>
-	<recipe name="gunStation" count="1">
-		<ingredient name="forgedIron" count="25"/>
-		<ingredient name="mechanicalParts" count="20"/>
-		<ingredient name="Twine" count="3"/>
-		<ingredient name="wood" count="50"/>
-	</recipe>
+
 	<recipe name="mortarAndPestle" count="1" craft_area="BigForge" material_based="true" craft_time="250">
 		<ingredient name="unit_lead" count="1"/>
 		<ingredient name="unit_clay" count="5"/>
@@ -6010,19 +6005,19 @@
 		<ingredient name="partsDoubleBarrel_barrel" count="1"/>
 	</recipe>
 	<!-- Melee Weapons by JaxTeller718 -->
-	<recipe name="partsDoubleBarrel_barrel" count="1" craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsDoubleBarrel_barrel" count="1" craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsDoubleBarrel_stock" count="1" craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsDoubleBarrel_stock" count="1" craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsDoubleBarrel_parts" count="1" craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsDoubleBarrel_parts" count="1" craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="partsDoubleBarrel_receiver" count="1" craft_area="gunStation" craft_tool="chisel">
+	<recipe name="partsDoubleBarrel_receiver" count="1" craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
@@ -6575,19 +6570,19 @@
 		<ingredient name="mushrooms" count="5"/>
 		<ingredient name="HouseholdChemicals" count="5"/>
 	</recipe>
-	<recipe name="DesertEagle_Parts" count="1" craft_area="gunStation" craft_tool="chisel">
+	<recipe name="DesertEagle_Parts" count="1" craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="DesertEagle_Barrel" count="1" craft_area="gunStation" craft_tool="chisel">
+	<recipe name="DesertEagle_Barrel" count="1" craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="DesertEagle_Receiver" count="1" craft_area="gunStation" craft_tool="chisel">
+	<recipe name="DesertEagle_Receiver" count="1" craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="DesertEagle_Grip" count="1" craft_area="gunStation" craft_tool="chisel">
+	<recipe name="DesertEagle_Grip" count="1" craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
@@ -6937,67 +6932,67 @@
 		<ingredient name="iMIGalilBarrel" count="1"/>
 		<ingredient name="iMIGalil_Parts" count="1"/>
 	</recipe>
-	<recipe name="coltPythonFrame" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="coltPythonFrame" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="coltPythonCylinder" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="coltPythonCylinder" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="coltPython_Parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="coltPython_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="coltPythonGrip" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="coltPythonGrip" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="hKG3Stock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="hKG3Stock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="hKG3Receiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="hKG3Receiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="hKG3Barrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="hKG3Barrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="hKG3_Parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="hKG3_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="vSSVintorezStock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="vSSVintorezStock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="vSSReceiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="vSSReceiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="vSSVintorezBarrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="vSSVintorezBarrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="vSSVintorezParts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="vSSVintorezParts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="iMIGalilStock" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="iMIGalilStock" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="iMIGalilReceiver" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="iMIGalilReceiver" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="iMIGalilBarrel" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="iMIGalilBarrel" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
-	<recipe name="iMIGalil_Parts" count="1"   craft_area="gunStation" craft_tool="chisel">
+	<recipe name="iMIGalil_Parts" count="1"   craft_area="gunStation" craft_tool="solderGun">
 		<ingredient name="weaponParts" count="200"/>
 		<ingredient name="Solder" count="15"/>
 	</recipe>
@@ -7238,5 +7233,22 @@
 		<ingredient name="aloeCream" count="1"/>
 		<ingredient name="chrysanthemumPlant" count="1"/>
 	</recipe>
-
+	<recipe name="GeneratorCop" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="10"/>
+		<ingredient name="mechanicalParts" count="10"/>
+		<ingredient name="electricParts" count="10"/>
+		<ingredient name="electronicParts" count="4"/>
+	</recipe>
+	<recipe name="Generator" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="10"/>
+		<ingredient name="mechanicalParts" count="10"/>
+		<ingredient name="electricParts" count="10"/>
+		<ingredient name="electronicParts" count="4"/>
+	</recipe>
+	<recipe name="fireTrap" count="1">
+		<ingredient name="gasCan" count="15"/>
+		<ingredient name="animalFat" count="2"/>
+		<ingredient name="forgedSteel" count="15"/>
+		<ingredient name="mechanicalParts" count="10"/>
+	</recipe>
 </recipes>

@@ -447,7 +447,7 @@ miniblindBottomSheet,blocks,Block,KgNone,Miniblind Bottom Sheet,Panneau inférie
 miniblindTopSheet,blocks,Block,KgNone,Miniblind Top Sheet,Panneau supérieur de mini-store,Miniblende – Obere Platte,,Lámina superior de persiana veneciana
 officeChair01,blocks,Block,KgNone,Office Chair,Chaise de bureau,Bürostuhl,,Silla de oficina
 oilBarrel,blocks,Block,KgNone,Gas Barrel,Baril de pétrole,Benzinfass,,Barril de gas
-oilBarrelDesc,blocks,Block,KgNone,Gas barrels can be crafted into gas cans or shot and blown up for setting a trap. A barrel is worth 600 units of gas.,Les barils d'essence peuvent servir à fabriquer des bidons d'essence. Vous pouvez également tirer dessus pour les faire exploser dans le cadre d'un piège. Un baril vaut 600 unités d'essence.,"Benzinfässer können zu Benzinkanistern gefertigt werden. Sie können auch angeschossen und in die Luft gejagt werden, um eine Falle zu stellen. Ein Fass entspricht 600 Einheiten Benzin.",,Los barriles de gas se pueden convertir en bidones de gas. También se puede preparar una trampa al dispararles para que exploten. Un barril cuesta 600 unidades de gas.
+oilBarrelDesc,blocks,Block,KgNone,Gas barrels can be crafted into gas cans or shot and blown up for setting a trap. A barrel is worth 300 units of gas.,Les barils d'essence peuvent servir à fabriquer des bidons d'essence. Vous pouvez également tirer dessus pour les faire exploser dans le cadre d'un piège. Un baril vaut 600 unités d'essence.,"Benzinfässer können zu Benzinkanistern gefertigt werden. Sie können auch angeschossen und in die Luft gejagt werden, um eine Falle zu stellen. Ein Fass entspricht 600 Einheiten Benzin.",,Los barriles de gas se pueden convertir en bidones de gas. También se puede preparar una trampa al dispararles para que exploten. Un barril cuesta 600 unidades de gas.
 oldChair,blocks,Block,KgNone,Wooden Chair,Chaise en bois,Holzstuhl,,Silla de madera
 painting01,blocks,Block,KgNone,Painting Landscape,Tableau de paysage,Landschaftsgemälde,,Cuadro de paisaje
 painting02,blocks,Block,KgNone,Painting Lakehouse,Tableau de maison en bord de lac,Gemälde mit Haus am See,,Cuadro de casa del lago
@@ -1289,7 +1289,7 @@ hazmatMask,items,Clothes,KgNone,Hazmat Mask,Masque de protection,Schutzanzugmask
 hazmatPants,items,Clothes,KgNone,Hazmat Pants,Pantalon de protection,Schutzanzughose,,Pantalones de material peligroso
 ironBoots,items,Clothes,KgNone,Iron Boots,Bottes en fer,Eisenstiefel,,Botas de hierro
 ironChestArmor,items,Clothes,KgNone,Iron Chest Armor,Plastron en fer,Eisenbrustpanzer,,Coraza de hierro
-ironClothesGroupDesc,items,Clothes,KgNone,Iron clothing provides great protection against concussive and puncture damage but no cold weather protection.,"Les vêtements en fer vous offrent une très bonne protection contre les commotions cérébrales et autres blessures perforantes, mais ne protègent pas contre le froid.","Eisenkleidung bietet großartigen Schutz vor Schlag- und Stichschaden, hält bei kaltem Wetter aber nicht warm.",,"La ropa de hierro brinda una gran protección frente a contusiones y perforaciones, pero nada de protección contra el frío."
+ironClothesGroupDesc,items,Clothes,KgNone,Iron clothing provides great protection against concussive and puncture damage but no cold weather protection.\n [ Crafted in Tailor Station with a Welding Torch. ],"Les vêtements en fer vous offrent une très bonne protection contre les commotions cérébrales et autres blessures perforantes, mais ne protègent pas contre le froid.","Eisenkleidung bietet großartigen Schutz vor Schlag- und Stichschaden, hält bei kaltem Wetter aber nicht warm.",,"La ropa de hierro brinda una gran protección frente a contusiones y perforaciones, pero nada de protección contra el frío."
 ironGloves,items,Clothes,KgNone,Iron Gloves,Gants en fer,Eisenhandschuhe,,Guantes de hierro
 ironHelmet,items,Clothes,KgNone,Iron Helmet,Casque en fer,Eisenhelm,,Casco de hierro
 ironLegArmor,items,Clothes,KgNone,Iron Leg Armor,Jambières en fer,Eisenbeinschienen,,Espinillera de hierro
@@ -1301,12 +1301,12 @@ kevlarHelmetDesc,items,Clothes,KgNone,The Kevlar helmet offers the very best dam
 kevlarLegArmor,items,Clothes,KgNone,Kevlar Leg Armor,Jambières en kevlar,Kevlar-Beinschienen,,Greba de Kevlar
 kevlarVest,items,Clothes,KgNone,Kevlar Vest,Gilet en kevlar,Kevlar-Weste,,Chaleco de Kevlar
 leatherBoots,items,Clothes,KgNone,Leather Boots,Bottes en cuir,Lederstiefel,,Botas de cuero
-leatherClothesGroupDesc,items,Clothes,KgNone,Leather clothing provides a great combination of insulation from the weather and protection from other damage types.,Les vêtements en cuir offrent une combinaison idéale entre l'isolation contre les intempéries et la protection contre d'autres sortes de dégâts.,Lederkleidung kombiniert sehr guten Schutz vor den Witterungen und Schutz vor anderen Schadensarten.,,La ropa de cuero ofrece una gran combinación de aislamiento térmico y protección contra otros tipos de daños.
+leatherClothesGroupDesc,items,Clothes,KgNone,Leather clothing provides a great combination of insulation from the weather and protection from other damage types.\n [ Crafted in Tailor Station with a Sewing Kit. ],Les vêtements en cuir offrent une combinaison idéale entre l'isolation contre les intempéries et la protection contre d'autres sortes de dégâts.,Lederkleidung kombiniert sehr guten Schutz vor den Witterungen und Schutz vor anderen Schadensarten.,,La ropa de cuero ofrece una gran combinación de aislamiento térmico y protección contra otros tipos de daños.
 leatherGloves,items,Clothes,KgNone,Leather Gloves,Gants en cuir,Lederhandschuhe,,Guantes de cuero
 leatherHood,items,Clothes,KgNone,Leather Hood,Capuche en cuir,Lederkapuze,,Capucha de cuero
 leatherJacket,items,Clothes,KgNone,Leather Chest Armor,Plastron en cuir,Lederbrustpanzer,,Coraza de cuero
 leatherPants,items,Clothes,KgNone,Leather Leg Armor,Jambières en cuir,Lederbeinschienen,,Espinillera de cuero
-militaryArmorGroupDesc,items,Clothes,KgNone,Military armor provides the best armor defense and moderate weather protection.,L'armure militaire offre une protection optimale en tant qu'armure et une protection modérée contre les intempéries.,Militärische Ausrüstung bietet den besten Rüstungsschutz und einen moderaten Schutz vor der Witterung.,,La armadura militar proporciona la mejor defensa de armadura y protección moderada contra el clima.
+militaryArmorGroupDesc,items,Clothes,KgNone,Military armor provides the best armor defense and moderate weather protection.\n [ Crafted in Tailor Station with a Sewing Kit. ],L'armure militaire offre une protection optimale en tant qu'armure et une protection modérée contre les intempéries.,Militärische Ausrüstung bietet den besten Rüstungsschutz und einen moderaten Schutz vor der Witterung.,,La armadura militar proporciona la mejor defensa de armadura y protección moderada contra el clima.
 militaryBoots,items,Clothes,KgNone,Military Boots,Bottes militaires,Militärstiefel,,Botas militares
 militaryGloves,items,Clothes,KgNone,Military Gloves,Gants militaires,Militärhandschuhe,,Guanteletes militares
 militaryHelmet,items,Clothes,KgNone,Military Helmet,Casque militaire,Militärhelm,,Casco militar
@@ -1580,7 +1580,7 @@ forgedIronDesc,items,Item,KgNone,"Can be crafted at the forge and be used to cra
 forgedSteel,items,Item,KgNone,Forged Steel,Acier forgé,Geschmiedeter Stahl,,Acero forjado
 forgedSteelDesc,items,Item,KgNone,Can be crafted at the forge after buying the Steel perk and can be used to make some of the strongest items.\n [ Crafted in Advanced Forge with a Crucible. ],Peut être fabriqué à la forge après avoir acheté l'avantage de l'acier et peut servir à fabriquer des objets très solides.,"Kann in der Schmiede gefertigt werden, nachdem die Fertigkeit „Stahl“ erworben wurde. Kann benutzt werden, um einige der stärksten Gegenstände zu fertigen.",,Se puede producir en la fragua tras comprar el beneficio del metal y se puede usar para elaborar algunos de los objetos más resistentes.
 gasCan,items,Item,KgNone,Gas Can,Bidon d'essence,Benzinkanister,,Bidón de gas
-gasCanDesc,items,Item,KgNone,A can of gas. Can be used to fuel powered tools and vehicles and to upgrade you spikes to flaming spikes with a wrench. Crafted in lots of 100.\n [ Crafted in Oil Refinery and Chemistry Station. ],Un bidon d'essence. Peut servir à alimenter certains outils et véhicules. Se fabrique en lots de 100.,"Ein Benzinkanister. Kann benutzt werden, um Werkzeuge und Fahrzeuge anzutreiben, die mit Benzin laufen. Wird in 100er Einheiten gefertigt.",,Un bidón de gas. Se puede usar para hacer funcionar herramientas que necesitan energía y vehículos. Se fabrica en lotes de 100.
+gasCanDesc,items,Item,KgNone,A can of gas. Can be used to fuel powered tools and vehicles and to upgrade you spikes to flaming spikes with a wrench. Crafted in lots of 25.\n [ Crafted in Oil Refinery and Chemistry Station. ],Un bidon d'essence. Peut servir à alimenter certains outils et véhicules. Se fabrique en lots de 100.,"Ein Benzinkanister. Kann benutzt werden, um Werkzeuge und Fahrzeuge anzutreiben, die mit Benzin laufen. Wird in 100er Einheiten gefertigt.",,Un bidón de gas. Se puede usar para hacer funcionar herramientas que necesitan energía y vehículos. Se fabrica en lotes de 100.
 glue,items,Item,KgNone,Glue,Colle,Kleber,,Pegamento
 glueDesc,items,Item,KgNone,Glue is useful for making your own duct tape.\n [ Crafted in Chemistry Station with a Beaker and Advanced Campfire. ],La colle sert à fabriquer votre propre ruban adhésif en toile.,Mit Kleber kannst du dein eigenes Klebeband fertigen.,,El pegamento es útil para hacer tu propia cinta de embalar.
 gunPowder,items,Item,KgNone,Gun Powder,Poudre à canon,Schießpulver,,Pólvora
@@ -5203,7 +5203,7 @@ appleCider,items,Item Food,,Apple Cider,,,,
 warmBowlDesc,items,Item Food,,This bowl of food has been heated up to be more delicious and filling.,,,,
 assortedDyes,items,Item,,Assorted Dyes,,,,
 assortedDyesDesc,items,Item,,This can be useful at a Dye Station for coloring fabric armors.\n [ Crafted in Chemistry Station with a Beaker. ],,,,
-dyedClothingDesc,items,Item,,Its time to show off those spring fashions even in the Apocalypse.,,,,
+dyedClothingDesc,items,Item,,Its time to show off those spring fashions even in the Apocalypse. Keep in mind that the Quality of the clothing relies on your Armor Skill.\n [ Crafted in Dye Station. ],,,,
 leatherHoodRed,items,Item Clothes,,Leather Hood (Red),,,,
 leatherJacketRed,items,Item Clothes,,Leather Chest Armor (Red),,,,
 leatherPantsRed,items,Item Clothes,,Leather Pants (Red),,,,
@@ -5616,16 +5616,16 @@ mealBreakfast,items,Item Food,,Breakfast Meal,,,,
 mealDinner,items,Item Food,,Dinner Meal,,,,
 dinnerPlate,items,Item Food,,Dinner Plate,,,,
 plantSeed,blocks,Block,,Plant Seed,,,,
-plantSeedDesc,blocks,Block,,You're not sure what plant these seeds are for. Plant these seeds in fertile earth to see what grows.,,,,
+plantSeedDesc,blocks,Block,,You're not sure what plant these seeds are for. Plant these seeds in fertile earth to see what grows. Seeds can only be crafted by a skilled Farmer.\n [ Crafted in Mortar and Pestle. ],,,,
 seedPack,items,Item Farming,,Pack of Plant Seed,,,,
-seedPackDesc,items,Item Farming,,Craft this into the plant seed you want.,,,,
+seedPackDesc,items,Item Farming,,Craft this into the plant seed you want. Seeds can only be crafted by a skilled Farmer.\n [ Crafted in Mortar and Pestle. ],,,,
 butcherKnife,items,Item,,Butcher's Knife,,,,
 butcherKnifeDesc,items,Item,,This knife is great for harvesting meat from animals.,,,,
-WorkingSinkDesc,blocks,Block Building,,This working sink can be used as a source of clean water. Fill your jars or bowls with water by left-clicking with them.\n [ Crafted in Advanced Workbench. ],,,,
+WorkingSinkDesc,blocks,Block Building,,This working sink can be used as a source of water. Fill your jars or bowls with water by left-clicking with them. You will still need to cook the water.\n [ Crafted in Advanced Workbench. ],,,,
 workingGranitSink,blocks,Block Building,,Working Granite Sink,,,,
 workingCabinetSink,blocks,Block Building,,Working Sink,,,,
 plumbingKit,items,Item,,Plumbing Kit,,,,
-plumbingKitDesc,items,Item,,This kit when used with with a wrench can upgrade broken sinks into working variants for a fresh source of water if you left-click them with an empty jar or bowl.,,,,
+plumbingKitDesc,items,Item,,This kit when used with a wrench can upgrade broken sinks into working variants for a source of water if you left-click them with an empty jar or bowl.,,,,
 ovenKit,items,Item,,Oven Repair Kit,,,,
 ovenKitDesc,items,Item,,This kit can used to upgrade broken ovens into new working variants with a wrench.,,,,
 workstationMerchant,blocks,Block Building,,Merchant Table,,,,
@@ -5743,7 +5743,7 @@ cookingVol5Desc,items,Book,KgNone,Reading this cookbook can teach you new recipe
 cookingVol5,items,Book,KgNone,Dairy Essentials by Gorby,Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
 cookingVol6Desc,items,Book,KgNone,Reading this cookbook can teach you new recipes.,Apprenez à fabriquer une arbalète en lisant ce schéma.,"In diesem Bauplan erfährst du, wie Armbrüste gefertigt werden.",,Lee el esquema para aprender a fabricar una ballesta.
 cookingVol6,items,Book,KgNone,Fallens Hearty Eats,Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
-rocketGrenadeDesc,items,Ammo,KgNone,"A Rocket Propelled Grenade which does some serious damage to entities but little to the environment.","Une Grenade Propulse par Rockete qui fait de serieux degats chez les zombies mais peu sur lenvironment.",,,
+rocketGrenadeDesc,items,Ammo,KgNone,"A Rocket Propelled Grenade which does some serious damage to entities but little to the environment."\n [ Crafted in Ammunition Table with a Tool & Die Set. ],"Une Grenade Propulse par Rockete qui fait de serieux degats chez les zombies mais peu sur lenvironment.",,,
 rocketGrenade,items,Ammo,EnChanged, Rocket Grenade  (Ammo),Rockete Grenade,,,
 rocketLauncherSchematic,items,Book,KgNone,Rocket Launcher Schematic,Schéma de lance-roquettes,Bauplan – Raketenwerfer,,Esquema de lanzacohetes
 rocketLauncherSchematicDesc,items,Book,KgNone,"Learn how to assemble and repair rocket launchers and craft Rocket Grenades by reading this schematic.","Apprenez à assembler et réparer les lance-roquettes et à fabriquer des Rockete Grenade en lisant ce schéma.",,,
@@ -5759,9 +5759,9 @@ explodingTNTBoltsDesc,items,Ammo,KgNone,"The Rockets' twin brother - Fire at a s
 explodingTNTBolts,items,Ammo,EnChanged, Exploding TNT Bolts (Ammo),Carreaux de TNT Explosif,,,
 explodingTNTBoltsSchematic,items,Book,KgNone,Exploding TNT Bolts Schematic, Schema Carreaux de TNT Explosif,,,
 explodingTNTBoltsSchematicDesc,items,Book,EnChanged,"Learn how to assemble Exploding TNT Bolts by reading this schematic.","Apprenez à assembler les Carreaux de TNT Explosif en lisant ce schéma.",,,
-rocketDesc,items,Ammo,EnChanged,"THE Rocket is an exploding nightmare. Extreme environmental and entity damage will occur in a 15m radius ! Fire at a safe distance !","LA Rockete est un cauchemard explosif. Des dommages environnementaux et corporels extrêmes se produiront d'un rayon de 15m!! Tirez d'une distance sure !",,,
+rocketDesc,items,Ammo,EnChanged,"THE Rocket is an exploding nightmare. Extreme environmental and entity damage will occur in a 15m radius ! Fire at a safe distance !"\n [ Crafted in Ammunition Table with a Tool & Die Set. ],"LA Rockete est un cauchemard explosif. Des dommages environnementaux et corporels extrêmes se produiront d'un rayon de 15m!! Tirez d'une distance sure !",,,
 rocket,items,Ammo,EnChanged,Rocket (Ammo),Rockete,,,
-M.O.A.BDesc,items,Ammo,EnChanged,"The Mother Of All Bombs is the ultimate explosive in your arsenal. It WILL wipe out all life and cause massive destruction in a 35m radius !","La Mère de toutes les bombes est l'explosif ultime dans votre arsenal. Il effacera toute forme de vie et causera une destruction massif d'un rayon de 35m!",,,
+M.O.A.BDesc,items,Ammo,EnChanged,"The Mother Of All Bombs is the ultimate explosive in your arsenal. It WILL wipe out all life and cause massive destruction in a 35m radius !"\n [ Crafted in Ammunition Table with a Tool & Die Set. ],"La Mère de toutes les bombes est l'explosif ultime dans votre arsenal. Il effacera toute forme de vie et causera une destruction massif d'un rayon de 35m!",,,
 M.O.A.B,items,Ammo,EnChanged,Mother Of All Bombs (Ammo),Mother Of All Bombs,,,
 rocketCasing,items,Item,KgNone,Rocket Casing,Douille de Rockete,Raketengehäuse,,Carcasa de cohete
 rocketCasingDesc,items,Item,KgNone,A Rocket Casing is used to make Rockets for the rocket launcher.\n [ Crafted in Advanced Forge with a Tool & Die Set. ],Utilisez une Douille de Rockete pour fabriquer une Rockete pour le lance-roquettes.,Mit einem Raketengehäuse wird Munition für Raketenwerfer hergestellt.,,Una carcasa de cohete se usa para obtener munición para el lanzacohetes.
@@ -5778,11 +5778,11 @@ diyRocketCasingDesc,items,Item,KgNone,"A DIY-Rocket Casing is used to make Rocke
 diyRocketTip,items,Item,KgNone,DIY-Rocket Tip,DIY-Rocket Tip,,,
 diyRocketTipDesc,items,Item,KgNone,"A DIY-Rocket Tip is used to make Rocket Grenades.","Un DIY-Rocket Tip est utilisé pour fabriquer des Rocketes Grenades.",,,
 plutoniumNuclearTip,items,Item,KgNone,Plutonium Nuclear Tip, Plutonium Nuclear Tip,,,
-plutoniumNuclearTipDesc,items,Item,KgNone,"A very massive warhead that makes the M.O.A.B a reality.","Une ogive très massive qui fait du M.O.A.B une réalité.",,,
+plutoniumNuclearTipDesc,items,Item,KgNone,"A very massive warhead that makes the M.O.A.B a reality."\n [ Crafted in Chemistry Station with a Welding Mask. ],"Une ogive très massive qui fait du M.O.A.B une réalité.",,,
 plutonium,items,Item,KgNone,Plutonium, Plutonium,,,
-plutoniumDesc,items,Item,KgNone,"You might want to use that hazmat suite of yours because this is the shit you need to make a warhead !","Vous voudrez peut-être utiliser votre costume d'hazmat parce que ceci est l'ingredient dont vous avez besoin pour faire une ogive!",,,
+plutoniumDesc,items,Item,KgNone,"You might want to use that hazmat suite of yours because this is the shit you need to make a warhead !"\n [ Crafted in Chemistry Station with a Beaker. ],"Vous voudrez peut-être utiliser votre costume d'hazmat parce que ceci est l'ingredient dont vous avez besoin pour faire une ogive!",,,
 reinforcedRocketCasing,items,Item,KgNone,Reinforced Rocket Casing, Reinforced Rocket Casing,,,
-reinforcedRocketCasingDesc,items,Item,KgNone,"A rather large and sturdy reinforced rocket casing. It will deliver that warhead you've been working on.","Un boîtier de fusée renforcé assez grand et robuste. Il livrera cette ogive sur laquelle vous travailliez.",,,
+reinforcedRocketCasingDesc,items,Item,KgNone,"A rather large and sturdy reinforced rocket casing. It will deliver that warhead you've been working on."\n [ Crafted in Chemistry Station with a Welding Mask. ],"Un boîtier de fusée renforcé assez grand et robuste. Il livrera cette ogive sur laquelle vous travailliez.",,,
 weldingMask,items,Item,,Welding Mask,,Masque de Soudure,,
 weldingMaskDesc,items,Item,,This is used at the Chem Station to craft the M.O.A.B.,,Ceci est utilise a la Station Chimique pour creer le M.O.A.B.,,
 fragmentationGrenade,items,Gun,EnChanged,Fragmentation Grenade (Ammo),Grenade A Fragmentation,,,
@@ -6155,7 +6155,7 @@ foodPrepTableDesc,,,,This table can be used to prepare certain types of food,,,,
 qc_junkHunt,,Junk Hunt Challenge Note,,Junk Hunt Challenge,,,,
 ironScissors,,,,Iron Scissors,,,,
 ironScissorsDesc,,,,Rusty Scissors,,,,
-ironSoldier,,,,Iron Soldier toy,,,,
+ironSoldier,,,,Iron Soldier Toy,,,,
 ironSoldierDesc,,,,A rusty old iron toy soldier. A little dirty and roughed up but only cosmetic scars. It'd make a decent gift for a child.,,,,
 ironPaperClips,,,,Paper Clips,,,,
 ironPaperClipsDesc,,,,Simple paper clips. Might come in handy someday.,,,,
@@ -6169,7 +6169,7 @@ leadMusketBalls,,,,Old Musket Balls,,,,
 leadMusketBallsDesc,,,,Old lead MusketBalls? I wonder if these work in a blunderbuss?,,,,
 leadSolder,,,,Solder,,,,
 leadSolderDesc,,,,"Lead solder. Well 50% lead anyway, maybe useful in making electronics?",,,,
-leadSoldier,,,,Lead Solder Toy,,,,
+leadSoldier,,,,Lead Soldier Toy,,,,
 leadSoldierDesc,,,,An old lead toy soldier. Who ever thought making children's toys out of lead was a good idea?,,,,
 brassHinge,,,,Door Hinge,,,,
 brassHingeDesc,,,,A brass door hinge.,,,,
@@ -6200,7 +6200,7 @@ woodYoyoDesc,,,,A wood Yoyo. Just like I had when I was a kid.....too bad it see
 paperPlayingCards,,,,Playing Cards,,,,
 paperPlayingCardsDesc,,,,A few bent playing cards. Need some more for a complete set.,,,,
 paperNews,,,,Old NewsPaper,,,, 
-paperNewsDesc,,,,A old newspaper. And I though things were bad back then.,,,,
+paperNewsDesc,,,,An old newspaper. And I thought things were bad back then.,,,,
 paperToilet,,,,Old Roll of Toilet Paper,,,,
 paperToiletDesc,,,,A roll of toilet paper. How is this junk?,,,,
 paperGoggles,,,,Goggles,,,,
@@ -6466,7 +6466,7 @@ halicopter,,,,Halicopter Drone,,,,
 sc_hal,,,,Halicopter Crate Entity,,,,
 halipad,,,,Halipad,,,,
 halicopterCrate,,,,Halicopter Crate,,,,
-halicopterCrateDesc,,,,Place this crate and drag and rop items into it to have it transported to your Helipad. When you close the box it will automatically leave. This box is destroyed when looted.,,,,
+halicopterCrateDesc,,,,Place this crate and drag and drop items into it to have it transported to your Helipad. When you close the box it will automatically leave. This box is destroyed when looted. May not work on MP servers,,,,
 halipadDesc,,,,Place this to set your home base so the drone knows where you want your crate dropped off,,,,
 anvilBlock,,,,Blacksmithing Station,,,,
 ammunitionTable,,,,Ammunition Table,,,,
@@ -6476,7 +6476,7 @@ tanner,,,,Leather Working Station,,,,
 traderTable,,,,Merchant Table,,,,
 cntStorageCustom,,,,Customized Box Insecure,,,,
 cntStorageCustomSecure,,,,Customized Box (Storage),,,,
-cntStorageCustomDesc,,,,a storage box that allows you to change the text and font. To update it type what you like in and hit Apply and Close Label,,,,
+cntStorageCustomDesc,,,,A storage box that allows you to change the text and font. To update it type what you like in and hit Apply and Close Label. Take All can cause a glitch where you must hit escape. May not work proper on MP Servers,,,,
 CZTrash,,,,Trash Can,,,,
 CZTrashBag,,,,Trash Bag,,,,
 trashbagDesc,,,,"Used to change the bag in a trash can, make sure to double bag it",,,,
@@ -6497,7 +6497,7 @@ DesertEagle_GripDesc,items,Item,KgNone,Gun Part for Desert Eagle Pistol\n [ Craf
 DesertEagleSchematic,items,Item,KgNone,Desert Eagle Schematic,Desert Eagle Schématique,Desert Eagle Schema,,Desert Eagle Esquema
 DesertEagleSchematicDesc,items,Item,KgNone,Learn how to assemble and repair a Desert Eagle Pistol,Apprenez à assembler et à réparer un pistolet Desert Eagle,"Erfahren Sie, wie eine Wüste Eagle Pistol zusammenzubauen und zu reparieren",,Aprenda cómo ensamblar y reparar una pistola de Eagle del desierto
 farmerKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a hoe a Blunderbuss with 100 ammo and fertilizer and some seeds. Exclusive Access to the Compost Bin",,,,
-medicKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you some medical supplies and exclusive medical recipes. Exclusive Access to Advanced Splints and Disinfectant Bandages",,,,
+medicKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you some medical supplies and exclusive medical recipes. Exclusive Access to Advanced Splints Disinfectant Bandages and Blue Ice",,,,
 ClassPaperMedicine,items,Item,KgNone,Medic Class Paper,,,,
 ClassPaperFarmer,items,Item,KgNone,Farmer Class Paper,,,,
 largeStove01Desc,blocks,Workstation,KgNone,"This SHOULD work and can be used to cook complex recipes. These stoves give will attract less zombies to your home.","Utile pour cuisiner de la nourriture et se réchauffer. Déverrouillez d'autres compositions en ajoutant une marmite, un grill ou un bécher.","Nützlich zum Kochen von Nahrung und zum Aufwärmen. Schalte mehr Rezepte frei, indem du einen Kochtopf, Kochgrill oder Messbecher hinzufügst.",,"Útil para cocinar comida y calentarse. Añade una olla, una parrilla o un matraz para desbloquear más recetas."
@@ -6625,7 +6625,7 @@ HDChainsaw_Blade,items,Item,KgNone,Diamond Chainsaw Blade,,,,
 HDChainsaw_BladeDesc,items,Item,KgNone,Blade for Assembling a Diamond Chainsaw\n [ Crafted in Weapon Station with a Chisel. ],Lame pour assembler une tronçonneuse HD,Klinge zur Montage einer HD-Motorsäge,,Hoja para ensamblar una motosierra HD
 HDChainsawSchematic,items,Item,KgNone,Diamond Chainsaw Schematic,,,,
 HDChainsawSchematicDesc,items,Item,KgNone,Schematic for Assembling a Diamond Chainsaw,Schéma pour assembler une tronçonneuse HD,Schematischer Aufbau einer HD-Motorsäge,,Esquema para ensamblar una motosierra HD
-FAMASDesc,items,Item,KgNone,"FAMAS Assault Rifle uses 9mm Bullets and 9mm HP Bullets.","Fusil d'assaut FAMAS utilise 556mm et 556mm Bullets Bullets l'OTAN et a une taille de magazine 30 ne peut être assemblé par la classe Marksman.","FAMAS-Sturmgewehr benutzt 556mm und 556mm Bullets und NATO: eine Magazingröße von 30 hat nur durch den Marksman-Klasse montiert werden.",,"Rifle de Asalto FAMAS utiliza 556mm y 556mm Balas Balas y la OTAN: tiene un tamaño de cargador de 30 sólo puede ser montado por la clase Marksman."
+FAMASDesc,items,Item,KgNone,"FAMAS Assault Rifle uses 556mm Bullets and 556mm HP Bullets.","Fusil d'assaut FAMAS utilise 556mm et 556mm Bullets Bullets l'OTAN et a une taille de magazine 30 ne peut être assemblé par la classe Marksman.","FAMAS-Sturmgewehr benutzt 556mm und 556mm Bullets und NATO: eine Magazingröße von 30 hat nur durch den Marksman-Klasse montiert werden.",,"Rifle de Asalto FAMAS utiliza 556mm y 556mm Balas Balas y la OTAN: tiene un tamaño de cargador de 30 sólo puede ser montado por la clase Marksman."
 FAMAS_Parts,items,Item,KgNone,FAMAS Parts,Pièces FAMAS,FAMAS Teile,,FAMAS Partes
 FAMAS_PartsDesc,items,Item,KgNone,Gun Part for FAMAS Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut FAMAS,Gun Teil für FAMAS-Sturmgewehr,,Parte de la pistola Rifle de Asalto FAMAS
 FAMAS_Barrel,items,Item,KgNone,FAMAS Barrel,FAMAS Barrel,FAMAS Fass,,FAMAS Barrel
@@ -7173,5 +7173,13 @@ Blunt_Kit,,,,Blunt Class,,,,
 Farmer_Kit,,,,Farmers Class,,,,
 Medic_Kit,,,,Medic Class,,,,
 cntSecureStorageChest1Desc,blocks,Container,KgNone,A basic storage box used to store stuff in. You can lock this box and code it by Holding E,Maintenez [activate] pour le verrouiller ou définir un code.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación.
-caneggboiled,items,Food,KgNone,Boiled Egg,Œuf dur,Gekochtes Ei,,Huevo cocido
+caneggboiled,items,Food,KgNone,Boiled Egg in Can,Œuf dur,Gekochtes Ei,,Huevo cocido
 caneggboiledDesc,items,Food,KgNone,A boiled egg can fill you up and offers a small wellness boost.\n [ Crafted in Campfire. ],L'œuf dur vous remplit l'estomac et améliore légèrement votre bien-être.,Ein gekochtes Ei macht satt und erhöht dein Wohlbefinden leicht.,,Un huevo cocido te saciará y mejorará un poco tu bienestar.
+shockclubSpiked,,,,Electrified Spiked Club,,,,
+shockclubSpikedDesc,,,,Adding an electrical charge to a spiked club makes this weapon shockingly deadlier.\n [ Crafted in Advanced Workbench. ],,,,
+tunaSandwich,,,,Tuna Sandwich,,,,
+steelClothesGroupDesc,items,Clothes,KgNone,Steel armor provides good protection against concussive and puncture damage but will not keep you warm.\n [ Crafted in Tailor Station with a Welding Torch. ],"Les vêtements en ferraille vous offrent une bonne protection contre les commotions cérébrales et autres blessures perforantes, mais ne vous garderont pas au chaud.","Alteisenkleidung bietet guten Schutz vor Schlag- und Stichschaden, hält aber nicht warm.",,"La ropa de chatarra de hierro ofrece buena protección frente a contusiones y perforaciones, pero no te mantendrá abrigado."
+GeneratorCop,,,,Police Generator,,,,
+Generator,,,,Military Generator,,,,
+GeneratorCopDesc,,,,A Police Generator,,,,
+GeneratorDesc,,,,A Military Generator,,,,

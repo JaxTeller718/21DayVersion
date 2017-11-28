@@ -249,8 +249,6 @@
 			<item name="partsRocketLauncher_stock"/>
 			<item name="partsRocketLauncher_receiver"/>
 			<item name="partsRocketLauncher_parts"/>
-			<item name="rocketLauncherSchematic"/>
-			<item name="ExtendedHandgunMagazine" prob="0.3"/>
 			<item name="Scope" prob="0.3"/>
 			<item name="ExtendedScope" prob="0.3"/>
 			<item name="gunrifleSilencer" prob="0.3"/>
@@ -363,43 +361,8 @@
 			<item name="challengeBong" count="1" prob="0.2"/>
 			<item name="challengeWalmart" count="1" prob="0.2"/>
 		</trader_item_group>
-		<trader_item_group name="commonBooks" count="1">
-			<item name="huntingRifleSchematic"/>
-			<item name="pistolBook"/>
-			<item name="pumpShotgunSchematic"/>
-		</trader_item_group>
-		<trader_item_group name="rareBooks" count="1">
-			<item name="ak47Schematic"/>
-			<item name="augerSchematic"/>
-			<item name="chainsawSchematic"/>
-			<item name="minibikesForDumbshits"/>
-			<item name="MinibikesForSmartshits" prob="0.11"/>
-			<item name="MinibikesForToughshits" prob="0.11"/>
-			<item name="rocketLauncherSchematic"/>
-			<item name="shotgunSlugSchematic"/>
-			<item name="sledgehammerSchematic"/>
-			<item name="smgSchematics"/>
-			<item name="sniperRifleSchematic"/>
-			<item name="nailgunSchematic"/>
-			<item name="Scavenging"/>
-			<item name="FAMASSchematics"/>
-			<item name="gunBoltRifleSchematics"/>
-			<item name="ECOChainsawSchematic"/>
-			<item name="HDChainsawSchematic"/>
-			<item name="HDAugerSchematic"/>
-			<item name="ECOAugerSchematic"/>
-			<item name="Bladed_Weapons"/>
-			<item name="trueMiningTNTSchematic"/>
-			<item name="Construction_Tools"/>
-			<item name="Mining_Tools"/>
-			<item name="cookingVol1" prob="0.5"/>
-			<item name="cookingVol2" prob="0.5"/>
-			<item name="cookingVol3" prob="0.5"/>
-			<item name="cookingVol4" prob="0.5"/>
-			<item name="cookingVol5" prob="0.5"/>
-			<item name="cookingVol6" prob="0.5"/>
-			<!-- <item name="macDyverBook" prob="1.5"/> -->
-		</trader_item_group>
+
+
 		<trader_item_group name="paintMagazines" count="1">
 			<item name="paintMagazineDecorations"/>
 			<!-- traders -->
@@ -416,8 +379,6 @@
 		</trader_item_group>
 		<trader_item_group name="books" count="1">
 			<item group="questChallenge" prob="0.2"/>
-			<item group="rareBooks" prob="0.3"/>
-			<item group="commonBooks"/>
 			<item group="paintMagazines" prob="0.09"/>
 			<item name="paintMagazineDecorations" prob="0.09"/>
 		</trader_item_group>
@@ -787,7 +748,7 @@
 			<item group="weaponsCrossbow+ammo" count="1"/>
 			<item group="weaponsGunsCommon" count="1" prob="1"/>
 			<item name="flashlight02"/>
-			<item group="books" count="1,2" prob="0.6"/>
+			<item group="books" count="1" prob="0.6"/>
 			<item group="ammo" count="2,4" prob="2"/>
 			<item group="ammoSupplies" count="1,3"/>
 			<item name="Remote" count="1"/>
@@ -905,8 +866,6 @@
 			<item group="lightArmor" count="1,2"/>
 			<item group="heavyArmor" count="1"/>
 			<item group="paintMagazines" count="1"/>
-			<item group="commonBooks" count="1,2"/>
-			<item group="rareBooks" count="1"/>
 		</tier_items>
 		<tier_items level="500,999" count="all">
 			<!-- requires Perk 1 -->
@@ -921,8 +880,6 @@
 			<item group="heavyArmor" count="1,3"/>
 			<item group="banditArmor" count="1,2"/>
 			<item group="paintMagazines" count="1,2"/>
-			<item group="commonBooks" count="2,3"/>
-			<item group="rareBooks" count="1,2"/>
 			<item group="stashOnlyItemsLow" count="1,2"/>
 		</tier_items>
 		<tier_items level="1000,1499" count="all">
@@ -938,8 +895,6 @@
 			<item group="militaryArmor" count="1,2"/>
 			<item group="banditArmor" count="2,3"/>
 			<item group="paintMagazines" count="1,2"/>
-			<item group="commonBooks" count="3,4"/>
-			<item group="rareBooks" count="2"/>
 			<item name="miningHelmet"/>
 			<item group="minibikeParts" count="1,2"/>
 			<item group="stashOnlyItemsHigh" count="2,3"/>
@@ -959,8 +914,6 @@
 			<item group="militaryArmor" count="2,3"/>
 			<item group="banditArmor" count="3,4"/>
 			<item group="paintMagazines" count="1,2"/>
-			<item group="commonBooks" count="4,5"/>
-			<item group="rareBooks" count="2,3"/>
 			<item name="miningHelmet"/>
 			<item group="minibikeParts" count="2,3"/>
 			<item name="nightvisionGoggles" count="1"/>

@@ -346,7 +346,8 @@
 			<prefab name="xcostum_Paintballarena(by_Jackelmyer)" max_count="1"/>
 			<prefab name="xcostum_circus(by_magoli)" max_count="1" prob="0.2"/>
 			<prefab name="drivethru_(bigstep70-A16)" max_count="1" prob="0.2"/>
-			<prefab name="police_station2" max_count="1"/>
+			<prefab name="police_station2" max_count="1" prob="0.2"/>
+			<prefab name="notreDamn_(by_tehkarma)" max_count="1" prob="0.1"/>
 		</prefab_rule>
 		<prefab_rule name="skyscrapers">
 			<prefab name="skyscraper_01" max_count="1" prob="50"/>

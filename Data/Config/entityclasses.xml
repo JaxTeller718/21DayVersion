@@ -2022,7 +2022,7 @@
 		<property name="Class" value="EntityMinibike"/>
 		<property name="Parent" value="Cars"/>
 		<property name="Prefab" value="Minibike"/>
-		<property name="MaxHealth" value="1000000"/>
+		<property name="MaxHealth" value="100000"/>
 		<property name="SurfaceCategory" value="metal"/>
 		<property name="IgnoreTrigger" value="true"/>
 		<property name="LootListAlive" value="62"/>
@@ -4413,9 +4413,9 @@
 		<property name="AnimationSpecialAttack" value="Attack4"/>
 		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
 		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
-		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
-		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
-		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
 	</entity_class>
 	<entity_class name="Insectoid" extends="SDXTemplate">
@@ -4430,9 +4430,9 @@
 		<property name="AnimationWalk" value="Walk"/>
 		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
 		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
-		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
-		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
-		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
 	</entity_class>
 	<entity_class name="Ripper" extends="SDXTemplate">
@@ -4450,9 +4450,9 @@
 		<property name="AnimationJump" value="Jump"/>
 		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
 		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
-		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
-		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
-		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
 	</entity_class>
 	<entity_class name="Vendigo" extends="SDXTemplate">
@@ -4470,9 +4470,9 @@
 		<property name="AnimationWalk" value="Walk"/>
 		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
 		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
-		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
-		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
-		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
 	</entity_class>
 	<entity_class name="ZombieMutant" extends="SDXTemplate">
@@ -4487,9 +4487,9 @@
 		<property name="AnimationWalk" value="Walk"/>
 		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
 		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
-		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
-		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
-		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+		<property name="SoundAttack" value="newzombieslurp"/>
+		<property name="SoundHurt" value="newzombiegrowl"/>
+		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
 	</entity_class>
 	<entity_class name="Dino" extends="SDXTemplate">

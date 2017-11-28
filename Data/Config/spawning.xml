@@ -6,24 +6,26 @@
 	<!-- All Navezgane Cities Now not used -->
 	<biome name="city">
 		<spawn maxcount="6" respawndelay="0.4" time="Day" entitygroup="ZombiesAll"/>
+      <spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombiesWasteland" />
+      <spawn maxcount="1" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ZombieDogGroup"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrorsExtreme"/>
-		<spawn maxcount="2" respawndelay="2" time="Night" entitygroup="ZombiesWastelandwithBandits"/>
 	</biome>
 	<!-- Not Used anymore in Navezgane-->
 	<biome name="city_wasteland">
 		<spawn maxcount="2" respawndelay="0.4" time="Day" entitygroup="ZombiesAll"/>
 		<spawn maxcount="2" respawndelay="0.4" time="Any" entitygroup="ZombiesBoss"/>
+      <spawn maxcount="2" respawndelay="1" time="Day" entitygroup="ZombiesWasteland" />
+      <spawn maxcount="2" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrorsExtreme"/>
-		<spawn maxcount="2" respawndelay="2" time="Night" entitygroup="ZombiesWastelandwithBandits"/>
 	</biome>
 	<!-- Random gen city not used anymore-->
 	<biome name="wasteland_hub">
 		<spawn maxcount="10" respawndelay="0.4" time="Day" entitygroup="ZombiesWasteland"/>
+      <spawn maxcount="5" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
 		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrorsExtreme"/>
-		<spawn maxcount="2" respawndelay="2" time="Night" entitygroup="ZombiesWastelandwithBandits"/>
 	</biome>
 	<biome name="forest">
 		<spawn maxcount="4" respawndelay="1.6" time="Any" entitygroup="ZombiesAll"/>
@@ -50,9 +52,10 @@
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrors"/>
 	</biome>
 	<biome name="wasteland">
-		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="ZombiesWastelandwithBandits"/>
 		<spawn maxcount="1" respawndelay="1" time="Any"   entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0"/>
 		<spawn maxcount="2" respawndelay="1" time="Night" entitygroup="NightTerrorsExtreme"/>
+      <spawn maxcount="5" respawndelay="1" time="Day" entitygroup="ZombiesWasteland" />
+      <spawn maxcount="5" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
 	</biome>
 	<biome name="burnt_forest">
 		<spawn maxcount="4" respawndelay="1.6" time="Any" entitygroup="ZombiesBurntForest"/>

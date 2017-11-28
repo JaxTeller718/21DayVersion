@@ -4368,10 +4368,10 @@
 	<recipe name="steelPlating" count="1" craft_time = "4"  craft_area="NewWorkBench">
 		<ingredient name="forgedSteel" count="5"/>
 	</recipe>
-	<recipe name="zombieHordeBeacon" count="1">
+<!-- 	<recipe name="zombieHordeBeacon" count="1">
 		<ingredient name="burningBarrelPlayer" count="1"/>
 		<ingredient name="rottingFlesh" count="25"/>
-	</recipe>
+	</recipe> -->
 	<recipe name="sandbag_1" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
 		<ingredient name="cloth" count="10"/>

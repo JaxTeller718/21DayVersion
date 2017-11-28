@@ -816,16 +816,16 @@
 			<item name="shotgunTurret" count="1,3" prob="0.7"/>
 			<item name="MRE" count="1,5"/>
 			<item name="PurifiedWater" count="1,5"/>
-			<item name="inkPen" count="1" prob="0.4"/>
-			<item name="chisel" count="1" prob="0.4"/>
-			<item name="calipers" count="1" prob="0.4"/>
-			<item name="toolAndDieSet" count="1" prob="0.4"/>
-			<item name="weldingMask" count="1" prob="0.4"/>
-			<item name="weldingTorch" count="1" prob="0.4"/>
-			<item name="solderGun" count="1" prob="0.4"/>
-			<item name="sewingKit" count="1" prob="0.4"/>
-			<item name="blacksmithHammer" count="1" prob="0.4"/>
-			<item name="beaker" count="1" prob="0.4"/>
+			<item name="inkPen" count="1" prob="0.1"/>
+			<item name="chisel" count="1" prob="0.1"/>
+			<item name="calipers" count="1" prob="0.1"/>
+			<item name="toolAndDieSet" count="1" prob="0.1"/>
+			<item name="weldingMask" count="1" prob="0.1"/>
+			<item name="weldingTorch" count="1" prob="0.1"/>
+			<item name="solderGun" count="1" prob="0.1"/>
+			<item name="sewingKit" count="1" prob="0.1"/>
+			<item name="blacksmithHammer" count="1" prob="0.1"/>
+			<item name="beaker" count="1" prob="0.1"/>
 			<item name="toolHeadSteelAxe" count="1"/>
 			<item name="toolHeadSteelPickaxe" count="1"/>
 			<item name="toolHeadSteelShovel" count="1"/>
@@ -976,7 +976,7 @@
 		</trader_items>
 	</trader_info>
 	<!-- Quest Board -->
-	<trader_info id="21" reset_interval="2" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="21" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item group="questChallenge" count="1"/>
 		</trader_items>

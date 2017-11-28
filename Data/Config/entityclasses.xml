@@ -3774,7 +3774,7 @@
 		<property name="NPCID" value="banditnpc"/>
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="clubBarbedBandit"/>
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="clubBarbedBandit"/>
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="325"/>
 		<property name="MaxViewAngle" value="180"/>
 		<property name="Weight" value="70"/>
 		<property name="WanderSpeed" value="0.5"/>

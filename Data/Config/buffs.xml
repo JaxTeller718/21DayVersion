@@ -456,18 +456,18 @@
 							<modify id="0" stat="speedmodifier" modifyMaxValue="1.3"/>
 							<modify id="1" stat="speedmodifier" modifyValue="1.3"/>
 						</buff>
-						<buff id="maniacBoost" duration="15" name_key="Heisenberg Effect" stack="reset" description_key="You are the one who KNOCKS" icon="ui_game_symbol_run">
+						<buff id="maniacBoost" duration="10" name_key="Heisenberg Effect" stack="reset" description_key="You are the one who KNOCKS" icon="ui_game_symbol_run">
 							<modify id="0" stat="speedmodifier" modifyMaxValue="2.01"/>
 							<modify id="1" stat="speedmodifier" modifyValue="1.3"/>
 							<modify id="0" stat="stamina" amount="5" rate="1"/>
-			<modify id="0" stat="water" amount="-2" rate="30"/>
+			<modify id="0" stat="water" amount="-5" rate="5"/>
 						</buff>
 
-<buff id="waterBuff" duration="1" type="staminaup" name_key="Murloc Mode" stack="reset" description_key="You are as swift as a Murloc! BLRGHGHGHMLMHGH" tooltip_key="Murloc" icon="ui_game_symbol_run">
+<!-- <buff id="waterBuff" duration="1" type="staminaup" name_key="Murloc Mode" stack="reset" description_key="You are as swift as a Murloc! BLRGHGHGHMLMHGH" tooltip_key="Murloc" icon="ui_game_symbol_run">
     <modify id="0" stat="speedmodifier" modifyMaxValue="3.01"/>
     <modify id="0" stat="stamina" amount="2" rate="1"/>
     <modify id="1" stat="speedmodifier" modifyValue="2.2"/>
-</buff>
+</buff> -->
 <buff id="horny" notificationClass="WetBuffNotification" duration="100" icon="ui_game_symbol_wet" name_key="Horny" description_key="wetDesc" tooltip_key="wetTooltip">
 	<modify id="0" stat="speedmodifier" mulValue="5"/>
 	<modify id="1" stat="stamina" amount="2" rate="1" />
@@ -501,7 +501,7 @@
 		<modify id="0" stat="speedmodifier" mulValue="0.1"/>
 		<modify id="1" stat="health" amount="-5" rate="1"/>
 	</buff>	
-	<buff id="trapBurning"  mutex="cannotBreath,drowning,burning,extinguishFireBuff" ffcheck="true" duration="5" name_key="burningSmall" description_key="burningSmallDesc" tooltip_key="burningSmallTooltip" actions="attach(ParticleEffects/p_onFire, @impact);damage(30,1,0,0)" icon="ui_game_symbol_fire">
+	<buff id="trapBurning"  mutex="cannotBreath,drowning,burning,extinguishFireBuff" ffcheck="true" duration="10" name_key="burningSmall" description_key="burningSmallDesc" tooltip_key="burningSmallTooltip" actions="attach(ParticleEffects/p_onFire, @impact);damage(10,1,0,0)" icon="ui_game_symbol_fire">
 		<modify id="0" stat="coretemp" amount="1" rate="1" />
 	</buff>	
 	 <buff id="SuicideBomber" duration="10" ffcheck="true" actions="attach(ParticleEffects/p_onFire, @impact)">

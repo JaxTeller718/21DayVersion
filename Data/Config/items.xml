@@ -21933,6 +21933,7 @@
 		<property name="Stacknumber" value="50"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="hashDesc"/>
 	</item>
 	<item id="3270" name="vegetableLunch">
 		<property name="CustomIcon" value="saladTomCuc"/>
@@ -21951,7 +21952,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="DescriptionKey" value="lanchBoxDesc"/>
+		<property name="DescriptionKey" value="vegetableLunchDesc"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="3271" name="sauerkraut">
@@ -21974,6 +21975,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="sauerkrautDesc"/>
 	</item>
 	<item id="3272" name="pickles">
 		<property name="CustomIcon" value="pickles"/>
@@ -21995,6 +21997,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="picklesDesc"/>
 	</item>
 	<item id="3273" name="marinatedTomatoes">
 		<property name="CustomIcon" value="MarinatedTomatoes"/>
@@ -22016,6 +22019,7 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="marinatedTomatoesDesc"/>
 	</item>
 	<item id="3274" name="vinegar">
 		<property name="CustomIcon" value="vinegar"/>
@@ -22036,6 +22040,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
+		<property name="DescriptionKey" value="vinegarDesc"/>
 	</item>
 	<item id="3275" name="salt">
 		<!-- поваренную соль (NaCl)-->
@@ -22047,6 +22052,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="saltDesc"/>
 	</item>
 	<item id="3276" name="iMIGalil_Parts">
 		<property name="Extends" value="partsMaster"/>

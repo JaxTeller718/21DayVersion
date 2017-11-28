@@ -455,7 +455,7 @@
 			<prefab name="drivethru_(bigstep70-A16)" max_count="1" prob="0.3"/>
 		</prefab_rule>
 		<prefab_rule name="wildernessGroup">
-			<prefab rule="traderGroup" max_count="1" prob="0.6"/>
+			<prefab rule="traderGroup" max_count="1" prob="0.4"/>
 			<prefab name="cabin_01"/>
 			<prefab name="cabin_02_sm"/>
 			<prefab name="cabin_03_lg"/>

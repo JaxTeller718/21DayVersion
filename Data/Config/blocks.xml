@@ -8296,7 +8296,7 @@
 		<property name="Shape" value="Water"/>
 		<property name="Mesh" value="water"/>
 		<property name="Model" value="water_full"/>
-		<property name="BuffsWhenWalkedOn" value="waterBuff"/>
+		<!-- <property name="BuffsWhenWalkedOn" value="waterBuff"/> -->
 		<property name="Texture" value="223"/>
 		<property name="Map.Color" value="119,136,204"/>
 	</block>
@@ -8309,7 +8309,7 @@
 		<property name="Shape" value="Water"/>
 		<property name="Mesh" value="water"/>
 		<property name="Model" value="water_full"/>
-		<property name="BuffsWhenWalkedOn" value="waterBuff"/>
+		<!-- <property name="BuffsWhenWalkedOn" value="waterBuff"/> -->
 		<property name="Texture" value="223"/>
 		<property name="Map.Color" value="119,136,204"/>
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
@@ -13863,7 +13863,7 @@
 		<property name="Shape" value="Water"/>
 		<property name="Mesh" value="water"/>
 		<property name="Model" value="water_full"/>
-		<property name="BuffsWhenWalkedOn" value="waterBuff"/>
+		<!-- <property name="BuffsWhenWalkedOn" value="waterBuff"/> -->
 		<property name="Texture" value="223"/>
 		<property name="Count" value="8"/>
 		<property name="Map.Color" value="119,136,204"/>

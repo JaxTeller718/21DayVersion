@@ -21503,7 +21503,7 @@
 			<property name="Zoom_max_in" value="35"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="4,10"/>
+			<property name="EntityDamage" value="2,6"/>
 			<property name="BlockDamage" value="1.6,5"/>
 			<!-- <property name="Accuracy" value="1,0.1"/> -->
 			<property name="FalloffRange" value="15,25"/>

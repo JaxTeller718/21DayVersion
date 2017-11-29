@@ -1825,7 +1825,7 @@
 		<item name="hoeSteel"/>
 		<item name="pan" count="1" prob="0.1"/>
 		<item name="shovelSteel"/>
-		<item group="craftingTools" count="1" prob="0.15"/>
+		<item group="craftingTools" count="1" prob="0.05"/>
 		<item group="nailgun+parts"/>
 		<item name="forgedIron" count="5,20" prob="0.41"/>
 		<item name="forgedSteel" count="5,20" prob="0.22"/>
@@ -2136,7 +2136,6 @@
 		<item name="paintTool" prob="0.05"/>
 		<item name="nail" count="1,10"/>
 		<item group="householdQuestItems" prob="0.25"/>
-		<item name="inkPen" prob="0.12"/>
 		<item name="Twine" count="1,3"/>
 	</lootcontainer>
 	<!-- garbage-->
@@ -2853,7 +2852,7 @@
 		<item name="footballHelmet" prob="0.3"/>
 		<item name="clawHammer" prob="0.23"/>
 		<item name="wrench" prob="0.23"/>
-		<item group="craftingTools" count="1" prob="0.15"/>
+		<item group="craftingTools" count="1" prob="0.05"/>
 		<item group="minibikeParts" prob="6"/>
 		<item group="questChallenge" count="1" prob="0.056"/>
 		<item name="Crowbar" prob="0.15"/>
@@ -3361,13 +3360,13 @@
 		<item name="painkillers" count="1" prob="1.0"/>
 	</lootcontainer>
 	<!--Zombiescared-->
-	<lootcontainer id="176" count="1,2" size="4,3" destroy_on_close="false"  buff="Dirty1" buff_chance="0.005" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item name="rawDiamond" count="1,4" prob="200.0"/>
+	<lootcontainer id="176" count="1" size="4,3" destroy_on_close="false"  buff="Dirty1" buff_chance="0.005" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+		<item name="rawDiamond" count="1,3" prob="100.0"/>
 		<item name="silverNugget" count="1,4" prob="200.5"/>
-		<item name="casinoCoin" count="15,1000" prob="250.5"/>
-		<item name="survivorNotes" count="1,20" prob="250.0"/>
-		<item name="car_parts" count="1,20" prob="200.5"/>
-		<item name="weaponParts" count="1,15" prob="200.5"/>
+		<item name="casinoCoin" count="15,400" prob="250.5"/>
+		<item name="survivorNotes" count="1,8" prob="150.0"/>
+		<item name="car_parts" count="1,8" prob="200.5"/>
+		<item name="weaponParts" count="1,8" prob="200.5"/>
 	</lootcontainer>
 	<!--homewrecker-->
 	<lootgroup name="buildingstuffs">

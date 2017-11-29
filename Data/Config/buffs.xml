@@ -266,8 +266,7 @@
 					<modify id="1" stat="health" amount="-150" rate="1"/>
 				</buff>
 				<buff id="radiation" type="sickness"  duration="5"  buffif="radiation greater 0" debuffif="radiation equals 0" icon="ui_game_symbol_radiation" name_key="radiation" description_key="radiationDesc" tooltip_key="radiationTooltip">
-			<modify id="0" stat="stamina" amount="-15" rate="1"/>
-			<modify id="1" stat="health" amount="-15" rate="1"/>
+			<modify id="0" stat="health" amount="-15" rate="1"/>
 	</buff>
 
 <buff id="bloodDrawTrigger" duration="1" actions="increment(BDKbloodLoss, 50, 1, 0, 0)" />
@@ -460,14 +459,13 @@
 							<modify id="0" stat="speedmodifier" modifyMaxValue="2.01"/>
 							<modify id="1" stat="speedmodifier" modifyValue="1.3"/>
 							<modify id="0" stat="stamina" amount="5" rate="1"/>
-			<modify id="0" stat="water" amount="-5" rate="5"/>
 						</buff>
 
-<!-- <buff id="waterBuff" duration="1" type="staminaup" name_key="Murloc Mode" stack="reset" description_key="You are as swift as a Murloc! BLRGHGHGHMLMHGH" tooltip_key="Murloc" icon="ui_game_symbol_run">
+<buff id="waterBuff" duration="1" type="staminaup" name_key="Murloc Mode" stack="reset" description_key="You are as swift as a Murloc! BLRGHGHGHMLMHGH" tooltip_key="Murloc" icon="ui_game_symbol_run">
     <modify id="0" stat="speedmodifier" modifyMaxValue="3.01"/>
     <modify id="0" stat="stamina" amount="2" rate="1"/>
     <modify id="1" stat="speedmodifier" modifyValue="2.2"/>
-</buff> -->
+</buff>
 <buff id="horny" notificationClass="WetBuffNotification" duration="100" icon="ui_game_symbol_wet" name_key="Horny" description_key="wetDesc" tooltip_key="wetTooltip">
 	<modify id="0" stat="speedmodifier" mulValue="5"/>
 	<modify id="1" stat="stamina" amount="2" rate="1" />
@@ -501,7 +499,7 @@
 		<modify id="0" stat="speedmodifier" mulValue="0.1"/>
 		<modify id="1" stat="health" amount="-5" rate="1"/>
 	</buff>	
-	<buff id="trapBurning"  mutex="cannotBreath,drowning,burning,extinguishFireBuff" ffcheck="true" duration="10" name_key="burningSmall" description_key="burningSmallDesc" tooltip_key="burningSmallTooltip" actions="attach(ParticleEffects/p_onFire, @impact);damage(10,1,0,0)" icon="ui_game_symbol_fire">
+	<buff id="trapBurning"  mutex="cannotBreath,drowning,burning,extinguishFireBuff" ffcheck="true" duration="5" name_key="burningSmall" description_key="burningSmallDesc" tooltip_key="burningSmallTooltip" actions="attach(ParticleEffects/p_onFire, @impact);damage(10,1,0,0)" icon="ui_game_symbol_fire">
 		<modify id="0" stat="coretemp" amount="1" rate="1" />
 	</buff>	
 	 <buff id="SuicideBomber" duration="10" ffcheck="true" actions="attach(ParticleEffects/p_onFire, @impact)">
@@ -516,12 +514,12 @@
 
 <buff id="Dirty2" smell="mediumSmell" duration="1000" onexpired="Dirty3"  name_key="Dirty" tooltip_key="You Are Getting Dirtier" description_key="Its been a while and the smell is getting worse. You need to clean off soon or you could become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap,soap"/>
 <buff id="Dirty3" smell="exLargeSmell" duration="500" onexpired="infection"  name_key="Filthy Mess" tooltip_key="You Need to Wash Up Or Else" description_key="Its gotten pretty bad. Use a washcloth and soap very soon or you will become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap"/>
+
 		<buff id="rottedApple" duration="30" stack="extend" actions="increment(@wellness, -.5, 14, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="Rotten Apple" description_key="You have eaten a rotten apple and have become sick" tooltip_key="Oh No A Bad Apple" causes="Apple">
-			<modify id="0" stat="stamina" amount="-10" rate="5"/>
-			<modify id="1" stat="water" amount="-1" rate="2"/>
-			<modify id="2" stat="food" amount="-1" rate="2"/>
-
-
+			<modify id="0" stat="water" amount="-1" rate="2"/>
 		</buff>
+
+
+		
 
 		</buffs>

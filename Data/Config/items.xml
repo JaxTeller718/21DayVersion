@@ -1890,7 +1890,7 @@
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
 		<property name="SoundDestroy" value="metaldestroy1"/>
-		<property name="EconomicValue" value="288"/>
+		<property name="EconomicValue" value="488"/>
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
@@ -2543,6 +2543,7 @@
 		<property name="EconomicBundleSize" value="100"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="Group" value="Resources"/>
+		<property name="SellableToTrader" value="false"/>
 	</item>
 	<item id="164" name="arrow">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Bows/WoodenBow/Arrow"/>
@@ -8746,6 +8747,7 @@
 		<property name="EconomicValue" value="70"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
+		<property name="SellableToTrader" value="false"/>
 	</item>
 	<item id="1361" name="steelPolish">
 		<property name="Meshfile" value="Items/Food/coffeePrefab"/>
@@ -8771,6 +8773,7 @@
 		<property name="EconomicBundleSize" value="50"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="PickupJournalEntry" value="paintingTip"/>
+		<property name="SellableToTrader" value="false"/>
 	</item>
 	<item id="1363" name="animalFat">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>

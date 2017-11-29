@@ -1363,7 +1363,7 @@
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="3"/>
 			<recipe name="ResearchDesk" unlock_level="1"/>
 		</perk>
-		<perk name="craftSkillArmor" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000"	icon="forge" description_key="craftSkillArmorDesc" title_key="craftSkillArmor" group="clothing" exp_gain_multiplier="0">
+		<perk name="craftSkillArmor" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000"	icon="forge" description_key="craftSkillArmorDesc" title_key="craftSkillArmor" group="clothing" exp_gain_multiplier="0">
 			<requirement perk_level="2" required_player_level="5"/>
 			<requirement perk_level="3" required_player_level="10"/>
 			<requirement perk_level="4" required_player_level="20"/>
@@ -1540,7 +1540,7 @@
 				<multiply perk_level="5" value="0.5"/>
 			</effect>
 		</perk>
-		<player_skill name="Barter" exp_to_level="45" experience_multiplier="1.0606" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging" exp_gain_multiplier="0.2">
+		<player_skill name="Barter" exp_to_level="85" experience_multiplier="1.0606" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging" exp_gain_multiplier="0.2">
 			<effect name="Bartering">
 				<add skill_level="1,10" value="0.00,0.15"/>
 				<add skill_level="10,20" value="0.15,0.23"/>
@@ -1642,7 +1642,7 @@
 			<recipe name="mealBreakfast" unlock_level="5"/>
 			<recipe name="megaCrush" unlock_level="5"/>
 		</perk>
-		<perk name="craftSkillHandGuns" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="pistol" description_key="craftSkillHandGunsDesc" title_key="craftSkillHandGuns" group="firearms" exp_gain_multiplier="0">
+		<perk name="craftSkillHandGuns" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="pistol" description_key="craftSkillHandGunsDesc" title_key="craftSkillHandGuns" group="firearms" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="HandgunsClass" required_skill_level="1"/>
 			<requirement skill_level="2" required_skill_name="HandgunsClass" required_skill_level="1"/>
 			<requirement skill_level="3" required_skill_name="HandgunsClass" required_skill_level="1"/>
@@ -1717,7 +1717,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="craftSkillRifles" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="rifle" description_key="craftSkillRiflesDesc" title_key="craftSkillRifles" group="firearms" exp_gain_multiplier="0">
+		<perk name="craftSkillRifles" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="rifle" description_key="craftSkillRiflesDesc" title_key="craftSkillRifles" group="firearms" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="RiflesClass" required_skill_level="1"/>
 			<requirement skill_level="2" required_skill_name="RiflesClass" required_skill_level="1"/>
 			<requirement skill_level="3" required_skill_name="RiflesClass" required_skill_level="1"/>
@@ -1792,7 +1792,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="craftSkillShotguns" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="shotgun" description_key="craftSkillShotgunsDesc" title_key="craftSkillShotguns" group="firearms" exp_gain_multiplier="0">
+		<perk name="craftSkillShotguns" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="shotgun" description_key="craftSkillShotgunsDesc" title_key="craftSkillShotguns" group="firearms" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="ShotgunsClass" required_skill_level="1"/>
 			<requirement skill_level="2" required_skill_name="ShotgunsClass" required_skill_level="1"/>
 			<requirement skill_level="3" required_skill_name="ShotgunsClass" required_skill_level="1"/>
@@ -1906,7 +1906,7 @@
 				<multiply skill_level="4,5" value="0.0108,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="craftSkillMiscParts" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="misc_crafting" description_key="craftSkillMiscPartsDesc" title_key="craftSkillMiscParts" group="crafting" exp_gain_multiplier="0">
+		<perk name="craftSkillMiscParts" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="misc_crafting" description_key="craftSkillMiscPartsDesc" title_key="craftSkillMiscParts" group="crafting" exp_gain_multiplier="0">
 			<requirement perk_level="1" required_player_level="5"/>
 			<requirement perk_level="2" required_player_level="10"/>
 			<requirement perk_level="3" required_player_level="20"/>
@@ -1971,7 +1971,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="craftSkillToolParts" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="misc_crafting" description_key="craftSkillToolPartsDesc" title_key="craftSkilToolParts" group="crafting" exp_gain_multiplier="0">
+		<perk name="craftSkillToolParts" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="misc_crafting" description_key="craftSkillToolPartsDesc" title_key="craftSkilToolParts" group="crafting" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="SurvivorClass" required_skill_level="1"/>
 			<requirement skill_level="2" required_skill_name="SurvivorClass" required_skill_level="1"/>
 			<requirement skill_level="3" required_skill_name="SurvivorClass" required_skill_level="1"/>
@@ -2046,7 +2046,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="craftSkillBowParts" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="misc_crafting" description_key="craftSkillBowPartsDesc" title_key="craftSkillBowParts" group="crafting" exp_gain_multiplier="0">
+		<perk name="craftSkillBowParts" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="misc_crafting" description_key="craftSkillBowPartsDesc" title_key="craftSkillBowParts" group="crafting" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="BowsClass" required_skill_level="1"/>
 			<requirement skill_level="2" required_skill_name="BowsClass" required_skill_level="1"/>
 			<requirement skill_level="3" required_skill_name="BowsClass" required_skill_level="1"/>
@@ -2122,7 +2122,7 @@
 			</effect>
 		</perk>
 
-		<perk name="HandgunPartsPerk" icon="pistol" description_key="Unlock the ability to craft handgun parts" title_key="HandgunPartsPerk" max_level="5" skill_point_cost_multiplier="1.5" skill_point_cost_per_level="3" group="firearms">
+		<perk name="HandgunPartsPerk" icon="pistol" description_key="Unlock the ability to craft handgun parts" title_key="HandgunPartsPerk" max_level="5" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" group="firearms">
 			<requirement skill_level="1" required_skill_name="HandgunsClass" required_skill_level="1"/>
 			<recipe name="partsPistol_grip" unlock_level="1"/>
 			<recipe name="partsPistol_receiver" unlock_level="1"/>
@@ -2147,7 +2147,7 @@
 			<recipe name="coltPythonFrame" unlock_level="5"/>
 			<recipe name="coltPython_Parts" unlock_level="5"/>
 		</perk>
-		<perk name="RiflePartsPerk" icon="rifle" description_key="Unlock the ability to craft rifle parts" title_key="RiflePartsPerk" max_level="11" skill_point_cost_multiplier="1.5" skill_point_cost_per_level="3" group="firearms">
+		<perk name="RiflePartsPerk" icon="rifle" description_key="Unlock the ability to craft rifle parts" title_key="RiflePartsPerk" max_level="11" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" group="firearms">
 			<requirement skill_level="1" required_skill_name="RiflesClass" required_skill_level="1"/>
 			<recipe name="partsMP5_parts" unlock_level="1"/>
 			<recipe name="partsMP5_barrel" unlock_level="1"/>

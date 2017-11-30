@@ -470,14 +470,14 @@
 		<reward type="Quest" id="quest_HandgunExpert05"/>
 	</quest>
 	<quest id="quest_HandgunExpert05" group_name_key="Handgun Expert" name_key="Handgun Expert 5/8" subtitle_key="Assemble a Silenced Pistol" description_key="To assemble a Weapon or upgrade it with better parts you must have all the parts in your inventory and have unlocked the recipe. Build it by selecting the part in your inventory and clicking on the “Assemble” action. These recipes will not appear in Crafting menus." icon="ui_game_symbol_assemble" category_key="Quest">
-		<objective type="Assemble" id="gunPistolSilenced1" value="1"/>
+		<objective type="Assemble" id="PistolSilenced" value="1"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_HandgunExpert06"/>
 	</quest>
 	<quest id="quest_HandgunExpert06" group_name_key="Handgun Expert" name_key="Handgun Expert 6/8" subtitle_key="Kill 100 zombies" description_key="Kill 100 zombies with a Silenced Pistol." icon="ui_game_symbol_zombie"  	repeatable="true" category_key="Quest" difficulty="medium">
 		<objective type="ZombieKill" value="100"/>
-		<requirement type="Holding" id="gunPistolSilenced1"/>
+		<requirement type="Holding" id="PistolSilenced"/>
 		<reward type="SkillPoints" value="5"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_HandgunExpert07"/>
@@ -1081,16 +1081,16 @@
 		<reward type="SkillPoints" value="50"/>
 	</quest>
 	<!-- Classes -->
-	<quest id="riflesclass1" 	name_key="Rifles Class" 	group_name="SurvivalClasses" 	subtitle_key="Rifles Class" 	offer_key="Accepting this will give you a hunting rifle 150 bullets and a hunting rifle schematic" 	description_key="Become an expert in Rifles" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
+	<quest id="riflesclass1" 	name_key="Rifles Class" 	group_name="SurvivalClasses" 	subtitle_key="Rifles Class" 	offer_key="Accepting this will give you an SMG 150 bullets and an SMG schematic" 	description_key="Become an expert in Rifles" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
 		<reward type="Skill" id="RiflesClass" value="1"/>
 		<reward type="Skill" id="AmmoClass" value="1"/>
 		<reward type="Skill" id="Homemade Rifle Bullet" value="1"/>
 		<reward type="Skill" id="Rifle Exclusive" value="1"/>
-		<reward type="Skill" id="762mm Round Crafting" value="1"/>
+		<reward type="Skill" id="9mm Round Crafting" value="1"/>
 		<reward type="Skill" id="Rifles" value="15"/>
-		<reward type="Item" id="gunHuntingRifle" value="250"/>
+		<reward type="Item" id="gunMP5" value="250"/>
 		<reward type="Item" id="homemadeRifleBullet" value="150"/>
-		<reward type="Item" id="huntingRifleSchematic"/>
+		<reward type="Item" id="smgSchematics"/>
 		<reward type="Quest" id="quest_RiflesExpert01"/>
 	</quest>
 	<quest id="handgunsclass1" 	name_key="Handguns Class" 	group_name="SurvivalClasses" 	subtitle_key="Handguns Class" 	offer_key="Accepting this will give you a pistol 200 bullets and a pistol schematic" 	description_key="Become an expert in Handguns" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">

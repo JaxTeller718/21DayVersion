@@ -453,6 +453,8 @@
 			<prefab name="xcostum_BoxingGym(by_KamR)" max_count="1"/>
 			<prefab name="xcostum_PetStore(by_Jackelmyer)" max_count="1"/>
 			<prefab name="drivethru_(bigstep70-A16)" max_count="1" prob="0.3"/>
+			<prefab name="ouch_airport2" max_count="1" prob="0.1"/>
+			<prefab name="ouch_airport1" max_count="1" prob="0.1"/>
 		</prefab_rule>
 		<prefab_rule name="wildernessGroup">
 			<prefab rule="traderGroup" max_count="1" prob="0.4"/>
@@ -505,6 +507,8 @@
 			<prefab name="kam_modern_resi03" max_count="1" prob="0.4"/>
 			<prefab name="kam_modern_resi04" max_count="1" prob="0.4"/>
 			<prefab name="kam_modern_resi05" max_count="1" prob="0.4"/>
+			<prefab name="ouch_airport2" max_count="1" prob="0.1"/>
+			<prefab name="ouch_airport1" max_count="1" prob="0.1"/>
 		</prefab_rule>
 		<prefab_rule name="detailFillerGroup">
 			<prefab name="mailbox1" prob="0.25"/>

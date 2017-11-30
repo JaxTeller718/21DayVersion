@@ -1,0 +1,563 @@
+-Redesigned Weapon and Tool Progression. There are now Primitive Crafting, Iron Crafting and Steel Crafting Skills. Each tool and weapon has been assigned to these and you can not unlock the next tier until you have progressed in the first one.
+
+-Weapon and Tool Parts are now craftable in the Weapon Station. In order to craft them you need to first have the class of the weapon you want to craft. You will find that by scrapping tool and gun parts you will receive Weapon Parts. These parts are needed to craft the part you want to make in the Weapon Station
+
+-The campfire is now only for basic necessities. To make more complex recipes you will need the new Advanced Campfire
+
+-Bigger Backpack now carries 72 items
+
+-Bigger Storage Boxes
+
+-Storage Box you can write on
+
+-Gamestage adjustments. Now you wont see devastating hordes as quickly in conjunction with our 21 day horde system. This will give you some time to prepare and allows players of every play style to enjoy the experience.
+
+-Halicopter you can craft will take your loot home for you!
+
+-New night terrors that only come out at night do significant damage and are hard to kill
+
+-The forge is now a basic item. To craft more complex recipes you will need an Advanced forge.
+
+-Stations for crafting armor and other items. Anvil for metal clothing and blocks, Drying Rack for curing leather and hides and making paper and Tailor Station for crafting leather and cloth armor and clothing.
+
+-New Crowbar that can be used to gain extra materials from harvesting cars
+
+-New vehicles to search including Military and Police vehicles with appropriate loot.
+
+-Dozens of new decorations like washers, dryers, tables, PC's, Cabinets, Shelves, Chairs, Sofas TVs and beds.
+
+-New BBQ Grill for making grilled food
+
+-New seeds like Apple, Tomato, Cucumber, Carrot and Marijuana and more all with accurate models and recipes
+
+-New melee weapons to make melee fun including Katanas, Pipes, Axes, Knives and Spears
+
+-New models for Rain Catchers, Chicken Coops, Composters and Horde Beacon
+
+-Trash Can that allows you to place items in and empty them like a real trash can
+
+-Dozens of new items for scrapping found in junk
+
+-Sphereii's Transmogrifier that mixes and matches zombies of all types for a unique and scary experience
+
+-Blood Moon Hordes now spawn only on 21 Days giving you time to prepare and some breathing space. Subsequent hordes spawn on Days 42, 63, 84 etc. Single Player Version has normal Horde Spawning.
+
+-Skinning Knife for getting more hide and Butcher Knife for getting more meat. Also a chance at harvesting a Deer Head to make a hangable Deer Trophy.
+
+-Over 60 unique and rare posters with more being added that you can collect and hang on your wall
+
+-Harvesting items now gives Leather Strips instead of Straight Leather which must be combined to make Leather. Using a Drying Rack is now mandatory for curing all leather.
+
+-Workbench is now split into 2 benches, regular does your normal backpack recipes with no tools and no combine, Advanced does workbench only recipes with tools and has a combine feature. This is done to cut back on bench lag.
+
+-New guns based off Walkers models and new models for some brand new guns. These guns have different sounds and scopes and bring a new feel to the gun game in 7 Days.
+
+-Steel and Diamond Tipped Tools for Better harvesting late game
+
+-Steel and Diamond Minibikes
+
+-Redone Ores in Biomes. Made Biomes more important. Now you NEED to find other biomes and set up mining outposts. Snow gives more Potassium, Burnt gives more Coal and Fertilizer, Desert gives more Oil, All Forests give more Iron, Plains gives more Lead and Wastelands give Copper, Zinc and more chances of finding Diamonds. Gravel usually leads to veins but you may need to dig around a little to find an ore.
+
+-Wastelands now have a chance to be patrolled by the Military. They only spawn in Wasteland and can be killed by zombies. Make sure you arm up before going into there.
+
+-Over 50 carefully selected POIs added along with a Police Station and Army Barracks inhabited by Armed Personnel.
+
+-New traps like fire traps, dirt traps that you can place over a hole and exploding chest traps for nosy neighbors.
+
+-Food Prep Table for preparing meals and cutting meat and fish.
+
+-New stoves with models for crafting high end recipes with great stat values and less heat.
+
+-New fishing system. Now craft lures and a raft you can stand on to fish in waters and get different types of fish to cut up on the Food Prep Table and cook.
+
+-All weapon parts craftable with the Weapon Station. It is a skill you must level so that you can craft etter parts. Parts can now be scrapped into Weapon Parts and Weapon Parts are used to craft the parts in the table.
+
+-All recipes and schematics can be scrapped for Knowledge Points. KP are used in the Research Table to craft skill gains and quests as well as craft other starting classes.
+
+-Revamped opening quest line.
+
+-Seeds are now crafted in the Mortar and Pestle, which also does a few other recipes.
+
+-The Auger and Chainsaw now are part of the Electric Tools skill. When you use them this skill will level up.
+
+-New Cooking skill that levels as you prepare food and unlocks better recipes.
+
+-Extended Magazines and Scopes and Silencers for all the basic guns in the game.
+
+-Over 100 craftable blocks added from Creative
+
+-Craftable electric charges you can apply to fences and some weapons to make electrified items.
+
+-Craftable bricks that are used to make all brick blocks.
+
+-Skill that allows you to breathe underwater longer
+
+-Water buff that makes for crossing rivers much faster.
+
+-Infection has been redone slightly to make it more deadly.
+
+-Stations found in the world have a MUCH lower chance of actually working.
+
+----------------------------------------------
+
+v1.03
+
+-Removed Minibike Parts from Biker Zombie. Way too many were dropping
+
+-Fixed Homemade Ammo. They should no longer lower your gun quality
+
+-Lowered chances of finding Pistols in Toilets. WAY too many were dropping
+
+-Fixed some Localization
+
+-Decreased beer drops
+
+-Slightly lowered loot probabilities on some items
+
+-Fixed icons for Apple Seeds and Lockpicks
+
+-Fixed Description for Storage
+
+-Reduced chances for Tree Stumps to Spawn in Forests
+
+-Added Weather Back In To Single Player Versions
+
+-Added buffs.xml and weathersurvival.xml for those who still want to remove weather until it is balanced. If you would like to disable weather just copy the files from the DisabledWeather folder into your main game directory.
+
+-Increased cotton plants slightly since beds were difficult to make
+
+-Removed Steel Scrapping since there is no use for scrap steel yet in game
+
+-Lowered Requirements for the Workbench and the Advanced Workbench to fall in line with Vanilla recipes
+
+-Changed Screamer loot list to a zombie one
+
+-Fixed bug that allows Leather to be crafted in your backpack instead of the Drying Rack
+
+-Removed some OP POI's from the rwgmixer spawn list. Did NOT remove them from game to prevent errors on saves.
+
+-Fixed Issue with Homemade Guns being repaired to 0 Durability
+
+-Dogs and Wolves now have their normal speeds
+
+---------------------------------------
+
+v1.04
+
+-Infection and Bite Mark have been made more deadly
+
+-Harvested SDX Vehicles will now break down properly
+
+-Added Adhesive Trap and Adhesive Spike Trap Fire Trap and Nail Trap to Recipes
+
+-Bunch of Localization Fixes and clarifications
+
+-Streamer version is Now Completely Clean. Removed all Profanity from Audio files for Bandits and Traders and Removed Nude Zombies. This Install also comes with a Server Files folder so that any Streamer can install this mod on their servers if they wish.
+
+----------------------------------------
+
+v1.05
+
+-Fixed Regular workbench to craft all backpack recipes
+
+-Added Steel Armor to the Armored Questline and re-arranged Steel and Military Armor
+
+-Added animal hide armor to the Tailor Station
+
+-Twine now used in more clothing recipes
+
+-Military Armor can be found in the Clothing/Armor Skill
+
+-Some Description Fixes
+
+-Scrap Tools made slightly better
+
+-You can now craft a can of murky water in the regular campfire with a can and snowball
+
+-Slightly Increased chances of station tools to drop in loot
+
+-Slight decrease in how much XP it takes to level Clothing/Armor
+
+---------------------------------------
+
+v1.06
+
+-Reordered and Cleaned Launcher config (Saves will remain and be fine but may need to re-install your version. Also server dlls now included in all versions)
+
+-Disabled Dev Logging fo MUCH smaller output log files
+
+-Removed Duplicate Railing Recipe
+
+-Fixed Descritpions for some items showing as crafted in the wrong benches
+
+-Moved Modern Bolts and Arrows after the steel bolts and arrows in Progression
+
+-Big Forge renamed to Advanced Forge because its not big
+
+-Blacksmith Hammer is now a Perk and is craftable in the Advanced Forge. Its value has been reduced. Thank the almighty persistence of sinda and Flanders for this one.
+
+-Fixed Drying Rack Description
+
+-Added numerous Descriptions to Items that had none (Still more to do)
+
+-Removed zombie with texture issue
+
+-Fixed Storage Boxes with Custom Labels from erroring on close
+
+-----------------------------------------
+
+v1.07
+
+-Lowered wood and Nail yield on chairs to fix possible exploit
+
+-Fixed Food Prep Table
+
+-Added icon for Salmon Meat
+
+-Fixed Descritpions for several items including some guns showing wrong ammo and a bunch of food
+
+-Removed all clothing from the Blacksmith Station.
+
+-Blacksmith Station no longer requires Clothing skill to craft
+
+-Blacksmith Station now unlocks at Construction tools 60
+
+-Welding Torch removed from Blacksmith Station and added to the Tailor Station, All armor now crafted in Tailor Station
+
+-Blacksmith Hammer Progression Title Fixed
+
+-Smoking a Joint now slows you down for a few seconds and then makes you hungry.
+
+-Disabled Temperature Stats on the Disabled Weather Survival Editions on the HUD
+
+-Added Dishwasher Loot to Dishwashers found in the world
+
+-Fixed collision on some stations
+
+-Renamed all Steel minibike parts to Strengthened to match other parts
+
+-We are proud to present the Nightmares from Valoween created by mad genius Sphereii with his permission. Their health has been reduced slightly to accomodate our mod and also they will drop just a bit more than clay ;) They will be found in burnt forests and wastelands at night time.
+
+-Updated Sphereii's Transmogrifier to its latest version
+
+-Night Terrors can now be killed (you are welcome lol)
+
+-Bad Mechanic should now apply to crowbar
+
+----------------------------------------
+
+V1.08
+
+-Removed copyright sounds from Nightmares for proper YouTube uploading from Streamers Only Version
+
+-Added Purified Water recipe
+
+-Fixed Farmer Class Paper from null'ing
+
+-Increased weight of the schematics and books so you get slightly more Knowledge Points from them
+
+-All engines can now be scrapped for car parts. Thebetter the engine the more the car parts you get.
+
+-Incresaed Nail, Twine and Paint counts in loot.
+
+-Removed one part of the recipe from the Halicopter preventing it from being crafted
+
+-Scared Zombie, Curious George, Brute Zombie and Brute Zombie Boss now have chances to drop diamonds, coins, knowledge points, car parts and weapon parts!
+
+----------------------------------------
+
+V1.09
+
+-Removed all unnecessary spaces in every xml file for better editing by the user. ( All XML Files have been changed)
+
+-Lowered Cooking XP Requirement to level so you spend less time in the campfire
+
+-Removed Harvest Requirement to get Leather Strips from Couches
+
+-Lowered Health on Night Terrors and Nightmares. They have no Head Hitboxes so they give no bonus damage.
+
+-Removed craft bone shive requirement on first Blade Class Quest which was preventing it from advancing
+
+-Replaced Safes with Vanilla safes due to inability to reach them.
+
+-Removed Night Stand from Crates because it is a storage item not a loot item
+
+-Added all Bolt Rifles to the schematics book. 
+
+-Added some clarity to the opening dialogue on what to do with the class paper and briefcase.
+
+-Added a Quest Line for the Survival Class
+
+-Night Terrors can now have a chance to drop better loot like Knowledge Points, Weapon Parts, Diamonds and Car Parts
+
+-Fixed a major bug with the Halicopter. It should work properly now
+
+-Added version number to the UI
+
+-Fixed descriptions for Lockpick to help better explain its use
+
+-Increased Stack Size for Blunderbuss Ammo
+
+-Added Descriptions to Class Papers on how to craft them
+
+--------------------------------------------
+
+v2.0
+
+-Added Hut to recipe
+
+-Huts can now be repaired and will give back some wood when destroyed
+
+-Traps are now a perk instead of a skill you can level by crafting
+
+-Removed duplicate traps
+
+-Ammo skill is no longer required for purchasing Arrow Crafting
+
+-Bow class now the only class that can make Iron, Steel, Exploding and Fire Arrows
+
+-Cooking is now a perk you can purchase. You no longer have to sit in the campfire to level it.
+
+-Removed Feral Stripper Spawners from the Streamer Only Version
+
+-Removed all strippers from the entityclasses file removing them from being able to be spawned even in creative in Streamer Only Version
+
+-Added The Sword of the Dragoness
+
+-Added Decoration Station. The Decoration Station is where you can craft all the decorative blocks in the game as well as most of the newly added deco items
+
+-Added a craftable Deer Blind. It doesnt have an actual ladder but you can jump up it and use it to snipe zombies.
+
+-Added some new models for things like hamburgers and candy bars (purely Aesthetic)
+
+-Scrapping leather clothing now gives back strips instead of pure leather
+
+-Cleaned up all of the XMLs
+
+-Redid Localization so its cleaner and more items have the proper descriptions
+
+-Lowered Blacksmith Station from Construction Tools 60 to 40
+
+-Added new Medical Box, Coffins, Radio (not working yet) and Fuel Tank for storing fuel
+
+-Added Household Chemicals and Blue Ice recipe. Test it out, see what it does.
+
+-Fixed all Zombie and Military Personnel Names so they can be read easily
+
+-Increased requirements for recipes with Knowledge Points and Weapon Parts to increase difficulty of making those items
+
+-Easter Eggs (not literally) for people to discover and find
+
+-Added sliced raw meat to the game made from raw meat. You can use sliced raw meat to make other meat recipes
+
+-Bacon and Eggs is now made in the Food Prep Table with Fried Eggs and Bacon
+
+-Most raw meat recipes now require sliced raw meat
+
+-Added soda to the game
+
+-Added Box of Nails to the game
+
+-Reduced oil shale amount from mining
+
+-Balanced gas can recipes to not be so OP
+
+-Added Stone Arrow Heads that you craft from rocks to make arrows and bolts
+
+-Added sticks that you get from scrapping wood. Sticks are used for ALL arrows and bolts. 1 wood gives 3 sticks so in effect making arrows and bolts are both easier and make more sense.
+
+-Added Plastic Bottles that can be filled with dirty water. You can use purifying tablets on those bottles to make Purified Water.
+
+-Eating Rotten Flesh can cause infection
+
+-Eating ShamSandwich can cause Food Poisoning
+
+-While searching corpses you can now get dirty. You need to craft a towel with Twine and cloth and soak it in a body of water or a working sink to clean yourself. If you let it go too long there are 2 more stages. Soap will clean the second and the third is only cleansed by a wet soapy towel. If you do not clean off in the time allotted you will become infected. Each stage of Dirtiness increases your smell which will increase your range of alerting zombies. Getting Dirty from looting is a VERy rare chance.
+
+-Gun Classes are now required before you can make any bullets. Any gun class will unlock the ability to make all ammo types
+
+-Farmer Class now gets the ability to craft all seeds exclusively.
+
+-Survivor Class now gets exclusive access to crafting tool parts
+
+-Survivor Class gets exclusive access to crafting Rocket Launcher parts
+
+-Gun Parts, Bow Parts and Tool Parts are now separate crafting skills, unlocked by the appropriate class that you buy perks in to level the crafting quality of the aprt.
+
+-Lowered Clothing/Armor XP needed to level to make levelling it less of a grind
+
+-Raised Barter XP needed slighlty to prevent spam levelling.
+
+-Fishing has been removed completely because at best it was janky and no one seemed to really use it anyway.
+
+-----------------------------------------------
+
+v2.01
+
+-Lowered chance of Diamond Minibike Tires
+
+-Fixed Error in Farmer Starting Class
+
+-Added Debuff Text to Dirty Buff
+
+-Added Sticks and Stone Arrow Heads to Basics Group
+
+-Fixed Storage Chest Description
+
+-Removed Xp from Cooking Items
+
+-Fixed Junk Quest
+
+-Decreased Turn Speed on Zombies so they make wider turns fo less spinning
+
+-Increased Sight Range so Zombies will sense you while Stealthed at Longer Distances
+
+-Added more types of Road Debris
+
+-Added Green Thumb 1 to Farmer Class
+
+--------------------------------------------------
+
+v2.02
+
+-Lowered XP on Materials 
+
+-Removed All Army Personnel from Spawn List. They will still spawn in their buildings. They will have to be killed in the field first before they are gone. (Done because of Trader NRE)
+
+-Fixed Junk Quest from Nulling
+
+-Gave the Katana its own properties so it is as kick ass as it should be
+
+-Cleaned up all Streamer Versions so that spawn issues will now be fixed
+
+-Increased timers on Dirty buffs so it is not as fast
+
+-Increased stack sizes on some items
+
+-Cleaned up some spaces in items 
+
+-Fixed Controller Cursor Issue on Toolbelt
+
+----------------------------------------------------
+
+v2.03
+
+-Removed Tungsten Trophy From Loot
+
+-Shortened Infection Duration Slightly
+
+-Changed Scrap Tools recipes to require Twine instead of Duct Tape
+
+-Minibike Storage made larger
+
+-New Ui (Testing) Feedback appreciated on it
+
+-Added second boiled egg recipe that gives back a can when you consume it
+
+-Increased time for vegetables and trees to grow by double
+
+-Increased time it takes for Composter, Rain Catcher and Composter to become full
+
+--------------------------------------------------------
+
+v2.04
+
+-Reverted UI Back to old UI
+
+-Fixed Minibike and Inventory UI Overlap
+
+-Lowered Scale Slightly on UI so everything fit more naturally
+
+-Removed empty jar return from boiled eggs. It now consumes the jar.
+
+----------------------------------------------------------
+
+v2.05
+
+-Research Desk no longer gives forged iron on harvest
+
+-Lowered chances of looting Diamond and Steel tool parts in loot.
+
+-Lowered chances of finding golden eggs
+
+-Lowered chances of looting explosives
+
+-Fixed More Descriptions
+
+-Removed Schematics from Traders because they could be bought in mass quantities and spammed for Knowledge Points. You can still sell schematics and buy from other players.
+
+-Reduced feather drop slightly
+
+-Added other items to bird's nest you can loot
+
+-Added other items to mailboxes you can loot
+
+-Lowered probability of Steel and Iron Tools and Weapons dropping from loot
+
+-Increased chance of getting tools from sinks and cupboards
+
+-Increased Repair XP from All Clothing/Armor Items so you get more XP as your armor increases
+
+-Added Blunderbuss to Farmer Class
+
+-Fixed Bows Progression so that it lines up with the Bows Quest
+
+-Added Military and Police Generators
+
+-Added Radiated Sewer Lids found in the streets
+
+-Added Radiated Tanker to vehicle spawn
+
+-Added new UI by Sirillion
+
+-Removed Ability to sell Concrete Items to Traders
+
+-Completely Rebalanced Wellness and Health and Food Values from ALL food items
+
+-Removed some unnecessary items from loot like junk or extra items that were clogging up loot
+
+-Increased rate of Skill Book drops
+
+-Honey drop rate lowered a bit.
+
+-Messy stage time increased
+
+-Infection stages decreased to make the virus more urgent.
+
+-Weapon Station now properly displays the Solder Gun
+
+-Added Recipe for Fire Trap
+
+-Gun Part Crafting now Requires Solder Gun Instead of Chisel. Chisel os now for Tool Parts
+
+-The Halicopter is working fine in SP but it will NOT work on MP. Sorry guys, I tried everything. The scripts clash with the Transmogrifier it seems.
+
+-Wood now burns in stations properly
+
+-Null on quests is now fixed (FINALLY!)
+
+-Eating Apples can possibly contain a Rotten Apple which will make you sick
+
+-Removed Duplicate Gun Station Recipe
+
+-Removed Bandits and NPCs from the entity spawn pool
+
+-Redistributed loot amongst Nightmare.
+
+-Changed amount of drops from all ores
+
+-Added more patches of Diamonds to Wasteland
+
+-Balanced Fertilizer from Burnt Biome
+
+-Added 4 new POIs to Random Gen
+
+-Removed Zombie Horde Beacon recipe for Now Due to overuse for XP spamming and possible chunk errors
+
+-Removed Stone Bolts from Iron Crossbow and Added Steel Bolts to it
+
+-Fixed Overlay on the Vintorez
+
+----------------------------------------------
+
+V2.06

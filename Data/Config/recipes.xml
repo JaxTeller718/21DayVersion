@@ -1266,17 +1266,17 @@
 		<ingredient name="forgedSteel" count="4"/>
 		<ingredient name="coal" count="4"/>
 	</recipe>
-	<recipe name="scrapBoots" count="1">
+	<recipe name="scrapBoots" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="100"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="scrapChestArmor" count="1">
+	<recipe name="scrapChestArmor" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="150"/>
 		<ingredient name="leather" count="5"/>
 		<ingredient name="ductTape" count="3"/>
 	</recipe>
-	<recipe name="scrapGloves" count="1">
+	<recipe name="scrapGloves" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="100"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
@@ -1295,12 +1295,12 @@
 		<ingredient name="ductTape" count="5"/>
 		<ingredient name="scrapPlastics" count="4"/>
 	</recipe>
-	<recipe name="scrapHelmet" count="1">
+	<recipe name="scrapHelmet" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="100"/>
 		<ingredient name="leather" count="2"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="scrapLegArmor" count="1">
+	<recipe name="scrapLegArmor" count="1" craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="scrapIron" count="150"/>
 		<ingredient name="leather" count="5"/>
 		<ingredient name="ductTape" count="3"/>
@@ -4340,13 +4340,7 @@
 		<ingredient name="electricCharge" count="1"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-	<recipe name="ammunitionTable" count="1" craft_time = "30">
-		<ingredient name="forgedIron" count="25"/>
-		<ingredient name="mechanicalParts" count="20"/>
-		<ingredient name="wrench" count="1"/>
-		<ingredient name="clawHammer" count="1"/>
-		<ingredient name="wood" count="50"/>
-	</recipe>
+
 	<recipe name="cntTrapChestUpgrade" count="1" craft_time = "4" craft_exp_gain="9" craft_area="NewWorkBench">
 		<ingredient name="spring" count="10"/>
 		<ingredient name="tnt" count="5"/>
@@ -5686,8 +5680,8 @@
 		<ingredient name="bellows" count="2"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="ammunitionTable" count="1">
-		<ingredient name="forgedIron" count="15"/>
+	<recipe name="ammunitionTable" count="1" craft_time="30" >
+		<ingredient name="forgedIron" count="20"/>
 		<ingredient name="mechanicalParts" count="5"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
@@ -6714,6 +6708,27 @@
 		<ingredient name="FAMAS_Receiver" count="1"/>
 		<ingredient name="FAMAS_Barrel" count="1"/>
 		<ingredient name="FAMAS_Parts" count="1"/>
+	</recipe>
+	<recipe name="PistolSilenced" count="1" craft_area="assembly">
+		<ingredient name="flashlight02" count="0"/>
+		<ingredient name="partsPistol_receiver" count="1"/>
+		<ingredient name="partsPistol_grip" count="1"/>
+		<ingredient name="gunhandgunSilencer" count="1"/>
+		<ingredient name="partsPistol_parts" count="1"/>
+	</recipe>
+	<recipe name="PistolExtendedMagSilenced" count="1" craft_area="assembly">
+		<ingredient name="flashlight02" count="0"/>
+		<ingredient name="partsPistol_receiver" count="1"/>
+		<ingredient name="ExtendedHandgunMagazine" count="1"/>
+		<ingredient name="gunhandgunSilencer" count="1"/>
+		<ingredient name="partsPistol_parts" count="1"/>
+	</recipe>
+	<recipe name="PistolExtendedMag" count="1" craft_area="assembly">
+		<ingredient name="flashlight02" count="0"/>
+		<ingredient name="partsPistol_receiver" count="1"/>
+		<ingredient name="ExtendedHandgunMagazine" count="1"/>
+		<ingredient name="partsPistol_barrel" count="1"/>
+		<ingredient name="partsPistol_parts" count="1"/>
 	</recipe>
 	<recipe name="FAMASSilenced" count="1" craft_area="assembly">
 		<ingredient name="flashlight02" count="0"/>

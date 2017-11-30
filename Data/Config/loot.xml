@@ -823,6 +823,7 @@
 		<item name="candyBar"/>
 		<item name="twinkies"  prob="0.35"/>
 		<item name="snoBalls"  prob="0.45"/>
+		<item name="ramenNoodles"/>
 	</lootgroup>
 	<lootgroup name="legendarymelee" loot_quality_template="legendaryTemplate">
 		<item name="legendaryClubSpiked"/>
@@ -1279,9 +1280,9 @@
 		<item name="huntingKnife" prob="0.2"/>
 		<item name="machete" prob="0.15"/>
 		<item name="butcherKnife" prob="0.1"/>
-		<item name="scythe" prob="0.15"/>
+		<item name="scythe" prob="0.05"/>
 		<item name="battleAxe" prob="0.15"/>
-		<item name="batWood"/>
+		<item name="batWood" prob="0.2"/>
 		<item name="metalPipe"/>
 		<item name="Pitchfork" prob="0.25"/>
 		<item name="trackerKnife"/>
@@ -1916,14 +1917,14 @@
 	<lootgroup name="rareMedicine" count="1">
 		<item name="firstAidKit"/>
 		<item name="beaker"/>
-		<item name="antibiotics"/>
+		<item name="antibiotics" prob="0.25"/>
 		<item name="bloodDrawKit"/>
 		<item name="firstAidKitSchematic"/>
-		<item name="speedPill" count="1"/>
+		<item name="speedPill" count="1" prob="0.25"/>
 		<item name="rollingPaper" count="1,2"/>
 		<item name="Weed" count="1"/>
 		<item name="purifyingTablets" count="1,2"/>
-		<item name="maniacPowder"/>
+		<item name="maniacPowder" prob="0.05"/>
 	</lootgroup>
 	<lootgroup name="medicine" count="1">
 		<item name="painkillers"/>
@@ -1988,7 +1989,7 @@
 	<lootgroup name="airdropMedicine">
 		<item name="painkillers" count="1,3"/>
 		<item name="firstAidKit" count="1,2"/>
-		<item name="antibiotics" count="1,2"/>
+		<item name="antibiotics" count="1,2" prob="0.25"/>
 		<item name="beaker" count="0,1"/>
 		<item name="Peroxide" count="1,2"/>
 		<item name="reinforcedSplint" count="0,2"/>
@@ -2092,7 +2093,7 @@
 		<item name="glue" count="1,5"/>
 		<item name="oilShale" count="10,30"/>
 		<item name="painkillers" count="1,2"/>
-		<item name="antibiotics" prob="0.5"/>
+		<item name="antibiotics" prob="0.25"/>
 		<item name="bloodDrawKit" prob="0.15"/>
 		<item name="firstAidKitSchematic" prob="0.15"/>
 		<item name="beaker" prob="0.15"/>
@@ -2143,7 +2144,7 @@
 		<item group="junk"/>
 	</lootcontainer>
 	<!-- canned or dry food cupboard door open sound-->
-	<lootcontainer id="3" count="0,3" size="4,3" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="baseTemplate">
+	<lootcontainer id="3" count="0,2" size="4,3" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="baseTemplate">
 		<item name="bottledRiverWater" prob="0.5"/>
 		<item name="assortedDyes" count="5,10" prob="0.35"/>
 		<item group="cannedfood" prob="0.9"/>
@@ -2215,7 +2216,7 @@
 		<item group="medicine"/>
 	</lootcontainer>
 	<!-- kitchen sink, cupboards (lower), cleaning chemicals, plates, silverware, pots and pans -->
-	<lootcontainer id="8" count="0,3" size="4,3" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="baseTemplate">
+	<lootcontainer id="8" count="0,2" size="4,3" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="baseTemplate">
 		<item group="cannedfood" prob="0.7"/>
 		<item name="bottledWater" prob="0.5"/>
 		<item name="soda"  count="1,3" prob="1.5"/>
@@ -2338,10 +2339,10 @@
 	<!-- birds nest-->
 	<lootcontainer id="25" count="1,3" size="4,1" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
 		<item name="egg" count="1" prob="0.25"/>
-		<item name="feather" count="3,7" prob="0.75"/>
+		<item name="feather" count="4,8" prob="0.75"/>
 		<item name="goldenegg" count="1" prob="0.001"/>
-		<item name="stick" count="2,8" prob="0.25"/>
-		<item name="turd" count="1,2" prob="0.25"/>
+		<item name="stick" count="2,8" prob="0.15"/>
+		<item name="turd" count="1,2" prob="0.05"/>
 	</lootcontainer>
 	<!-- lootcontainer 23 Supply Crate Melee weapons -->
 	<!-- lootcontainer 26 Supply Crate Food -->
@@ -2777,7 +2778,7 @@
 		<item name="grainAlcohol"/>
 		<item name="oldCash" count="5,15"/>
 		<item name="casinoCoin" count="10,45"/>
-		<item name="antibiotics"/>
+		<item name="antibiotics" prob="0.25"/>
 		<item name="painkillers"/>
 		<item name="Lockpick"  count="1,2" prob="0.1"/>
 		<item group="weaponsCommonParts" prob="0.2"/>
@@ -2806,7 +2807,7 @@
 		<item name="bloodDrawKit" prob="0.3"/>
 		<item name="painkillers"/>
 		<item name="vitamins"/>
-		<item name="herbalAntibiotics" prob="0.5"/>
+		<item name="herbalAntibiotics" prob="0.25"/>
 		<item name="feather" count="5,25"/>
 		<item group="zombieQuests" prob="0.25"/>
 		<item group="junkPersonal"/>

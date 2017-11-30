@@ -1,4 +1,4 @@
-<traders buy_markup="3.0" sell_markdown="0.2" quality_mod="1,2" currency_item="casinoCoin">
+<traders buy_markup="4.0" sell_markdown="0.4" quality_mod="1,3" currency_item="casinoCoin">
 	<!-- When adding items or blocks to the list, check if they have an "EconomicValue". Most world-decoration blocks like "cntSuitcase" or "airConditioner" do not have values set. quality_mod: adjusts the price range of all items with a quality level. 	Price of QL 1 item =  item.EconomicValue * traders.quality_mod(low) 	Price of QL 600 item =  item.EconomicValue * traders.quality_mod(high) -->
 	<!-- <trader_economy_limits><item name="hazmatBoots" min="2" max="10"/><item name="hazmatPants" min="2" max="10"/><item name="arrow" min="1" max="100"/><item name="steelArrow" min="1" max="100"/></trader_economy_limits>-->
 	<trader_item_groups>

@@ -752,7 +752,7 @@
 			<property name="Crosshair_max_distance" value="9"/>
 			<!-- 9 -->
 			<property name="Magazine_size" value="30"/>
-			<property name="Magazine_items" value="9mmBullet, 9mmHPBullet, Unload"/>
+			<property name="Magazine_items" value="homemadeRifleBullet, 9mmBullet, 9mmHPBullet, Unload"/>
 			<property name="Magazine_item_ray_counts" value="1, 1"/>
 			<property name="Magazine_item_ray_spreads" value="0, 0"/>
 			<property name="Reload_time" value="4.1"/>
@@ -892,7 +892,7 @@
 			<property name="Crosshair_max_distance" value="36"/>
 			<!-- 36 -->
 			<property name="Magazine_size" value="1"/>
-			<property name="Magazine_items" value="homemadeRifleBullet, 762mmBullet, 762mmHPBullet, Unload"/>
+			<property name="Magazine_items" value="762mmBullet, 762mmHPBullet, Unload"/>
 			<property name="Magazine_item_ray_counts" value="1, 1, 1"/>
 			<property name="Magazine_item_ray_spreads" value="0, 0, 0"/>
 			<property name="Reload_time" value="2.66"/>
@@ -1187,7 +1187,7 @@
 			<property name="DamageEntity" value="12"/>
 			<property name="DamageBlock" value="20"/>
 			<property name="Buff" value="bleeding,infection,stunned,biteMark"/>
-			<property name="Buff_chance" value="0.04,0.04,0.35,0.4"/>
+			<property name="Buff_chance" value="0.04,0.04,0.35,0.3"/>
 		</property>
 	</item>
 	<item id="77" name="handZombie02">
@@ -1198,7 +1198,7 @@
 		<property class="Action0">
 			<property name="Delay" value="2.0"/>
 			<property name="Buff" value="sprainedLeg,infection,biteMark"/>
-			<property name="Buff_chance" value="0.2,0.025,0.4"/>
+			<property name="Buff_chance" value="0.2,0.025,0.3"/>
 		</property>
 	</item>
 	<item id="78" name="handZombieBurning">
@@ -1210,7 +1210,7 @@
 			<property name="DamageEntity" value="12"/>
 			<property name="DamageBlock" value="2"/>
 			<property name="Buff" value="burningSmall,infection,stunned,biteMark"/>
-			<property name="Buff_chance" value="0.5,0.07,0.3,0.4"/>
+			<property name="Buff_chance" value="0.5,0.07,0.3,0.3"/>
 		</property>
 	</item>
 	<item id="79" name="handZombieCop">
@@ -1273,7 +1273,7 @@
 			<property name="DamageEntity" value="15"/>
 			<property name="DamageBlock" value="15"/>
 			<property name="Buff" value="bleeding,infection,biteMark"/>
-			<property name="Buff_chance" value="0.3,0.1,0.6"/>
+			<property name="Buff_chance" value="0.3,0.1,0.3"/>
 			<property name="DamageBonus.earth" value="4"/>
 		</property>
 	</item>
@@ -1284,7 +1284,7 @@
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="50"/>
 			<property name="Buff" value="bleeding,infection,stunned,biteMark"/>
-			<property name="Buff_chance" value="0.2,0.1,0.4,0.6"/>
+			<property name="Buff_chance" value="0.2,0.1,0.4,0.3"/>
 		</property>
 	</item>
 	<item id="83" name="handAnimalBear">
@@ -1309,7 +1309,7 @@
 			<property name="DamageEntity" value="50"/>
 			<property name="DamageBlock" value="100"/>
 			<property name="Buff" value="bleeding,stunned,infection,biteMark"/>
-			<property name="Buff_chance" value="0.3,0.4,0.4,0.6"/>
+			<property name="Buff_chance" value="0.3,0.4,0.4,0.3"/>
 		</property>
 	</item>
 	<item id="85" name="handZombieHazMat">
@@ -1328,7 +1328,7 @@
 		<property class="Action0">
 			<property name="DamageBlock" value="150"/>
 			<property name="Buff" value="bleeding,stunned,infection,biteMark"/>
-			<property name="Buff_chance" value="0.03,0.4,0.24,0.6"/>
+			<property name="Buff_chance" value="0.03,0.4,0.24,0.3"/>
 		</property>
 	</item>
 	<item id="87" name="handZombieFootballPlayer">
@@ -1346,7 +1346,7 @@
 		<property class="Action0">
 			<property name="DamageEntity" value="8"/>
 			<property name="Buff" value="bleeding,infection,stunned,biteMark"/>
-			<property name="Buff_chance" value="0.02,0.1,0.11,0.6"/>
+			<property name="Buff_chance" value="0.02,0.1,0.11,0.3"/>
 		</property>
 	</item>
 	<item id="89" name="handZombieBurningCrawler">
@@ -18507,7 +18507,7 @@
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Buff" value="rottedApple"/>
-			<property name="Buff_chance" value="0.15"/>
+			<property name="Buff_chance" value="0.05"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="0"/>
@@ -19277,7 +19277,7 @@
 			<property name="Delay" value="0.25"/>
 			<property name="Crosshair_min_distance" value="30"/>
 			<property name="Crosshair_max_distance" value="100"/>
-			<property name="Magazine_size" value="20"/>
+			<property name="Magazine_size" value="8"/>
 			<property name="Magazine_items" value="762mmBullet, 762mmHPBullet, Unload"/>
 			<property name="Magazine_item_ray_counts" value="1, 1"/>
 			<property name="Magazine_item_ray_spreads" value="0, 0"/>

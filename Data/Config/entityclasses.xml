@@ -193,7 +193,7 @@
 		<property name="ChestExplosionDamageMultiplier" value="1"/>
 		<property name="LootListOnDeath" value="15"/>
 		<property name="ExperienceGain" value="575"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 	</entity_class>
 	<entity_class name="zombieTemplateMaleFeral">
 		<!-- This one decides for scoring -->
@@ -319,7 +319,7 @@
 		<property name="ChestExplosionDamageMultiplier" value="1"/>
 		<property name="LootListOnDeath" value="15"/>
 		<property name="ExperienceGain" value="875"/>
-		<property name="MaxHealth" value="625"/>
+		<property name="MaxHealth" value="715"/>
 	</entity_class>
 	<entity_class name="zombieTemplateMale">
 		<!-- This one decides for scoring -->
@@ -445,7 +445,7 @@
 		<property name="ChestExplosionDamageMultiplier" value="1"/>
 		<property name="LootListOnDeath" value="15"/>
 		<property name="ExperienceGain" value="575"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 	</entity_class>
 	<entity_class name="zombieTemplateMale">
 		<!-- This one decides for scoring -->
@@ -571,7 +571,7 @@
 		<property name="ChestExplosionDamageMultiplier" value="1"/>
 		<property name="LootListOnDeath" value="15"/>
 		<property name="ExperienceGain" value="575"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 	</entity_class>
 	<!-- Missing: zombieWight -->
 	<!-- Missing: zombieWightRadiated -->
@@ -588,7 +588,7 @@
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="1.1"/>
 		<property name="HandItem" value="handFeralZombie"/>
-		<property name="MaxHealth" value="1525"/>
+		<property name="MaxHealth" value="1615"/>
 		<property name="ExperienceGain" value="1475"/>
 		<property name="LootListOnDeath" value="61"/>
 		<property name="HeadDismemberThreshold" value="0.2"/>
@@ -600,7 +600,7 @@
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	</entity_class>
 	<entity_class name="zombieWightFeralRadiated" extends="zombieWightFeral">
-		<property name="MaxHealth" value="2125"/>
+		<property name="MaxHealth" value="2215"/>
 		<property name="ExperienceGain" value="2575"/>
 		<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 		<property name="ReplaceMaterial0" value="entities/zombies/materials/feral_rad"/>
@@ -661,7 +661,7 @@
 	<!-- Missing: zombieBoeRadiated -->
 	<entity_class name="zombieBoeFeral" extends="zombieBoe">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="ApproachSpeed" value="0.8"/>
 		<property name="NightApproachSpeed" value="1.1"/>
@@ -681,7 +681,7 @@
 		<property name="AvatarController" value="AvatarZombie01Controller"/>
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="6"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="HandItem" value="handZombieFootballPlayer"/>
 		<property name="WanderSpeed" value="0.75"/>
 		<property name="ApproachSpeed" value="0.6"/>
@@ -709,7 +709,7 @@
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="1"/>
 		<property name="HandItem" value="handZombieStrong"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1175"/>
 		<property name="CanClimbLadders" value="true"/>
 		<property name="PhysicsBody" value="zombieFat"/>
@@ -725,7 +725,7 @@
 	<!-- Missing: zombieFemaleFatRadiated -->
 	<entity_class name="zombieFemaleFatFeral" extends="zombieFemaleFat">
 		<property name="HandItem" value="handZombieStrongFeral"/>
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="ExperienceGain" value="1575"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -747,7 +747,7 @@
 	<!-- Missing: zombieJoeRadiated -->
 	<entity_class name="zombieJoeFeral" extends="zombieJoe">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1175"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -767,7 +767,7 @@
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="1"/>
 		<property name="HandItem" value="handZombieStrong"/>
-		<property name="MaxHealth" value="625"/>
+		<property name="MaxHealth" value="715"/>
 		<property name="ExperienceGain" value="975"/>
 		<property name="Weight" value="70"/>
 		<property name="PushFactor" value="20"/>
@@ -781,7 +781,7 @@
 	<!-- Missing: zombieMoeRadiated -->
 	<entity_class name="zombieMoeFeral" extends="zombieMoe">
 		<property name="HandItem" value="handZombieStrongFeral"/>
-		<property name="MaxHealth" value="1025"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="ExperienceGain" value="1575"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -801,7 +801,7 @@
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="3"/>
 		<property name="HandItem" value="handZombie"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="CanClimbLadders" value="true"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
@@ -812,7 +812,7 @@
 	<!-- Missing: zombieArleneRadiated -->
 	<entity_class name="zombieArleneFeral" extends="zombieArlene">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1575"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -832,7 +832,7 @@
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="3"/>
 		<property name="HandItem" value="handZombie"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="CanClimbLadders" value="true"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
@@ -842,7 +842,7 @@
 	<!-- Missing: zombieScreamerRadiated -->
 	<entity_class name="zombieScreamerFeral" extends="zombieScreamer">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -862,7 +862,7 @@
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="3"/>
 		<property name="HandItem" value="handZombie"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="ExperienceGain" value="875"/>
 		<property name="CanClimbLadders" value="true"/>
 		<property name="RootMotion" value="true"/>
@@ -874,7 +874,7 @@
 	<!-- Missing: zombieDarleneRadiated -->
 	<entity_class name="zombieDarleneFeral" extends="zombieDarlene">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -894,7 +894,7 @@
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="5"/>
 		<property name="HandItem" value="handZombie"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="ExperienceGain" value="575"/>
 		<property name="CanClimbLadders" value="true"/>
 		<property name="RootMotion" value="true"/>
@@ -906,7 +906,7 @@
 	<!-- Missing: zombieMarleneRadiated -->
 	<entity_class name="zombieMarleneFeral" extends="zombieMarlene">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -927,7 +927,7 @@
 	<!-- Missing: zombieYoRadiated -->
 	<entity_class name="zombieYoFeral" extends="zombieYo">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -948,7 +948,7 @@
 	<!-- Missing: zombieSteveRadiated -->
 	<entity_class name="zombieSteveFeral" extends="zombieSteve">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -961,7 +961,7 @@
 		<property name="Mesh" value="Zombies/zombieStandardSteveRagdoll"/>
 		<property name="AvatarController" value="AvatarZombie01Controller"/>
 		<property name="HandItem" value="handZombie02"/>
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="ExperienceGain" value="575"/>
 		<property name="Class" value="EntityZombieCrawl"/>
 		<property name="WalkType" value="4"/>
@@ -974,7 +974,7 @@
 	<!-- Missing: zombieSteveCrawlerRadiated -->
 	<entity_class name="zombieSteveCrawlerFeral" extends="zombieSteveCrawler">
 		<property name="HandItem" value="handZombie02Feral"/>
-		<property name="MaxHealth" value="425"/>
+		<property name="MaxHealth" value="515"/>
 		<property name="ExperienceGain" value="875"/>
 		<property name="LootListOnDeath" value="38"/>
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
@@ -994,7 +994,7 @@
 	<!-- Missing: zombieBusinessManRadiated -->
 	<entity_class name="zombieBusinessManFeral" extends="zombieBusinessMan">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -1008,7 +1008,7 @@
 		<property name="AvatarController" value="AvatarZombie01Controller"/>
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="2"/>
-		<property name="MaxHealth" value="725"/>
+		<property name="MaxHealth" value="815"/>
 		<property name="ExperienceGain" value="1075"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
@@ -1025,7 +1025,7 @@
 	<!-- Missing: zombieSnowRadiated -->
 	<entity_class name="zombieSnowFeral" extends="zombieSnow">
 		<property name="HandItem" value="handZombieStrongFeral"/>
-		<property name="MaxHealth" value="1025"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="ExperienceGain" value="1475"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -1048,7 +1048,7 @@
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="ExperienceGain" value="575"/>
 		<property name="WanderSpeed" value="0.08"/>
 		<property name="ApproachSpeed" value="0.2"/>
@@ -1069,7 +1069,7 @@
 	<!-- Missing: zombieSpiderRadiated -->
 	<entity_class name="zombieSpiderFeral" extends="zombieSpider">
 		<property name="HandItem" value="handZombie02Feral"/>
-		<property name="MaxHealth" value="425"/>
+		<property name="MaxHealth" value="515"/>
 		<property name="ExperienceGain" value="875"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -1079,7 +1079,7 @@
 	</entity_class>
 	<entity_class name="zombieSpiderFeralRadiated" extends="zombieSpiderFeral">
 		<property name="HandItem" value="handZombie02Feral"/>
-		<property name="MaxHealth" value="725"/>
+		<property name="MaxHealth" value="815"/>
 		<property name="ExperienceGain" value="1575"/>
 		<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 		<property name="ReplaceMaterial0" value="entities/zombies/materials/spider_rad"/>
@@ -1101,7 +1101,7 @@
 		<property name="HandItem" value="handZombieBurning"/>
 		<property name="HandItemCrawler" value="handZombieBurningCrawler"/>
 		<!-- override the default replacement of handZombie02 with a specific hand item -->
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="ExperienceGain" value="575"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	</entity_class>
@@ -1129,7 +1129,7 @@
 	<!-- Missing: zombieNurseRadiated -->
 	<entity_class name="zombieNurseFeral" extends="zombieNurse">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1075"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -1155,7 +1155,7 @@
 		<property name="PhysicsBody" value="zombieFat"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
-		<property name="MaxHealth" value="825"/>
+		<property name="MaxHealth" value="915"/>
 		<property name="ExperienceGain" value="1175"/>
 		<property name="LootListOnDeath" value="38"/>
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1"/>
@@ -1164,7 +1164,7 @@
 	<!-- Missing: zombieFatHawaiianRadiated -->
 	<entity_class name="zombieFatHawaiianFeral" extends="zombieFatHawaiian">
 		<property name="HandItem" value="handZombieCopFeral"/>
-		<property name="MaxHealth" value="1225"/>
+		<property name="MaxHealth" value="1415"/>
 		<property name="ExperienceGain" value="1575"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -1185,7 +1185,7 @@
 		<property name="PhysicsBody" value="zombieFat"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="ExperienceGain" value="1875"/>
 		<property name="Weight" value="70"/>
 		<property name="PushFactor" value="20"/>
@@ -1230,7 +1230,7 @@
 	<!-- Missing: zombieFatCopRadiated -->
 	<entity_class name="zombieFatCopFeral" extends="zombieFatCop">
 		<property name="HandItem" value="handZombieCopFeral"/>
-		<property name="MaxHealth" value="1725"/>
+		<property name="MaxHealth" value="1815"/>
 		<property name="ExperienceGain" value="2175"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -1240,7 +1240,7 @@
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	</entity_class>
 	<entity_class name="zombieFatCopFeralRadiated" extends="zombieFatCopFeral">
-		<property name="MaxHealth" value="2125"/>
+		<property name="MaxHealth" value="2215"/>
 		<property name="ExperienceGain" value="2775"/>
 		<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 		<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
@@ -1254,7 +1254,7 @@
 	<entity_class name="zombieMaleHazmat" extends="zombieBoe">
 		<property name="Mesh" value="Zombies/zombieStandardHazmatRagdoll"/>
 		<property name="HandItem" value="handZombieHazMat"/>
-		<property name="MaxHealth" value="625"/>
+		<property name="MaxHealth" value="715"/>
 		<property name="ExperienceGain" value="975"/>
 		<property name="LootListOnDeath" value="65"/>
 		<property name="WalkType" value="7"/>
@@ -1274,7 +1274,7 @@
 		<property name="AvatarController" value="AvatarZombie01Controller"/>
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="6"/>
-		<property name="MaxHealth" value="725"/>
+		<property name="MaxHealth" value="815"/>
 		<property name="ExperienceGain" value="975"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
@@ -1285,7 +1285,7 @@
 	</entity_class>
 	<!-- Missing: zombieUtilityWorkerRadiated -->
 	<entity_class name="zombieUtilityWorkerFeral" extends="zombieUtilityWorker">
-		<property name="MaxHealth" value="925"/>
+		<property name="MaxHealth" value="1115"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="HandItem" value="handZombieWorkerFeral"/>
 		<property name="ApproachSpeed" value="0.6"/>
@@ -1305,7 +1305,7 @@
 		<property name="AvatarController" value="AvatarZombie01Controller"/>
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="2"/>
-		<property name="MaxHealth" value="725"/>
+		<property name="MaxHealth" value="815"/>
 		<property name="ExperienceGain" value="1175"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
@@ -1315,7 +1315,7 @@
 	</entity_class>
 	<!-- Missing: zombieSoldierRadiated -->
 	<entity_class name="zombieSoldierFeral" extends="zombieSoldier">
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="ExperienceGain" value="1675"/>
 		<property name="HandItem" value="handZombieCopFeral"/>
 		<property name="ApproachSpeed" value="0.6"/>
@@ -1325,7 +1325,7 @@
 	</entity_class>
 	<!-- Missing: zombieSoldierFeralRadiated -->
 	<entity_class name="zombieSkateboarder" extends="zombieBoe">
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="ExperienceGain" value="575"/>
 		<property name="Mesh" value="Zombies/zombieStandardHoodieRagdoll"/>
 		<property name="SoundRandom" value="zombiemaleroam"/>
@@ -1340,7 +1340,7 @@
 	<!-- Missing: zombieSkateboarderRadiated -->
 	<entity_class name="zombieSkateboarderFeral" extends="zombieSkateboarder">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="ExperienceGain" value="975"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -1360,7 +1360,7 @@
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="3"/>
 		<property name="HandItem" value="handZombie"/>
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="ExperienceGain" value="575"/>
 		<property name="CanClimbLadders" value="true"/>
 		<property name="RootMotion" value="true"/>
@@ -1374,7 +1374,7 @@
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="ExperienceGain" value="975"/>
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -1389,7 +1389,7 @@
 	<!-- Missing: zombieOldTimerRadiated -->
 	<entity_class name="zombieOldTimerFeral" extends="zombieOldTimer">
 		<property name="HandItem" value="handZombieFeral"/>
-		<property name="MaxHealth" value="425"/>
+		<property name="MaxHealth" value="515"/>
 		<property name="ExperienceGain" value="975"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
@@ -1402,7 +1402,7 @@
 	<entity_class name="zombieBiker" extends="zombieTemplateMale">
 		<property name="Mesh" value="Zombies/zombieStandardBikerRagdoll"/>
 		<property name="HandItem" value="handZombieStrong"/>
-		<property name="MaxHealth" value="925"/>
+		<property name="MaxHealth" value="1115"/>
 		<property name="ExperienceGain" value="1375"/>
 		<property name="LootListOnDeath" value="83"/>
 		<property name="WalkType" value="7"/>
@@ -1414,7 +1414,7 @@
 	<entity_class name="zombieFarmer" extends="zombieTemplateMale">
 		<property name="Mesh" value="Zombies/zombieStandardFarmerRagdoll"/>
 		<property name="HandItem" value="handZombieStrong"/>
-		<property name="MaxHealth" value="425"/>
+		<property name="MaxHealth" value="515"/>
 		<property name="ExperienceGain" value="675"/>
 		<property name="LootListOnDeath" value="85"/>
 		<property name="WalkType" value="6"/>
@@ -1426,7 +1426,7 @@
 		<property name="Mesh" value="Zombies/zombieStandardFarmerRagdoll"/>
 		<property name="HandItem" value="handZombieStrongFeral"/>
 		<property name="ExperienceGain" value="975"/>
-		<property name="MaxHealth" value="625"/>
+		<property name="MaxHealth" value="715"/>
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
 		<property name="LootListOnDeath" value="85"/>
@@ -1439,7 +1439,7 @@
 	<entity_class name="zombieStripper" extends="zombieDarlene">
 		<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
 		<property name="HandItem" value="handZombieStripper"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="ExperienceGain" value="575"/>
 		<property name="LootListOnDeath" value="84"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -1448,7 +1448,7 @@
 	<entity_class name="zombieStripperFeral" extends="zombieStripper">
 		<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
 		<property name="HandItem" value="handZombieStripperFeral"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="ExperienceGain" value="975"/>
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 		<property name="ApproachSpeed" value="0.6"/>
@@ -1512,7 +1512,7 @@
 		<property name="PhysicsBody" value="Stag"/>
 		<property name="Faction" value="animals"/>
 		<property name="CanClimbLadders" value="false"/>
-		<property name="MaxHealth" value="100"/>
+		<property name="MaxHealth" value="135"/>
 		<property name="MaxViewAngle" value="180"/>
 		<property name="WanderSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="2.0"/>
@@ -1539,7 +1539,7 @@
 		<property name="Class" value="EntityAnimalRabbit"/>
 		<property name="Parent" value="Animals"/>
 		<property name="Weight" value="10"/>
-		<property name="MaxHealth" value="25"/>
+		<property name="MaxHealth" value="35"/>
 		<property name="PhysicsBody" value="rabbit"/>
 		<property name="SoundHurt" value="Animals/rabbitpain"/>
 		<property name="SoundDeath" value="Animals/rabbitdeath"/>
@@ -1561,7 +1561,7 @@
 		<property name="Class" value="EntityAnimalRabbit"/>
 		<property name="Parent" value="Animals"/>
 		<property name="Weight" value="10"/>
-		<property name="MaxHealth" value="15"/>
+		<property name="MaxHealth" value="35"/>
 		<property name="PhysicsBody" value="chicken"/>
 		<property name="SoundHurt" value="Animals/Chicken/chickenpain"/>
 		<property name="SoundDeath" value="Animals/Chicken/chickendeath"/>
@@ -1601,7 +1601,7 @@
 		<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 		<property name="CanClimbLadders" value="false"/>
 		<property name="HandItem" value="handAnimalBear"/>
-		<property name="MaxHealth" value="1225"/>
+		<property name="MaxHealth" value="1415"/>
 		<property name="MaxViewAngle" value="180"/>
 		<property name="WanderSpeed" value="0.25"/>
 		<property name="PanicSpeed" value="2.0"/>
@@ -1646,7 +1646,7 @@
 		<property name="NightWanderSpeed" value="0.3"/>
 		<property name="NightApproachSpeed" value="1.6"/>
 		<property name="PanicSpeed" value="1.6"/>
-		<property name="MaxHealth" value="120"/>
+		<property name="MaxHealth" value="215"/>
 		<property name="SoundRandomTime" value="45.0"/>
 		<property name="SoundAlertTime" value="25.0"/>
 		<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>
@@ -1691,7 +1691,7 @@
 		<property name="ModelType" value="Standard"/>
 		<property name="HasRagdoll" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="RootMotion" value="true"/>
 		<property name="RagdollOnDeathChance" value=".5"/>
 		<property name="PhysicsBody" value="bear"/>
@@ -1747,7 +1747,7 @@
 		<drop event="Harvest" name="rawMeat" tool_category="ButcherBonus" count="3"/>
 	</entity_class>
 	<entity_class name="animalZombieBear" extends="animalBear">
-		<property name="MaxHealth" value="1725"/>
+		<property name="MaxHealth" value="1815"/>
 		<property name="ExperienceGain" value="2275"/>
 		<property name="HandItem" value="handAnimalZombieBear"/>
 		<property name="ReplaceMaterial0" value="Materials/UMAFur_ZombieBear"/>
@@ -1766,7 +1766,7 @@
 		<property name="PhysicsBody" value="wolf"/>
 		<property name="Mesh" value="Animals/Wolf/animalStandardWolfRagdoll"/>
 		<property name="HandItem" value="handAnimalWolf"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="HasDeathAnim" value="true"/>
 		<property name="RootMotion" value="true"/>
 		<property name="RagdollOnDeathChance" value=".5"/>
@@ -1824,7 +1824,7 @@
 	<entity_class name="animalDireWolf" extends="animalWolf">
 		<property name="Mesh" value="Animals/Wolf/animalStandardDireWolfRagdoll"/>
 		<property name="HandItem" value="handAnimalZombieDogFeral"/>
-		<property name="MaxHealth" value="925"/>
+		<property name="MaxHealth" value="1115"/>
 		<property name="ExperienceGain" value="1575"/>
 		<property name="ReplaceMaterial1" value="entities/animals/wolf/materials/wolfEyeFeral"/>
 		<property name="AITask-1" value="Swim"/>
@@ -1857,7 +1857,7 @@
 		<property name="PhysicsBody" value="vulture"/>
 		<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
 		<property name="HandItem" value="handAnimalZombieVulture"/>
-		<property name="MaxHealth" value="30"/>
+		<property name="MaxHealth" value="35"/>
 		<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
 		<property class="MechanimAttackTriggers">
 			<property name="state0" value="AttackTrigger"/>
@@ -1913,7 +1913,7 @@
 		<property name="AITarget-4" value="SetNearestCorpseAsTarget" param1="EntityPlayer"/>
 		<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityNPC"/>
 		<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
-		<property name="MaxHealth" value="30"/>
+		<property name="MaxHealth" value="35"/>
 		<property name="HandItem" value="handSnake"/>
 		<property name="Weight" value="70"/>
 		<property name="WanderSpeed" value="0.08"/>
@@ -1958,7 +1958,7 @@
 		<property name="PhysicsBody" value="boar"/>
 		<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
 		<property name="HandItem" value="handAnimalWolf"/>
-		<property name="MaxHealth" value="90"/>
+		<property name="MaxHealth" value="115"/>
 		<property name="HasDeathAnim" value="true"/>
 		<property name="RootMotion" value="true"/>
 		<property name="RagdollOnDeathChance" value=".5"/>
@@ -2076,7 +2076,7 @@
 		<property name="Prefab" value="Backpack"/>
 		<property name="Class" value="EntityLootContainer"/>
 		<property name="Parent" value="Backpack"/>
-		<property name="TimeStayAfterDeath" value="240"/>
+		<property name="TimeStayAfterDeath" value="480"/>
 		<property name="IsEnemyEntity" value="false"/>
 		<property name="LootListOnDeath" value="47"/>
 		<!-- used to determine container X/Y size -->
@@ -2088,7 +2088,7 @@
 		<property name="Prefab" value="Backpack"/>
 		<property name="Class" value="EntityLootContainer"/>
 		<property name="Parent" value="Backpack"/>
-		<property name="TimeStayAfterDeath" value="120"/>
+		<property name="TimeStayAfterDeath" value="240"/>
 		<property name="IsEnemyEntity" value="false"/>
 		<property name="LootListOnDeath" value="174"/>
 		<!-- used to determine container X/Y size and sounds -->
@@ -2136,7 +2136,7 @@
 		<!--property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" /-->
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="clubWood"/>
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="clubWood"/>
-		<property name="MaxHealth" value="150"/>
+		<property name="MaxHealth" value="215"/>
 		<property name="MaxViewAngle" value="300"/>
 		<property name="Weight" value="70"/>
 		<property name="WanderSpeed" value="0.75"/>
@@ -2180,7 +2180,7 @@
 		<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityAlive"/>
 		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityAlive"/>
 		<!--property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" /-->
-		<property name="MaxHealth" value="150"/>
+		<property name="MaxHealth" value="215"/>
 		<property name="MaxViewAngle" value="300"/>
 		<property name="Weight" value="70"/>
 		<property name="WanderSpeed" value="0.75"/>
@@ -2274,13 +2274,13 @@
 	<entity_class name="badZombieOfficeGirl" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="ZombieOfficeGirl"/>
 		<property name="WalkType" value="3"/>
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="415"/>
 	</entity_class>
 	<!-- handZombie02 -->
 	<entity_class name="badZombieBaby" extends="badZombieUMA">
 		<property name="Archetype" value="ZombieBaby"/>
 		<property name="HandItem" value="handZombie02"/>
-		<property name="MaxHealth" value="60"/>
+		<property name="MaxHealth" value="115"/>
 		<property name="Class" value="EntityZombie"/>
 		<property name="WalkType" value="8"/>
 		<property name="CanClimbLadders" value="false"/>
@@ -2320,12 +2320,12 @@
 	</entity_class>
 	<entity_class name="valZombieChildFemale" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="valZombieChildFemale"/>
-		<property name="MaxHealth" value="125"/>
+		<property name="MaxHealth" value="215"/>
 		<property name="ExperienceGain" value="375"/>
 	</entity_class>
 	<entity_class name="valZombieChildMale" extends="badZombieUMA">
 		<property name="Archetype" value="valZombieChildMale"/>
-		<property name="MaxHealth" value="125"/>
+		<property name="MaxHealth" value="215"/>
 		<property name="ExperienceGain" value="375"/>
 	</entity_class>
 	<entity_class name="gupZombieMartha" extends="badZombieUMA">
@@ -2393,14 +2393,14 @@
 	<entity_class name="sanZombieBanditSentry" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="sanZombieBanditSentry"/>
 		<property name="LootListOnDeath" value="73"/>
-		<property name="MaxHealth" value="425"/>
+		<property name="MaxHealth" value="515"/>
 		<property name="ExperienceGain" value="675"/>
 		<property name="WalkType" value="1"/>
 	</entity_class>
 	<!-- +HP 200, -speed 0.15 at night -->
 	<entity_class name="sanZombieOldLady" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="sanZombieOldLady"/>
-		<property name="MaxHealth" value="425"/>
+		<property name="MaxHealth" value="515"/>
 		<property name="WanderSpeed" value="0.08"/>
 		<property name="ApproachSpeed" value="0.15"/>
 		<property name="NightWanderSpeed" value="0.08"/>
@@ -2412,7 +2412,7 @@
 	<!-- +HP 200, -speed 0.25 at night -->
 	<entity_class name="sanZombieOldMan" extends="badZombieUMA">
 		<property name="Archetype" value="sanZombieOldMan"/>
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="WanderSpeed" value="0.08"/>
 		<property name="ApproachSpeed" value="0.15"/>
 		<property name="NightWanderSpeed" value="0.02"/>
@@ -2434,7 +2434,7 @@
 	<entity_class name="badZombieSeryph" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="ZombieSeryph"/>
 		<property name="WalkType" value="6"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="WanderSpeed" value="0.25"/>
 		<property name="ApproachSpeed" value="0.45"/>
 		<property name="NightWanderSpeed" value="0.35"/>
@@ -2444,7 +2444,7 @@
 	<!-- +HP 200, handZombieStrong -->
 	<entity_class name="valZombieBigBitch" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="valZombieBigBitch"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="WalkType" value="1"/>
 		<property name="HandItem" value="handZombieStrong"/>
 		<property name="ExperienceGain" value="675"/>
@@ -2453,7 +2453,7 @@
 	<entity_class name="sanZombieCpl" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="sanZombieCpl"/>
 		<property name="LootListOnDeath" value="73"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="WalkType" value="5"/>
 		<property name="ExperienceGain" value="575"/>
 	</entity_class>
@@ -2461,7 +2461,7 @@
 	<entity_class name="sanZombieCannibalFemale" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="sanZombieCannibalFemale"/>
 		<property name="LootListOnDeath" value="71"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="WalkType" value="5"/>
 		<property name="ExperienceGain" value="575"/>
 	</entity_class>
@@ -2480,7 +2480,7 @@
 		<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
 		<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
 		<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
-		<property name="MaxHealth" value="425"/>
+		<property name="MaxHealth" value="515"/>
 		<property name="ExperienceGain" value="875"/>
 	</entity_class>
 	<!-- +HP 500, handRegenerator, loot 17 -->
@@ -2488,7 +2488,7 @@
 		<property name="Archetype" value="valZombieRegen"/>
 		<property name="HandItem" value="handRegenerator"/>
 		<property name="LootListOnDeath" value="61"/>
-		<property name="MaxHealth" value="925"/>
+		<property name="MaxHealth" value="1115"/>
 		<property name="WalkType" value="2"/>
 		<property name="AITask-1" value="BreakDoor"/>
 		<property name="AITask-2" value="BreakBlock"/>
@@ -2512,7 +2512,7 @@
 		<property name="Archetype" value="sanZombieTrailerPark"/>
 		<property name="HandItem" value="handZombieWorker"/>
 		<property name="LootListOnDeath" value="85"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="ExperienceGain" value="975"/>
 	</entity_class>
 	<!-- +HP 500, handZombieWorker, loot 85 -->
@@ -2521,7 +2521,7 @@
 	<entity_class name="badZombieBabyBoomer" extends="badZombieBaby">
 		<property name="Archetype" value="ZombieBaby"/>
 		<property name="Class" value="EntityZombieCop"/>
-		<property name="MaxHealth" value="125"/>
+		<property name="MaxHealth" value="215"/>
 		<property name="HandItem" value="handBabyBoomer"/>
 		<property name="WanderSpeed" value="0.08"/>
 		<property name="ApproachSpeed" value="0.6"/>
@@ -2549,21 +2549,21 @@
 	<!-- BOSSES  -->
 	<entity_class name="sanZombiePrisoner" extends="badZombieUMA">
 		<property name="Archetype" value="sanZombiePrisoner"/>
-		<property name="MaxHealth" value="925"/>
+		<property name="MaxHealth" value="1115"/>
 		<property name="ExperienceGain" value="1275"/>
 	</entity_class>
 	<entity_class name="sanZombieBanditRaider" extends="badZombieUMA">
 		<property name="Archetype" value="sanZombieBanditRaider"/>
 		<property name="HandItem" value="handZombieWorker"/>
 		<property name="LootListOnDeath" value="61"/>
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="ExperienceGain" value="1375"/>
 	</entity_class>
 	<!-- +HP 350, handZombieCop -->
 	<entity_class name="sanZombieCrazed" extends="badZombieUMA">
 		<property name="Archetype" value="sanZombieCrazed"/>
 		<property name="HandItem" value="handZombieCop"/>
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
 		<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
 		<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
@@ -2580,7 +2580,7 @@
 	<entity_class name="sanZombieBodyBuilder" extends="badZombieUMA">
 		<property name="Archetype" value="sanZombieBodyBuilder"/>
 		<property name="HandItem" value="handZombieStrong"/>
-		<property name="MaxHealth" value="1525"/>
+		<property name="MaxHealth" value="1615"/>
 		<property name="WalkType" value="2"/>
 		<property name="ExperienceGain" value="2175"/>
 		<property name="LootListOnDeath" value="61"/>
@@ -2589,7 +2589,7 @@
 	<entity_class name="sanZombieCannibalMale" extends="badZombieUMA">
 		<property name="Archetype" value="sanZombieCannibalMale"/>
 		<property name="LootListOnDeath" value="61"/>
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="WalkType" value="7"/>
 		<property name="ExperienceGain" value="1475"/>
 		<property name="LootListOnDeath" value="61"/>
@@ -2598,7 +2598,7 @@
 	<entity_class name="sanZombieFreak" extends="badZombieUMA">
 		<property name="Archetype" value="sanZombieFreak"/>
 		<property name="HandItem" value="handZombieStrong"/>
-		<property name="MaxHealth" value="1025"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="WalkType" value="1"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="LootListOnDeath" value="61"/>
@@ -2608,7 +2608,7 @@
 		<property name="Archetype" value="sanZombieReaper"/>
 		<property name="HandItem" value="handZombieStrong"/>
 		<property name="LootListOnDeath" value="61"/>
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="WalkType" value="7"/>
 		<property name="ExperienceGain" value="1475"/>
 	</entity_class>
@@ -2617,7 +2617,7 @@
 		<property name="Archetype" value="valZombieBrute"/>
 		<property name="HandItem" value="handZombieCop"/>
 		<property name="LootListOnDeath" value="176"/>
-		<property name="MaxHealth" value="1925"/>
+		<property name="MaxHealth" value="2115"/>
 		<property name="WalkType" value="8"/>
 		<property name="CanClimbLadders" value="false"/>
 		<property name="SurfaceCategory" value="metal"/>
@@ -2628,7 +2628,7 @@
 		<property name="Archetype" value="valZombieBrute"/>
 		<property name="HandItem" value="handGupHulk"/>
 		<property name="LootListOnDeath" value="176"/>
-		<property name="MaxHealth" value="2125"/>
+		<property name="MaxHealth" value="2215"/>
 		<property name="WalkType" value="5"/>
 		<property name="CanClimbLadders" value="false"/>
 		<property name="SurfaceCategory" value="metal"/>
@@ -2654,7 +2654,7 @@
 	<entity_class name="badZombieBolivar" extends="badZombieUMA">
 		<property name="Archetype" value="ZombieBolivar"/>
 		<property name="HandItem" value="handZombieCop"/>
-		<property name="MaxHealth" value="1525"/>
+		<property name="MaxHealth" value="1615"/>
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
 		<property name="ExperienceGain" value="2575"/>
@@ -2673,7 +2673,7 @@
 		<property name="Immunity" value="sickness;disease;bleeding;wellness;armordown"/>
 		<property name="ModelType" value="Standard"/>
 		<property name="WalkType" value="6"/>
-		<property name="MaxHealth" value="1125"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="ExperienceGain" value="1575"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
@@ -2683,7 +2683,7 @@
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	</entity_class>
 	<entity_class name="zombieUtilityWorkerFeral" extends="zombieUtilityWorker">
-		<property name="MaxHealth" value="925"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="HandItem" value="handZombieWorkerFeral"/>
 		<property name="ApproachSpeed" value="0.7"/>
@@ -2692,7 +2692,7 @@
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	</entity_class>
 	<entity_class name="zombieElectricUtilityWorkerFeral" extends="zombieElectricUtilityWorker">
-		<property name="MaxHealth" value="1325"/>
+		<property name="MaxHealth" value="1425"/>
 		<property name="ExperienceGain" value="1875"/>
 		<property name="HandItem" value="handZombieWorkerFeral"/>
 		<property name="ApproachSpeed" value="0.7"/>
@@ -2724,7 +2724,7 @@
 		<property name="PhysicsBody" value="zombieUMA"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
-		<property name="MaxHealth" value="1025"/>
+		<property name="MaxHealth" value="1215"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 		<property name="CorpseBlockChance" value="1"/>
 		<property name="ExperienceGain" value="875"/>
@@ -2790,7 +2790,7 @@
 		<property name="PhysicsBody" value="zombieUMA"/>
 		<property name="RootMotion" value="true"/>
 		<property name="HasDeathAnim" value="true"/>
-		<property name="MaxHealth" value="1525"/>
+		<property name="MaxHealth" value="1615"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 		<property name="CorpseBlockChance" value="1"/>
 		<property name="ExperienceGain" value="875"/>
@@ -2886,7 +2886,7 @@
 	</entity_class>
 	<entity_class name="zombieHorny" extends="othercustomzombietemplate">
 		<property name="Archetype" value="zombieHorny"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="ExperienceGain" value="575"/>
 		<property name="SoundRandom" value="Player_Female/player2painlg"/>
 		<property name="SoundAlert" value="Player_Female/player2painlg"/>
@@ -2908,7 +2908,7 @@
 		<property name="AITask-3" value="RunawayFromEntity" param1="EntityPlayer"/>
 		<property name="AITask-4" value="RunawayFromEntity" param1="EntityZombie"/>
 		<property name="AITask-5" value="Wander"/>
-		<property name="MaxHealth" value="2825"/>
+		<property name="MaxHealth" value="2915"/>
 		<property name="MaxViewAngle" value="300"/>
 		<property name="WanderSpeed" value="1.5"/>
 		<property name="ApproachSpeed" value="1.5"/>
@@ -2940,7 +2940,7 @@
 	</entity_class>
 	<entity_class name="zombieDitz" extends="othercustomzombietemplate">
 		<property name="Archetype" value="ditz"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="ExperienceGain" value="875"/>
 		<property name="SoundRandom" value="Player_Female/player2painlg"/>
 		<property name="SoundAlert" value="Player_Female/player2painlg"/>
@@ -2957,7 +2957,7 @@
 	</entity_class>
 	<entity_class name="angryzombieDitz" extends="othercustomzombietemplate">
 		<property name="Archetype" value="ditz"/>
-		<property name="MaxHealth" value="525"/>
+		<property name="MaxHealth" value="615"/>
 		<property name="ExperienceGain" value="875"/>
 		<property name="SoundRandom" value="Player_Female/player2painlg"/>
 		<property name="SoundAlert" value="Player_Female/player2painlg"/>
@@ -2974,7 +2974,7 @@
 	</entity_class>
 	<entity_class name="badasszombieDitz" extends="othercustomzombietemplate">
 		<property name="Archetype" value="ditz"/>
-		<property name="MaxHealth" value="925"/>
+		<property name="MaxHealth" value="1115"/>
 		<property name="ExperienceGain" value="1275"/>
 		<property name="SoundRandom" value="Player_Female/player2painlg"/>
 		<property name="SoundAlert" value="Player_Female/player2painlg"/>
@@ -2991,7 +2991,7 @@
 	</entity_class>
 	<entity_class name="CuriousGeorge" extends="othercustomzombietemplate">
 		<property name="Archetype" value="curiousgeorge"/>
-		<property name="MaxHealth" value="3025"/>
+		<property name="MaxHealth" value="3115"/>
 		<property name="ExperienceGain" value="2975"/>
 		<property name="SoundRandom" value="Player_Female/player2painlg"/>
 		<property name="SoundAlert" value="Player_Female/player2painlg"/>
@@ -3563,7 +3563,7 @@
 		<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalescoutpain"/>
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemalescoutdeath"/>
 		<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalescoutsense"/>
-		<property name="MaxHealth" value="225"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="WanderSpeed" value="0.08"/>
 		<property name="ApproachSpeed" value="2.0"/>
 		<property name="NightWanderSpeed" value="0.08"/>
@@ -3589,131 +3589,12 @@
 		<!-- With RootMotion true, the zombie just kind of chills out in one place. Set to false to watch it move. -->
 		<property name="RootMotion" value="false"/>
 		<!-- Baseline Speed is way too slow, so we need to bump it up a notch or 5 -->
-		<property name="WanderSpeed" value="0.8"/>
-		<property name="ApproachSpeed" value="0.8"/>
-		<property name="NightWanderSpeed" value="0.8"/>
-		<property name="NightApproachSpeed" value="1.1"/>
+		<property name="WanderSpeed" value="0.7"/>
+		<property name="ApproachSpeed" value="1.1"/>
+		<property name="NightWanderSpeed" value="0.7"/>
+		<property name="NightApproachSpeed" value="1.3"/>
+		<property name="PanicSpeed" value="1.2"/>
 		<property name="HasRagdoll" value="false"/>
-		<property name="LootListOnDeath" value="61"/>
-	</entity_class>
-	<entity_class name="zombieMechanic01" extends="SDXTemplate">
-		<property name="Mesh" value="#zombieMechanic01?zombieMechanic01"/>
-		<property name="MaxHealth" value="30"/>
-		<property name="AnimationIdle" value="Idle"/>
-		<property name="AnimationSecondIdle" value="Idle"/>
-		<property name="AnimationMainAttack" value="Attack(1)"/>
-		<property name="AnimationSecondAttack" value="Attack(2)"/>
-		<property name="AnimationPain" value="Get_Hit"/>
-		<property name="AnimationJump" value="Jump"/>
-		<property name="AnimationDeath" value="Dead"/>
-		<property name="AnimationRun" value="Run"/>
-		<property name="AnimationWalk" value="Walk"/>
-		<property name="AnimationSpecialAttack" value="Attack(3)"/>
-		<property name="SoundRandom" value="newzombieroam"/>
-		<property name="SoundAlert" value="newzombiealert"/>
-		<property name="SoundAttack" value="newzombieattack"/>
-		<property name="SoundHurt" value="newzombiepain"/>
-		<property name="SoundDeath" value="newzombiedeath"/>
-		<property name="SoundSense" value="newzombiesense"/>
-		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
-		<property name="WanderSpeed" value="0.4"/>
-		<property name="ApproachSpeed" value="0.4"/>
-		<property name="NightWanderSpeed" value="0.5"/>
-		<property name="NightApproachSpeed" value="0.8"/>
-		<property name="PanicSpeed" value="0.5"/>
-		<property name="ExperienceGain" value="1525"/>
-		<property name="HandItem" value="handZombieMechanic"/>
-		<property name="TimeStayAfterDeath" value="10"/>
-		<property name="LootListOnDeath" value="176"/>
-	</entity_class>
-	<entity_class name="mutantGasser01" extends="SDXTemplate">
-		<property name="Mesh" value="#Mutants?Mutant01"/>
-		<property name="MaxHealth" value="27"/>
-		<property name="AnimationIdle" value="idle"/>
-		<property name="AnimationSecondIdle" value="idle"/>
-		<property name="AnimationMainAttack" value="attack(3)"/>
-		<property name="AnimationSecondAttack" value="attack(2)"/>
-		<property name="AnimationPain" value="anger"/>
-		<property name="AnimationJump" value="jump"/>
-		<property name="AnimationDeath" value="dead"/>
-		<property name="AnimationRun" value="run"/>
-		<property name="AnimationWalk" value="walk"/>
-		<!-- property name="AnimationSpecialAttack" value="false" /-->
-		<property name="SoundRandom" value="afroShamanSounds"/>
-		<property name="SoundAlert" value="afroShamanSounds"/>
-		<property name="SoundAttack" value="newzombieattack"/>
-		<property name="SoundHurt" value="newzombiepain"/>
-		<property name="SoundDeath" value="newzombiedeath"/>
-		<property name="SoundSense" value="afroShamanSounds"/>
-		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
-		<property name="WanderSpeed" value="0.7"/>
-		<property name="ApproachSpeed" value="0.8"/>
-		<property name="NightWanderSpeed" value="0.8"/>
-		<property name="NightApproachSpeed" value="1.1"/>
-		<property name="PanicSpeed" value="0.5"/>
-		<property name="ExperienceGain" value="1225"/>
-		<property name="HandItem" value="handZombieMutant"/>
-		<property name="TimeStayAfterDeath" value="5"/>
-		<property name="LootListOnDeath" value="176"/>
-	</entity_class>
-	<entity_class name="mutantGasser02" extends="SDXTemplate">
-		<property name="Mesh" value="#Mutants?Mutant02"/>
-		<property name="MaxHealth" value="27"/>
-		<property name="AnimationIdle" value="idle"/>
-		<property name="AnimationSecondIdle" value="idle"/>
-		<property name="AnimationMainAttack" value="attack(3)"/>
-		<property name="AnimationSecondAttack" value="attack(2)"/>
-		<property name="AnimationPain" value="anger"/>
-		<property name="AnimationJump" value="jump"/>
-		<property name="AnimationDeath" value="dead"/>
-		<property name="AnimationRun" value="run"/>
-		<property name="AnimationWalk" value="walk"/>
-		<!-- property name="AnimationSpecialAttack" value="false" /-->
-		<property name="SoundRandom" value="afroShamanSounds"/>
-		<property name="SoundAlert" value="afroShamanSounds"/>
-		<property name="SoundAttack" value="newzombieattack"/>
-		<property name="SoundHurt" value="newzombiepain"/>
-		<property name="SoundDeath" value="newzombiedeath"/>
-		<property name="SoundSense" value="afroShamanSounds"/>
-		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
-		<property name="WanderSpeed" value="0.7"/>
-		<property name="ApproachSpeed" value="0.8"/>
-		<property name="NightWanderSpeed" value="0.8"/>
-		<property name="NightApproachSpeed" value="1.1"/>
-		<property name="PanicSpeed" value="0.5"/>
-		<property name="ExperienceGain" value="1225"/>
-		<property name="HandItem" value="handZombieMutant"/>
-		<property name="TimeStayAfterDeath" value="5"/>
-		<property name="LootListOnDeath" value="176"/>
-	</entity_class>
-	<entity_class name="mutantGasser03" extends="SDXTemplate">
-		<property name="Mesh" value="#Mutants?Mutant03"/>
-		<property name="MaxHealth" value="27"/>
-		<property name="AnimationIdle" value="idle"/>
-		<property name="AnimationSecondIdle" value="idle"/>
-		<property name="AnimationMainAttack" value="attack(3)"/>
-		<property name="AnimationSecondAttack" value="attack(2)"/>
-		<property name="AnimationPain" value="anger"/>
-		<property name="AnimationJump" value="jump"/>
-		<property name="AnimationDeath" value="dead"/>
-		<property name="AnimationRun" value="run"/>
-		<property name="AnimationWalk" value="walk"/>
-		<!-- property name="AnimationSpecialAttack" value="false" /-->
-		<property name="SoundRandom" value="afroShamanSounds"/>
-		<property name="SoundAlert" value="afroShamanSounds"/>
-		<property name="SoundAttack" value="newzombieattack"/>
-		<property name="SoundHurt" value="newzombiepain"/>
-		<property name="SoundDeath" value="newzombiedeath"/>
-		<property name="SoundSense" value="afroShamanSounds"/>
-		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
-		<property name="WanderSpeed" value="0.7"/>
-		<property name="ApproachSpeed" value="0.8"/>
-		<property name="NightWanderSpeed" value="0.8"/>
-		<property name="NightApproachSpeed" value="1.1"/>
-		<property name="PanicSpeed" value="0.5"/>
-		<property name="ExperienceGain" value="1225"/>
-		<property name="HandItem" value="handZombieMutant"/>
-		<property name="TimeStayAfterDeath" value="5"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="sc_hal">
@@ -3774,7 +3655,7 @@
 		<property name="NPCID" value="banditnpc"/>
 		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="clubBarbedBandit"/>
 		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="clubBarbedBandit"/>
-		<property name="MaxHealth" value="325"/>
+		<property name="MaxHealth" value="415"/>
 		<property name="MaxViewAngle" value="180"/>
 		<property name="Weight" value="70"/>
 		<property name="WanderSpeed" value="0.5"/>
@@ -4237,7 +4118,7 @@
 		<property name="ModelType" value="ZombieUMA"/>
 		<property name="AvatarController" value="AvatarZombieUMAController"/>
 		<property name="PhysicsBody" value="zombieUMA"/>
-		<property name="MaxHealth" value="2525"/>
+		<property name="MaxHealth" value="2715"/>
 		<property name="WalkType" value="3"/>
 		<property name="MaxViewAngle" value="320"/>
 		<property name="Weight" value="250"/>
@@ -4248,7 +4129,7 @@
 		<property name="Class" value="EntityZombieCop"/>
 		<property name="MeshMaterial" value="#BagOfBone?BagOfBone"/>
 		<property name="WalkType" value="6"/>
-		<property name="MaxHealth" value="1425"/>
+		<property name="MaxHealth" value="1515"/>
 		<property name="MaxViewAngle" value="150"/>
 		<property name="SoundDeath" value="Animals/stagdeath"/>
 		<property name="LootListOnDeath" value="61"/>
@@ -4270,7 +4151,7 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed"         value="0.9"/>
 		<property name="MaxViewAngle" value="90"/>
-		<property name="MaxHealth"    value="125"/>
+		<property name="MaxHealth"    value="115"/>
 		<property name="Weight"       value="10"/>
 		<property name="CanClimbLadders"     value="true"/>
 		<property name="ExperienceGain" value="225"/>
@@ -4282,9 +4163,129 @@
 		<property name="SoundSense" value="babysense"/>
 		<property name="LootListOnDeath" value="191"/>
 	</entity_class>
+	<entity_class name="zombieMechanic01" extends="SDXTemplate">
+		<property name="Mesh" value="#zombieMechanic01?zombieMechanic01"/>
+		<property name="MaxHealth" value="1515"/>
+		<property name="AnimationIdle" value="Idle"/>
+		<property name="AnimationSecondIdle" value="Idle"/>
+		<property name="AnimationMainAttack" value="Attack(1)"/>
+		<property name="AnimationSecondAttack" value="Attack(2)"/>
+		<property name="AnimationPain" value="Get_Hit"/>
+		<property name="AnimationJump" value="Jump"/>
+		<property name="AnimationDeath" value="Dead"/>
+		<property name="AnimationRun" value="Run"/>
+		<property name="AnimationWalk" value="Walk"/>
+		<property name="AnimationSpecialAttack" value="Attack(3)"/>
+		<property name="SoundRandom" value="newzombieroam"/>
+		<property name="SoundAlert" value="newzombiealert"/>
+		<property name="SoundAttack" value="newzombieattack"/>
+		<property name="SoundHurt" value="newzombiepain"/>
+		<property name="SoundDeath" value="newzombiedeath"/>
+		<property name="SoundSense" value="newzombiesense"/>
+		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
+		<property name="WanderSpeed" value="0.4"/>
+		<property name="ApproachSpeed" value="0.4"/>
+		<property name="NightWanderSpeed" value="0.5"/>
+		<property name="NightApproachSpeed" value="0.8"/>
+		<property name="PanicSpeed" value="0.5"/>
+		<property name="ExperienceGain" value="1525"/>
+		<property name="HandItem" value="handZombieMechanic"/>
+		<property name="TimeStayAfterDeath" value="10"/>
+		<property name="LootListOnDeath" value="176"/>
+	</entity_class>
+	<entity_class name="mutantGasser01" extends="SDXTemplate">
+		<property name="Mesh" value="#Mutants?Mutant01"/>
+		<property name="MaxHealth" value="1215"/>
+		<property name="AnimationIdle" value="idle"/>
+		<property name="AnimationSecondIdle" value="idle"/>
+		<property name="AnimationMainAttack" value="attack(3)"/>
+		<property name="AnimationSecondAttack" value="attack(2)"/>
+		<property name="AnimationPain" value="anger"/>
+		<property name="AnimationJump" value="jump"/>
+		<property name="AnimationDeath" value="dead"/>
+		<property name="AnimationRun" value="run"/>
+		<property name="AnimationWalk" value="walk"/>
+		<!-- property name="AnimationSpecialAttack" value="false" /-->
+		<property name="SoundRandom" value="afroShamanSounds"/>
+		<property name="SoundAlert" value="afroShamanSounds"/>
+		<property name="SoundAttack" value="newzombieattack"/>
+		<property name="SoundHurt" value="newzombiepain"/>
+		<property name="SoundDeath" value="newzombiedeath"/>
+		<property name="SoundSense" value="afroShamanSounds"/>
+		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+		<property name="WanderSpeed" value="0.7"/>
+		<property name="ApproachSpeed" value="0.8"/>
+		<property name="NightWanderSpeed" value="0.8"/>
+		<property name="NightApproachSpeed" value="1.1"/>
+		<property name="PanicSpeed" value="0.5"/>
+		<property name="ExperienceGain" value="1225"/>
+		<property name="HandItem" value="handZombieMutant"/>
+		<property name="TimeStayAfterDeath" value="5"/>
+		<property name="LootListOnDeath" value="176"/>
+	</entity_class>
+	<entity_class name="mutantGasser02" extends="SDXTemplate">
+		<property name="Mesh" value="#Mutants?Mutant02"/>
+		<property name="MaxHealth" value="1215"/>
+		<property name="AnimationIdle" value="idle"/>
+		<property name="AnimationSecondIdle" value="idle"/>
+		<property name="AnimationMainAttack" value="attack(3)"/>
+		<property name="AnimationSecondAttack" value="attack(2)"/>
+		<property name="AnimationPain" value="anger"/>
+		<property name="AnimationJump" value="jump"/>
+		<property name="AnimationDeath" value="dead"/>
+		<property name="AnimationRun" value="run"/>
+		<property name="AnimationWalk" value="walk"/>
+		<!-- property name="AnimationSpecialAttack" value="false" /-->
+		<property name="SoundRandom" value="afroShamanSounds"/>
+		<property name="SoundAlert" value="afroShamanSounds"/>
+		<property name="SoundAttack" value="newzombieattack"/>
+		<property name="SoundHurt" value="newzombiepain"/>
+		<property name="SoundDeath" value="newzombiedeath"/>
+		<property name="SoundSense" value="afroShamanSounds"/>
+		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+		<property name="WanderSpeed" value="0.7"/>
+		<property name="ApproachSpeed" value="0.8"/>
+		<property name="NightWanderSpeed" value="0.8"/>
+		<property name="NightApproachSpeed" value="1.1"/>
+		<property name="PanicSpeed" value="0.5"/>
+		<property name="ExperienceGain" value="1225"/>
+		<property name="HandItem" value="handZombieMutant"/>
+		<property name="TimeStayAfterDeath" value="5"/>
+		<property name="LootListOnDeath" value="176"/>
+	</entity_class>
+	<entity_class name="mutantGasser03" extends="SDXTemplate">
+		<property name="Mesh" value="#Mutants?Mutant03"/>
+		<property name="MaxHealth" value="1215"/>
+		<property name="AnimationIdle" value="idle"/>
+		<property name="AnimationSecondIdle" value="idle"/>
+		<property name="AnimationMainAttack" value="attack(3)"/>
+		<property name="AnimationSecondAttack" value="attack(2)"/>
+		<property name="AnimationPain" value="anger"/>
+		<property name="AnimationJump" value="jump"/>
+		<property name="AnimationDeath" value="dead"/>
+		<property name="AnimationRun" value="run"/>
+		<property name="AnimationWalk" value="walk"/>
+		<!-- property name="AnimationSpecialAttack" value="false" /-->
+		<property name="SoundRandom" value="afroShamanSounds"/>
+		<property name="SoundAlert" value="afroShamanSounds"/>
+		<property name="SoundAttack" value="newzombieattack"/>
+		<property name="SoundHurt" value="newzombiepain"/>
+		<property name="SoundDeath" value="newzombiedeath"/>
+		<property name="SoundSense" value="afroShamanSounds"/>
+		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+		<property name="WanderSpeed" value="0.7"/>
+		<property name="ApproachSpeed" value="0.8"/>
+		<property name="NightWanderSpeed" value="0.8"/>
+		<property name="NightApproachSpeed" value="1.1"/>
+		<property name="PanicSpeed" value="0.5"/>
+		<property name="ExperienceGain" value="1225"/>
+		<property name="HandItem" value="handZombieMutant"/>
+		<property name="TimeStayAfterDeath" value="5"/>
+		<property name="LootListOnDeath" value="176"/>
+	</entity_class>
 	<entity_class name="Nightmare_c1" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Nightmare_c1"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Creature_armature|idle"/>
 		<property name="AnimationMainAttack" value="Creature_armature|attack_2"/>
@@ -4304,7 +4305,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c2" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc2"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="NC2_Armat|thc2_idle"/>
 		<property name="AnimationMainAttack" value="NC2_Armat|thc2_attack1"/>
@@ -4324,7 +4325,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c3" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc3"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="thc3_arma|idle"/>
 		<property name="AnimationMainAttack" value="thc3_arma|attack1"/>
@@ -4343,7 +4344,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c4" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc4"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="thc4_arma|idle"/>
 		<property name="AnimationMainAttack" value="thc4_arma|do_attack1"/>
@@ -4363,7 +4364,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c5" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc5"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="thc5_armature_O|idle"/>
 		<property name="AnimationMainAttack" value="thc5_armature_O|attack1"/>
@@ -4400,7 +4401,7 @@
 	</entity_class>
 	<entity_class name="Beast" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Beast"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle1"/>
 		<property name="AnimationMainAttack" value="Attack1"/>
@@ -4420,7 +4421,7 @@
 	</entity_class>
 	<entity_class name="Insectoid" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Insectoid"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle"/>
 		<property name="AnimationMainAttack" value="Attack"/>
@@ -4437,7 +4438,7 @@
 	</entity_class>
 	<entity_class name="Ripper" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Ripper"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle3"/>
 		<property name="AnimationSecondIdle" value="Idle2"/>
@@ -4457,7 +4458,7 @@
 	</entity_class>
 	<entity_class name="Vendigo" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Vendigo"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle1"/>
 		<property name="AnimationSecondIdle" value="Idle2"/>
@@ -4477,7 +4478,7 @@
 	</entity_class>
 	<entity_class name="ZombieMutant" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?ZombieMutant"/>
-		<property name="MaxHealth" value="27"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle"/>
 		<property name="AnimationMainAttack" value="Attack"/>
@@ -4494,6 +4495,7 @@
 	</entity_class>
 	<entity_class name="Dino" extends="SDXTemplate">
 		<property name="Mesh" value="#Dinosaurs?Raptor"/>
+		<property name="MaxHealth" value="1215"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle"/>
 		<property name="AnimationMainAttack" value="Attack"/>
@@ -4535,7 +4537,7 @@
 		<property name="NightWanderSpeed" value="0.3"/>
 		<property name="NightApproachSpeed" value="1.6"/>
 		<property name="PanicSpeed" value="1.6"/>
-		<property name="MaxHealth" value="120"/>
+		<property name="MaxHealth" value="115"/>
 		<property name="AnimationIdle" value="idle0"/>
 		<property name="AnimationSecondIdle" value="idle1"/>
 		<property name="AnimationMainAttack" value="anger"/>
@@ -4593,7 +4595,7 @@
 		<property name="NightWanderSpeed" value="0.3"/>
 		<property name="NightApproachSpeed" value="1.6"/>
 		<property name="PanicSpeed" value="1.6"/>
-		<property name="MaxHealth" value="120"/>
+		<property name="MaxHealth" value="115"/>
 		<property name="AnimationIdle" value="idle0"/>
 		<property name="AnimationSecondIdle" value="idle1"/>
 		<property name="AnimationMainAttack" value="anger"/>
@@ -4651,7 +4653,7 @@
 		<property name="NightWanderSpeed" value="0.3"/>
 		<property name="NightApproachSpeed" value="1.6"/>
 		<property name="PanicSpeed" value="1.6"/>
-		<property name="MaxHealth" value="120"/>
+		<property name="MaxHealth" value="115"/>
 		<property name="AnimationIdle" value="idle0"/>
 		<property name="AnimationSecondIdle" value="idle1"/>
 		<property name="AnimationMainAttack" value="anger"/>

@@ -990,7 +990,7 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.Next" value="cropsHarvestableMaster"/>
-		<property name="PlantGrowing.GrowthRate" value="360.0"/>
+		<property name="PlantGrowing.GrowthRate" value="300.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
@@ -1006,7 +1006,7 @@
 	</block>
 	<block id="120" name="cropsHarvestableMaster">
 		<property name="CreativeMode" value="None"/>
-		<property name="Material" value="plantsCrops"/>
+		<property name="Material" value="plants"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="Shape" value="BillboardPlant"/>
@@ -1017,9 +1017,9 @@
 		<property name="Collide" value="melee"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="IsDecoration" value="true"/>
-		<property name="Class" value="CropsGrown"/>
+		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
-		<property name="CropsGrown.BonusHarvestDivisor" value="9"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="HarvestOverdamage" value="false"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
@@ -2634,8 +2634,10 @@
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
-		<drop event="Harvest" name="blueberries" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="blueberries" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="blueberries" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedBlueberry1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="259" name="plantedPotato1">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
@@ -2661,8 +2663,10 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 		<property name="Collide" value="melee"/>
-		<drop event="Harvest" name="potato" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="potato" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="potato" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedPotato1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="262" name="plantedBlueberry2">
 		<property name="Extends" value="cropsGrowingMaster"/>
@@ -3570,7 +3574,7 @@
 		<property name="CanPickup" value="true" param1="torch"/>
 		<drop event="Destroy" name="torch" count="1"/>
 		<property name="Group" value="Basics,Building"/>
-		<property name="DescriptionKey" value="torchGroupDesc"/>
+		<property name="DescriptionKey" value="wallTorchDesc"/>
 	</block>
 	<block id="352" name="graveStone01">
 		<property name="Material" value="stone"/>
@@ -3816,6 +3820,7 @@
 		<property name="CanPickup" value="true"/>
 		<property name="Group" value="Resources,Decor/Miscellaneous"/>
 		<property name="EconomicValue" value="500"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="374" name="cinderBlocks01">
 		<property name="Material" value="rubble"/>
@@ -4213,7 +4218,6 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="50"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="409" name="trapSpikesDamage1">
 		<property name="Extends" value="trapSpikesNew"/>
@@ -4327,7 +4331,6 @@
 		<property name="EconomicValue" value="30"/>
 		<property name="EconomicBundleSize" value="20"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="419" name="corrugatedMetalCNRInside">
 		<property name="Extends" value="corrugatedMetalMaster"/>
@@ -4468,7 +4471,6 @@
 		<property name="CanPlayersSpawnOn" value="false"/>
 		<property name="Group" value="Tools/Traps,Science"/>
 		<property name="EconomicValue" value="11"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="431" name="mineCandyTin">
 		<property name="Class" value="Mine"/>
@@ -5176,8 +5178,10 @@
 	<block id="529" name="plantedHop3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="449"/>
-		<drop event="Harvest" name="hopsFlower" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="hopsFlower" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="hopsFlower" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedPotato1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="530" name="plantedMushroom1">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
@@ -5217,9 +5221,11 @@
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 		<property name="HarvestOverdamage" value="false"/>
-		<drop event="Harvest" name="mushrooms" count="2"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" name="mushrooms" count="2"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="mushrooms" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="mushrooms" count="1" prob="0.3" tool_category="Farm"/>
+	<drop event="Destroy" count="0"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 	</block>
@@ -7288,9 +7294,11 @@
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedCotton3Harvest"/>
 		<property name="Texture" value="363"/>
-		<drop event="Harvest" name="cottonPlant" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
-		<property name="CropsGrown.BonusHarvestDivisor" value="8"/>
+		<drop event="Harvest" name="cottonPlant" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="cottonPlant" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedCotton1" count="1" prob="0.3" tool_category="Farm"/>
+ 	<property name="CropsGrown.BonusHarvestDivisor" value="8"/>
 	</block>
 	<block id="715" name="lootForgeBustedHelper">
 		<property name="Extends" value="lootWastelandHelper" param1="CustomIcon,DescriptionKey"/>
@@ -7748,8 +7756,10 @@
 	<block id="761" name="plantedCoffee3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="395"/>
-		<drop event="Harvest" name="coffeeBeans" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="coffeeBeans" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="coffeeBeans" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="coffeeBeans" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="762" name="plantedGoldenrod1">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
@@ -7770,8 +7780,10 @@
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedGoldenrod3Harvest"/>
 		<property name="Texture" value="362"/>
-		<drop event="Harvest" name="goldenrodPlant" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="goldenrodPlant" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="goldenrodPlant" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedGoldenrod1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="765" name="woodFrameWedgeTipCNRFullBottom">
 		<property name="Extends" value="woodFrameMaster"/>
@@ -8572,8 +8584,10 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
 		<property name="Collide" value="melee,movement,rocket"/>
-		<drop event="Harvest" name="foodYuccaFruit" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="foodYuccaFruit" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="foodYuccaFruit" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedYucca1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="854" name="plantedAloe3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
@@ -8581,8 +8595,10 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
 		<property name="Collide" value="melee,movement,rocket"/>
-		<drop event="Harvest" name="aloePlant" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="aloePlant" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="aloePlant" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedAloe1" count="1" prob="0.3" tool_category="Farm"/>
 		<property name="Group" value="Food/Cooking,Science"/>
 	</block>
 	<block id="855" name="plantedAloe1">
@@ -8605,8 +8621,9 @@
 	<block id="857" name="snowberry3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="568"/>
-		<drop event="Harvest" name="snowberryPlant" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="snowberryPlant" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="snowberryPlant" count="1" tool_category="Farm"/>
 		<property name="DescriptionKey" value="snowberryPlantDesc"/>
 	</block>
 	<block id="858" name="concreteWedgeCNRInsideBottom">
@@ -8807,8 +8824,10 @@
 	<block id="884" name="plantedChrysanthemum3Harvest">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Texture" value="244"/>
-		<drop event="Harvest" name="chrysanthemumPlant" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="chrysanthemumPlant" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="chrysanthemumPlant" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedChrysanthemum1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="885" name="treePlant02">
 		<!-- pottedPlant -->
@@ -9026,8 +9045,10 @@
 		<property name="MultiBlockDim" value="1,3,1"/>
 		<property name="Collide" value="melee"/>
 		<property name="Texture" value="529"/>
-		<drop event="Harvest" name="corn" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="corn" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="corn" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedCorn1" count="1" prob="0.3" tool_category="Farm"/>
 		<property name="CropsGrown.BonusHarvestDivisor" value="8"/>
 	</block>
 	<block id="903" name="plantedCornDead">
@@ -13318,7 +13339,6 @@
 		<drop event="Destroy" name="wood" count="0"/>
 		<drop event="Destroy" name="scrapIron" count="15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="1433" name="rScrapIronLogSpike5">
 		<!-- log spike 5 rScrap -->
@@ -15013,11 +15033,12 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="Stacknumber" value="50"/>
 		<property name="Class" value="TorchHeatMap"/>
-		<property name="HeatMapStrength" value="4.05"/>
+		<property name="HeatMapStrength" value="1"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="15"/>
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1775" name="burningBarrel">
 		<property name="Extends" value="burningBarrelPlayer"/>
@@ -15977,7 +15998,6 @@
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
 		<property name="EconomicValue" value="444"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="2011" name="dartTrap">
 		<property name="Class" value="Launcher"/>
@@ -16008,7 +16028,6 @@
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
 		<property name="EconomicValue" value="220"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="2012" name="rampCornerCutoutTest">
 		<property name="CreativeMode" value="Dev"/>
@@ -16197,7 +16216,6 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.3" stick_chance="1"/>
 		<property name="EconomicValue" value="16"/>
 		<property name="PickupJournalEntry" value="triggerDelayDurationTip,passthroughTriggeringTip"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="2029" name="electricfencepost">
 		<property name="Class" value="ElectricWire"/>
@@ -16229,7 +16247,6 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="62"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="2030" name="motionsensor">
 		<property name="Class" value="MotionSensor"/>
@@ -16445,8 +16462,8 @@
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="Composter_Filling"/>
 			<property name="Item" value="Compost"/>
-			<property name="ItemCount" value="20"/>
-			<property name="UpgradeHitCount" value="1"/>
+			<property name="ItemCount" value="2"/>
+			<property name="UpgradeHitCount" value="5"/>
 		</property>
 		<property class="RepairItems">
 			<property name="wood" value="20"/>
@@ -16874,7 +16891,6 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="62"/>
 	</block>
-
 	<block id="1768" name="cntEPSFurnaceDrawerInsecure">
 		<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="furnaceDrawer"/>
@@ -17158,7 +17174,6 @@
 		<property name="Texture" value="374,78,79,84,84,84"/>
 		<!-- 373/374=sink, 84=cabinetWood -->
 	</block>
-
 	<block id="1747" name="Rifle Kit (Locked)">
 		<property name="DescriptionKey" value="rifleKitDesc"/>
 		<property name="CustomIcon" value="ClassVeteran"/>
@@ -17684,7 +17699,6 @@
 		<property name="DropScale" value="3"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Tools/Traps"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="1714" name="trapAdhesive">
 		<property name="DescriptionKey" value="trapAdhesiveDesc"/>
@@ -17695,7 +17709,6 @@
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Building"/>
 		<drop event="Fall" count="0"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="1713" name="trapAdhesiveSpike">
 		<property name="DescriptionKey" value="trapAdhesiveSpikeDesc"/>
@@ -17703,7 +17716,6 @@
 		<property name="Material" value="MbarbedFence"/>
 		<property name="Texture" value="245"/>
 		<property name="MaxDamage" value="200"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="1701" name="supplyCrateBuilding">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
@@ -17834,8 +17846,10 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
 		<property name="Collide" value="melee"/>
-		<drop event="Harvest" name="SoyBeans" count="1"  prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="SoyBeans" count="1"  prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="SoyBeans" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedSoy1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="866" name="cntTrapChestUpgrade">
 		<property name="Material" value="wood+wood"/>
@@ -17903,7 +17917,6 @@
 		<property name="CustomIcon" value="chainLinkFenceTopPole"/>
 		<property name="CustomIconTint" value="0099ff"/>
 	</block>
-
 	<block id="1683" name="bbqgrill">
 		<property name="Class" value="Campfire"/>
 		<property name="Material" value="metal"/>
@@ -18478,7 +18491,7 @@
 		<property name="CustomIcon" value="plantedWeed1"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
-		<property name="PlantGrowing.GrowthRate" value="240.0"/>
+		<property name="PlantGrowing.GrowthRate" value="360.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedWeed2"/>
 		<property class="UpgradeBlock">
@@ -18491,6 +18504,7 @@
 		<property name="CustomIcon" value="plantedWeed2"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#plantedWeed2?plantedWeed2Prefab"/>
+		<property name="PlantGrowing.GrowthRate" value="360.0"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
 		<property name="PlantGrowing.Next" value="plantedWeed3Harvest"/>
@@ -18503,7 +18517,9 @@
 		<property name="Model" value="#plantedWeed3Harvest?plantedWeed3HarvestPrefab"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
-		<drop event="Harvest" name="Weed" count="1" prob="0.6" tool_category="Pluck"/>
+		<drop event="Harvest" name="Weed" count="1" tool_category="Pluck"/>
+		<drop event="Harvest" name="Weed" count="1" tool_category="Farm"/>
+
 	</block>
 	<block id="1998" name="plantedWheat1">
 		<property name="Extends" value="cropsGrowingMaster"/>
@@ -18532,8 +18548,10 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#plantedWheat3Harvest?plantedWheat3HarvestPrefab"/>
 		<property name="Collide" value="melee"/>
-		<drop event="Harvest" name="Wheat" count="1" prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="Wheat" count="1" prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="Wheat" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedWheat1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="1646" name="Windmill">
 		<property name="Class" value="Windmill, Mods"/>
@@ -18979,7 +18997,6 @@
 		<property name="CustomIcon" value="pottedPlant4"/>
 		<property name="DescriptionKey" value="pottedplantsBlockGroupDesc"/>
 	</block>
-
 	<block id="827" name="newSink1">
 		<property name="Material" value="metal"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -19505,7 +19522,7 @@
 			<property name="ToBlock" value="chickenCoopFull"/>
 			<property name="Item" value="chickenFeed"/>
 			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="2"/>
+			<property name="UpgradeHitCount" value="3"/>
 		</property>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
@@ -19536,7 +19553,7 @@
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="chickenCoopReady"/>
-		<property name="PlantGrowing.GrowthRate" value="240"/>
+		<property name="PlantGrowing.GrowthRate" value="360"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.GrowIfAnythinOnTop" value="true"/>
@@ -19728,7 +19745,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="rainCatcherFull"/>
-		<property name="PlantGrowing.GrowthRate" value="180"/>
+		<property name="PlantGrowing.GrowthRate" value="360"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -19914,13 +19931,6 @@
 		<property name="LiquidStatic" value="plainsGround"/>
 		<property name="CustomIcon" value="plainsGround"/>
 	</block>
-	<block id="957" name="nano_radiated">
-		<property name="Extends" value="radiated"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="radiated"/>
-		<property name="CustomIcon" value="radiated"/>
-		<property name="Material" value="dirt"/>
-	</block>
 	<block id="958" name="nano_sand">
 		<property name="Extends" value="sand"/>
 		<property name="Class" value="LiquidMoving"/>
@@ -19932,18 +19942,6 @@
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="snow"/>
 		<property name="CustomIcon" value="snow"/>
-	</block>
-	<block id="960" name="nano_clay">
-		<property name="Extends" value="clay"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="clay"/>
-		<property name="CustomIcon" value="clay"/>
-	</block>
-	<block id="961" name="nano_bedrock">
-		<property name="Extends" value="bedrock"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="bedrock"/>
-		<property name="CustomIcon" value="bedrock"/>
 	</block>
 	<block id="962" name="nano_sandStone">
 		<property name="Extends" value="sandStone"/>
@@ -19969,30 +19967,6 @@
 		<property name="LiquidStatic" value="gravel"/>
 		<property name="CustomIcon" value="gravel"/>
 	</block>
-	<block id="966" name="nano_ice">
-		<property name="Extends" value="ice"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="ice"/>
-		<property name="CustomIcon" value="ice"/>
-	</block>
-	<block id="967" name="nano_fertileDirt">
-		<property name="Extends" value="fertileDirt"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="fertileDirt"/>
-		<property name="CustomIcon" value="fertileDirt"/>
-	</block>
-	<block id="968" name="nano_fertileGrass">
-		<property name="Extends" value="fertileGrass" param1="PlaceAltBlockValue"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="fertileGrass"/>
-		<property name="CustomIcon" value="grass"/>
-	</block>
-	<block id="969" name="nano_fertileFarmland">
-		<property name="Extends" value="fertileFarmland"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="fertileFarmland"/>
-		<property name="CustomIcon" value="fertileFarmland"/>
-	</block>
 	<block id="970" name="nano_burntForestGround">
 		<property name="Extends" value="burntForestGround" param1="PlaceAltBlockValue"/>
 		<property name="Class" value="LiquidMoving"/>
@@ -20010,24 +19984,6 @@
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="destroyedStone"/>
 		<property name="CustomIcon" value="destroyedStone"/>
-	</block>
-	<block id="973" name="nano_terrainFiller">
-		<property name="Extends" value="terrainFiller"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="terrainFiller"/>
-		<property name="CustomIcon" value="terrainFiller"/>
-	</block>
-	<block id="974" name="nano_sod">
-		<property name="Extends" value="sod"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="sod"/>
-		<property name="CustomIcon" value="sod"/>
-	</block>
-	<block id="975" name="nano_hardSod">
-		<property name="Extends" value="hardSod"/>
-		<property name="Class" value="LiquidMoving"/>
-		<property name="LiquidStatic" value="hardSod"/>
-		<property name="CustomIcon" value="sod"/>
 	</block>
 	<block id="976" name="nano_fertilizedFarmland">
 		<property name="Extends" value="fertilizedFarmland"/>
@@ -20550,7 +20506,7 @@
 		<property name="CustomIcon" value="appleSeeds"/>
 		<property name="Extends" value="treePlantedMountainPine1m"/>
 		<property name="PlantGrowing.Next" value="plantedAppleTree2"/>
-		<property name="PlantGrowing.GrowthRate" value="240"/>
+		<property name="PlantGrowing.GrowthRate" value="360"/>
 		<property name="ParticleOnDeath" value="treeGib_sapling"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
 	</block>
@@ -20562,7 +20518,7 @@
 		<property name="MultiBlockDim" value="1,5,1"/>
 		<property name="BigDecorationRadius" value="1"/>
 		<property name="PlantGrowing.Next" value="plantedAppleTree3Harvest"/>
-		<property name="PlantGrowing.GrowthRate" value="240"/>
+		<property name="PlantGrowing.GrowthRate" value="360"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
 		<drop event="Harvest" name="wood" count="40" tool_category="harvestingTools"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
@@ -20587,9 +20543,8 @@
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="plantedTomato1"/>
 		<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#tomatoPlant?tomatoPlant0" />
+		<property name="Model" value="#tomatoPlant?tomatoPlant0" />
 		<property name="Collide" value="melee"/>
-		<property name="PlantGrowing.GrowthRate" value="360.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedTomato3Harvest"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -20600,9 +20555,8 @@
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="CustomIcon" value="plantedTomato1"/>
 		<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#tomatoPlant?tomatoPlant1" />
+		<property name="Model" value="#tomatoPlant?tomatoPlant1" />
 		<property name="Collide" value="melee"/>
-		<property name="PlantGrowing.GrowthRate" value="360.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedTomato3Harvest"/>
 		<property name="Group" value="Food/Cooking"/>
@@ -20613,13 +20567,13 @@
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="CustomIcon" value="plantedTomato3Harvest"/>
 		<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#tomatoPlant?tomatoPlant2" />
+		<property name="Model" value="#tomatoPlant?tomatoPlant2" />
 		<property name="Collide" value="melee"/>
-		<drop event="Harvest" name="Tomato" count="1" prob="0.7" tool_category="Pluck"/>
-		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.3" tool_category="Pluck"/>
+		<drop event="Harvest" name="Tomato" count="1" prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="Tomato" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedTomato1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
-	
-
 	<block id="1027" name="halipad">
 		<property name="Extends" value="metalSignLetter_a"/>
 		<property name="DescriptionKey" value="halipadDesc"/>
@@ -21051,63 +21005,33 @@
 		<property name="Extends" value="cntCar03SedanDamage0"/>
 		<property name="LootList" value="188"/>
 		<property name="Model" value="#veicles?ambulanciaD0"/>
-		<property name="DowngradeBlock" value="ambulanciaD1"/>
-		<property name="MultiBlockDim" value="2,3,7"/>
-		<property name="BigDecorationRadius" value="7"/>
-	</block>
-	<block id="87" name="ambulanciaD1">
-		<property name="Extends" value="cntCar03SedanDamage1"/>
-		<property name="LootList" value="188"/>
-		<property name="Model" value="#veicles?ambulanciaD1"/>
-		<property name="MultiBlockDim" value="2,3,7"/>
-		<property name="BigDecorationRadius" value="7"/>
 		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="MultiBlockDim" value="2,3,7"/>
+		<property name="BigDecorationRadius" value="7"/>
 	</block>
 	<block id="88" name="policeD0">
 		<property name="Extends" value="cntCar03SedanDamage0"/>
 		<property name="LootList" value="181"/>
 		<property name="Model" value="#veicles?policeD0"/>
-		<property name="DowngradeBlock" value="policeD1"/>
+		<property name="DowngradeBlock" value="Nothing"/>
 		<property name="MultiBlockDim" value="2,3,7"/>
 		<property name="BigDecorationRadius" value="7"/>
-	</block>
-	<block id="89" name="policeD1">
-		<property name="Extends" value="cntCar03SedanDamage1"/>
-		<property name="LootList" value="181"/>
-		<property name="Model" value="#veicles?policeD1"/>
-		<property name="DowngradeBlock" value="Nothing"/>
 	</block>
 	<block id="1052" name="gAZ33097D0">
 		<property name="Extends" value="cntCar03SedanDamage0"/>
 		<property name="LootList" value="19"/>
 		<property name="Model" value="#veicles?gAZ33097D0"/>
-		<property name="DowngradeBlock" value="gAZ33097D1"/>
-		<property name="MultiBlockDim" value="2,3,7"/>
-		<property name="BigDecorationRadius" value="7"/>
-	</block>
-	<block id="1053" name="gAZ33097D1">
-		<property name="Extends" value="cntCar03SedanDamage1"/>
-		<property name="LootList" value="19"/>
-		<property name="Model" value="#veicles?gAZ33097D1"/>
-		<property name="MultiBlockDim" value="2,3,7"/>
-		<property name="BigDecorationRadius" value="7"/>
 		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="MultiBlockDim" value="2,3,7"/>
+		<property name="BigDecorationRadius" value="7"/>
 	</block>
 	<block id="1054" name="schoolBusD0">
 		<property name="Extends" value="cntCar03SedanDamage0"/>
 		<property name="LootList" value="19"/>
 		<property name="Model" value="#veicles?schoolBusD0"/>
-		<property name="DowngradeBlock" value="schoolBusD1"/>
-		<property name="MultiBlockDim" value="2,3,7"/>
-		<property name="BigDecorationRadius" value="7"/>
-	</block>
-	<block id="1082" name="schoolBusD1">
-		<property name="Extends" value="cntCar03SedanDamage1"/>
-		<property name="LootList" value="19"/>
-		<property name="Model" value="#veicles?schoolBusD1"/>
-		<property name="MultiBlockDim" value="2,3,7"/>
-		<property name="BigDecorationRadius" value="7"/>
 		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="MultiBlockDim" value="2,3,7"/>
+		<property name="BigDecorationRadius" value="7"/>
 	</block>
 	<block id="1087" name="fireTrap">
 		<property name="CustomIcon" value="fireTrap"/>
@@ -21564,23 +21488,7 @@
 		<property name="TakeDelay" value="15"/>
 		<property name="DescriptionKey" value="deerBlindDesc"/>
 	</block>
-	<block id="1152" name="buildingHut01">
-		<property name="CustomIcon" value="buildingHut01"/>
-		<property name="Material" value="Mbrick"/>
-		<property name="Shape" value="ModelEntity"/>
-		<property name="Texture" value="241"/>
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="Model" value="#buildingHut01?buildingHut01Prefab"/>
-		<property name="Stacknumber" value="1"/>
-		<property name="MultiBlockDim" value="6,8,6"/>
-		<property class="RepairItems">
-			<property name="cobblestones" value="50"/>
-		</property>
-		<drop event="Destroy" name="wood" count="20"/>
-		<property name="Group" value="Building,Basics"/>
-		<property name="TakeDelay" value="15"/>
-		<property name="DescriptionKey" value="buildingHut01Desc"/>
-	</block>
+	<!-- 	<block id="1152" name="buildingHut01"><property name="CustomIcon" value="buildingHut01"/><property name="Material" value="Mbrick"/><property name="Shape" value="ModelEntity"/><property name="Texture" value="241"/><property name="PlaceEverywhere" value="true"/><property name="Model" value="#buildingHut01?buildingHut01Prefab"/><property name="Stacknumber" value="1"/><property name="MultiBlockDim" value="6,8,6"/><property class="RepairItems"><property name="cobblestones" value="50"/></property><drop event="Destroy" name="wood" count="20"/><property name="Group" value="Building,Basics"/><property name="TakeDelay" value="15"/><property name="DescriptionKey" value="buildingHut01Desc"/></block> -->
 	<!-- Coffins By JaxTeller718 -->
 	<block id="1153" name="coffinBlack">
 		<property name="Class" value="SecureLoot"/>
@@ -21668,23 +21576,9 @@
 		<property name="Stacknumber" value="25"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 	</block>
-			<block id="1750" name="Generator">
-	<property name="Class" value="Generator"/>
+	<block id="1751" name="GeneratorCop">
+		<property name="Class" value="Generator"/>
 		<property name="Extends" value="generatorbank"/>
-			<property name="Model" value="#Generator?GeneratorPrefab"/>
-	    <property name="CustomIcon" value="USGenerator"/>
-		<property name="MaxFuel" value="2000"/>
-		<property name="DescriptionKey" value="GeneratorDesc"/>
-		<property name="MultiBlockDim" value="1,2,3"/>
-		<property name="BigDecorationRadius" value="3"/>
-		<property name="IsTerrainDecoration" value="true"/>
-		<property name="HeatMapStrength" value="2"/>
-		<property name="HeatMapTime" value="1200"/>
-		<property name="HeatMapFrequency" value="25"/>
-				</block>
-			<block id="1751" name="GeneratorCop">
-	    <property name="Class" value="Generator"/>
-        <property name="Extends" value="generatorbank"/>
 		<property name="Model" value="#GeneratorCop?GeneratorCopPrefab"/>
 		<property name="CustomIcon" value="Cop_Generator"/>
 		<property name="DescriptionKey" value="GeneratorCopDesc"/>
@@ -21695,22 +21589,36 @@
 		<property name="HeatMapStrength" value="2"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
-				</block>
-	<block id="1028" name="Tanker">
-		<!-- Old Gaz 52 by Renafox is licensed under CC Attribution-NonCommercial -->
-		<property name="Extends" value="cntCar03SedanDamage1"/>
+	</block>
+	<block id="1750" name="Generator">
+		<property name="Extends" value="generatorbank"/>
+		<property name="Model" value="#Generator?GeneratorPrefab" />
+		<property name="CustomIcon" value="USGenerator"/>
+		<property name="Class" value="Generator"/>
+		<property name="Material" value="Mmetal_medium"/>
+		<property name="StabilitySupport" value="false"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#Tankcar?TankcarPrefab"/>
-		<property name="CustomIcon" value="cntCar03SedanDamage0"/>
-		<property name="MultiBlockDim" value="2,3,7"/>
-		<property name="BigDecorationRadius" value="7"/>
-		<property name="DowngradeBlock" value="Nothing"/>
-		<property name="BuffsWhenWalkedOn" value="radiation"/>
-		<property name="HeatMapStrength" value="0.2"/>
+		<property name="Mesh" value="models"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="DescriptionKey" value="GeneratorDesc"/>
+		<property name="MaxFuel" value="2000"/>
+		<property name="OutputPerFuel" value="11250"/>
+		<property name="MaxPower" value="12250"/>
+		<property name="OutputPerStack" value="100"/>
+		<property name="SlotItem" value="smallEngine"/>
+		<property name="Group" value="Science"/>
+		<property name="HeatMapStrength" value="2"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
-		<property name="DowngradeBlock" value="Nothing"/>
-		<property name="LootList" value="193"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="8"/>
+			<property name="mechanicalParts" value="8"/>
+			<property name="electricParts" value="8"/>
+			<property name="electronicParts" value="3"/>
+		</property>
+		<property name="Stacknumber" value="1"/>
+		<property name="TakeDelay" value="15"/>
+		<property name="EconomicValue" value="500"/>
 	</block>
 	<block id="1796" name="radiatedSewer">
 		<property name="Class" value="Loot"/>
@@ -21725,6 +21633,183 @@
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
 		<property name="LootList" value="193"/>
+	</block>
+	<block id="1152" name="BustedBus">
+		<!--Busted Bus(https://sketchfab.com/models/4360e82cb3a542619b62ed74762f852b) by Renafox is licensed under CC Attribution-NonCommercial(http://creativecommons.org/licenses/by-nc/4.0/)-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Model" value="#BustedBus?BustedBusPrefab" />
+		<property name="MultiBlockDim" value="3,3,9" />
+		<property name="BigDecorationRadius" value="9" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="193"/>
+	</block>
+	<block id="974" name="damagedCarD0">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage0" />
+		<property name="CustomIcon" value="cntCar03SedanDamage0" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#damagedVehicles?damagedCarD0" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="MultiBlockDim" value="3,2,6" />
+		<property name="BigDecorationRadius" value="6" />
+	</block>
+	<block id="961" name="damagedVanD0">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage0" />
+		<property name="CustomIcon" value="cntCar03SedanDamage0" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#damagedVehicles?damagedVanD0" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="MultiBlockDim" value="3,2,6" />
+		<property name="BigDecorationRadius" value="6" />
+	</block>
+	<!-- Even More Storage by JaxTeller718 -->
+	<block id="1053" name="gunLocker">
+		<property name="Extends" value="woodMaster" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#gunLocker?gunLockerPrefab" />
+		<property name="CustomIcon" value="gunLocker" />
+		<property name="DescriptionKey" value="gunLockerDesc" />
+		<property name="MultiBlockDim" value="2,2,1" />
+		<property name="Place" value="TowardsPlacerInverted" />
+		<property name="Material" value="metal" />
+		<property name="Class" value="SecureLoot" />
+		<property name="LootList" value="108" />
+		<property name="Stacknumber" value="50" />
+	</block>
+	<block id="89" name="vintageCloset">
+		<property name="Extends" value="woodMaster" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#vintageCloset?vintageClosetPrefab" />
+		<property name="CustomIcon" value="vintageCloset" />
+		<property name="DescriptionKey" value="vintageClosetDesc" />
+		<property name="Place" value="TowardsPlacerInverted" />
+		<property name="MultiBlockDim" value="3,2,1" />
+		<property name="Class" value="SecureLoot" />
+		<property name="LootList" value="130" />
+		<property name="Stacknumber" value="50" />
+	</block>
+	<block id="957" name="transporter01D0">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage0" />
+		<property name="CustomIcon" value="cntCar03SedanDamage0" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#transportTrucks?transporter01D0" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="MultiBlockDim" value="3,3,6" />
+		<property name="BigDecorationRadius" value="6" />
+		<property name="LootList" value="180" />
+	</block>
+	<block id="87" name="transporter02D0">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage0" />
+		<property name="CustomIcon" value="cntCar03SedanDamage0" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#transportTrucks?transporter02D0" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="MultiBlockDim" value="3,3,6" />
+		<property name="BigDecorationRadius" value="6" />
+		<property name="LootList" value="180" />
+	</block>
+	<block id="1028" name="SemiTruck01">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck01" />
+		<property name="MultiBlockDim" value="3,3,6" />
+		<property name="BigDecorationRadius" value="6" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="184" />
+	</block>
+	<block id="966" name="SemiTruck01r">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck01r" />
+		<property name="MultiBlockDim" value="3,3,6" />
+		<property name="BigDecorationRadius" value="6" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="184" />
+	</block>
+	<block id="1082" name="SemiTruck01w">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck01w" />
+		<property name="MultiBlockDim" value="3,3,6" />
+		<property name="BigDecorationRadius" value="6" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="184" />
+	</block>
+	<block id="960" name="SemiTruck02">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck02" />
+		<property name="MultiBlockDim" value="3,4,14" />
+		<property name="BigDecorationRadius" value="14" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="179" />
+	</block>
+	<block id="967" name="SemiTruck02r">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck02r" />
+		<property name="MultiBlockDim" value="3,4,14" />
+		<property name="BigDecorationRadius" value="14" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="179" />
+	</block>
+	<block id="968" name="SemiTruck02w">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck02w" />
+		<property name="MultiBlockDim" value="3,4,14" />
+		<property name="BigDecorationRadius" value="14" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="179" />
+	</block>
+	<block id="969" name="SemiTruck03">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck03" />
+		<property name="MultiBlockDim" value="6,4,13" />
+		<property name="BigDecorationRadius" value="14" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="179" />
+	</block>
+	<block id="973" name="SemiTruck03r">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck03r" />
+		<property name="MultiBlockDim" value="6,4,13" />
+		<property name="BigDecorationRadius" value="14" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="179" />
+	</block>
+	<block id="975" name="SemiTruck03w">
+		<!--Free Unity store asset by VIS Games-->
+		<property name="Extends" value="cntCar03SedanDamage1" />
+		<property name="CustomIcon" value="cntCar03SedanDamage1" />
+		<property name="Shape" value="ModelEntity" />
+		<property name="Model" value="#SemiTruck?SemiTruck03w" />
+		<property name="MultiBlockDim" value="6,4,13" />
+		<property name="BigDecorationRadius" value="14" />
+		<property name="DowngradeBlock" value="Nothing"/>
+		<property name="LootList" value="179" />
 	</block>
 	<!-- Free ID Slots in the Blocks.xml    105  106  You cannot go further than 2047. -->
 </blocks>

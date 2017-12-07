@@ -492,7 +492,7 @@
 	</buff>
 	<!--  Weed by JaxTeller718 -->
 	<buff id="lucilleimpact" hitmask="body;head" duration="1" castsound="lucille_impact" />
-<buff id="biteMark" duration="800" type="sickness"  onexpired="infection"
+<buff id="biteMark" duration="1200" type="sickness"  onexpired="infection"
 	icon="biteMarkIcon" name_key="biteMark" description_key="biteMarkDesc" tooltip_key="biteMarkTooltip" cures="firstAidBandage,firstAidKit,disinfectantBandage">
 </buff>
 	<buff id="shockTrap" duration="4" name_key="stunned" type="speedmodifier" actions="increment(@wellness, -0.5, 0, 0, 1);attach(ParticleEffects/p_electric_shock, @impact)" description_key="stunnedDesc" tooltip_key="stunnedTooltip" icon="ui_game_symbol_stunned">

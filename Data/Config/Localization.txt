@@ -401,7 +401,7 @@ ironDoor1_v2,blocks,Block,KgNone,Iron Door1 v2,Porte en fer 1 v2,Eisentür 1 v2,
 ironDoor1_v3,blocks,Block,KgNone,Iron Door1 v3,Porte en fer 1 v3,Eisentür 1 v3,,Puerta de hierro 1 v3
 keystoneBlock,blocks,Block,KgNone,Land Claim Block,Bloc de revendication de terrain,Gebietsschutzblock,,Bloque para reclamar territorio
 ladderMetal,blocks,Block,EnChanged,Iron Ladder,Échelle en métal,Eisenleiter,,Escalera de metal
-ladderMetalDesc,blocks,Block,KgNone,A metal ladder piece. Face a wall and place the ladder by using the secondary action.\n [ Crafted in Advanced Workbench. ],Un morceau d'échelle en métal. Faites face à un mur et placez l'échelle à l'aide de l'action secondaire.,Ein Stück einer Metallleiter. Gehe zu einer Mauer und platziere die Leiter mit der sekundären Aktion.,,Un trozo de una escalera de metal. Colócate frente a una pared y usa la acción secundaria para colocar la escalera.
+ladderMetalDesc,blocks,Block,KgNone,A metal ladder piece. Face a wall and place the ladder by using the secondary action.,Un morceau d'échelle en métal. Faites face à un mur et placez l'échelle à l'aide de l'action secondaire.,Ein Stück einer Metallleiter. Gehe zu einer Mauer und platziere die Leiter mit der sekundären Aktion.,,Un trozo de una escalera de metal. Colócate frente a una pared y usa la acción secundaria para colocar la escalera.
 ladderWood,blocks,Block,KgNone,Wooden Ladder,Échelle en bois,Holzleiter,,Escalera de madera
 ladderWoodDesc,blocks,Block,KgNone,A wooden ladder piece. Face a wall and place the ladder by using the secondary action.,Un morceau d'échelle en bois. Faites face à un mur et placez l'échelle à l'aide de l'action secondaire.,Ein Stück einer Holzleiter. Gehe zu einer Mauer und platziere die Leiter mit der sekundären Aktion.,,Un trozo de una escalera de madera Colócate frente a una pared y usa la acción secundaria para colocar la escalera.
 mattress,blocks,Block,KgNone,Mattress,Matelas,Matratze,,Colchón
@@ -1755,9 +1755,9 @@ fireaxeIronDesc,items,Tool,KgNone,The fireaxe is good for harvesting wood and ha
 fireaxeSteel,items,Tool,KgNone,Steel Fireaxe,Hache de pompier en acier,Stählerne Feueraxt,,Hacha de bombero de acero
 fireaxeSteelDesc,items,Tool,KgNone,The steel fireaxe has a durable blade and is great for harvesting wood. It has a better chance to dismember than most weapons.\n [ Crafted in Advanced Workbench. ],La lame de la hache de pompier en acier est solide et idéale pour couper du bois. Elle est également l'arme qui a le plus de chance de démembrer un adversaire.,"Die stählerne Feueraxt verfügt über eine langlebige Schneide und eignet sich großartig dazu, Holz zu fällen. Sie hat zudem eine erhöhte Chance, Gegner zu zergliedern.",,El hacha de bombero de acero tiene una hoja duradera y es muy buena para recolectar madera. Tiene más posibilidades de desmembrar que la mayoría de armas.
 hoeIron,items,Tool,KgNone,Iron Garden Hoe,Binette en fer,Gartenhacke aus Eisen,,Azada de hierro de jardín
-hoeIronDesc,items,Tool,KgNone,The iron gardening hoe is great tool for turning poor soil into fertile soil for planting crops.,La binette en fer est géniale pour transformer un sol pauvre en sol fertile afin d'y planter des cultures.,"Die Gartenhacke aus Eisen ist ein großartiges Werkzeug, um karge Erde in furchtbare Erde zu verwandeln, in der du Feldfrüchte pflanzen kannst.",,La azada de hierro de jardinería es una herramienta estupenda para convertir terreno árido en fértil para plantar cosechas.
+hoeIronDesc,items,Tool,KgNone,The iron gardening hoe is great tool for turning poor soil into fertile soil for planting crops. Good chance of getting seeds when you use this.,La binette en fer est géniale pour transformer un sol pauvre en sol fertile afin d'y planter des cultures.,"Die Gartenhacke aus Eisen ist ein großartiges Werkzeug, um karge Erde in furchtbare Erde zu verwandeln, in der du Feldfrüchte pflanzen kannst.",,La azada de hierro de jardinería es una herramienta estupenda para convertir terreno árido en fértil para plantar cosechas.
 hoeSteel,items,Tool,KgNone,Steel Garden Hoe,Binette en acier,Gartenhacke aus Stahl,,Azada de acero de jardín
-hoeSteelDesc,items,Tool,KgNone,The steel garden hoe is the best tool for turning poor soil into fertile soil for planting crops.,La binette en acier est l'outil idéal pour transformer un sol pauvre en sol fertile afin d'y planter des cultures.,"Die Gartenhacke aus Stahl ist das beste Werkzeug, um karge Erde in furchtbare Erde zu verwandeln, in der du Feldfrüchte pflanzen kannst.",,La azada de acero de jardín es una herramienta estupenda para convertir terreno árido en fértil para plantar cosechas.
+hoeSteelDesc,items,Tool,KgNone,The steel garden hoe is the best tool for turning poor soil into fertile soil for planting crops. Better chance at harvesting crops and seeds.,La binette en acier est l'outil idéal pour transformer un sol pauvre en sol fertile afin d'y planter des cultures.,"Die Gartenhacke aus Stahl ist das beste Werkzeug, um karge Erde in furchtbare Erde zu verwandeln, in der du Feldfrüchte pflanzen kannst.",,La azada de acero de jardín es una herramienta estupenda para convertir terreno árido en fértil para plantar cosechas.
 nailgun,items,Tool,KgNone,Nailgun,Pistolet à clous,Nagelpistole,,Pistola de clavos
 nailgunDesc,items,Tool,KgNone,The nail gun is the best tool for repairing and upgrading base walls and not a bad weapon to boot if you have nails.\n [ Crafted in assembly. ],"Outil idéal pour réparer et améliorer les murs de base, le pistolet à clous est également pas mal en tant qu'arme si vous possédez des clous.","Die Nagelpistole ist das beste Werkzeug, um die Mauern der Basis zu reparieren und aufzuwerten. Sie stellt auch eine ziemlich gute Waffe dar, wenn du Nägel hast.",,"La pistola de clavos es la mejor herramienta para reparar y mejorar las paredes de la base. Además, no está mal como arma si tienes clavos."
 pickaxeIron,items,Tool,KgNone,Iron Pickaxe,Pioche en fer,Eisenspitzhacke,,Pico de hierro
@@ -5162,7 +5162,7 @@ cntZombieFemale,blocks,Loot Container,,Zombie Loot,,,,
 cntZombieBurnt,blocks,Loot Container,,Zombie Loot,,,,
 cntCorpseJason,blocks,Loot Container,,Crazed Slasher Loot,,,,
 cntCorpseJasonAxe,blocks,Loot Container,,Crazed Slasher Loot,,,,
-bowlDesc,items,Item Food,,Use clay bowls for cooking stews and other various foods.,,,,
+bowlDesc,items,Item Food,,Use clay bowls for cooking stews and other various foods. These can be crafted by the Survival Class only.\n [ Crafted in Big Forge. ],,,,
 bowl,items,Item Food,,Clay Bowl,,,,
 bowlMurkyDesc,items,Item Food,,This bowl is full of murky water. Boil it or use purification tablets to clean it.,,,,
 bowlMurkyWater,items,Item Food,,Bowl of Murky Water,,,,
@@ -5200,7 +5200,7 @@ warmbowlPasta,items,Item Food,,Warm Bowl of Pasta,,,,
 warmbowlSoup,items,Item Food,,Warm Soup,,,,
 warmbowlStock,items,Item Food,,Warm Bowl of Stock,,,,
 appleCider,items,Item Food,,Apple Cider,,,,
-warmBowlDesc,items,Item Food,,This bowl of food has been heated up to be more delicious and filling.,,,,
+warmBowlDesc,items,Item Food,,This bowl of food has been heated up to be more delicious and filling.\n [ Crafted in Advanced Campfire and Stoves. ],,,,
 assortedDyes,items,Item,,Assorted Dyes,,,,
 assortedDyesDesc,items,Item,,This can be useful at a Dye Station for coloring fabric armors.\n [ Crafted in Chemistry Station with a Beaker. ],,,,
 dyedClothingDesc,items,Item,,Its time to show off those spring fashions even in the Apocalypse. Keep in mind that the Quality of the clothing relies on your Armor Skill.\n [ Crafted in Dye Station. ],,,,
@@ -5604,7 +5604,7 @@ Scavenging_skill5points,items,Book,KgNone,Scavenging (5 Points),Schéma d'arbal�
 3Skillpoints,items,Book,KgNone,3 Generic Skill Points,Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
 5Skillpoints,items,Book,KgNone,5 Generic Skill Points,Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
 genericskillpointsDesc,items,Item Tool,,These skill points can be applied to any Perk or Skill that you want.,,,,
-dinnerPlateDesc,items,Item Food,,Use dinner plates to make delicious meals.,,,,
+dinnerPlateDesc,items,Item Food,,Use dinner plates to make delicious meals. These can be crafted by the Survival Class only.\n [ Crafted in Big Forge. ],,,,
 stewChunkyMeatDesc,items,Item Food,,This stew is full of chunky meats making it very fulfilling if not very healthy.\n [ Crafted in Advanced Campfire and Stoves. ],,,,
 stewChunkyMeat,items,Item Food,,Chunky Meat Stew,,,,
 honeyHam,items,Item Food,,Honey Ham,,,,
@@ -6308,8 +6308,8 @@ battleAxeDesc,,,,The blade is worn but sharp and ready to be used\n [ Crafted in
 battleAxe,,,,Combat Axe,,,,
 ironTippedSpearDesc,,,,A spear made from an iron arrow head that can be used to pierce enemies from a distance.\n [ Crafted in Advanced Workbench. ],,,,
 batWoodDesc,,,,A trusty old baseball bat. Who is Lucille?,,,,
-scytheDesc,,,,A dangerous weapon that can do some serious damage to the undead and also can clear some grass in your downtime\n [ Crafted in Advanced Workbench. ],,,,
-sickleDesc,,,,You didnt want to mow your lawn BEFORE the apocalypse why the hell would you want to now?\n [ Crafted in Advanced Workbench. ],,,,
+scytheDesc,,,,A dangerous weapon that can do some serious damage to the undead and also can clear some grass in your downtime. Can also be used to harvest crops.\n [ Crafted in Advanced Workbench. ],,,,
+sickleDesc,,,,You didnt want to mow your lawn BEFORE the apocalypse why the hell would you want to now? Can also be used to harvest crops.\n [ Crafted in Advanced Workbench. ],,,,
 trackerKnifeDesc,,,,A small pocket knife useful for quick combat,,,,
 batWood,,,,Baseball Bat,,,,
 scythe,,,,Scythe,,,,
@@ -7187,3 +7187,36 @@ picklesDesc,,,,You used to LOVE pickles and now with all this time to yourself y
 marinatedTomatoesDesc,,,,Unlesh yor inner Ragu and make dishes like Grandma used to make before she had her face eaten off.\n [ Crafted in Stoves. ],,,,
 vinegarDesc,,,,Vinegar is a very common ingredient for many recipes.\n [ Crafted in Fermenting Barrel. ],,,,
 saltDesc,,,,Salt used to be very valuable and at one time was actually considered currency.\n [ Crafted in Advanced Campfire and Stoves. ],,,,
+polishedWood,,,,Wood (Polished),,,,
+polishedWoodDesc,,,,Polished wood is refined wood that is used to make all types of decorative furniture,,,,
+textile,,,,Textile,,,,
+textileDesc,,,,Textile is a versatile type of fabric that comes in many colors and can be used to craft clothing and decorating items,,,,
+scoobySnack,,,,Scooby Snacks,,,,
+scoobySnackDesc,,,,Like there's times I'll do anything for a Scoobie Snack,,,,
+vegetableJuice,,,,Vegetable Drink,,,,
+vegetableJuiceDesc,,,,Nothing like a vegetable concoction to make you feel whole again.\n [ Crafted in Food Prep Table. ],,,,
+wallTorchDesc,,,,These torches are crafted with the most care and can be used for extra lighting WITHOUT attracting any attention,,,,
+BustedBus,,,,Busted Bus,,,,
+damagedCarD0,,,,Old Car,,,,
+damagedCarD1,,,,Damaged Old Car,,,,
+damagedCarD2,,,,Wrecked Old Car,,,,
+damagedVanD0,,,,Old Van,,,,
+damagedVanD1,,,,Damaged Old Van,,,,
+damagedVanD2,,,,Wrecked Old Van,,,,
+FireTruck,,,,Fire Truck,,,,
+SemiTruck01,,,,Semi-Truck,,,,
+SemiTruck02,,,,Semi-Truck,,,,
+SemiTruck03,,,,Semi-Truck,,,,
+SteamTrain,,,,Steam Engine,,,,
+transporter01D0,,,,Old Truck,,,,
+transporter01D1,,,,Damaged Old Truck,,,,
+transporter01D2,,,,Wrecked Old Truck,,,,
+transporter02D0,,,,Old Tanker Truck,,,,
+transporter02D1,,,,Damaged Old Tanker Truck,,,,
+transporter02D2,,,,Wrecked Old Tanker Truck,,,,
+vintageCloset,,,,Wardrobe Closet (Storage),,,,
+vintageClosetDesc,,,,This old wardrobe closet is perfect for storing those old unused clothes.\n [ Crafted in Decorating Station.. ],,,,
+gunLocker,,,,Gun Locker (Storgae),,,,
+gunLockerDesc,,,,Made of sturdy metal this locker is the perfect addition for storing your firearms and weapons.\n [ Crafted in Decorating Station.. ],,,,
+tarp,,,,Tarp,,,,
+tarpDesc,,,,A strong tarp can be used to make things like rain catchers.,,,,

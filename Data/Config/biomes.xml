@@ -332,7 +332,7 @@
 					<decoration type="block" blockname="rockResource" prob ="0.0062" rotatemax="3"/>
 					<decoration type="block" blockname="rockResource02" prob ="0.0062" rotatemax="3"/>
 					<decoration type="block" blockname="forestFlower" prob ="0.027" rotatemax="3"/>
-					<decoration type="block" blockname="snowberry3Harvest" prob ="0.0175" rotatemax="3"/>
+					<decoration type="block" blockname="snowberry3Harvest" prob ="0.000175" rotatemax="3"/>
 					<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.007" rotatemax="3"/>
 					<decoration type="block" blockname="treeForestGrassDiagonal" prob ="0.021" rotatemax="3"/>
 				</decorations>
@@ -406,7 +406,7 @@
 					<decoration type="block" blockname="rockResource" prob ="0.0062" rotatemax="3"/>
 					<decoration type="block" blockname="rockResource02" prob ="0.0062" rotatemax="3"/>
 					<decoration type="block" blockname="forestFlower" prob ="0.017" rotatemax="3"/>
-					<decoration type="block" blockname="snowberry3Harvest" prob ="0.0175" rotatemax="3"/>
+					<decoration type="block" blockname="snowberry3Harvest" prob ="0.000175" rotatemax="3"/>
 					<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.007" rotatemax="3"/>
 					<decoration type="block" blockname="treeForestGrassDiagonal" prob ="0.021" rotatemax="3"/>
 				</decorations>
@@ -495,7 +495,7 @@
 				<decoration type="block" blockname="treeMountainPine19m" prob="0.0001" rotatemax="3"/>
 				<decoration type="block" blockname="treeMountainPineDry" prob="0.0001" rotatemax="3"/>
 				<decoration type="block" blockname="treeMountainPine20m" prob="0.0001" rotatemax="3"/>
-				<decoration type="block" blockname="snowberry3Harvest" prob ="0.001" rotatemax="3"/>
+				<decoration type="block" blockname="snowberry3Harvest" prob ="0.0001" rotatemax="3"/>
 				<decoration type="block" blockname="forestFlower" prob ="0.004" rotatemax="3"/>
 				<decoration type="block" blockname="treeForestGrassDiagonal" prob ="0.021" rotatemax="3"/>
 			</decorations>
@@ -1429,9 +1429,9 @@
 						<resource blockname="copperOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
 						<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
 						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
-						<resource blockname="silverOre"  cluster="1" prob="0.030" rwgGenerationType="all"/>
-						<resource blockname="goldOre"    cluster="1" prob="0.020" rwgGenerationType="all"/>
-						<resource blockname="diamondOre" cluster="1" prob="0.010" rwgGenerationType="all"/>
+						<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
+						<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
+						<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -1600,9 +1600,9 @@
 					<resource blockname="copperOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
 					<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
 					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
-					<resource blockname="silverOre"  cluster="1" prob="0.030" rwgGenerationType="all"/>
-					<resource blockname="goldOre"    cluster="1" prob="0.020" rwgGenerationType="all"/>
-					<resource blockname="diamondOre" cluster="1" prob="0.010" rwgGenerationType="all"/>
+					<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
+					<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
+					<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -1637,9 +1637,9 @@
 				<decoration type="prefab" name="mp_waste_pile_04" prob="0.0007" rotatemax="3"/>
 				<decoration type="prefab" name="mp_waste_pile_05" prob="0.0007" rotatemax="3"/>
 				<decoration type="block" blockname="cntCar03SedanDamage2" prob="0.0005" rotatemax="7"/>
-				<decoration type="block" blockname="mineCandyTin" prob="0.00015"/>
-				<decoration type="block" blockname="mineHubcap" prob="0.00015"/>
-				<decoration type="block" blockname="hubcapNoMine" prob="0.00011"/>
+				<decoration type="block" blockname="mineCandyTin" prob="0.000015"/>
+				<decoration type="block" blockname="mineHubcap" prob="0.000015"/>
+				<decoration type="block" blockname="hubcapNoMine" prob="0.000011"/>
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.0305" rotatemax="3"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.0035" rotatemax="3"/>
 			</decorations>
@@ -2021,9 +2021,9 @@
 				<layer depth="10" blockname="stone">
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.1130" rwgGenerationType="all"/>
 					<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
-					<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
-					<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
-					<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>
+					<resource blockname="silverOre"  cluster="1" prob="0.00030" rwgGenerationType="all"/>
+					<resource blockname="goldOre"    cluster="1" prob="0.00020" rwgGenerationType="all"/>
+					<resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2129,9 +2129,9 @@
 				<layer depth="10" blockname="stone">
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.1130" rwgGenerationType="all"/>
 					<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
-					<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
-					<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
-					<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>
+					<resource blockname="silverOre"  cluster="1" prob="0.00030" rwgGenerationType="all"/>
+					<resource blockname="goldOre"    cluster="1" prob="0.00020" rwgGenerationType="all"/>
+					<resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2398,7 +2398,7 @@
 		<blockontop blockname="driftwood2" rotatemax="3" prob="0.0004" />
 		<blockontop blockname="graveStone08" rotatemax="3" prob="0.0004" />
 		<blockontop blockname="mattressFlat" rotatemax="7" prob="0.0003" />
-		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0002" />
+		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0001" />
 			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0002"/>
@@ -2431,7 +2431,7 @@
 		<blockontop blockname="driftwood2" rotatemax="3" prob="0.0004" />
 		<blockontop blockname="graveStone08" rotatemax="3" prob="0.0004" />
 		<blockontop blockname="mattressFlat" rotatemax="7" prob="0.0003" />
-		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0002" />
+		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0001" />
 			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0002"/>

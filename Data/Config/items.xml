@@ -21,7 +21,7 @@
 			<property name="Stamina_usage" value="7"/>
 			<!-- 10 is the break even point with maxed Athletics and Sexosaurus, standing still -->
 			<property name="DamageBonus.head" value="6"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<!-- These are multipliers and correspond to "damage_category" in materials.xml. -->
 			<property name="ActionExp" value="2"/>
@@ -55,7 +55,7 @@
 			<property name="Buff" value="criticalBlunt"/>
 			<property name="Buff_chance" value="0.1"/>
 			<property name="DamageBonus.head" value="7"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="Stamina_usage" value="3.7"/>
 		</property>
 		<property name="CritChance" value="0.10"/>
@@ -75,7 +75,7 @@
 			<property name="Buff" value="criticalBlunt"/>
 			<property name="Buff_chance" value="0.2"/>
 			<property name="DamageBonus.head" value="9"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,17"/>
@@ -98,7 +98,7 @@
 			<property name="Buff" value="bleeding,criticalBlunt"/>
 			<property name="Buff_chance" value="0.3,0.3"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="12,21"/>
@@ -121,7 +121,7 @@
 			<property name="Buff" value="bleeding,criticalBlunt"/>
 			<property name="Buff_chance" value="0.5,0.4"/>
 			<property name="DamageBonus.head" value="12"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="14,25"/>
@@ -157,7 +157,7 @@
 			<property name="Buff_chance" value="0.5,0.3,0.3"/>
 			<property name="DamageBonus.wood" value="0.5"/>
 			<property name="DamageBonus.head" value="9"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="ToolCategory.Butcher" value="0" param1="10"/>
 			<property name="ActionExp" value="5"/>
@@ -288,7 +288,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="4.73"/>
 			<property name="DamageBonus.head" value="5"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="DamageBonus.organic" value="8"/>
@@ -326,7 +326,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="5.5"/>
 			<property name="DamageBonus.head" value="7"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="DamageBonus.organic" value="10"/>
@@ -366,7 +366,7 @@
 			<property name="Stamina_usage" value="6.51"/>
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="DamageBonus.organic" value="3"/>
@@ -429,7 +429,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
 			<property name="DamageBonus.head" value="12"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.earth" value="0.4"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -489,7 +489,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
 			<property name="DamageBonus.head" value="13"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.earth" value="0.4"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -557,7 +557,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
 			<property name="DamageBonus.head" value="12"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="4"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -623,7 +623,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="4"/>
 			<property name="DamageBonus.earth" value="0.2"/>
@@ -693,7 +693,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="6"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="4"/>
 			<property name="DamageBonus.earth" value="0.2"/>
@@ -767,7 +767,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -837,7 +837,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash_ak"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -905,7 +905,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -970,7 +970,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -1081,7 +1081,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="7"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="2.5"/>
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.earth" value="0.2"/>
@@ -1524,7 +1524,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="3.5"/>
 			<property name="DamageBonus.head" value="7"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="0.42"/>
 			<property name="DamageBonus.wood" value="1"/>
 			<property name="DamageBonus.earth" value="0.2083"/>
@@ -1596,7 +1596,7 @@
 			<property name="Stamina_usage" value="8.27"/>
 			<property name="DamageBonus.wood" value="1"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="0.25"/>
 			<property name="DamageBonus.stone" value="0.25"/>
 			<property name="DamageBonus.metal" value="0.25"/>
@@ -1659,8 +1659,9 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="7.52"/>
 			<property name="DamageBonus.glass" value="1"/>
+			<property name="DamageBonus.stone" value="1"/>
 			<property name="DamageBonus.head" value="6"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="0.2"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.organic" value="0.2"/>
@@ -1730,7 +1731,7 @@
 			<property name="DamageBonus.earth" value="2"/>
 			<property name="DamageBonus.glass" value="0.5"/>
 			<property name="DamageBonus.head" value="4"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="0.3"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
@@ -1775,7 +1776,7 @@
 			<property name="DamageBonus.earth" value="2"/>
 			<property name="DamageBonus.glass" value="0.5"/>
 			<property name="DamageBonus.head" value="5"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="0.25"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.metal" value="0.25"/>
@@ -1844,14 +1845,14 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6.5"/>
 			<property name="DamageBonus.head" value="4"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.earth" value="2"/>
 			<property name="DamageBonus.glass" value="0.2"/>
 			<property name="DamageBonus.stone" value="0"/>
 			<property name="DamageBonus.metal" value="0"/>
 			<property name="ActionExp" value="2"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
-			<property name="ToolCategory.Hoe" value="1"/>
+			<property name="ToolCategory.Farm" value="1.5"/>
 			<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 			<property name="ToolCategory.Butcher" value="0" param1="5"/>
 		</property>
@@ -1901,7 +1902,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="8.27"/>
 			<property name="DamageBonus.head" value="5"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.wood" value="1"/>
@@ -1954,13 +1955,13 @@
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6"/>
-			<property name="DamageBonus.head" value="5"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<property name="DamageBonus.head" value="3"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
-			<property name="DamageBonus.stone" value="1"/>
+			<property name="DamageBonus.stone" value="0.3"/>
 			<property name="DamageBonus.metal" value="1"/>
 			<property name="DamageBonus.organic" value="0.5"/>
-			<property name="DamageBonus.earth" value="1"/>
+			<property name="DamageBonus.earth" value="0.5"/>
 			<property name="ToolCategory.harvestingTools" value="0.7" param1="1"/>
 			<property name="ToolCategory.Butcher" value="0" param1="10"/>
 			<property name="ActionExp" value="3"/>
@@ -1975,7 +1976,7 @@
 			<property name="Allowed_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,nail,rottingFlesh"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="8,20"/>
+			<property name="EntityDamage" value="4,10"/>
 			<property name="BlockDamage" value="15,40"/>
 			<property name="DegradationMax" value="100,600"/>
 			<property name="DegradationRate" value="1,1"/>
@@ -2023,7 +2024,7 @@
 			<property name="Sound_empty" value="weapon_empty"/>
 			<property name="Sound_reload" value="nailgun_reload"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="ActionExp" value="0"/>
 		</property>
@@ -2566,7 +2567,7 @@
 			<property name="Gravity" value="-4.7"/>
 			<property name="LifeTime" value="12"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0"/>
@@ -2590,7 +2591,7 @@
 		<property class="Action1">
 			<property name="Velocity" value="55"/>
 			<property name="DamageBonus.head" value="12"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="Gravity" value="-4"/>
 			<property name="LifeTime" value="12"/>
 		</property>
@@ -2658,7 +2659,7 @@
 			<property name="FlyTime" value="0.25"/>
 			<property name="LifeTime" value="17"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0"/>
@@ -2693,7 +2694,7 @@
 			<property name="Gravity" value="-4"/>
 			<property name="LifeTime" value="12"/>
 			<property name="DamageBonus.head" value="12"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0"/>
@@ -6395,7 +6396,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.05"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_painkillers"/>
 			<property name="Debuff" value="dysentery"/>
 		</property>
@@ -6850,7 +6851,7 @@
 			<property name="Gain_food" value="5"/>
 			<property name="Buff" value="eatFood_3_Trigger"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 			<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 		</property>
@@ -6935,7 +6936,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="0"/>
-	<property name="DescriptionKey" value="rawMeatDesc"/>
+		<property name="DescriptionKey" value="rawMeatDesc"/>
 	</item>
 	<item id="736" name="rottingFlesh">
 		<property name="Meshfile" value="Items/Food/meat_rabbit"/>
@@ -7002,7 +7003,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0.084"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Smell" value="mediumSmell"/>
@@ -7024,7 +7025,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.17"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
@@ -7047,7 +7048,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="30"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0.6"/>
+			<property name="Gain_wellness" value="0.4"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 			<property name="Buff" value="stewWarming,eatFood_78_Trigger"/>
@@ -7186,7 +7187,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.05"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7206,7 +7207,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="14"/>
-			<property name="Gain_wellness" value="0.12"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Smell" value="largeSmell"/>
@@ -7251,7 +7252,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.34"/>
+			<property name="Gain_wellness" value="0.4"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="stewWarming,eatFood_12_Trigger"/>
 			<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
@@ -7445,6 +7446,7 @@
 		<property class="Action1">
 			<property name="Gain_water" value="8"/>
 			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Buff" value="megaCrushBuff,extinguishFireBuff"/>
 		</property>
 	</item>
@@ -7464,7 +7466,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="-10"/>
 			<property name="Gain_stamina" value="100"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="CoffeeStaminaBoost,extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -7488,7 +7490,7 @@
 			<property name="Gain_stamina" value="5"/>
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="-5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="DrinkBeer,extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -8677,7 +8679,7 @@
 			<property name="FlyTime" value="1"/>
 			<property name="LifeTime" value="1"/>
 			<property name="DamageBonus.head" value="6"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0"/>
@@ -9497,7 +9499,6 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="Group" value="Resources"/>
 	</item>
-
 	<item id="2007" name="crossbowRepeater">
 		<property name="Extends" value="crossbow"/>
 		<property name="DescriptionKey" value="crossbowRepeaterDesc"/>
@@ -9624,70 +9625,70 @@
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Athletics"/>
+			<property name="Skills_to_gain" value="Athletics,Athletics"/>
 		</property>
 	</item>
 	<item id="2014" name="Blunt_Weapons">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Blunt Weapons"/>
+			<property name="Skills_to_gain" value="Blunt Weapons,Blunt Weapons"/>
 		</property>
 	</item>
 	<item id="2015" name="Bladed_Weapons">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Blade Weapons"/>
+			<property name="Skills_to_gain" value="Blade Weapons,Blade Weapons"/>
 		</property>
 	</item>
 	<item id="2016" name="Mining_Tools">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Mining Tools"/>
+			<property name="Skills_to_gain" value="Mining Tools,Mining Tools"/>
 		</property>
 	</item>
 	<item id="2017" name="Construction_Tools">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Construction Tools"/>
+			<property name="Skills_to_gain" value="Construction Tools,Construction Tools"/>
 		</property>
 	</item>
 	<item id="2018" name="Pistols">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Pistols"/>
+			<property name="Skills_to_gain" value="Pistols,Pistols"/>
 		</property>
 	</item>
 	<item id="2019" name="Shotguns">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Shotguns"/>
+			<property name="Skills_to_gain" value="Shotguns,Shotguns"/>
 		</property>
 	</item>
 	<item id="2020" name="Rifles">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Rifles"/>
+			<property name="Skills_to_gain" value="Rifles,Rifles"/>
 		</property>
 	</item>
 	<item id="2021" name="Archery">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Archery"/>
+			<property name="Skills_to_gain" value="Archery,Archery"/>
 		</property>
 	</item>
 	<item id="2022" name="Medicine">
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Medicine"/>
+			<property name="Skills_to_gain" value="Medicine,Medicine"/>
 		</property>
 	</item>
 	<item id="2025" name="doubleBlunderbuss">
@@ -9702,7 +9703,7 @@
 		<property name="Meshfile" value="#candyBar01?candyBar01Prefab"/>
 		<property name="Material" value="organic"/>
 		<property name="DescriptionKey" value="candyBarDesc"/>
-		<property name="HoldType" value="3"/>
+		<property name="HoldType" value="15"/>
 		<property name="Stacknumber" value="500"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="60"/>
@@ -9760,7 +9761,7 @@
 			<property name="Gain_health" value="1"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_stamina" value="3"/>
-			<property name="Gain_wellness" value="0.08"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -9786,7 +9787,7 @@
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="3"/>
-			<property name="Gain_wellness" value="0.08"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -9937,7 +9938,7 @@
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Scavenging"/>
+			<property name="Skills_to_gain" value="Scavenging,Scavenging"/>
 		</property>
 	</item>
 	<item id="2049" name="Wheat">
@@ -9989,7 +9990,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="breadDesc"/>
@@ -10640,7 +10641,7 @@
 		<property name="DescriptionKey" value="cornbreadJamDesc"/>
 		<property class="Action1">
 			<property name="Gain_food" value="6"/>
-			<property name="Gain_wellness" value="0.08"/>
+			<property name="Gain_wellness" value="0.1"/>
 		</property>
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
@@ -10752,7 +10753,7 @@
 			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="10"/>
 			<property name="Gain_stamina" value="4"/>
-			<property name="Gain_wellness" value="0.08"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Create_item" value="bowl"/>
 			<property name="Sound_start" value="player_drinking"/>
 		</property>
@@ -10780,7 +10781,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="6"/>
-			<property name="Gain_wellness" value="0.08"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Create_item" value="bowl"/>
 			<property name="Sound_start" value="player_drinking"/>
 		</property>
@@ -10802,7 +10803,7 @@
 			<property name="Gain_health" value="23"/>
 			<property name="Gain_food" value="15"/>
 			<property name="Gain_water" value="6"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10814,7 +10815,7 @@
 			<property name="Gain_health" value="25"/>
 			<property name="Gain_food" value="15"/>
 			<property name="Gain_water" value="3"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10826,7 +10827,7 @@
 			<property name="Gain_health" value="13"/>
 			<property name="Gain_food" value="15"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10839,7 +10840,7 @@
 			<property name="Gain_food" value="23"/>
 			<property name="Gain_water" value="-13"/>
 			<property name="Gain_gas" value="33"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10861,7 +10862,7 @@
 		<property class="Action1">
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="13"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="smallSmell"/>
@@ -10873,7 +10874,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="18"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10885,7 +10886,7 @@
 			<property name="Gain_health" value="5"/>
 			<property name="Gain_food" value="13"/>
 			<property name="Gain_water" value="18"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10897,7 +10898,7 @@
 			<property name="Gain_health" value="5"/>
 			<property name="Gain_food" value="13"/>
 			<property name="Gain_water" value="18"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Buff" value="stewWarming"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
@@ -10946,7 +10947,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="25"/>
 			<property name="Gain_stamina" value="20"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Create_item" value="emptyJar"/>
 			<property name="Buff" value="DrinkBeer"/>
 		</property>
@@ -13573,10 +13574,9 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="3"/>
 			<property name="DamageBonus.head" value="6"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="1"/>
 			<property name="DamageBonus.earth" value="0.25"/>
-			<property name="DamageBonus.stone" value=".25"/>
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="ActionExp" value="2"/>
@@ -13586,7 +13586,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="6,14"/>
-			<property name="BlockDamage" value="26,42"/>
+			<property name="BlockDamage" value="24,42"/>
 			<property name="DegradationMax" value="100,600"/>
 			<property name="DegradationRate" value="1,1"/>
 			<property name="DismembermentBaseChance" value="0,0"/>
@@ -13602,9 +13602,12 @@
 		<property name="Meshfile" value="#pickaxes?stonePickaxe"/>
 		<property name="RepairTools" value="scrapIron"/>
 		<property name="EconomicValue" value="5"/>
+		<property class="Action0">
+			<property name="DamageBonus.stone" value="1"/>
+		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
-			<property name="BlockDamage" value="19,45"/>
+			<property name="BlockDamage" value="24,46"/>
 			<property name="DegradationMax" value="200,600"/>
 			<property name="DegradationRate" value="1,1"/>
 		</property>
@@ -13666,7 +13669,7 @@
 			<property name="Buff" value="burning"/>
 			<property name="Buff_chance" value="0.8"/>
 			<property name="DamageBonus.head" value="7"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="DamageBonus.snow" value="10"/>
 			<property name="ActionExp" value="5"/>
@@ -14734,7 +14737,7 @@
 		<property name="Meshfile" value="#hamburger?hamburgerPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="DescriptionKey" value="hamburgerDesc"/>
-		<property name="HoldType" value="31"/>
+		<property name="HoldType" value="3"/>
 		<property name="Stacknumber" value="50"/>
 		<!-- STK food -->
 		<property class="Action1">
@@ -15015,7 +15018,6 @@
 			<property name="Rot" value="90,45,0"/>
 		</property>
 	</item>
-
 	<item id="2823" name="potatoChips">
 		<property name="Extends" value="cornBread"/>
 		<property name="CustomIcon" value="potatoChips"/>
@@ -15677,7 +15679,6 @@
 		<property name="DescriptionKey" value="rocketDesc"/>
 	</item>
 	<!-- Recipe unlockers if found -->
-
 	<!-- KSP . id="3029" name="weldingMask THIS CODE IS BASED OFF OF VALMARS VALMOD EXTENDED THX :) -->
 	<item id="2870" name="weldingMask">
 		<property name="DescriptionKey" value="weldingMaskDesc"/>
@@ -15919,7 +15920,7 @@
 		<property name="Extends" value="MasterSkill"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
-			<property name="Skills_to_gain" value="Barter"/>
+			<property name="Skills_to_gain" value="Barter,Barter"/>
 		</property>
 	</item>
 	<item id="2898" name="Traps">
@@ -15948,8 +15949,8 @@
 		<property name="Stacknumber" value="500"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="8.4, 14"/>
-			<property name="BlockDamage" value="5,13"/>
+			<property name="EntityDamage" value="5, 8"/>
+			<property name="BlockDamage" value="2,5"/>
 		</property>
 		<property name="EconomicValue" value="14"/>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -15965,7 +15966,7 @@
 		<property name="Stacknumber" value="500"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="45,70"/>
+			<property name="EntityDamage" value="25,40"/>
 			<property name="BlockDamage" value="1,5"/>
 		</property>
 		<property name="EconomicValue" value="14"/>
@@ -15983,8 +15984,8 @@
 		<property name="DropScale" value="4"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="4,8"/>
-			<property name="BlockDamage" value="5.4,13.5"/>
+			<property name="EntityDamage" value="2,6"/>
+			<property name="BlockDamage" value="3,8"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
 		<property name="EconomicValue" value="14"/>
@@ -16253,7 +16254,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="-1"/>
-			<property name="Gain_wellness" value="0.12"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="CrackersAndCheeseDesc"/>
@@ -16403,7 +16404,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="10"/>
 			<property name="Gain_sickness" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
@@ -16451,7 +16452,7 @@
 			<property name="Gain_health" value="3"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0.12"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="YogurtDesc"/>
@@ -16475,7 +16476,7 @@
 			<property name="Gain_health" value="3"/>
 			<property name="Gain_food" value="9"/>
 			<property name="Gain_water" value="3"/>
-			<property name="Gain_wellness" value="0.12"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="BlueberryYogurtDesc"/>
@@ -16854,6 +16855,7 @@
 			<property name="DegradationMax" value="500,1400"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
+		<property name="ToolCategory.Farm" value="2"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillSteelTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
@@ -16895,6 +16897,7 @@
 			<property name="DegradationRate" value="1,1"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
+		<property name="ToolCategory.Farm" value="1"/>
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScrapTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
@@ -17127,7 +17130,7 @@
 			<property name="Stamina_usage" value="4.51"/>
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="DamageBonus.organic" value="3"/>
@@ -17175,7 +17178,6 @@
 		<property name="Weight" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 	</item>
-
 	<!-- items needed to scrap Xyth junk into -->
 	<item id="3" name="itemMaster">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -17701,7 +17703,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="8"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
@@ -17740,7 +17742,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="8"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
@@ -17778,7 +17780,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="8"/>
 			<property name="DamageBonus.head" value="12"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
@@ -17810,7 +17812,7 @@
 			<property name="Buff" value="bleeding,criticalBlunt"/>
 			<property name="Buff_chance" value="0.3,0.3"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="8,19"/>
@@ -17846,7 +17848,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="8.27"/>
 			<property name="DamageBonus.head" value="5"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.stone" value="0.5"/>
 			<property name="DamageBonus.wood" value="1"/>
@@ -17892,7 +17894,7 @@
 			<property name="Stamina_usage" value="7"/>
 			<property name="DamageBonus.wood" value="1"/>
 			<property name="DamageBonus.head" value="15"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="DamageBonus.stone" value=".25"/>
 			<property name="DamageBonus.metal" value=".25"/>
@@ -17955,7 +17957,7 @@
 			<property name="Stamina_usage" value="5"/>
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.stone" value="0.1"/>
 			<property name="DamageBonus.metal" value="0.1"/>
 			<property name="DamageBonus.wood" value="0.2"/>
@@ -17964,7 +17966,6 @@
 			<property name="DamageBonus.plants" value="25"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="DamageBonus.organic" value="10"/>
-			<property name="ToolCategory.Pluck" value="1"/>
 			<property name="ToolCategory.Farm" value="1"/>
 		</property>
 		<property class="Attributes">
@@ -18002,7 +18003,6 @@
 			<property name="DamageBonus.plants" value="25"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="ToolCategory.harvestingTools" value="1"/>
-			<property name="ToolCategory.Pluck" value="1"/>
 			<property name="ToolCategory.Farm" value="1"/>
 		</property>
 		<property class="Attributes">
@@ -18034,7 +18034,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="bleeding"/>
 			<property name="Buff_chance" value="0.25"/>
@@ -18073,7 +18073,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="3.5"/>
 			<property name="DamageBonus.head" value="4"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="DamageBonus.organic" value="10"/>
@@ -18120,7 +18120,6 @@
 		<property name="EconomicValue" value="192"/>
 		<property name="SellableToTrader" value="true"/>
 		<property name="EconomicValue" value="650"/>
-
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Stamina_usage" value="3.5"/>
@@ -18128,7 +18127,7 @@
 			<property name="Buff" value="bleeding,criticalBlunt"/>
 			<property name="Buff_chance" value="0.3,0.3"/>
 			<property name="DamageBonus.head" value="8"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="7,17"/>
@@ -18408,7 +18407,7 @@
 			<property name="Stamina_usage" value="4.51"/>
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="DamageBonus.organic" value="3"/>
@@ -18543,9 +18542,9 @@
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
-			<property name="Range" value="1.9"/>
-			<property name="DamageEntity" value="50"/>
-			<property name="DamageBlock" value="70"/>
+			<property name="Range" value="2.5"/>
+			<property name="DamageEntity" value="40"/>
+			<property name="DamageBlock" value="120"/>
 			<property name="Buff" value="bleeding,sprainedLeg,stunned"/>
 			<property name="Buff_chance" value="0.25,0.4,0.45"/>
 		</property>
@@ -18558,7 +18557,7 @@
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="30"/>
 			<property name="Buff" value="bleeding,burningSmall,stunned"/>
-			<property name="Buff_chance" value="0.25,0.4,0.45"/>
+			<property name="Buff_chance" value="0.15,0.5,0.3"/>
 		</property>
 	</item>
 	<item id="3130" name="handZombieRaptor">
@@ -18603,7 +18602,7 @@
 			<property name="FlyTime" value="0.25"/>
 			<property name="LifeTime" value="17"/>
 			<property name="DamageBonus.head" value="7"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0"/>
@@ -18705,7 +18704,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke"/>
 			<property name="DamageBonus.head" value="14"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="4"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -18744,7 +18743,7 @@
 		<property class="Attributes">
 			<!-- <property name="Accuracy" value="1,0.05"/> -->
 			<property name="DegradationMax" value="2250,6500"/>
-		<property name="CraftingSkillGroup" value="craftSkillHandGuns"/>
+			<property name="CraftingSkillGroup" value="craftSkillHandGuns"/>
 		</property>
 		<property name="EconomicValue" value="624"/>
 	</item>
@@ -18772,7 +18771,6 @@
 		<property name="EconomicValue" value="624"/>
 		<property name="CraftingSkillGroup" value="craftSkillHandGuns"/>
 	</item>
-
 	<item id="3143" name="SteelMinibikeChassis">
 		<property name="CustomIcon" value="SteelMinibikeChassis"/>
 		<property name="VehicleSlotType" value="chassis"/>
@@ -19291,7 +19289,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="15"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -19361,7 +19359,6 @@
 		<property name="EconomicValue" value="1750"/>
 		<property name="CraftingSkillGroup" value="craftSkillRifles"/>
 	</item>
-
 	<item id="3181" name="FAMAS">
 		<property name="Extends" value="gunAK47"/>
 		<property name="CustomIcon" value="FAMAS"/>
@@ -19406,7 +19403,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -19523,7 +19520,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="12"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -19950,7 +19947,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="DamageBonus.wood" value="2"/>
 			<property name="DamageBonus.plants" value="4"/>
@@ -20011,6 +20008,7 @@
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
 		<property name="DescriptionKey" value="ammoDesc"/>
+		<property name="EconomicValue" value="14"/>
 	</item>
 	<item id="3218" name="32mmHPBullet">
 		<property name="Extends" value="32mmBullet"/>
@@ -20029,6 +20027,7 @@
 		<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab"/>
 		<property name="Material" value="brass"/>
 		<property name="HoldType" value="21"/>
+		<property name="EconomicValue" value="14"/>
 		<property name="Stacknumber" value="1000"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property class="Attributes">
@@ -20121,7 +20120,7 @@
 			<property name="Stamina_usage" value="9.5"/>
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="0.2"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.organic" value="0.2"/>
@@ -21493,7 +21492,7 @@
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 			<property name="DamageBonus.head" value="6"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="1"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -21553,8 +21552,8 @@
 			<property name="Sound_reload" value="shotgun_reload"/>
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-			<property name="DamageBonus.head" value="7"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<property name="DamageBonus.head" value="5"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.wood" value="5"/>
 			<property name="DamageBonus.earth" value="0.2"/>
 			<property name="DamageBonus.glass" value="1"/>
@@ -21688,7 +21687,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_stamina" value="15"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Gain_wellness" value="0.12"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Create_item" value="emptyJar"/>
 			<property name="Buff" value="yuccaJuiceCooling"/>
 			<property name="Debuff" value="burning"/>
@@ -21702,7 +21701,7 @@
 		<property class="Action1">
 			<property name="Gain_water" value="15"/>
 			<property name="Gain_stamina" value="15"/>
-			<property name="Gain_wellness" value="0.15"/>
+			<property name="Gain_wellness" value="0.2"/>
 		</property>
 	</item>
 	<item id="3249" name="tomatoJuice">
@@ -21713,6 +21712,8 @@
 		<property name="Extends" value="clubWood"/>
 		<property name="CustomIcon" value="ElectroClub"/>
 		<property name="Meshfile" value="#ElectroClub?ElectroClub"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="SoundJammed" value="ItemNeedsRepair"/>
 		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="forgedIron"/>
 		<property name="Weight" value="16"/>
@@ -21869,7 +21870,6 @@
 		</property>
 		<property class="Action1">
 			<property name="Zoom_overlay" value=""/>
-
 		</property>
 		<property name="DescriptionKey" value="vSSVintorezDesc"/>
 	</item>
@@ -22158,7 +22158,7 @@
 			<property name="Gain_health" value="4"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="-1"/>
-			<property name="Gain_wellness" value="0.12"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -22256,7 +22256,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="1"/>
 			<property name="DamageBonus.head" value="6"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
 			<property name="DamageBonus.earth" value="0"/>
@@ -22317,7 +22317,7 @@
 			<property name="Stamina_usage" value="8"/>
 			<property name="DamageBonus.wood" value="3"/>
 			<property name="DamageBonus.head" value="10"/>
-			<property name="DamageBonus.body" value=".01"/>
+			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
 			<property name="DamageBonus.organic" value="3"/>
@@ -22339,18 +22339,18 @@
 		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
 	</item>
-<item id="3291" name="HouseholdChemicals">
-    <property name="CustomIcon" value="HouseholdChemicals"/>
-    <property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
-    <property name="Material" value="organic"/>
-    <property name="HoldType" value="3"/>
-    <property name="Stacknumber" value="250"/>
-	<property name="Weight" value="10"/>
-    <property name="Group" value="Resources"/>
-	<property name="EconomicValue" value="150"/>
-	<property name="CraftingSkillGroup" value="craftSkillScience"/>
-	<property name="DescriptionKey" value="HouseholdChemicalsDesc"/>
-</item>
+	<item id="3291" name="HouseholdChemicals">
+		<property name="CustomIcon" value="HouseholdChemicals"/>
+		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="3"/>
+		<property name="Stacknumber" value="250"/>
+		<property name="Weight" value="10"/>
+		<property name="Group" value="Resources"/>
+		<property name="EconomicValue" value="150"/>
+		<property name="CraftingSkillGroup" value="craftSkillScience"/>
+		<property name="DescriptionKey" value="HouseholdChemicalsDesc"/>
+	</item>
 	<item id="3292" name="slicedrawMeat">
 		<property name="Meshfile" value="Items/Misc/raw_meatPrefab"/>
 		<property name="Material" value="organic"/>
@@ -22375,7 +22375,7 @@
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="8"/>
-	<property name="DescriptionKey" value="slicedrawMeatDesc"/>
+		<property name="DescriptionKey" value="slicedrawMeatDesc"/>
 	</item>
 	<item id="3293" name="tenderizer">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -22394,8 +22394,8 @@
 		<property name="DescriptionKey" value="boxNailsDesc"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="45"/>
-		<property name="Material" value="Mplastics"/>
-		<property name="Weight" value="5"/>
+		<property name="Material" value="metal"/>
+		<property name="Weight" value="8"/>
 		<property name="Stacknumber" value="15"/>
 		<property name="Group" value="Resources"/>
 		<property name="EconomicValue" value="100"/>
@@ -22424,12 +22424,12 @@
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="3296" name="soda">
-		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
-		<property name="Material" value="glass"/>
+		<property name="Meshfile" value="#cansoda01?cansoda01Prefab" />
+		<property name="Material" value="metal"/>
 		<property name="HoldType" value="3"/>
+		<property name="Weight" value="5"/>
 		<property name="Stacknumber" value="50"/>
 		<!-- STK drink -->
-		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="15"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
@@ -22458,14 +22458,14 @@
 		<property name="Group" value="Resources"/>
 		<property name="SellableToTrader" value="false"/>
 	</item>
-    <item id="3298" name="stick">
+	<item id="3298" name="stick">
 		<property name="Extends" value="itemMaster"/>
 		<property name="Material" value="wood"/>
 		<property name="Weight" value="1"/>
 		<property name="RepairAmount" value="10"/>
 		<property name="FuelValue" value="1"/>
 		<property name="DescriptionKey" value="stickDesc"/>
-        <property name="CustomIcon" value="ui_game_symbol_stick"/>
+		<property name="CustomIcon" value="ui_game_symbol_stick"/>
 		<property name="Group" value="Basics"/>
 	</item>
 	<item id="3299" name="stoneArrowHead">
@@ -22516,7 +22516,6 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 	</item>
-
 	<item id="3301" name="bottleOfMurkyWater">
 		<property name="CustomIcon" value="PBottleMWater"/>
 		<property name="Meshfile" value="#PBottleMWater?PBottleMWater"/>
@@ -22619,22 +22618,102 @@
 		<property name="Group" value="Resources"/>
 	</item>
 	<item id="3305" name="Soap">
-	<property name="DescriptionKey" value="soapDesc"/>
-	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
-	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-	<property name="Material" value="organic"/>
-	<property name="HoldType" value="45"/>
-	<property name="Stacknumber" value="250"/> <!-- STK resource -->
-	<property class="Action1">
-		<property name="Class" value="Eat"/>
-		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
-		<property name="Gain_health" value="1"/>
-		<property name="Gain_food" value="0"/>
-		<property name="Gain_water" value="0"/>
-		<property name="Gain_wellness" value="0"/>
-		<property name="Debuff" value="Dirty1,Dirty2"/>
-	</property>
-
-</item>
+		<property name="DescriptionKey" value="soapDesc"/>
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="45"/>
+		<property name="Stacknumber" value="250"/>
+		<!-- STK resource -->
+		<property class="Action1">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="1"/>
+			<property name="Gain_food" value="0"/>
+			<property name="Gain_water" value="0"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Debuff" value="Dirty1,Dirty2"/>
+		</property>
+	</item>
+	<item id="3306" name="polishedWood">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="wood"/>
+		<property name="Weight" value="5"/>
+		<property name="HoldType" value="45"/>
+		<property name="Stacknumber" value="6000"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="50"/>
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Resources"/>
+		<property name="DescriptionKey" value="polishedWoodDesc"/>
+	</item>
+	<item id="3307" name="textile">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Crafting/cloth"/>
+		<property name="Material" value="cloth"/>
+		<property name="HoldType" value="14"/>
+		<property name="Stacknumber" value="2500"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="5"/>
+		<property name="EconomicValue" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Clothing"/>
+		<property name="DescriptionKey" value="textileDesc"/>
+	</item>
+	<item id="3308" name="scoobySnack">
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="DescriptionKey" value="scoobySnackDesc"/>
+		<property name="HoldType" value="3"/>
+		<property name="Stacknumber" value="500"/>
+		<!-- STK food -->
+		<property name="EconomicValue" value="60"/>
+		<property class="Action1">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="4"/>
+			<property name="Buff" value="eatFood_1_Trigger"/>
+			<property name="Gain_water" value="0"/>
+			<property name="Gain_wellness" value="0"/>
+			<property name="Sound_start" value="player_eating"/>
+			<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
+		</property>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="3309" name="vegetableJuice">
+		<property name="Extends" value="cherryJuice"/>
+		<property name="DescriptionKey" value="vegetableJuiceDesc"/>
+		<property name="CustomIcon" value="vegetableJuice"/>
+		<property class="Action1">
+			<property name="Gain_water" value="18"/>
+			<property name="Gain_stamina" value="15"/>
+			<property name="Gain_wellness" value="0.25"/>
+		</property>
+	</item>
+	<item id="3310" name="handZombieTerror">
+		<property name="Extends" value="handMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property class="Action0">
+			<property name="Range" value="1.5"/>
+			<property name="DamageEntity" value="20"/>
+			<property name="DamageBlock" value="70"/>
+			<property name="Buff" value="bleeding,burningSmall,stunned"/>
+			<property name="Buff_chance" value="0.15,0.05,0.4"/>
+		</property>
+	</item>
+	<item id="3311" name="tarp">
+		<property name="Extends" value="itemMaster"/>
+		<property name="Material" value="Mplastics"/>
+		<property name="CustomIcon" value="tarp"/>
+		<property name="DescriptionKey" value="tarpDesc"/>
+		<property name="Weight" value="2"/>
+	</item>
 </items>

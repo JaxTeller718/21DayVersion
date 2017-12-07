@@ -1,6 +1,6 @@
 <!-- Groups: firearms, weapons, tools, clothing, scavenging, health, crafting !-->
 <progression>
-	<player 	max_level="250" 	exp_to_level="18000" 	experience_multiplier="1.025" 	skill_points_per_level="7" 	skill_point_multiplier="1.013"/>
+	<player 	max_level="250" 	exp_to_level="18000" 	experience_multiplier="1.025" 	skill_points_per_level="8" 	skill_point_multiplier="1.013"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
 	<skills 	max_level="100" 	exp_to_level="500" 	experience_multiplier="1.03" 	skill_point_cost_multiplier="0" 	skill_point_cost_per_level="1">
@@ -649,9 +649,9 @@
 			<recipe name="ironBow" unlock_level="15"/>
 			<recipe name="crossbow" unlock_level="30"/>
 			<recipe name="ironCrossbow" unlock_level="45"/>
-			<recipe name="compoundBow" unlock_level="60"/>ironCrossbow
+			<recipe name="compoundBow" unlock_level="60"/>
 		</action_skill>
-		<player_skill name="Medicine" exp_to_level="25" icon="medical" description_key="medicineDesc" title_key="medicine" group="health">
+		<player_skill name="Medicine" exp_to_level="200" icon="medical" description_key="medicineDesc" title_key="medicine" group="health">
 			<effect name="HealthGain">
 				<multiply skill_level="1,10" value="1.00,1.32"/>
 				<multiply skill_level="10,20" value="1.32,1.45"/>
@@ -1540,7 +1540,7 @@
 				<multiply perk_level="5" value="0.5"/>
 			</effect>
 		</perk>
-		<player_skill name="Barter" exp_to_level="85" experience_multiplier="1.0606" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging" exp_gain_multiplier="0.2">
+		<player_skill name="Barter" exp_to_level="35" experience_multiplier="1.0606" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging" exp_gain_multiplier="0.2">
 			<effect name="Bartering">
 				<add skill_level="1,10" value="0.00,0.15"/>
 				<add skill_level="10,20" value="0.15,0.23"/>
@@ -2509,6 +2509,8 @@
 			<recipe name="cookingPot" unlock_level="1"/>
 			<recipe name="cookingGrill" unlock_level="1"/>
 			<recipe name="emptyJar" unlock_level="1"/>
+			<recipe name="bowl" unlock_level="1"/>
+			<recipe name="dinnerPlate" unlock_level="1"/>
 		</perk>
 		<perk name="Self Sufficient" icon="run" description_key="Now that you live in this horrible world you better learn how to feed and water yourself too" title_key="Self Sufficient" max_level="4" skill_point_cost_multiplier="1.4" skill_point_cost_per_level="5" group="health">
 			<requirement skill_level="1" required_skill_name="SurvivorClass" required_skill_level="1" required_player_level="5"/>

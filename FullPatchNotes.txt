@@ -561,3 +561,62 @@ v2.05
 ----------------------------------------------
 
 V2.06
+
+-Lowered Skill Point Multiplier on Some Perks which was causing outrageous Point Prices
+
+-Removed some craftables from being sold to a Trader
+
+-Lowered Turd Chances in Nests
+
+-Rebalanced and Adjusted M25 Sniper Rifle Magazine Sizes
+
+-Horde Night kicked up a notch. You should now see nights lasting longer and no more trickle after 1am
+
+-Wandering Hordes bumped up slightly
+
+-All Vegetation now takes 360 Minutes per stage so 720 Total to make gardening more realistic.
+
+-Antibiotics will be more rare and harder to make
+
+-Murloc Mode has been disabled for now until we find a better way (I know but really it IS an exploit)
+
+-Radiation Poisoning can kill you if you go near a radiation source
+
+-Traders have been reduced to a guaranteed one per biome to a CHANCE per biome (60 percent chance)
+
+-Bandits health increased slightly so they match zombies now
+
+-Feathers Slightly Increased in Nests
+
+-Readded Ramen due to overwhelming demand
+
+-Added 2 new POIs
+
+-Updated Tanker Model
+
+-Duplicate Ammunition Table Recipe Removed
+
+-Changed Rifles Class starting weapon from Hunting Rifle to an SMG
+
+-Proper Tools have been added back to the Food Prep Table
+
+-Reduced Chances of getting Rotten Apple buff from eating an Apple
+
+-Reduced chance of getting Bite Mark from zombies slightly.
+
+-Added Silenced Pistol and Extended Pistol recipes
+
+-Fixed Handguns Quest (May require a quest restart)
+
+-Added Scrap Armor to the Tailors Station
+
+-Adjusted Traders so they will sell items for slightly higher and buy items for slightly less.
+
+-The quality of items (600) will see a bigger difference in price then lower quality (1) that are sold by traders
+
+-Reduced Amount of Cloth Tents Give
+
+---------------------------------------------------
+
+v2.07
+

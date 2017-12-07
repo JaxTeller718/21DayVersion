@@ -620,7 +620,7 @@
 	</quest>
 	<!--Armor Crafting-->
 	<quest id="quest_Armored01" group_name_key="Armor Crafting" name_key="Hide Armor 1/2" subtitle_key="Craft Hide Armor" description_key="To craft this you must be in the Tailor Station." icon="ui_game_symbol_armor_leather" category_key="Quest">
-		<objective type="FetchKeep" id="animalHide" value="60"/>
+		<objective type="FetchKeep" id="animalHide" value="65"/>
 		<objective type="FetchKeep" id="Twine" value="25"/>
 		<objective type="Craft" id="animalHideLegArmor" value="1"/>
 		<objective type="Craft" id="animalHideChestArmor" value="1"/>
@@ -694,7 +694,7 @@
 		<reward type="Quest" id="quest_Armored07"/>
 	</quest>
 	<quest id="quest_Armored07" group_name_key="Armor Crafting" name_key="Iron Armor 1/2" subtitle_key="Craft Iron Armor" description_key="To craft this you must be in the Tailor Station." icon="armor_iron" category_key="Quest">
-		<objective type="FetchKeep" id="forgedIron" value="76"/>
+		<objective type="FetchKeep" id="forgedIron" value="120"/>
 		<objective type="FetchKeep" id="leather" value="19"/>
 		<objective type="Craft" id="ironLegArmor" value="1"/>
 		<objective type="Craft" id="ironChestArmor" value="1"/>
@@ -1008,7 +1008,6 @@
 		<objective type="FetchKeep" id="woodSoldier" value="1"/>
 		<objective type="FetchKeep" id="ironSoldier" value="1"/>
 		<objective type="FetchKeep" id="leadSoldier" value="1"/>
-		<reward type="Item" id="gunHuntingRifle" value="350"/>
 		<reward type="Exp" value="800"/>
 		<reward type="SkillPoints" value="2"/>
 	</quest>
@@ -1120,7 +1119,6 @@
 	<quest id="survivalclass1" 	name_key="Survival Class" 	group_name="SurvivalClasses" 	subtitle_key="Survival Class" 	offer_key="Accepting this will give you a claw hammer skills in medicine, cooking and Traps and extra supplies" 	description_key="Become an expert in Survival" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
 		<reward type="Skill" id="SurvivorClass" value="1"/>
 		<reward type="Skill" id="Survival Skills" value="1"/>
-		<reward type="Skill" id="Traps" value="1"/>
 		<reward type="Item" id="clawHammer" value="250"/>
 		<reward type="Item" id="skinningKnife2" value="250"/>
 		<reward type="Item" id="firstAidKit" value="1"/>

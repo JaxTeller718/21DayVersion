@@ -117,8 +117,18 @@
 		<ingredient name="gunPowder" count="2"/>
 		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
+	<recipe name="32mmHPBullet" count="1"  craft_area="ammunitionTable" craft_tool="calipers">
+		<ingredient name="hollowpointbulletTip" count="1"/>
+		<ingredient name="gunPowder" count="2"/>
+		<ingredient name="bulletCasing" count="1"/>
+	</recipe>
 	<recipe name="556mmBullet" count="1"  craft_area="ammunitionTable" craft_tool="calipers">
 		<ingredient name="bulletTip" count="1"/>
+		<ingredient name="gunPowder" count="2"/>
+		<ingredient name="bulletCasing" count="1"/>
+	</recipe>
+	<recipe name="556mmHPBullet" count="1"  craft_area="ammunitionTable" craft_tool="calipers">
+		<ingredient name="hollowpointbulletTip" count="1"/>
 		<ingredient name="gunPowder" count="2"/>
 		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
@@ -2538,8 +2548,18 @@
 		<ingredient name="gunPowder" count="1"/>
 		<ingredient name="bulletCasing" count="1"/>
 	</recipe>
+	<recipe name="556mmHPBullet" count="2" craft_area="gunStation" craft_tool="calipers">
+		<ingredient name="hollowpointbulletTip" count="1"/>
+		<ingredient name="gunPowder" count="1"/>
+		<ingredient name="bulletCasing" count="1"/>
+	</recipe>
 	<recipe name="32mmBullet" count="2" craft_area="gunStation" craft_tool="calipers">
 		<ingredient name="bulletTip" count="1"/>
+		<ingredient name="gunPowder" count="1"/>
+		<ingredient name="bulletCasing" count="1"/>
+	</recipe>
+	<recipe name="32mmHPBullet" count="2" craft_area="gunStation" craft_tool="calipers">
+		<ingredient name="hollowpointbulletTip" count="1"/>
 		<ingredient name="gunPowder" count="1"/>
 		<ingredient name="bulletCasing" count="1"/>
 	</recipe>

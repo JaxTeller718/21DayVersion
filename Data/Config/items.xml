@@ -17914,6 +17914,7 @@
 	<item id="175" name="batWood">
 		<property name="Extends" value="clubMaster"/>
 		<property name="Meshfile" value="#batWood?batWoodPrefab"/>
+		<property name="RepairTools" value="wood"/>
 		<property name="CustomIcon" value="batWood"/>
 		<property name="Material" value="wood"/>
 		<property name="EconomicValue" value="100"/>

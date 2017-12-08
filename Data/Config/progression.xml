@@ -1610,7 +1610,7 @@
 				<multiply skill_level="9,10" value="0.55,0.50"/>
 			</effect>
 		</crafting_skill>
-		<perk name="Advanced Cooking"  icon="run" description_key="Learn new recipes as you level your cooking skill." title_key="Advanced Cooking" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
+		<perk name="Advanced Cooking"  icon="run" description_key="Learn new recipes from buying this perk." title_key="Advanced Cooking" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
 			<requirement perk_level="1" required_skill_name="Cooking" required_skill_level="1"/>
 			<requirement perk_level="2" required_skill_name="Cooking" required_skill_level="2"/>
 			<requirement perk_level="3" required_skill_name="Cooking" required_skill_level="3"/>

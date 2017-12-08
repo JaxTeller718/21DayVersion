@@ -2305,7 +2305,7 @@
 			<property name="Magazine_size" value="1"/>
 			<property name="Magazine_items" value="stonecrossbowBolt, modernCrossbowBolt, ironCrossbowBolt, explodingCrossbowBolt"/>
 			<property name="Rays_spread" value="0.012"/>
-			<property name="Reload_time" value="2"/>
+			<property name="Reload_time" value="3"/>
 			<property name="Bullet_icon" value="uzi"/>
 			<property name="Sound_start" value="crossbow_fire"/>
 			<property name="Sound_repeat" value=""/>
@@ -2442,7 +2442,7 @@
 		<property name="EconomicValue" value="17"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="6,10"/>
+			<property name="EntityDamage" value="4,8"/>
 			<property name="BlockDamage" value="5.4,13.5"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
@@ -2458,7 +2458,7 @@
 		<property name="EconomicValue" value="56"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="100,150"/>
+			<property name="EntityDamage" value="80,120"/>
 			<property name="BlockDamage" value="100,150"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
@@ -6806,7 +6806,7 @@
 			<property name="Buff" value="eatFood_2_Trigger"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="2"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 			<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 		</property>
@@ -6851,7 +6851,7 @@
 			<property name="Gain_food" value="5"/>
 			<property name="Buff" value="eatFood_3_Trigger"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 			<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 		</property>
@@ -7187,7 +7187,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -7252,7 +7252,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.4"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="stewWarming,eatFood_12_Trigger"/>
 			<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
@@ -9522,10 +9522,10 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Launcher"/>
 			<property name="Hitmask_override" value="Arrow"/>
-			<property name="Delay" value="0.9"/>
-			<property name="Range" value="200"/>
+			<property name="Delay" value="0.7"/>
+			<property name="Range" value="220"/>
 			<property name="Rays_spread" value="0.01"/>
-			<property name="Reload_time" value="4"/>
+			<property name="Reload_time" value="3"/>
 			<property name="Crosshair_min_distance" value="30"/>
 			<!-- 30 -->
 			<property name="Crosshair_max_distance" value="30"/>
@@ -9546,6 +9546,7 @@
 			<property name="Zoom_max_in" value="15"/>
 		</property>
 		<property class="Attributes">
+			<property name="EntityDamage" value="6,14"/>
 			<property name="DegradationRate" value="1,1"/>
 			<property name="DegradationMax" value="240,600"/>
 		</property>
@@ -9761,7 +9762,7 @@
 			<property name="Gain_health" value="1"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_stamina" value="3"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -9787,7 +9788,7 @@
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="3"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -10753,7 +10754,7 @@
 			<property name="Gain_food" value="2"/>
 			<property name="Gain_water" value="10"/>
 			<property name="Gain_stamina" value="4"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Create_item" value="bowl"/>
 			<property name="Sound_start" value="player_drinking"/>
 		</property>
@@ -10781,7 +10782,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="6"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Create_item" value="bowl"/>
 			<property name="Sound_start" value="player_drinking"/>
 		</property>
@@ -10934,7 +10935,7 @@
 			<property name="Gain_health" value="2"/>
 			<property name="Gain_food" value="17"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.14"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -15390,7 +15391,7 @@
 		</property>
 	</item>
 	<item id="2847" name="cookingVol2">
-		<property name="Extends" value="Master3SkillPoints"/>
+		<property name="Extends" value="schematicMaster"/>
 		<property name="DescriptionKey" value="cookingVol2Desc"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
@@ -15400,7 +15401,7 @@
 		<property name="CustomIconTint" value="8fcfef"/>
 	</item>
 	<item id="2848" name="cookingVol3">
-		<property name="Extends" value="Master3SkillPoints"/>
+		<property name="Extends" value="schematicMaster"/>
 		<property name="DescriptionKey" value="cookingVol3Desc"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
@@ -15410,7 +15411,7 @@
 		<property name="CustomIconTint" value="A2A41B"/>
 	</item>
 	<item id="2849" name="cookingVol4">
-		<property name="Extends" value="Master3SkillPoints"/>
+		<property name="Extends" value="schematicMaster"/>
 		<property name="DescriptionKey" value="cookingVol4Desc"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
@@ -15819,10 +15820,11 @@
 		<property name="FuelValue" value="40"/>
 		<property class="Action0">
 			<property name="Magazine_items" value="ironCrossbowBolt, modernCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt"/>
-			<property name="Range" value="220"/>
+			<property name="Range" value="200"/>
+			<property name="Reload_time" value="2"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="5,10"/>
+			<property name="EntityDamage" value="4,8"/>
 			<property name="DegradationRate" value="1,1"/>
 			<property name="DegradationMax" value="50,650"/>
 		</property>
@@ -15949,8 +15951,8 @@
 		<property name="Stacknumber" value="500"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="5, 8"/>
-			<property name="BlockDamage" value="2,5"/>
+			<property name="EntityDamage" value="4, 6"/>
+			<property name="BlockDamage" value="1,2"/>
 		</property>
 		<property name="EconomicValue" value="14"/>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -15966,8 +15968,8 @@
 		<property name="Stacknumber" value="500"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="25,40"/>
-			<property name="BlockDamage" value="1,5"/>
+			<property name="EntityDamage" value="6,15"/>
+			<property name="BlockDamage" value="1,2"/>
 		</property>
 		<property name="EconomicValue" value="14"/>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -15984,8 +15986,8 @@
 		<property name="DropScale" value="4"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="2,6"/>
-			<property name="BlockDamage" value="3,8"/>
+			<property name="EntityDamage" value="1,3"/>
+			<property name="BlockDamage" value="1,4"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
 		<property name="EconomicValue" value="14"/>
@@ -16254,7 +16256,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="-1"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0.15"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="CrackersAndCheeseDesc"/>
@@ -16376,7 +16378,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="2"/>
-			<property name="Gain_wellness" value="-01"/>
+			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -16404,7 +16406,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="10"/>
 			<property name="Gain_sickness" value="0"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
@@ -16452,7 +16454,7 @@
 			<property name="Gain_health" value="3"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="YogurtDesc"/>
@@ -16513,7 +16515,7 @@
 		<property name="DescriptionKey" value="electricClubSpikedDesc"/>
 	</item>
 	<item id="2941" name="cookingVol5">
-		<property name="Extends" value="Master3SkillPoints"/>
+		<property name="Extends" value="schematicMaster"/>
 		<property name="DescriptionKey" value="cookingVol5Desc"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
@@ -16523,7 +16525,7 @@
 		<property name="CustomIconTint" value="87,87,87"/>
 	</item>
 	<item id="2942" name="cookingVol6">
-		<property name="Extends" value="Master3SkillPoints"/>
+		<property name="Extends" value="schematicMaster"/>
 		<property name="DescriptionKey" value="cookingVol6Desc"/>
 		<property class="Action1">
 			<!-- <property name="Recipes_to_learn" value="batterybank"/> -->
@@ -18177,7 +18179,7 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
-			<property name="Gain_wellness" value="0.6"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Gain_health" value="20"/>
 			<property name="Gain_food" value="-10"/>
 			<property name="Gain_water" value="-10"/>
@@ -18450,7 +18452,7 @@
 		<property name="Group" value="Tools/Traps"/>
 	</item>
 	<item id="3125" name="Lucille">
-		<property name="Extends" value="clubMaster"/>
+		<property name="Extends" value="clubSpiked"/>
 		<property name="Meshfile" value="#lucille?lucille"/>
 		<property name="CustomIcon" value="lucille"/>
 		<property name="RepairTools" value="forgedIron"/>
@@ -18462,7 +18464,7 @@
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
 		<property class="Action0">
 			<property name="Delay" value="1.3"/>
-			<property name="Range" value="2.35"/>
+			<property name="Range" value="2.9"/>
 			<property name="Sphere" value="0.2"/>
 			<property name="Sound_start" value="lucille_swing"/>
 			<property name="Stamina_usage" value="7.5"/>
@@ -18470,10 +18472,10 @@
 			<property name="DamageBonus.glass" value="25"/>
 			<property name="Buff" value="lucilleimpact,bleeding,criticalBlunt"/>
 			<property name="Buff_chance" value="1,.3,.35"/>
-			<property name="DamageBonus.head" value="9"/>
+			<property name="DamageBonus.head" value="14"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="15,18"/>
+			<property name="EntityDamage" value="18,30"/>
 			<property name="BlockDamage" value="9,14"/>
 			<property name="DegradationMax" value="400,600"/>
 			<property name="DegradationRate" value="1,1"/>
@@ -18543,7 +18545,7 @@
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
-			<property name="Range" value="2.5"/>
+			<property name="Range" value="2.8"/>
 			<property name="DamageEntity" value="40"/>
 			<property name="DamageBlock" value="120"/>
 			<property name="Buff" value="bleeding,sprainedLeg,stunned"/>
@@ -18554,7 +18556,7 @@
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
-			<property name="Range" value="1.5"/>
+			<property name="Range" value="2.3"/>
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="30"/>
 			<property name="Buff" value="bleeding,burningSmall,stunned"/>
@@ -21565,6 +21567,10 @@
 			<property name="Zoom_max_in" value="35"/>
 		</property>
 		<property class="Attributes">
+			<property name="EntityDamage" value="2,6"/>
+			<property name="BlockDamage" value="1,3"/>
+			<!-- <property name="Accuracy" value="1,0.1"/> -->
+			<property name="FalloffRange" value="15,25"/>
 			<property name="DegradationMax" value="800,3200"/>
 			<property name="DegradationRate" value="10,10"/>
 		</property>
@@ -21646,7 +21652,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="20"/>
 			<property name="Gain_water" value="-5"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="bowl"/>
 			<property name="Buff" value="eatFood_14_Trigger"/>
@@ -21688,7 +21694,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_stamina" value="15"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Create_item" value="emptyJar"/>
 			<property name="Buff" value="yuccaJuiceCooling"/>
 			<property name="Debuff" value="burning"/>
@@ -21702,7 +21708,7 @@
 		<property class="Action1">
 			<property name="Gain_water" value="15"/>
 			<property name="Gain_stamina" value="15"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0.1"/>
 		</property>
 	</item>
 	<item id="3249" name="tomatoJuice">
@@ -22017,7 +22023,7 @@
 			<property name="Gain_health" value="2"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="4"/>
-			<property name="Gain_wellness" value="0.14"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
@@ -22159,7 +22165,7 @@
 			<property name="Gain_health" value="4"/>
 			<property name="Gain_food" value="8"/>
 			<property name="Gain_water" value="-1"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -22179,7 +22185,7 @@
 			<property name="Use_time" value="0..."/>
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="-1"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
@@ -22696,14 +22702,14 @@
 		<property class="Action1">
 			<property name="Gain_water" value="18"/>
 			<property name="Gain_stamina" value="15"/>
-			<property name="Gain_wellness" value="0.25"/>
+			<property name="Gain_wellness" value="0.1"/>
 		</property>
 	</item>
 	<item id="3310" name="handZombieTerror">
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
-			<property name="Range" value="1.5"/>
+			<property name="Range" value="2.3"/>
 			<property name="DamageEntity" value="20"/>
 			<property name="DamageBlock" value="70"/>
 			<property name="Buff" value="bleeding,burningSmall,stunned"/>

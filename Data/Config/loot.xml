@@ -775,6 +775,13 @@
 		<item name="plasticShoppingBag"/>
 		<item name="electricVibrator"/>
 		<item name="mechanicalOldWatch"/>
+		<item name="brassHinge"/>
+		<item name="brassMonkey"/>
+		<item name="brassCowBell"/>
+		<item name="leadSoldier"/>
+		<item name="leadMusketBalls" count="1,6"/>
+		<item name="trophy2"/>
+		<item name="fishingWeight"/>
 	</lootgroup>
 	<lootgroup name="questChallenge" count="1">
 		<item name="qc_silenceofthelambs" count="1"/>

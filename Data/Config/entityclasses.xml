@@ -2034,7 +2034,6 @@
 		<property name="Faction" value="none"/>
 		<property name="MapIcon" value="ui_game_symbol_minibike"/>
 	</entity_class>
-	<!--entity_class name="driveablecar"><property name="Mesh"   value="Vehicles/car03_blue_dmg0_Prefab"/><property name="ModelType" value="Custom"/><property name="Prefab" value="Car"/><property name="Class"  value="EntityDriveableCar"/><property name="Parent" value="Cars"/><property name="MaxHealth"	value="1000"/><property name="Weight"	   value="1200"/><property name="SurfaceCategory"  value="metal"/><property name="LootListAlive"   value="19"/><property name="IsEnemyEntity"   value="false"/><property name="Explosion.ParticleIndex"   value="6"/><property name="Explosion.RadiusBlocks"	value="6"/><property name="Explosion.RadiusEntities"  value="6"/></entity_class-->
 	<!-- CONTAINER AND CRATE ENTITIES -->
 	<entity_class name="sc_General">
 		<property name="Mesh" value="SupplyCrate/SupplyCrateEntityPrefab"/>
@@ -3595,7 +3594,7 @@
 		<property name="NightApproachSpeed" value="1.3"/>
 		<property name="PanicSpeed" value="1.2"/>
 		<property name="HasRagdoll" value="false"/>
-		<property name="LootListOnDeath" value="176"/>
+		<property name="LootListOnDeath" value="38"/>
 	</entity_class>
 	<entity_class name="sc_hal">
 		<!-- <property name="Mesh" value="SupplyCrate/SupplyCrateEntityPrefab"/> -->
@@ -4165,7 +4164,7 @@
 	</entity_class>
 	<entity_class name="zombieMechanic01" extends="SDXTemplate">
 		<property name="Mesh" value="#zombieMechanic01?zombieMechanic01"/>
-		<property name="MaxHealth" value="1515"/>
+		<property name="MaxHealth" value="1715"/>
 		<property name="AnimationIdle" value="Idle"/>
 		<property name="AnimationSecondIdle" value="Idle"/>
 		<property name="AnimationMainAttack" value="Attack(1)"/>
@@ -4195,7 +4194,7 @@
 	</entity_class>
 	<entity_class name="mutantGasser01" extends="SDXTemplate">
 		<property name="Mesh" value="#Mutants?Mutant01"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<property name="AnimationIdle" value="idle"/>
 		<property name="AnimationSecondIdle" value="idle"/>
 		<property name="AnimationMainAttack" value="attack(3)"/>
@@ -4225,7 +4224,7 @@
 	</entity_class>
 	<entity_class name="mutantGasser02" extends="SDXTemplate">
 		<property name="Mesh" value="#Mutants?Mutant02"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<property name="AnimationIdle" value="idle"/>
 		<property name="AnimationSecondIdle" value="idle"/>
 		<property name="AnimationMainAttack" value="attack(3)"/>
@@ -4255,7 +4254,7 @@
 	</entity_class>
 	<entity_class name="mutantGasser03" extends="SDXTemplate">
 		<property name="Mesh" value="#Mutants?Mutant03"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<property name="AnimationIdle" value="idle"/>
 		<property name="AnimationSecondIdle" value="idle"/>
 		<property name="AnimationMainAttack" value="attack(3)"/>
@@ -4285,7 +4284,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c1" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Nightmare_c1"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Creature_armature|idle"/>
 		<property name="AnimationMainAttack" value="Creature_armature|attack_2"/>
@@ -4305,7 +4304,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c2" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc2"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="NC2_Armat|thc2_idle"/>
 		<property name="AnimationMainAttack" value="NC2_Armat|thc2_attack1"/>
@@ -4325,7 +4324,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c3" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc3"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="thc3_arma|idle"/>
 		<property name="AnimationMainAttack" value="thc3_arma|attack1"/>
@@ -4344,7 +4343,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c4" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc4"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="thc4_arma|idle"/>
 		<property name="AnimationMainAttack" value="thc4_arma|do_attack1"/>
@@ -4364,7 +4363,7 @@
 	</entity_class>
 	<entity_class name="Nightmare_c5" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc5"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="thc5_armature_O|idle"/>
 		<property name="AnimationMainAttack" value="thc5_armature_O|attack1"/>
@@ -4401,7 +4400,7 @@
 	</entity_class>
 	<entity_class name="Beast" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Beast"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle1"/>
 		<property name="AnimationMainAttack" value="Attack1"/>
@@ -4421,7 +4420,7 @@
 	</entity_class>
 	<entity_class name="Insectoid" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Insectoid"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle"/>
 		<property name="AnimationMainAttack" value="Attack"/>
@@ -4438,7 +4437,7 @@
 	</entity_class>
 	<entity_class name="Ripper" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Ripper"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle3"/>
 		<property name="AnimationSecondIdle" value="Idle2"/>
@@ -4458,7 +4457,7 @@
 	</entity_class>
 	<entity_class name="Vendigo" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Vendigo"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle1"/>
 		<property name="AnimationSecondIdle" value="Idle2"/>
@@ -4478,7 +4477,7 @@
 	</entity_class>
 	<entity_class name="ZombieMutant" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?ZombieMutant"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle"/>
 		<property name="AnimationMainAttack" value="Attack"/>
@@ -4495,7 +4494,7 @@
 	</entity_class>
 	<entity_class name="Dino" extends="SDXTemplate">
 		<property name="Mesh" value="#Dinosaurs?Raptor"/>
-		<property name="MaxHealth" value="1215"/>
+		<property name="MaxHealth" value="1415"/>
 		<!-- These are the animation map names. The value comes from the animation from Unity -->
 		<property name="AnimationIdle" value="Idle"/>
 		<property name="AnimationMainAttack" value="Attack"/>

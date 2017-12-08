@@ -20547,9 +20547,9 @@
 		<property name="Model" value="#tomatoPlant?tomatoPlant0" />
 		<property name="Collide" value="melee"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
-		<property name="PlantGrowing.Next" value="plantedTomato3Harvest"/>
+		<property name="PlantGrowing.Next" value="plantedTomato2"/>
 		<property name="Group" value="Food/Cooking"/>
-		<drop event="Destroy" name="plantedTomato2" count="1"/>
+		<drop event="Destroy" name="plantedTomato1" count="1"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 	</block>
 	<block id="1797" name="plantedTomato2">

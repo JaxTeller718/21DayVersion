@@ -1,55 +1,45 @@
 <windows>
-
-<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
-
-<!-- >>> LOGO & SERVER INFORMATION >>> -->
-
-		<!-- EDIT THE TEXTURE PART TO REMOVE THE SMX "LOGO" OR INSERT YOUR OWN LOGO IF YOU WISH. TO AVOID ISSUES, STICK TO THE SIZE. -->
-		<!-- EDIT THE TEXT PART OF THE LABEL SECTION TO SET A CUSTOM MESSAGE FOR YOUR DEDICATED SERVER - STANDARD COLOR IS GREEN, THIS CAN BE CHANGED IN THE COLOR PART. DON'T OVER-DO IT! -->
-
+	<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
+	<!-- >>> LOGO & SERVER INFORMATION >>> -->
+	<!-- EDIT THE TEXTURE PART TO REMOVE THE SMX "LOGO" OR INSERT YOUR OWN LOGO IF YOU WISH. TO AVOID ISSUES, STICK TO THE SIZE. -->
+	<!-- EDIT THE TEXT PART OF THE LABEL SECTION TO SET A CUSTOM MESSAGE FOR YOUR DEDICATED SERVER - STANDARD COLOR IS GREEN, THIS CAN BE CHANGED IN THE COLOR PART. DON'T OVER-DO IT! -->
 	<!-- The following section handles: The MOD LOGO for the HUD -->
-
 	<window name="SMX">
 		<texture name="SMX" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\smxhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
 		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
-
 	<window name="SIRMOD">
 		<texture name="SIRMOD" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\smhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
 		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
-
-	<window name="VALMOD"> <!-- SIRILLION: VALMAR, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
+	<window name="VALMOD">
+		<!-- SIRILLION: VALMAR, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
 		<texture name="VALMOD" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\vmhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
 		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
-
-	<window name="TRUESURVIVAL"> <!-- SIRILLION: SPIDER, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
+	<window name="TRUESURVIVAL">
+		<!-- SIRILLION: SPIDER, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
 		<texture name="TRUESURVIVAL" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\tshudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
 		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
-
-	<window name="WotW"> <!-- SIRILLION: DWALLORDE, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
+	<window name="WotW">
+		<!-- SIRILLION: DWALLORDE, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
 		<texture name="WotW" depth="0" size="100,50" texture="@file:Mods\SMX\Textures\Misc\wwhudlogo.png" material="Materials/Transparent Colored" pos="-500,-6" />
 		<label name="ServerInfo" depth="0" size="100,50" text="V5.0.6(B31) R9/6/2017" font_size="18" effect="outline" color="[red]" justify="center" pos="-400,-15" overflow="resizeheight" />
 	</window>
-
-	<window name="CRAFTWORX"> <!-- SIRILLION: LATHEOS, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
+	<window name="CRAFTWORX">
+		<!-- SIRILLION: LATHEOS, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
 		<texture name="CRAFTWORX" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\cwhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
 		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
-
-	<window name="RAVENHEARST"> <!-- SIRILLION: JAXTELLER718, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
+	<window name="RAVENHEARST">
+		<!-- SIRILLION: JAXTELLER718, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
 		<texture name="RAVENHEARST" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\rhhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
 		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
-
-<!-- <<< LOGO & SERVER INFORMATION <<< -->
-
-<!-- >>> UNIT FRAMES >>> -->
-
+	<!-- <<< LOGO & SERVER INFORMATION <<< -->
+	<!-- >>> UNIT FRAMES >>> -->
 	<!-- The following section handles: HEALTH, STAMINA, THIRST and HUNGER bars and backgrounds : SMX DESIGN -->
-
 	<window name="SMXUnitFrame1SMX" style="SMXUnitFrameWindow">
 		<grid name="SMXHSFrame" pos="0,150" rows="2" cols="1" width="240" cell_width="240" cell_height="35" repeat_content="false" side="left">
 			<rect width="240" height="35" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
@@ -76,15 +66,14 @@
 			</rect>
 		</grid>
 	</window>
-
 	<!-- The following section handles: HEALTH, STAMINA, THIRST and HUNGER bars and backgrounds : VALMOD DESIGN -->
-
 	<window name="SMXUnitFrame2VALMOD" style="SMXUnitFrameWindow">
 		<grid name="SMXHSFrame" pos="0,145" rows="2" cols="1" width="240" cell_width="240" cell_height="35" repeat_content="false" side="left">
 			<rect width="240" height="35" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
 				<texture name="SMXStaminaBarBG" depth="1" size="240,54" texture="@file:Mods\SMX\Textures\UnitFrames\uf1staminabg.png" material="Materials/Transparent Colored" pos="0,-75" />
 				<sprite name="BarContent" depth="2" height="15" width="220" atlas="itemiconatlas" sprite="uf2staminabar" type="filled" fill="0" pos="8,-86" />
-<!--			<label depth="6" name="TextContent" pos="0,-83" font_size="20" effect="outline" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" /> --> <!-- VALMAR: Uncomment this section for numbers -->
+				<!--			<label depth="6" name="TextContent" pos="0,-83" font_size="20" effect="outline" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" /> -->
+				<!-- VALMAR: Uncomment this section for numbers -->
 			</rect>
 			<rect width="240" height="35" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
 				<texture name="SMXHealthBarBG" depth="1" size="240,60" texture="@file:Mods\SMX\Textures\UnitFrames\uf1healthbg.png" material="Materials/Transparent Colored" pos="0,-55" />
@@ -105,9 +94,7 @@
 			</rect>
 		</grid>
 	</window>
-
 	<!-- The following section handles: HEALTH, STAMINA, THIRST and HUNGER bars and backgrounds : SIRMOD DESIGN -->
-
 	<window name="SMXUnitFrame3SIRMOD">
 		<grid name="hud" pos="9,98" rows="2" cols="2" width="342" cell_width="170" cell_height="46" repeat_content="false" side="left" >
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
@@ -140,9 +127,7 @@
 			</rect>
 		</grid>
 	</window>
-
 	<!-- The following section handles: HEALTH, STAMINA, THIRST and HUNGER bars and backgrounds : SMX2 DESIGN -->
-
 	<window name="SMXUnitFrame4SMX2" style="SMXUnitFrameWindow">
 		<grid name="SMXFWFrame" pos="-40,56" rows="2" cols="1" width="70" cell_width="70" cell_height="70" repeat_content="false" side="left">
 			<rect width="70" height="70" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
@@ -169,13 +154,9 @@
 			</rect>
 		</grid>
 	</window>
-
-<!-- <<< UNIT FRAMES <<< -->
-
-<!-- >>> ZOMBIE KILL TRACKERS >>> -->
-
+	<!-- <<< UNIT FRAMES <<< -->
+	<!-- >>> ZOMBIE KILL TRACKERS >>> -->
 	<!-- The following section handles: ZOMBIE KILL TRACKER : VALMOD DESIGN -->
-
 	<window name="ZombieKillTrackerVALMOD" width="400" height="200" pos="135,92" controller="PlayerStatsWindow" anchor="LeftBottom">
 		<sprite depth="3" name="icon" size="45,45" style="icon32px" pos="112, -17" sprite="ui_game_symbol_knife" color="0, 0, 0, 125" />
 		<sprite depth="3" name="icon" size="45,45" style="icon32px" pos="110, -15" sprite="ui_game_symbol_skull" color="[black]" />
@@ -183,9 +164,7 @@
 		<label depth="4" name="TextContent" pos="154,-22" font_size="35" color="[black]" foregroundlayer="true" text="{playerzombiekills}[-]" effect="outline" upper_case="true" />
 		<label depth="4" name="TextContent" pos="155,-23" font_size="30" color="[white]" foregroundlayer="true" text="{playerzombiekills}[-]" effect="outline" upper_case="true" />
 	</window>
-
 	<!-- The following section handles: ZOMBIE KILL TRACKER : SIRMOD DESIGN -->
-
 	<window name="ZombieKillTrackerSIRMOD" width="400" height="200" pos="250,92" controller="PlayerStatsWindow" anchor="LeftBottom">
 		<sprite depth="3" name="icon" size="45,45" style="icon32px" pos="112, -17" sprite="ui_game_symbol_knife" color="0, 0, 0, 125" />
 		<sprite depth="3" name="icon" size="45,45" style="icon32px" pos="110, -15" sprite="ui_game_symbol_skull" color="[black]" />
@@ -193,13 +172,9 @@
 		<label depth="4" name="TextContent" pos="154,-22" font_size="35" color="[black]" foregroundlayer="true" text="{playerzombiekills}[-]" effect="outline" upper_case="true" />
 		<label depth="4" name="TextContent" pos="155,-23" font_size="30" color="[white]" foregroundlayer="true" text="{playerzombiekills}[-]" effect="outline" upper_case="true" />
 	</window>
-
-<!-- <<< ZOMBIE KILL TRACKERS <<< -->
-
-<!-- >>> LEVEL & XP BARS >>> -->
-
+	<!-- <<< ZOMBIE KILL TRACKERS <<< -->
+	<!-- >>> LEVEL & XP BARS >>> -->
 	<!-- The following section handles: LEVEL and XP bar and background : SMX DESIGN -->
-
 	<window name="SMXLevelXPUF1SMX" style="SMXLevelXP.window">
 		<rect pos="0,0" controller="PlayerStatsWindow">
 			<sprite name="SMXLevelXPBG" pos="12,15" size="120,80" depth="1" atlas="itemiconatlas" sprite="uf1xpbg" />
@@ -208,9 +183,7 @@
 			<label depth="4" width="50" pos="48,-7" font_size="32" text="{playerlevel}[-]" color="[white]" effect="outline" upper_case="true" justify="center" />
 		</rect>
 	</window>
-
 	<!-- The following section handles: LEVEL and XP bar and background : VALMOD DESIGN -->
-
 	<window name="SMXLevelXPUF2VALMOD" style="SMXLevelXP.window">
 		<rect pos="0,0" controller="PlayerStatsWindow">
 			<sprite name="SMXLevelXPBG" pos="12,15" size="120,80" depth="1" atlas="itemiconatlas" sprite="uf2xpbg" />
@@ -219,12 +192,9 @@
 			<label depth="4" width="50" pos="48,-7" font_size="32" text="{playerlevel}[-]" color="225,221,0" effect="outline" upper_case="true" justify="center" />
 		</rect>
 	</window>
-
 	<!-- The following section handles: LEVEL and XP bar and background : SIRMOD DESIGN -->
-
 	<window name="SMXLevelXPUF3SIRMOD" style="SMXDayTimeFrame2.window" controller="CompassWindow">
-		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0">
-		</texture>
+		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0"/>
 		<grid name="topLeftInfo" pos="0,-59" rows="2" cols="1" width="400" cell_width="400" cell_height="46" repeat_content="false">
 			<rect width="400" height="43">
 				<sprite depth="2" name="icon" size="37,37" pos="1,-1" sprite="ui_game_symbol_clock" color="[black]" />
@@ -237,9 +207,7 @@
 			</rect>
 		</grid>
 	</window>
-
 	<!-- The following section handles: LEVEL and XP bar and background : CRAFTWORX DESIGN -->
-
 	<window name="SMXLevelXPUF4CRAFTWORX" style="SMXLevelXP.window">
 		<rect pos="0,0" controller="PlayerStatsWindow">
 			<sprite name="SMXLevelXPBG" pos="12,15" size="120,80" depth="1" atlas="itemiconatlas" sprite="uf1xpbg" />
@@ -248,13 +216,9 @@
 			<label depth="4" width="50" pos="48,-7" font_size="32" text="{playerlevel}[-]" color="[white]" effect="outline" upper_case="true" justify="center" />
 		</rect>
 	</window>
-
-<!-- <<< LEVEL & XP BARS <<< -->
-
-<!-- >>> TOOLBELTS >>> -->
-
+	<!-- <<< LEVEL & XP BARS <<< -->
+	<!-- >>> TOOLBELTS >>> -->
 	<!-- The following section handles: The TOOLBELT GRID, NUMBERS and BACKGROUND : SMX DESIGN -->
-
 	<window name="SMXToolbelt1SMX" width="760" height="226" depth="0" pos="0,85" anchor="CenterBottom" backgroundcolor="[black]" controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true">
 		<rect>
 			<texture name="SMXToolbeltBG" depth="0" size="760,120" pos="-380,30" texture="@file:Mods\SMX\Textures\Toolbelt\smxtoolbeltbg.png" material="Materials/Transparent Colored" />
@@ -273,9 +237,7 @@
 			</grid>
 		</rect>
 	</window>
-
 	<!-- The following section handles: The TOOLBELT GRID, NUMBERS and BACKGROUND : VALMOD DESIGN -->
-
 	<window name="SMXToolbelt2VALMOD" width="603" height="78" depth="5" anchor="CenterBottom" pos="-313, 90" backgroundcolor="[black]" controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true">
 		<rect>
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" on_press="true" />
@@ -287,7 +249,6 @@
 			</sprite>
 		</rect>
 	</window>
-
 	<window name="SMXToolbeltNumbersVALMOD" depth="20" width="603" height="22" pos="-313,98" anchor="CenterBottom" controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true">
 		<label name="slot1" pos="-5,-9" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center" />
 		<label name="slot2" pos="70,-9" width="22" height="22" text="  [DECEA3]2" font_size="20" justify="center" />
@@ -298,9 +259,7 @@
 		<label name="slot7" pos="445,-9" width="22" height="22" text="  [DECEA3]7" font_size="20" justify="center" />
 		<label name="slot8" pos="520,-9" width="22" height="22" text="  [DECEA3]8" font_size="20" justify="center" />
 	</window>
-
 	<!-- The following section handles: The TOOLBELT GRID, NUMBERS and XP BAR and BACKGROUND : SIRMOD DESIGN -->
-
 	<window name="SMXToolbelt3SIRMOD" width="603" height="78" depth="5" anchor="CenterBottom" pos="-313, 98" backgroundcolor="[black]" controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true">
 		<rect>
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" on_press="true" />
@@ -324,13 +283,9 @@
 			<sprite depth="2" width="595" pos="4, 5" height="3" type="filled" color="49,91,203" fill="{playerlevelfill}" />
 		</rect>
 	</window>
-
-<!-- <<< TOOLBELTS <<< -->
-
-<!-- >>> AMMO COUNTER, PICKUPS AND MINIBIKE HUD >>> -->
-
+	<!-- <<< TOOLBELTS <<< -->
+	<!-- >>> AMMO COUNTER, PICKUPS AND MINIBIKE HUD >>> -->
 	<!-- The following section handles: The AMMO COUNTER, PICKUPS and the MINIBIKE HUD : SMX DESIGN -->
-
 	<window name="SMXHudOther">
 		<texture name="SMXHudOther" depth="0" size="165,355" pos="-230,-50" texture="@file:Mods\SMX\Textures\Misc\smxhudotherbg.png" material="Materials/Transparent Colored" justify="right" rotation="90" />
 		<rect name="SMXCollector" pos="-90,31" side="right" controller="CollectedItemList" pivot="BottomLeft">
@@ -350,10 +305,10 @@
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="VehicleHealth" visible="{statvisible}">
 				<sprite depth="2" pos="3,-3"  name="background" atlas="itemiconatlas" sprite="mbhealthbg" type="sliced" height="97" width="150" />
 				<sprite depth="3" pos="3,-3"  name="BarContent" atlas="itemiconatlas" sprite="mbhealthbar" type="filled" height="97" width="150" filldirection="vertical" globalopacitymod="1.5" />
-<!--			<sprite depth="4" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="32,32" pos="130,-6" foregroundlayer="true" />
--->				<label depth="6" name="TextContent" pos="20,0" font_size="28" effect="outline" color="[white]" justify="center" text="{statcurrentwithmax}" height="30" />
-<!--			<label depth="6" pos="170,-140" name="BIKENAME" font_size="32" effect="outline" color="[white]" justify="center" text="B I K E Y !" rotation="90" />
--->			</rect>
+				<!--			<sprite depth="4" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="32,32" pos="130,-6" foregroundlayer="true" />-->
+				<label depth="6" name="TextContent" pos="20,0" font_size="28" effect="outline" color="[white]" justify="center" text="{statcurrentwithmax}" height="30" />
+				<!--			<label depth="6" pos="170,-140" name="BIKENAME" font_size="32" effect="outline" color="[white]" justify="center" text="B I K E Y !" rotation="90" />-->
+			</rect>
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="VehicleBattery" visible="{statvisible}">
 				<sprite name="SMXBatteryBarBG" depth="3" atlas="itemiconatlas" sprite="mbbatterybg" type="sliced" pos="-15,-60" size="60,50" rotation="90" />
 				<sprite name="BarContent" depth="4" atlas="itemiconatlas" sprite="mbbatterybar" type="filled" fill="0" pos="-15,-60" size="53,10" rotation="90" />
@@ -370,73 +325,49 @@
 			</rect>
 		</grid>
 	</window>
-
-<!-- <<< AMMO COUNTER, PICKUPS AND MINIBIKE HUD <<< -->
-
-<!-- >>> QUEST TRACKER >>> -->
-
+	<!-- <<< AMMO COUNTER, PICKUPS AND MINIBIKE HUD <<< -->
+	<!-- >>> QUEST TRACKER >>> -->
 	<!-- The following section handles: The QUEST TRACKER on the HUD : SMX DESIGN -->
-
 	<window name="SMXQuestTracker" pos="-255, -88" width="300" height="100" anchor="RightTop" controller="QuestTrackerWindow" visible="{showquest}" depth="-20">
 		<texture name="SMXHudOther" depth="0" size="316,58" pos="-140,18" texture="@file:Mods\SMX\Textures\QuestTracker\smxquestsbg.png" material="Materials/Transparent Colored" />
 		<label depth="1" text="{questtitle}" font_size="26" effect="outline" justify="center" upper_case="true" pos="-100, -5" height="28" />
 		<sprite pos="-100,-8" depth="1" name="windowIcon" style="icon22px" sprite="{questicon}" justify="left" />
-		<grid name="objectiveList" rows="12" cols="1" pos="-60,-44" cell_width="300" cell_height="26" repeat_content="true" arrangement="vertical" controller="QuestTrackerObjectiveList"
-			complete_icon="ui_game_symbol_check" incomplete_icon="ui_game_symbol_x" complete_color="[green]" incomplete_color="[red]">
+		<grid name="objectiveList" rows="12" cols="1" pos="-60,-44" cell_width="300" cell_height="26" repeat_content="true" arrangement="vertical" controller="QuestTrackerObjectiveList"	complete_icon="ui_game_symbol_check" incomplete_icon="ui_game_symbol_x" complete_color="[green]" incomplete_color="[red]">
 			<SMX_quest_objective_tracker_entry_uf1 />
 		</grid>
 	</window>
-
 	<!-- The following section handles: The QUEST TRACKER on the HUD : SIRMOD DESIGN -->
-
 	<window name="SMXQuestTracker3SIRMOD" pos="-255, -88" width="300" height="100" anchor="RightTop" controller="QuestTrackerWindow" visible="{showquest}" depth="-20">
 		<label depth="1" text="{questtitle}" font_size="26" effect="outline" justify="center" upper_case="true" pos="-100, -5" height="28" />
 		<sprite pos="-100,-8" depth="1" name="windowIcon" style="icon22px" sprite="{questicon}" justify="left" />
-		<grid name="objectiveList" rows="12" cols="1" pos="-60,-44" cell_width="300" cell_height="26" repeat_content="true" arrangement="vertical" controller="QuestTrackerObjectiveList"
-			complete_icon="ui_game_symbol_check" incomplete_icon="ui_game_symbol_x" complete_color="[green]" incomplete_color="[red]">
+		<grid name="objectiveList" rows="12" cols="1" pos="-60,-44" cell_width="300" cell_height="26" repeat_content="true" arrangement="vertical" controller="QuestTrackerObjectiveList"	complete_icon="ui_game_symbol_check" incomplete_icon="ui_game_symbol_x" complete_color="[green]" incomplete_color="[red]">
 			<SMX_quest_objective_tracker_entry_uf1 />
 		</grid>
 	</window>
-	
-<!-- <<< QUEST TRACKER <<< -->
-
-<!-- >>> COMPASS >>> -->
-
+	<!-- <<< QUEST TRACKER <<< -->
+	<!-- >>> COMPASS >>> -->
 	<!-- The following section handles: The COMPASS : SMX DESIGN -->
-
 	<window name="SMXCompass1SMX" style="SMXcompass.window" controller="CompassWindow">
 		<texture style="SMXcompass.window.background" />
 		<texture style="SMXcompass.window.indicator" />
-		<texture style="SMXcompass.window.compass.texture" name="compassTexture" depth="1" rect_size="0.25,1" rect_offset=".8,0">
-		</texture>
+		<texture style="SMXcompass.window.compass.texture" name="compassTexture" depth="1" rect_size="0.25,1" rect_offset=".8,0"/>
 	</window>
-
 	<!-- The following section handles: The COMPASS : VALMOD DESIGN -->
-
 	<window name="SMXCompass2VALMOD" style="SMXcompass.window" controller="CompassWindow">
-<!--	<texture style="SMXcompass.window.background" /> -->
+		<!--	<texture style="SMXcompass.window.background" /> -->
 		<texture style="SMXcompass.window.indicator2VALMOD" />
-		<texture style="SMXcompass.window.compass.texture" name="compassTexture" depth="1" rect_size="0.25,1" rect_offset=".8,0">
-		</texture>
+		<texture style="SMXcompass.window.compass.texture" name="compassTexture" depth="1" rect_size="0.25,1" rect_offset=".8,0"/>
 	</window>
-
 	<!-- The following section handles: The COMPASS : SIRMOD DESIGN -->
-
 	<window name="SMXCompass3SIRMOD" style="compass.window" controller="CompassWindow">
 		<sprite style="SMXcompass.window.background.border3SIRMOD" />
 		<sprite style="SMXcompass.window.background3SIRMOD" />
-		<sprite style="SMXcompass.window.compass.background3SIRMOD">
-		</sprite>
-		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0">
-		</texture>
+		<sprite style="SMXcompass.window.compass.background3SIRMOD"/>
+		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0"/>
 	</window>
-
-<!-- <<< COMPASS <<< -->
-
-<!-- >>> BUFFS >>> -->
-
+	<!-- <<< COMPASS <<< -->
+	<!-- >>> BUFFS >>> -->
 	<!-- The following section handles: The BUFF TRACKERS on the HUD : SMX DESIGN -->
-
 	<window name="SMXBuffFrame1">
 		<rect name="hud" pos="93,195" side="left" controller="BuffPopoutList" pivot="BottomLeft">
 			<panel width="168" height="43" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0">
@@ -446,7 +377,6 @@
 			</panel>
 		</rect>
 	</window>
-
 	<window name="SMXBuffFrame2">
 		<rect name="hud" pos="93,195" side="left" controller="BuffPopoutList" pivot="BottomLeft">
 			<panel width="168" height="26" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0">
@@ -456,7 +386,6 @@
 			</panel>
 		</rect>
 	</window>
-
 	<window name="SMXBuffFrame3" Controller="ActiveBuffWindow" width="320" height="325" pos="9,520">
 		<panel name="content" depth="0" pos="0,-40" disableautobackground="true">
 			<rect height="43">
@@ -476,7 +405,6 @@
 			</grid>
 		</panel>
 	</window>
-
 	<window name="SMXBuffFrame4" Controller="ActiveBuffWindow" width="320" height="325" pos="9,420">
 		<panel name="content" depth="0" pos="0,-40" disableautobackground="true">
 			<rect height="43">
@@ -496,9 +424,7 @@
 			</grid>
 		</panel>
 	</window>
-
 	<!-- The following section handles: The BUFF TRACKER on the HUD : VALMOD DESIGN -->
-
 	<window name="SMXBuffFrame5VALMOD">
 		<rect name="hud" pos="93,140" side="left" controller="BuffPopoutList" pivot="BottomLeft">
 			<panel width="168" height="33" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0">
@@ -508,9 +434,7 @@
 			</panel>
 		</rect>
 	</window>
-
 	<!-- The following section handles: The BUFF TRACKER on the HUD : SIRMOD DESIGN -->
-
 	<window name="SMXBuffFrame6SIRMOD" Controller="ActiveBuffWindow" width="320" height="325" pos="9,520">
 		<panel name="content" depth="0" pos="0,-40" disableautobackground="true">
 			<rect height="43">
@@ -530,9 +454,7 @@
 			</grid>
 		</panel>
 	</window>
-
 	<!-- The following section handles: The BUFF TRACKER on the HUD : SMX2 DESIGN -->
-
 	<window name="SMXBuffFrame7SMX2" Controller="ActiveBuffWindow" width="320" height="325" pos="9,550">
 		<panel name="content" depth="0" pos="0,-40" disableautobackground="true">
 			<rect height="43">
@@ -552,20 +474,14 @@
 			</grid>
 		</panel>
 	</window>
-
-<!-- <<< BUFFS <<< -->
-
-<!-- >>> DAY & TIME >>> -->
-
+	<!-- <<< BUFFS <<< -->
+	<!-- >>> DAY & TIME >>> -->
 	<!-- The following section handles: The DAY / TIME TRACKER on the HUD : SMX DESIGN -->
-
 	<window name="SMXDayTimeFrame1SMX" style="SMXDayTimeFrame.window" controller="CompassWindow">
-		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0">
-		</texture>
+		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0"/>
 		<grid name="SMXDayTimeFrame" pos="85,-9" rows="1" cols="2" width="125" cell_width="60" cell_height="46" repeat_content="false">
 			<rect width="400" height="43">
 				<sprite name="SMXDayTimeBG" pos="-20,12" size="214,148" depth="1" atlas="itemiconatlas" sprite="uf1generalbg" globalopacitymod="1.0" />
-
 				<label depth="2" pos="25,-50" width="60" height="43" text="Day {day|always}" color="[white]" font_size="22" effect="outline" upper_case="true" justify="left" />
 			</rect>
 			<rect>
@@ -573,9 +489,7 @@
 			</rect>
 		</grid>
 	</window>
-
 	<!-- The following section handles: The DAY / TIME TRACKER on the HUD : SIRMOD DESIGN -->
-
 	<window name="SMXDayTimeFrame3SIRMOD" style="compass.window">
 		<rect width="100" height="43" pos="15,-20">
 			<sprite depth="2" name="icon" size="37,37" pos="0,0" sprite="ui_game_symbol_wind" color="[black]" pivot="center" />
@@ -594,18 +508,13 @@
 			<label depth="2" pos="75,0" text="  {maptemperature}[-]" font_size="28" color="[white]" justify="left" pivot="center" effect="outline" upper_case="true" controller="MapStats" />
 		</rect>
 	</window>
-
-<!-- <<< DAY & TIME <<< -->
-
-<!-- >>> TEMPERATURE >>> -->
-
+	<!-- <<< DAY & TIME <<< -->
+	<!-- >>> TEMPERATURE >>> -->
 	<!-- The following section handles: The TEMPERATURE DISPLAY : SMX DESIGN -->
-
 	<window name="SMXTempFrameUF1SMX" style="SMXTempFrame.window" controller="PlayerStatsWindow">
 		<grid name="SMXTempFrame" pos="85,-9" rows="1" cols="3" width="360" cell_width="70" cell_height="100" repeat_content="false">
 			<rect width="70" height="100">
 				<sprite name="SMXTempBG" pos="370,-65" size="324,148" depth="1" atlas="itemiconatlas" sprite="uf1generalbg" rotation="180" globalopacitymod="1.5" />
-
 				<label depth="2" width="100" pos="105,20" font_size="20" text=" {mapelevation}[-]  M" color="[white]" effect="outline" justify="center"  controller="MapStats" />
 			</rect>
 			<rect width="70" height="100">
@@ -616,9 +525,7 @@
 			</rect>
 		</grid>
 	</window>
-
 	<!-- The following section handles: The TEMPERATURE DISPLAY : VALMOD DESIGN -->
-
 	<window name="SMXTempFrameUF2VALMOD" style="SMXTempFrame.window" controller="PlayerStatsWindow">
 		<grid name="SMXTempFrame" pos="85,-55" rows="1" cols="3" width="360" cell_width="70" cell_height="100" repeat_content="false">
 			<rect width="70" height="100">
@@ -633,9 +540,7 @@
 			</rect>
 		</grid>
 	</window>
-
 	<!-- The following section handles: The TEMPERATURE DISPLAY : SMX2 DESIGN -->
-
 	<window name="SMXTempFrameUF3SMX2" style="SMXTempFrame.window" controller="PlayerStatsWindow">
 		<grid name="SMXTempFrame" pos="85,-9" rows="3" cols="1" width="150" cell_width="150" cell_height="100" repeat_content="false">
 			<rect width="150" height="100">
@@ -652,68 +557,48 @@
 			</rect>
 		</grid>
 	</window>
-
-<!-- <<< TEMPERATURE <<< -->
-
-<!-- >>> MINIBIKE STORAGE >>> -->
-
+	<!-- <<< TEMPERATURE <<< -->
+	<!-- >>> MINIBIKE STORAGE >>> -->
 	<!-- The following section handles: The right side MINIBIKE PANEL size -->
-
 	<window name="SMXVehicleStorage" width="423" height="739" depth="5" anchor="CenterTop" panel="Right" backgroundcolor="[black]" cursor_area="true">
-
 		<!-- The following section handles: The minibike storage HEADER, LABEL and ICON/SORT BUTTON -->
-
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<button depth="1" name="btnSort" style="icon32px, press, hover" pivot="center" pos="21,-21" sprite="ui_game_symbol_loot_sack" tooltip_key="lblSortContainer" sound="[paging_click]" />
 			<label style="header.name" text="MINIBIKE STORAGE" text_key="xuiMinibikeStorage" />
 		</panel>
-
-		<panel name="header" pos="0,-46" height="19" depth="1" backgroundspritename="ui_game_panel_header">
-		</panel>
-
+		<panel name="header" pos="0,-46" height="19" depth="1" backgroundspritename="ui_game_panel_header"/>
 		<!-- The following section handles: The minibike INVENTORY and CELL SIZE -->
-
 		<grid depth="2" name="inventory" rows="12" cols="7" pos="3,-65" cell_width="60" cell_height="60" repeat_content="true" controller="VehicleContainer">
 			<SMX_60_item_stack name="0" />
 		</grid>
-
 		<!-- The following section handles: The MISSING BASKET notification -->
-
 		<panel name="emptyPanel" height="739" depth="4" pos="0,-46" backgroundcolor="[darkGrey]" bordercolor="[black]" visible="false">
 			<sprite depth="4" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 			<label pos="0,-180" depth="3" name="descriptionText" width="100%" height="80" text="ADD BASKET TO ACCESS STORAGE." text_key="xuiEmptyVehicleStorage" justify="center" font_size="24" />
 		</panel>
 	</window>
-
 	<!-- The following section handles: The left side MINIBIKE PANEL size -->
-
 	<window name="SMXVehicle" width="380" height="739" panel="Left" controller="VehicleFrameWindow" cursor_area="true">
-
 		<!-- The following section handles: The minibike stats and parts HEADER, LABEL and ICON -->
-
 		<panel name="header" pos="3,0" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="5,-5" sprite="ui_game_symbol_minibike" />
 			<label style="header.name" text="{vehiclenamequality}" />
 		</panel>
-
 		<panel name="content" depth="0" pos="0,-43" disableautobackground="true">
 			<sprite color="[darkGrey]" pos="3,-3" height="613" />
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="3,-3" width="380" height="739" color="[black]" type="sliced" fillcenter="false" on_press="true" />
 			<rect depth="1" pos="3,-3" width="380" height="739">
-
 				<!-- The following section handles: The vehicle PREVIEW animation -->
-
 				<rect pos="3,-3" width="374" height="259">
 					<sprite color="[mediumGrey]" type="sliced" />
 					<texture depth="2" pos="50,-20" name="vehiclePreview" material="Materials/Transparent Colored" size="300,175" />
 					<label depth="3" pos="280,-8" font_size="22" text="{vehiclequalitytitle}: [DECEA3]{vehiclequality}[-]" width="200" height="30" />
 				</rect>
-
- 				<!-- The following section handles: The vehicle STATS -->
- 
+				<!-- The following section handles: The vehicle STATS -->
 				<rect name="content" depth="0" pos="0,0" height="234" controller="VehicleStats">
 					<rect depth="2" pos="6,-5">
-						<grid name="stats" rows="5" cols="1" pos="3,-5" cell_width="223" cell_height="30" repeat_content="false">	<!-- REMEMBER : Try to find another way to do this and clean up this mess -->
+						<grid name="stats" rows="5" cols="1" pos="3,-5" cell_width="223" cell_height="30" repeat_content="false">
+							<!-- REMEMBER : Try to find another way to do this and clean up this mess -->
 							<panel height="30" width="340" disableautobackground="true">
 								<sprite depth="1" name="windowIcon" style="icon22px" pos="2,-2" sprite="ui_game_symbol_speed" />
 								<label depth="1" width="500" pos="-298,-2" name="lblSpeed" font_size="22" text="{speedtitle}:                                                                [DECEA3]{speed}m/s ({speedtext})[-]" />
@@ -732,28 +617,25 @@
 							</panel>
 						</grid>
 					</rect>
-
 					<!-- The following section handles: The REFUEL and REPAIR "BUTTONS", BARS, ICONS & LABELS -->
-
 					<grid name="maintenance" rows="1" cols="2" pos="12,-216" width="374" cell_width="181" cell_height="36" repeat_content="false">
 						<rect name="btnRefuel" depth="3" pos="3, -3" height="36" width="175">
 							<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
-<!--						<sprite depth="2" name="background" pos="3,0" sprite="menu_empty" width="187" height="33" color="[darkGrey]" type="sliced" />
--->							<rect depth="3" pos="3,-3" width="169" height="30">
+							<!--						<sprite depth="2" name="background" pos="3,0" sprite="menu_empty" width="187" height="33" color="[darkGrey]" type="sliced" />-->
+							<rect depth="3" pos="3,-3" width="169" height="30">
 								<button name="clickable" sprite="menu_empty" defaultcolor="[mediumGrey]" hoversprite="ui_game_select_row" hovercolor="[white]" type="sliced" hoverscale="1.0" />
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="46,-8" sprite="ui_game_symbol_gas" color="[black_half_alpha]" />
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="44,-8" sprite="ui_game_symbol_gas" color="[black_half_alpha]" />
-
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="44,-6" sprite="ui_game_symbol_gas" color="[black_half_alpha]" />
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="46,-6" sprite="ui_game_symbol_gas" color="[black_half_alpha]" />
-
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="45,-7" color="[iconColor]" sprite="ui_game_symbol_gas" />
 								<label depth="2" name="windowName" pos="4,-2" justify="center" text="REFUEL" text_key="xuiRefuel" font_size="24" />
 							</rect>
 							<panel height="30" width="169" disableautobackground="true">
-								<sprite depth="1" name="windowIcon" style="icon22px" pos="9999,-9999" sprite="ui_game_symbol_gas" />		<!-- Moved off screen -->
-								<label depth="1" width="100" pos="9999,-9999" font_size="22" text="{fueltitle}: [DECEA3]{fuel}%[-]" />		<!-- Moved off screen -->
-
+								<sprite depth="1" name="windowIcon" style="icon22px" pos="9999,-9999" sprite="ui_game_symbol_gas" />
+								<!-- Moved off screen -->
+								<label depth="1" width="100" pos="9999,-9999" font_size="22" text="{fueltitle}: [DECEA3]{fuel}%[-]" />
+								<!-- Moved off screen -->
 								<sprite depth="2" width="154" pos="10, 14" height="10" type="sliced" color="[black]" />
 								<sprite depth="2" width="152" pos="11, 13" height="8" type="sliced" color="[mediumGrey]" />
 								<sprite depth="2" name="sprFillPotential" width="152" pos="11, 13" height="6" type="filled" color="[beige]" fill="{potentialfuelfill}" />
@@ -762,15 +644,13 @@
 						</rect>
 						<rect name="btnRepair" depth="3" pos="3, -3" height="36" width="175">
 							<sprite depth="4" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
-<!--						<sprite depth="2" name="background" pos="3,0" sprite="menu_empty" width="187" height="33" color="[darkGrey]" type="sliced" />
--->							<rect depth="3" pos="3,-3" width="169" height="30">
+							<!--						<sprite depth="2" name="background" pos="3,0" sprite="menu_empty" width="187" height="33" color="[darkGrey]" type="sliced" />-->
+							<rect depth="3" pos="3,-3" width="169" height="30">
 								<button name="clickable" sprite="menu_empty" defaultcolor="[mediumGrey]" hoversprite="ui_game_select_row" hovercolor="[white]" type="sliced" hoverscale="1.0" />
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="46,-8" sprite="ui_game_symbol_wrench" color="[black_half_alpha]" />
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="44,-8" sprite="ui_game_symbol_wrench" color="[black_half_alpha]" />
-
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="44,-6" sprite="ui_game_symbol_wrench" color="[black_half_alpha]" />
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="46,-6" sprite="ui_game_symbol_wrench" color="[black_half_alpha]" />
-
 								<sprite depth="2" name="windowIcon" width="15" height="15" pos="45,-7" sprite="ui_game_symbol_wrench" />
 								<label depth="2" name="windowName" pos="4,-2" justify="center" text="REPAIR" text_key="xuiRepair" font_size="24" />
 							</rect>
@@ -781,9 +661,7 @@
 							</panel>
 						</rect>
 					</grid>
- 
- 					<!-- The following section handles: The PARTS grid -->
-
+					<!-- The following section handles: The PARTS grid -->
 					<grid name="parts" rows="8" cols="1" pos="3,-259" cell_width="374" cell_height="60" repeat_content="true" controller="VehiclePartStackGrid">
 						<vehicle_part_slot />
 					</grid>
@@ -791,29 +669,19 @@
 			</rect>
 		</panel>
 	</window>
-
-<!-- <<< MINIBIKE STORAGE <<< -->
-
-<!-- >>> CRAFTING >>> -->
-
+	<!-- <<< MINIBIKE STORAGE <<< -->
+	<!-- >>> CRAFTING >>> -->
 	<!-- The following section handles: The CRAFTING LIST -->
-
 	<window name="SMXCraftingList"  width="423" height="667" controller="CraftingListInfo" panel="Left" cursor_area="true">
-
 		<!-- The following section handles: The crafting list HEADER, LABEL and ICON -->
-
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="Craft_Icon_Basics" />
 			<label style="header.name" text="basics" text_key="xuiBasics" />
-
 			<label pos="393, -6" depth="2" name="unlockedCount" width="64" height="32" text="0/65" font_size="32" color="[lightGrey]" justify="right" pivot="topright" />
 			<sprite pos="334, -5" depth="2" name="unlockedIcon" style="icon32px" sprite="ui_game_symbol_book" color="[lightGrey]" pivot="topright" />
 		</panel>
-
 		<!-- The following section handles: The category selector ICONS, SIZE and POSITION -->
-
 		<panel name="content" width="423" height="650" depth="1" pos="0,-43" on_scroll="true" disableautobackground="true">
-
 			<rect depth="2" name="categorySelector" width="417" height="44" pos="3,-6">
 				<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="423" height="49" color="[black]" type="sliced" fillcenter="false" />
 				<sprite color="[mediumGrey]" type="sliced" />
@@ -821,19 +689,15 @@
 					<category_icon />
 				</grid>
 			</rect>
-
 			<!-- The following section handles: The FAVORITES, SEARCH BAR and SCROLL CONTROL -->
-
 			<rect depth="3" name="searchControls" width="417" height="44" pos="3,-52">
 				<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="423" height="49" color="[black]" type="sliced" fillcenter="false" />
 				<sprite color="[darkGrey]" type="sliced" />
 				<button depth="4" name="favorites" style="icon30px, press" pos="18,-22" sprite="server_favorite" pivot="center" sound="[paging_click]" tooltip="Favorites" tooltip_key="lblFavorites" collider_scale="1.5" />
-
 				<panel pos="110,0" width="220" disableautobackground="true">
 					<sprite depth="4" name="searchIcon" style="icon30px" pos="0,-22" sprite="ui_game_symbol_search" pivot="center" />
 					<recipe_search depth="5" name="searchInput" />
 				</panel>
-
 				<panel pos="292,0" width="124" height="43" disableautobackground="true">
 					<button depth="4" name="pageDown" style="icon30px, press" pos="20,-22" sprite="ui_game_symbol_arrow_left" pivot="center" sound="[paging_click]" />
 					<rect depth="4" pos="37,-7">
@@ -843,48 +707,36 @@
 					<button depth="4" name="pageUp" style="icon30px, press" pos="84,-22" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]" />
 				</panel>
 			</rect>
-
 			<!-- The following section handles: The RECIPE LIST GRID -->
-
 			<grid name="recipes" rows="11" cols="1" pos="3,-98" width="417" height="552" cell_width="417" cell_height="46" controller="RecipeList" repeat_content="true" arrangement="vertical">
 				<SMX_recipe_entry name="0" />
 			</grid>
 		</panel>
 	</window>
-
 	<!-- The following section handles: The increased CRAFTING QUEUE -->
-
 	<window name="SMXCraftingQueue" width="423" height="99" panel="Left" cursor_area="true">
 		<panel style="header.panel">
 			<sprite style="header.icon" sprite="ui_game_symbol_forge" />
 			<label style="header.name" text="Queue" text_key="Queue" />
 		</panel>
-
 		<rect depth="0" pos="3,0" width="420" controller="CraftingQueue">
 			<grid name="queue" rows="1" cols="7" pos="0,-49" cell_width="60" cell_height="60" repeat_content="true">
 				<SMX_60_recipe_stack name="0" />
 			</grid>
 		</rect>
 	</window>
-
 	<!-- The following section handles: Forge SMELTING SLOTS -->
-
-	<window name="SMXForgeInput" width="228" height="204" panel="Right"
-		controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true">
+	<window name="SMXForgeInput" width="228" height="204" panel="Right"	controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true">
 		<panel style="header.panel">
 			<sprite style="header.icon" sprite="ui_game_symbol_forge" />
 			<label style="header.name" text="INPUT" text_key="xuiSmelting" />
 		</panel>
-
 		<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="153" color="[black]" type="sliced" fillcenter="false" on_press="true" />
 		<rect name="content" depth="1" pos="0,-46" height="153">
-
 			<grid depth="7" rows="3" cols="1" pos="3,-3" cell_width="50" cell_height="50" controller="WorkstationMaterialInputGrid" repeat_content="true">
 				<SMX_50_item_stack name="0" />
 			</grid>
-
 		</rect>
-
 		<rect name="content2" depth="0" pos="53, -49" width="175" height="148">
 			<sprite depth="1" color="[mediumGrey]" type="sliced" on_press="true" />
 			<grid rows="6" cols="1" pos="3,-3" cell_width="147" cell_height="24"  repeat_content="true">
@@ -892,13 +744,9 @@
 			</grid>
 		</rect>
 	</window>
-
-<!-- <<< CRAFTING <<< -->
-
-<!-- >>> INGAME MENU >>> -->
-
+	<!-- <<< CRAFTING <<< -->
+	<!-- >>> INGAME MENU >>> -->
 	<!-- The following section handles: The INGAME MAIN MENU : SMX DESIGN -->
-
 	<window name="SMXingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="SMX" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\smxmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false">
@@ -907,9 +755,7 @@
 			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 		</grid>
 	</window>
-
 	<!-- The following section handles: The INGAME MAIN MENU : SIRMOD DESIGN -->
-
 	<window name="SIRMODingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="SMX" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\smmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false">
@@ -918,75 +764,65 @@
 			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 		</grid>
 	</window>
-
 	<!-- The following section handles: The INGAME MAIN MENU : VALMOD DESIGN -->
-
 	<window name="VALMODingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="VALMOD" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\vmmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="VALMODVersion" pos="190, -5" depth="0" size="250,33" text="" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: VALMAR, change version here if needed! -->
+		<label name="VALMODVersion" pos="190, -5" depth="0" size="250,33" text="" font_size="32" effect="outline" color="[white]" justify="center" />
+		<!-- SIRILLION: VALMAR, change version here if needed! -->
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false">
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
 			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
 			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 		</grid>
 	</window>
-
 	<!-- The following section handles: The INGAME MAIN MENU : TRUE SURVIVAL DESIGN -->
-
 	<window name="TRUESURVIVALingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="VALMOD" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\tsmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="TRUESURVIVALVersion" pos="190, -55" depth="0" size="250,33" text="" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: TS TEAM, change version here if needed! -->
+		<label name="TRUESURVIVALVersion" pos="190, -55" depth="0" size="250,33" text="" font_size="32" effect="outline" color="[white]" justify="center" />
+		<!-- SIRILLION: TS TEAM, change version here if needed! -->
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false">
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
 			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
 			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 		</grid>
 	</window>
-
 	<!-- The following section handles: The INGAME MAIN MENU : WAR OF THE WALKERS DESIGN -->
-
 	<window name="WotWingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="WotW" depth="0" size="999,777" texture="@file:Mods\SMX\Textures\Misc\wwmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="WotWVersion" pos="450, -450" depth="0" size="250,33" text="V5.0.6 B31" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: DWALLORDE, change version here if needed! -->
+		<label name="WotWVersion" pos="450, -450" depth="0" size="250,33" text="V5.0.6 B31" font_size="32" effect="outline" color="[white]" justify="center" />
+		<!-- SIRILLION: DWALLORDE, change version here if needed! -->
 		<grid name="buttons" pos="0, -475" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
 			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
 			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 		</grid>
 	</window>
-
 	<!-- The following section handles: The INGAME MAIN MENU : CRAFTWORX DESIGN -->
-
 	<window name="CRAFTWORXingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="CRAFTWORX" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\cwmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="CRAFTWORXVersion" pos="190, -5" depth="0" size="250,33" text="V2.53" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: LATHEOS, change version here if needed! -->
+		<label name="CRAFTWORXVersion" pos="190, -5" depth="0" size="250,33" text="V2.53" font_size="32" effect="outline" color="[white]" justify="center" />
+		<!-- SIRILLION: LATHEOS, change version here if needed! -->
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
 			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
 			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 		</grid>
 	</window>
-
 	<!-- The following section handles: The INGAME MAIN MENU : RAVENHEARST DESIGN -->
-
 	<window name="RAVENHEARSTingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="RAVENHEARST" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\rhmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="V2.08" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: -->
+		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="V2.09" font_size="32" effect="outline" color="[white]" justify="center" />
+		<!-- SIRILLION: -->
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
 			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
 			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 		</grid>
 	</window>
-
-<!-- <<< INGAME MENU <<< -->
-
-<!-- >>> SMX TEST CODE >>> -->
-
-<!-- <<< SMX TEST CODE <<< -->
-
-<!-- <<< SMX A16.4B8R2 END - BY SIRILLION >>> -->
-
+	<!-- <<< INGAME MENU <<< -->
+	<!-- >>> SMX TEST CODE >>> -->
+	<!-- <<< SMX TEST CODE <<< -->
+	<!-- <<< SMX A16.4B8R2 END - BY SIRILLION >>> -->
 	<window name="HUDLeftStatBars">
 		<grid name="hud" pos="9,98" rows="2" cols="1" width="168" cell_width="168" cell_height="46" repeat_content="false" side="left" >
 			<rect width="168" height="43" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
@@ -1143,9 +979,7 @@
 			</grid>
 		</rect>
 	</window>
-
-<!-- SMX MODIFIED AREA -->
-
+	<!-- SMX MODIFIED AREA -->
 	<window name="windowLooting" width="378" height="378" controller="LootWindow" panel="Left" anchor_side="bottomright" visible="false" cursor_area="true" >
 		<panel name="header" height="43" depth="0" disableautobackground="true">
 			<sprite depth="1" name="headerbackground" sprite="ui_game_panel_header"/>
@@ -1154,7 +988,6 @@
 			<label depth="2" name="takeAllLabel" width="32" height="30" font_size="30" color="[mediumGrey]" justify="left" pos="260,-8"/>
 			<sprite depth="2" name="takeAllIcon" style="icon32px" sprite="ui_game_symbol_hand" color="[mediumGrey]" pos="220, -4"/>
 		</panel>
-		
 		<sprite depth="0" name="gridBackground" color="255,255,255,1" type="sliced" pos="0, 0" globalopacity="true" on_press="true" />
 		<rect name="content" pos="3,-65" >
 			<grid depth="12" name="queue" rows="12" cols="10" cell_width="60" cell_height="60" repeat_content="true" controller="LootContainer">
@@ -1162,9 +995,7 @@
 			</grid>
 		</rect>
 	</window>
-
-<!-- SMX MODIFIED AREA -->
-
+	<!-- SMX MODIFIED AREA -->
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowCreative" width="604" height="730" panel="Left" anchor_side="bottomright" controller="CreativeWindow" normal_color="[iconColor]" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
@@ -1200,10 +1031,8 @@
 			<creative_stack name="0"/>
 		</grid>
 	</window>
-
-<!-- SMX MODIFIED AREA -->
-<!-- SMX MODIFIED - WORKS - DONE -->
-
+	<!-- SMX MODIFIED AREA -->
+	<!-- SMX MODIFIED - WORKS - DONE -->
 	<window name="craftingInfoPanel" width="723" height="367" controller="CraftingInfoWindow" style="SMXcrafting.info.window" panel="Center" cursor_area="true" >
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{itemgroupicon}"/>
@@ -1213,7 +1042,6 @@
 				<label depth="2" pos="35,-8" name="requiredToolText" width="200" height="32" text="Required" text_key="xuiRequired" font_size="32" upper_case="true" justify="left"/>
 			</rect>
 		</panel>
-
 		<rect name="contentCraftingInfo" height="321" depth="1" pos="0,-46">
 			<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" width="723" height="320" color="[black]" type="sliced" fillcenter="false" />
 			<rect depth="1" pos="3,0" name="preview" width="142" height="143">
@@ -1224,7 +1052,6 @@
 				<!-- <label depth="3" name="TimeLabel" style="icon30px" pos="53, -119" text="TIME" text_key="xuiTime" font_size="22" /> -->
 				<label depth="3" name="craftingTime" width="100" height="32" pos="60, -111" text="{craftingtime}" font_size="26" color="[beige]"/>
 			</rect>
-
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,-144" width="148" height="175" color="[black]" type="sliced" fillcenter="false" />
 			<grid name="itemActions" rows="4" cols="1" pos="3,-147" width="147" cell_width="147" cell_height="34" controller="ItemActionList">
 				<rect depth="1" name="actions" width="142" height="100%">
@@ -1241,13 +1068,11 @@
 				<SMX_item_action_entry />
 				<SMX_item_action_entry />
 			</grid>
-
 			<rect depth="1" pos="148,-3" name="description" width="572" height="107">
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="578" height="113" color="[black]" type="sliced" fillcenter="false" />
 				<sprite color="[mediumGrey]" type="sliced" />
 				<label depth="2" name="descriptionText" pos="6,-2" font_size="22" width="565" height="97" text="{itemdescription}" />
 			</rect>
-
 			<rect depth="1" pos="148,-113" name="ingredients" width="572" height="261">
 				<grid rows="6" width="572" height="268" cell_height="34" cell_width="572" controller="IngredientList" arrangement="vertical">
 					<SMX_ingredient_header/>
@@ -1260,7 +1085,6 @@
 			</rect>
 		</rect>
 	</window>
-
 	<window name="emptyInfoPanel" width="723" height="367" panel="Center" controller="InfoWindow" cursor_area="true" >
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_search"/>
@@ -1269,10 +1093,10 @@
 		<rect name="contentCraftingInfo" height="321" depth="1" pos="0,-46" >
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="723" height="321" color="[black]" type="sliced" fillcenter="false" />
 			<sprite color="[mediumGrey]" type="sliced" />
-			<label pos="0,-90" depth="3" name="descriptionText" width="100%" height="150" text="[LEFT CLICK] TO INSPECT AN ITEM, RECIPE OR ACTIVE EFFECT\n[LEFT CLICK] HOLD AND DRAG TO TAKE A STACK\n[LEFT CLICK] TO DROP OR SWAP A STACK\n[RIGHT CLICK] HOLD AND DRAG TO TAKE A HALF STACK\n[RIGHT CLICK] TO DROP ONE ITEM AT A TIME" text_key="xuiEmptyInfoPanelText"  justify="center" font_size="28" /> <!-- SIRILLION : Modified the pos value to adjust to the increased backpack slot size | Original Values : pos="0,120" -->
+			<label pos="0,-90" depth="3" name="descriptionText" width="100%" height="150" text="[LEFT CLICK] TO INSPECT AN ITEM, RECIPE OR ACTIVE EFFECT\n[LEFT CLICK] HOLD AND DRAG TO TAKE A STACK\n[LEFT CLICK] TO DROP OR SWAP A STACK\n[RIGHT CLICK] HOLD AND DRAG TO TAKE A HALF STACK\n[RIGHT CLICK] TO DROP ONE ITEM AT A TIME" text_key="xuiEmptyInfoPanelText"  justify="center" font_size="28" />
+			<!-- SIRILLION : Modified the pos value to adjust to the increased backpack slot size | Original Values : pos="0,120" -->
 		</rect>
 	</window>
-
 	<window name="itemInfoPanel" width="723" height="367" controller="ItemInfoWindow" panel="Center" cursor_area="true" >
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{itemgroupicon}"/>
@@ -1280,10 +1104,8 @@
 			<label depth="2" pos="470,-8" width="225" height="28" text="{pricelabel} {itemcost}{markup}" color="[lightGrey]" justify="right" />
 			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="697,-10" color="[white]" foregroundlayer="true" />
 		</panel>
-
 		<rect name="contentInfo" height="321" depth="1" pos="0,-46" >
 			<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" width="723" height="320" color="[black]" type="sliced" fillcenter="false" />
-
 			<rect depth="1" pos="3,0" name="preview" width="142" height="143">
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="148" height="146" color="[black]" type="sliced" fillcenter="false" />
 				<sprite depth="1" color="[darkGrey]" pos="0,0" type="sliced" globalopacity="true" />
@@ -1292,14 +1114,12 @@
 				<sprite depth="4" name="durabilityBar" height="10" width="140" color="{durabilitycolor}" type="filled" pos="1, -131" fill="{durabilityfill}" visible="{hasdurability}" />
 				<label depth="7" name="durabilityValue" pos="0,-111" width="140" height="32" text="{durabilitytext}" font_size="30" justify="{durabilityjustify}" effect="outline" />
 			</rect>
-
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,-144" width="148" height="175" color="[black]" type="sliced" fillcenter="false" />
 			<rect pos="3,-147" width="142" height="100%" visible="{shownormaloptions}" >
 				<grid name="itemActions" rows="5" cols="1" pos="0,0" width="147" height="100%" cell_width="147" cell_height="34" controller="ItemActionList"	repeat_content="true" visible="false">
 					<SMX_item_action_entry />
 				</grid>
 			</rect>
-
 			<rect pos="3,-147" width="142" height="100%" visible="{showtraderoptions}" >
 				<sprite color="[mediumGrey]" type="sliced" height="43" />
 				<rect name="counterControl" width="120" height="34" pos="27,0" controller="Counter">
@@ -1312,31 +1132,25 @@
 					<SMX_trader_item_action_entry />
 				</grid>
 			</rect>
-
 			<rect depth="1" pos="148,0" name="description" width="572" height="168">
 				<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
 				<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="578" height="171" color="[black]" type="sliced" fillcenter="false" />
 				<label depth="3" name="statText" pos="6,-2" width="286" height="100%" font_size="22" text="{itemstats1}" />
 				<label depth="3" name="statText2" pos="292,-2" width="286" height="100%" font_size="22" text="{itemstats2}" />
 			</rect>
-
 			<rect depth="2" pos="148,-170" name="description" width="572" height="87">
 				<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true" />
 				<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="578" height="92" color="[black]" type="sliced" fillcenter="false" />
 				<label depth="3" name="descriptionText" pos="6,-2" text="{itemdescription}" font_size="22" width="565" />
 			</rect>
-
 			<grid name="parts" rows="1" cols="6" pos="148,-259" cell_width="60" cell_height="60" repeat_content="true" controller="PartList">
 				<SMX_60_item_stack name="0"/>
 			</grid>
-
 			<sprite depth="3" name="fillerBackground" pos="508,-259" height="60" width="215" color="[mediumGrey]" type="sliced"/>
 		</rect>
 	</window>
-
-<!-- SMX MODIFIED - WORKS - DONE -->
-<!-- SMX MODIFIED AREA -->
-
+	<!-- SMX MODIFIED - WORKS - DONE -->
+	<!-- SMX MODIFIED AREA -->
 	<window name="popupMenu" depth="20" pos="200,-200" width="200" height="436" controller="PopupMenu">
 		<rect name="content" depth="0" pos="0,0" borderthickness="3" visible="false">
 			<sprite depth="0" name="sprBackgroundBorder" sprite="ui_game_header_fill" type="sliced" color="[black]" />
@@ -1347,33 +1161,11 @@
 		</rect>
 	</window>
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
-
-<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->	
-
-<!-- The following section handles: The selection between NORMAL or INCREASED BACKPACK size -->
-
-<!-- Disable this if using the increased INVENTORY STORAGE mod -->
-
-<!--
-	<window name="windowBackpack" width="603" height="349" panel="Center" controller="BackpackWindow" cursor_area="true" >
-		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
-			<button depth="3" name="btnSort" style="icon32px, press, hover" pivot="center" pos="21,-21" sprite="ui_game_symbol_backpack" tooltip_key="lblSortInventory" sound="[paging_click]" />
-			<label depth="3" name="windowName" pos="42,-6" width="250" height="32" text="INVENTORY" text_key="xuiInventory" font_size="32" />
-			<label depth="2" pos="472,-8" width="100" height="28" text="{currencyamount}" color="[mediumGrey]" justify="right" />
-			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="577,-10" color="[white]" foregroundlayer="true" />
-		</panel>
-		<panel name="content" width="100%" height="303" depth="0" pos="0,-46" disableautobackground="true">
-				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" />
-				<grid depth="1" name="inventory" rows="4" cols="8" pos="3,-3" cell_width="75" cell_height="75" controller="Backpack" repeat_content="true" >
-					<item_stack name="0"/>
-				</grid>
-		</panel>
-	</window>
--->
-
-<!-- Enable this if using the increased INVENTORY STORAGE mod -->
-	
- 	
+	<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
+	<!-- The following section handles: The selection between NORMAL or INCREASED BACKPACK size -->
+	<!-- Disable this if using the increased INVENTORY STORAGE mod -->
+	<!--<window name="windowBackpack" width="603" height="349" panel="Center" controller="BackpackWindow" cursor_area="true" ><panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header"><button depth="3" name="btnSort" style="icon32px, press, hover" pivot="center" pos="21,-21" sprite="ui_game_symbol_backpack" tooltip_key="lblSortInventory" sound="[paging_click]" /><label depth="3" name="windowName" pos="42,-6" width="250" height="32" text="INVENTORY" text_key="xuiInventory" font_size="32" /><label depth="2" pos="472,-8" width="100" height="28" text="{currencyamount}" color="[mediumGrey]" justify="right" /><sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="577,-10" color="[white]" foregroundlayer="true" /></panel><panel name="content" width="100%" height="303" depth="0" pos="0,-46" disableautobackground="true"><sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" /><grid depth="1" name="inventory" rows="4" cols="8" pos="3,-3" cell_width="75" cell_height="75" controller="Backpack" repeat_content="true" ><item_stack name="0"/></grid></panel></window>-->
+	<!-- Enable this if using the increased INVENTORY STORAGE mod -->
 	<window name="windowBackpack" width="723" height="349" panel="Center" controller="BackpackWindow" cursor_area="true" >
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<button depth="3" name="btnSort" style="icon32px, press, hover" pivot="center" pos="21,-21" sprite="ui_game_symbol_backpack" tooltip_key="lblSortInventory" sound="[paging_click]" />
@@ -1382,16 +1174,13 @@
 			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="697,-10" color="[white]" foregroundlayer="true" />
 		</panel>
 		<panel name="content" width="100%" height="303" depth="0" pos="0,-46" disableautobackground="true">
-				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" />
-				<grid depth="1" name="inventory" rows="6" cols="12" pos="3,-3" cell_width="60" cell_height="60" controller="Backpack" repeat_content="true" >
-					<SMX_60_item_stack name="0"/>
-				</grid>
+			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" />
+			<grid depth="1" name="inventory" rows="6" cols="12" pos="3,-3" cell_width="60" cell_height="60" controller="Backpack" repeat_content="true" >
+				<SMX_60_item_stack name="0"/>
+			</grid>
 		</panel>
 	</window>
-
-
-<!-- <<< SMX A16.4B8R2 END - BY SIRILLION >>> -->
-
+	<!-- <<< SMX A16.4B8R2 END - BY SIRILLION >>> -->
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowToolsForge" width="228" height="121" panel="Right" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
@@ -1515,7 +1304,6 @@
 			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview"><rect><sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="anvil" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/></rect><rect><sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="calipers" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/></rect><rect><sprite name="slot" depth="2" width="70" height="50" foregroundlayer="true" color="[white_quarter_alpha]" sprite="toolAndDieSet" atlas="ItemIconAtlasGreyscale" pos="35,-30" pivot="center"/></rect></grid> -->
 		</rect>
 	</window>
-
 	<!-- Chemistry . START -->
 	<!-- KSP . CHEM STATION CODE IS COPIED FROM VALMARS VALMOD EXPANSION I ONLY removed waterfilter then Added Beaker weldingMask cols="2" for Esplosives Addon -->
 	<window name="windowToolsChemistry" width="228" height="121" panel="Right">
@@ -1858,15 +1646,12 @@
 			</grid>
 		</panel>
 	</window>
-	
-<!-- SMX MODIFIED AREA -->
-
+	<!-- SMX MODIFIED AREA -->
 	<window name="buffInfoPanel" width="723" height="367" controller="BuffInfoWindow" anchor="CenterTop" panel="Center">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{bufficon|once}"/>
 			<label style="header.name" text="{buffname|once}" />
 		</panel>
-		
 		<rect name="contentBuffInfo" height="321" depth="1" pos="0,-46">
 			<rect>
 				<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" width="723" height="320" color="[black]" type="sliced" fillcenter="false" />
@@ -1878,30 +1663,24 @@
 				<grid name="itemActions" rows="4" cols="1" pos="3,-147" width="142" height="100%" cell_width="147" cell_height="42" controller="ItemActionList" repeat_content="true">
 					<SMX_buff_item_action_entry />
 				</grid>
-				
 				<rect depth="1" pos="148,-3" name="description" width="572" height="168">
 					<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="578" height="171" color="[black]" type="sliced" fillcenter="false" />
 					<sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" />
 					<label depth="3" name="statText" pos="5,-2" font_size="22" width="565" text="{buffstats}"/>
 				</rect>
-				
 				<rect depth="2" pos="148,-170" name="description" width="572" height="87">
 					<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true" />
 					<sprite depth="5" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="578" height="92" color="[black]" type="sliced" fillcenter="false" />
 					<label depth="3" name="descriptionText" pos="6,-2" text="{buffdescription|once}" font_size="22" width="565"/>
 				</rect>
-				
 				<grid rows="1" cols="6" pos="148,-259" cell_width="60" cell_height="60" repeat_content="true" controller="BuffItemList" >
 					<SMX_60_buff_item name="0"/>
 				</grid>
-
 				<sprite depth="3" name="fillerBackground" pos="508,-259" height="60" width="215" color="[mediumGrey]" type="sliced"/>
 			</rect>
 		</rect>
 	</window>
-	
-<!-- SMX MODIFIED AREA -->
-
+	<!-- SMX MODIFIED AREA -->
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="mapArea" width="718" height="770" panel="Center" controller="MapArea" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
@@ -2917,11 +2696,8 @@
 			</rect>
 		</rect>
 	</window>
-	
 	<!--<window name="windowRWGPreview" width="840" height="702" panel="Center"><panel name="header" pos="0,0" height="43" width="840" depth="1" backgroundspritename="ui_game_panel_header" bordercolor="[black]" borderthickness="3"><label style="header.name" text="PREVIEW" text_key="xuiPreview" /></panel><panel pos="0,-46" size="840,702" depth="2" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3" style="hover, press, scroll, drag" controller="WorldGenerationPreviewWindow"><button name="reload" depth="101" pos="800,-6" sprite="server_refresh" style="icon32px,press,hover" tooltip="Reload Data" tooltip_key="lblReloadArchetypeXML" /><texture depth="100" name="worldPreview" material="Materials/Transparent Colored" size="840,702" globalopacity="false"/><text_area/></panel></window>-->
-	
-<!-- SMX MODIFIED AREA -->
-
+	<!-- SMX MODIFIED AREA -->
 	<window name="serviceInfoPanel" width="723" height="427" controller="ServiceInfoWindow" panel="Center" cursor_area="true" >
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="{servicegroupicon}"/>
@@ -2955,9 +2731,7 @@
 			</rect>
 		</rect>
 	</window>
-
-<!-- SMX MODIFIED AREA -->
-
+	<!-- SMX MODIFIED AREA -->
 	<window name="windowPowerSourceStats" width="228" height="312" panel="Left" controller="PowerSourceStats" >
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="5,-5" sprite="{powersourceicon}"/>
@@ -3420,7 +3194,6 @@
 			<texture depth="105" pos="3,-3" name="camera" material="Materials/Transparent Colored" width="222" height="122" globalopacity="false"/>
 		</panel>
 	</window>
-	
 	<window name="windowTextInput" width="192" height="227" anchor="CenterBottom" panel="Right">
 		<panel style="header.panel" pos="18,-437">
 			<sprite style="header.icon" sprite="ui_game_symbol_pen" />

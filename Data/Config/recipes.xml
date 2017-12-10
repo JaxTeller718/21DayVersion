@@ -23,7 +23,7 @@
 	<recipe name="clayLump" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-		<recipe name="clayLump" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="clayLump" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
 	<recipe name="cloth" count="1" tooltip="ttScrapMetalBrass">
@@ -44,7 +44,7 @@
 	<recipe name="rockSmall" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_stone" count="5"/>
 	</recipe>
-		<recipe name="rockSmall" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="rockSmall" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_stone" count="5"/>
 	</recipe>
 	<recipe name="rockSmall" count="1" tooltip="ttScrapMetalBrass">
@@ -59,7 +59,7 @@
 	<recipe name="scrapIron" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_iron" count="1"/>
 	</recipe>
-		<recipe name="scrapIron" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="scrapIron" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_iron" count="1"/>
 	</recipe>
 	<recipe name="scrapIron" count="1" tooltip="ttScrapMetalIron">
@@ -318,7 +318,7 @@
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
 	<recipe name="bottledRiverWater" count="1" craft_area="BigCampFire">
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 		<ingredient name="emptyJar" count="1"/>
 	</recipe>
 	<recipe name="chemistryStation" count="1" craft_area="NewWorkBench">
@@ -392,11 +392,11 @@
 		<ingredient name="canMurkyWater" count="1"/>
 	</recipe>
 	<recipe name="canMurkyWater" count="1" craft_area="BigCampFire">
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="canMurkyWater" count="1" craft_area="campfire">
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="candle" count="1">
@@ -1937,31 +1937,6 @@
 		<ingredient name="leather" count="5"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="bottledWater" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="bottledRiverWater" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="beer" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="coffee" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="goldenRodTea" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="grainAlcohol" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="redTea" count="1"/>
-	</recipe>
-	<recipe name="emptyJar" count="1">
-		<ingredient name="snowberryJuice" count="1"/>
-	</recipe>
-
 	<recipe name="crossbowRepeater" count="1"    craft_area="NewWorkBench">
 		<ingredient name="crossbow" count="1"/>
 		<ingredient name="spring" count="5"/>
@@ -2083,7 +2058,6 @@
 		<ingredient name="forgedIron" count="40"/>
 		<ingredient name="wood" count="30"/>
 		<ingredient name="tarp" count="2"/>
-
 	</recipe>
 	<recipe name="chickenCoopEmpty" count="1" craft_time = "20"  craft_area="NewWorkBench">
 		<ingredient name="wood" count="20"/>
@@ -3748,7 +3722,7 @@
 	</recipe>
 	<recipe name="bowlMurkyWater" count="1" craft_area="BigCampFire">
 		<ingredient name="bowl" count="1"/>
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 	</recipe>
 	<recipe name="woodFrameQuarter" count="1">
 		<ingredient name="wood" count="2"/>
@@ -3926,7 +3900,6 @@
 		<ingredient name="survivorNotes" count="120"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-
 	<recipe name="applePie" count="1" craft_area="BigCampFire">
 		<ingredient name="egg" count="1"/>
 		<ingredient name="Flour" count="1"/>
@@ -4118,7 +4091,6 @@
 		<ingredient name="electricCharge" count="1"/>
 		<ingredient name="clubSpiked" count="1"/>
 	</recipe>
-	<!-- 	<recipe name="adminBurnt" count="2" craft_time="2" craft_area="townMixer"><ingredient name="dirtFragment" count="4"/></recipe><recipe name="adminForest" count="2" craft_time="2" craft_area="townMixer"><ingredient name="dirtFragment" count="4"/></recipe><recipe name="adminGrass" count="2" craft_time="2" craft_area="townMixer"><ingredient name="dirtFragment" count="4"/></recipe><recipe name="adminGravel" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="5"/><ingredient name="rockSmall" count="5"/></recipe><recipe name="adminGravel" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="5"/><ingredient name="rockSmall" count="5"/></recipe><recipe name="adminPlains" count="2" craft_time="2" craft_area="townMixer"><ingredient name="dirtFragment" count="4"/></recipe><recipe name="adminSand" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="6"/></recipe><recipe name="adminAsphalt" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="4"/><ingredient name="rockSmall" count="6"/><ingredient name="oilShale" count="2"/></recipe><recipe name="adminSnow" count="2" craft_time="2" craft_area="townMixer"><ingredient name="snowBall" count="6"/></recipe><recipe name="adminDesert" count="2" craft_time="2" craft_area="townMixer"><ingredient name="crushedSand" count="6"/></recipe> -->
 	<recipe name="diyRocketCasing" count="1" craft_time="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
 		<ingredient name="unit_iron" count="30"/>
 		<ingredient name="unit_clay" count="35"/>
@@ -4299,7 +4271,6 @@
 	<recipe name="Crackers" count="1" craft_time = "8" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="Dough" count="1"/>
 	</recipe>
-
 	<recipe name="Cheese" count="1" craft_time = "8" craft_area="BigCampFire">
 		<ingredient name="SoyMilk" count="4"/>
 	</recipe>
@@ -4338,7 +4309,6 @@
 		<ingredient name="electricCharge" count="1"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
-
 	<recipe name="cntTrapChestUpgrade" count="1" craft_time = "4" craft_exp_gain="9" craft_area="NewWorkBench">
 		<ingredient name="spring" count="10"/>
 		<ingredient name="tnt" count="5"/>
@@ -4360,10 +4330,7 @@
 	<recipe name="steelPlating" count="1" craft_time = "4"  craft_area="NewWorkBench">
 		<ingredient name="forgedSteel" count="5"/>
 	</recipe>
-<!-- 	<recipe name="zombieHordeBeacon" count="1">
-		<ingredient name="burningBarrelPlayer" count="1"/>
-		<ingredient name="rottingFlesh" count="25"/>
-	</recipe> -->
+	<!-- 	<recipe name="zombieHordeBeacon" count="1"><ingredient name="burningBarrelPlayer" count="1"/><ingredient name="rottingFlesh" count="25"/></recipe> -->
 	<recipe name="sandbag_1" count="1" craft_area="decoStation">
 		<ingredient name="crushedSand" count="10"/>
 		<ingredient name="textile" count="10"/>
@@ -4738,23 +4705,23 @@
 	<recipe name="treeCactus01" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
 		<ingredient name="foodYuccaFruit" count="10"/>
-		</recipe>
+	</recipe>
 	<recipe name="treeCactus02" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
 		<ingredient name="foodYuccaFruit" count="10"/>
-		</recipe>
+	</recipe>
 	<recipe name="treeCactus03" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
 		<ingredient name="foodYuccaFruit" count="10"/>
-		</recipe>
+	</recipe>
 	<recipe name="treeCactus04" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
 		<ingredient name="foodYuccaFruit" count="10"/>
-		</recipe>
+	</recipe>
 	<recipe name="treeCactus05" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
 		<ingredient name="foodYuccaFruit" count="10"/>
-		</recipe>
+	</recipe>
 	<recipe name="treeCactus06" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
 		<ingredient name="foodYuccaFruit" count="10"/>
@@ -5516,7 +5483,6 @@
 		<ingredient name="unit_clay" count="5"/>
 		<ingredient name="unit_iron" count="100"/>
 	</recipe>
-
 	<recipe name="mortarAndPestle" count="1" craft_area="BigForge" material_based="true" craft_time="250">
 		<ingredient name="unit_lead" count="1"/>
 		<ingredient name="unit_clay" count="5"/>
@@ -5677,7 +5643,6 @@
 		<ingredient name="Twine" count="3"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
-
 	<recipe name="BigForge" count="1">
 		<ingredient name="rockSmall" count="200"/>
 		<ingredient name="clayLump" count="150"/>
@@ -6111,14 +6076,14 @@
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
 	<recipe name="bottledRiverWater" count="1" craft_area="Stoves">
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 		<ingredient name="emptyJar" count="1"/>
 	</recipe>
 	<recipe name="canBoiledWater" count="1" craft_area="Stoves">
 		<ingredient name="canMurkyWater" count="1"/>
 	</recipe>
 	<recipe name="canMurkyWater" count="1" craft_area="Stoves">
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="charredMeat" count="1" craft_area="Stoves">
@@ -6226,7 +6191,7 @@
 	</recipe>
 	<recipe name="bowlMurkyWater" count="1" craft_area="Stoves">
 		<ingredient name="bowl" count="1"/>
-		<ingredient name="snowBall" count="1"/>
+		<ingredient name="snow" count="3"/>
 	</recipe>
 	<recipe name="applePie" count="1" craft_area="Stoves"  craft_tool="pan">
 		<ingredient name="egg" count="1"/>
@@ -6311,7 +6276,6 @@
 		<ingredient name="Dough" count="1"/>
 		<ingredient name="blueberries" count="2"/>
 	</recipe>
-
 	<recipe name="charredMeat" count="1" craft_area="bbqgrill">
 		<ingredient name="rawMeat" count="1"/>
 	</recipe>
@@ -6590,7 +6554,6 @@
 		<ingredient name="bellows" count="1"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-
 	<recipe name="ECOAuger" count="1" craft_area="assembly" craft_exp_gain="50">
 		<ingredient name="SteelHandlebars" count="1"/>
 		<ingredient name="ECOSmallEngine" count="1"/>
@@ -7052,7 +7015,6 @@
 		<ingredient name="tallow" count="7"/>
 		<ingredient name="bioFuel" count="3"/>
 	</recipe>
-
 	<recipe name="gasCan" count="25" craft_area="oilRefinery">
 		<ingredient name="animalFat" count="4"/>
 		<ingredient name="cornMeal" count="2"/>
@@ -7067,7 +7029,6 @@
 	<recipe name="bioFuel" count="1" craft_time = "8" craft_area="BigCampFire"  craft_tool="beaker">
 		<ingredient name="tallow" count="5"/>
 	</recipe>
-
 	<recipe name="friedPotato" count="1" craft_area="Stoves" craft_time="30" craft_tool="pan">
 		<ingredient name="potato" count="3"/>
 		<ingredient name="bowl" count="1"/>
@@ -7089,7 +7050,7 @@
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
 	<recipe name="leather" count="1" craft_area="dryingRack" craft_time="30">
-		<ingredient name="leatherStrips" count="10"/>
+		<ingredient name="leatherStrips" count="8"/>
 	</recipe>
 	<recipe name="animalHide" count="1" craft_area="dryingRack" craft_time="30">
 		<ingredient name="leather" count="1"/>
@@ -7173,7 +7134,6 @@
 		<ingredient name="purifyingTablets" count="1"/>
 		<ingredient name="bottleOfMurkyWater" count="1"/>
 	</recipe>
-
 	<recipe name="hut" count="1">
 		<ingredient name="wood" count="200"/>
 		<ingredient name="nail" count="20"/>
@@ -7192,23 +7152,23 @@
 	<recipe name="coffinBlack" count="1"     craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="forgedIron" count="10"/>		
+		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="coffinBrown" count="1"     craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="forgedIron" count="10"/>		
+		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="coffinRed" count="1"     craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
 		<ingredient name="nail" count="10"/>
-		<ingredient name="forgedIron" count="10"/>		
+		<ingredient name="forgedIron" count="10"/>
 	</recipe>
 	<recipe name="medicalStorage" count="1">
-		<ingredient name="scrapIron" count="50"/>	
+		<ingredient name="scrapIron" count="50"/>
 	</recipe>
 	<recipe name="fuelStorage" count="1"     craft_area="decoStation">
-		<ingredient name="forgedSteel" count="30"/>		
+		<ingredient name="forgedSteel" count="30"/>
 	</recipe>
 	<recipe name="oldRadio" count="1" craft_area="decoStation">
 		<ingredient name="electricParts" count="4"/>
@@ -7223,16 +7183,13 @@
 		<ingredient name="bucket" count="1"/>
 	</recipe>
 	<recipe name="nail" count="25">
-		<ingredient name="boxNails" count="1"/>	
+		<ingredient name="boxNails" count="1"/>
 	</recipe>
 	<recipe name="baconAndEggs" count="1"  craft_time = "8" craft_area="foodPrepTable">
 		<ingredient name="friedEggs" count="1"/>
 		<ingredient name="bacon" count="1"/>
 	</recipe>
-	<recipe name="stick" count="3" craft_time="1" craft_exp_gain="0">
-		<ingredient name="wood" count="1" />
-	</recipe>
-	<recipe name="stoneArrowHead" count="1" craft_time="1" craft_exp_gain="0">
+	<recipe name="stoneArrowHead" count="2" craft_time="1" craft_exp_gain="0">
 		<ingredient name="rockSmall" count="1" />
 	</recipe>
 	<recipe name="wetTowelSoap" count="1">
@@ -7302,5 +7259,41 @@
 	<recipe name="shamSandwich" count="1" craft_time = "4" craft_area="foodPrepTable">
 		<ingredient name="canHam" count="1"/>
 		<ingredient name="Bread" count="2"/>
+	</recipe>
+	<recipe name="ElevatorBottomFloor" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="1000"/>
+		<ingredient name="wood" count="500"/>
+		<ingredient name="electricParts" count="50"/>
+		<ingredient name="mechanicalParts" count="50"/>
+	</recipe>
+	<recipe name="ElevatorFloor" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="1000"/>
+		<ingredient name="wood" count="500"/>
+		<ingredient name="electricParts" count="100"/>
+		<ingredient name="mechanicalParts" count="100"/>
+	</recipe>
+	<recipe name="ElevatorShaft" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="500"/>
+		<ingredient name="wood" count="200"/>
+		<ingredient name="electricParts" count="50"/>
+		<ingredient name="mechanicalParts" count="50"/>
+	</recipe>
+	<recipe name="ElevatorShaftSmall" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedSteel" count="500"/>
+		<ingredient name="wood" count="100"/>
+		<ingredient name="electricParts" count="50"/>
+		<ingredient name="mechanicalParts" count="50"/>
+	</recipe>
+	<recipe name="ElevatorPlatformBase" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedIron" count="200"/>
+		<ingredient name="spring" count="20"/>
+		<ingredient name="mechanicalParts" count="30"/>
+		<ingredient name="electricParts" count="20"/>
+	</recipe>
+	<recipe name="ElevatorPlatformFloor" count="1"  craft_area="NewWorkBench">
+		<ingredient name="forgedIron" count="100"/>
+		<ingredient name="spring" count="15"/>
+		<ingredient name="mechanicalParts" count="20"/>
+		<ingredient name="electricParts" count="15"/>
 	</recipe>
 </recipes>

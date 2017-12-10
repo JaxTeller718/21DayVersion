@@ -1,6 +1,6 @@
 <!-- Groups: firearms, weapons, tools, clothing, scavenging, health, crafting !-->
 <progression>
-	<player 	max_level="250" 	exp_to_level="18000" 	experience_multiplier="1.025" 	skill_points_per_level="8" 	skill_point_multiplier="1.013"/>
+	<player 	max_level="250" 	exp_to_level="19000" 	experience_multiplier="1.025" 	skill_points_per_level="8" 	skill_point_multiplier="1.013"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
 	<skills 	max_level="100" 	exp_to_level="500" 	experience_multiplier="1.03" 	skill_point_cost_multiplier="0" 	skill_point_cost_per_level="1">
@@ -440,7 +440,6 @@
 			<requirement skill_level="1" required_skill_name="craftSkillPrimitiveTools" required_skill_level="3"/>
 			<recipe name="BigForge" unlock_level="1"/>
 		</perk>
-
 		<perk name="Weapon Station" icon="resource" description_key="This workstation allows you to combine items to make better ones and craft gun and tool parts" title_key="Weapon Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="100"/>
 			<recipe name="gunStation" unlock_level="1"/>
@@ -456,11 +455,11 @@
 			<recipe name="dyeStation" unlock_level="1"/>
 		</perk>
 		<perk name="Blacksmithing Station" icon="resource" description_key="The Blacksmithing Station allows you to make metal armor and items using a Blacksmith Hammer and Welding Torch. You can purchase the Hammer and Anvil before you can purchase the Station and craft it in the forge" title_key="Blacksmithing Station" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
+			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
 			<requirement skill_level="1" required_skill_name="craftSkillPrimitiveTools" required_skill_level="2"/>
 			<recipe name="anvil" unlock_level="1"/>
 			<recipe name="blacksmithHammer" unlock_level="1"/>
-		<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="40"/>
+			<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="40"/>
 			<requirement skill_level="2" required_skill_name="craftSkillPrimitiveTools" required_skill_level="3"/>
 			<recipe name="anvilBlock" unlock_level="2"/>
 		</perk>
@@ -475,7 +474,7 @@
 		</perk>
 		<perk name="Water Well" icon="resource" description_key="A water well can be used to keep your stock of water replenished" title_key="Water Well" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="60"/>
-			<requirement skill_level="1" required_skill_name="SurvivorClass" required_skill_level="1"/>
+			<requirement skill_level="1" required_skill_name="FarmerClass" required_skill_level="1"/>
 			<recipe name="waterWell" unlock_level="1"/>
 		</perk>
 		<perk name="Decoration Station" icon="resource" description_key="A decoration station is where you can find all the new decorative items as well as some of the older ones" title_key="Decoration Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
@@ -488,6 +487,21 @@
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="3"/>
 			<recipe name="cement" unlock_level="1"/>
 			<recipe name="concreteMix" unlock_level="1"/>
+		</perk>
+		<perk name="Elevators" icon="tool_smithing" description_key="Learn to make Basic and Working Elevators buy purchasing this perk" title_key="Elevators" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
+			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
+			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="3"/>
+			<recipe name="elevatorTest" unlock_level="1"/>
+			<requirement skill_level="2" required_skill_name="Construction Tools" required_skill_level="50"/>
+			<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="5"/>
+			<recipe name="ElevatorPlatformFloor" unlock_level="2"/>
+			<recipe name="ElevatorPlatformBase" unlock_level="2"/>
+			<requirement skill_level="3" required_skill_name="Construction Tools" required_skill_level="100"/>
+			<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="10"/>
+			<recipe name="ElevatorBottomFloor" unlock_level="3"/>
+			<recipe name="ElevatorFloor" unlock_level="3"/>
+			<recipe name="ElevatorShaft" unlock_level="3"/>
+			<recipe name="ElevatorShaftSmall" unlock_level="3"/>
 		</perk>
 		<perk name="Steel Smithing" icon="resource" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 			<requirement skill_level="1" required_player_level="50"/>
@@ -894,7 +908,6 @@
 		<perk name="macheteCraftingPerk" icon="knife" description_key="macheteCraftingDesc" title_key="macheteCraftingName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="4" group="weapons">
 			<requirement skill_level="1" required_skill_name="craftSkillBladeWeapons" required_skill_level="7"/>
 			<requirement skill_level="1" required_skill_name="BladesClass" required_skill_level="1"/>
-
 			<recipe name="macheteBlade" unlock_level="1"/>
 		</perk>
 		<perk name="craftSkillPrimitiveTools" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="tool_smithing" description_key="craftSkillPrimitiveToolsDesc" title_key="craftSkillPrimitiveTools" group="tools" exp_gain_multiplier="0">
@@ -1201,7 +1214,6 @@
 			<requirement skill_level="2" required_skill_name="AmmoClass" required_skill_level="1"/>
 			<recipe name="32mmHPBullet" unlock_level="2"/>
 		</perk>
-
 		<perk name="craftSkillScience" max_level="10" skill_point_cost_multiplier="1.26" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="science" description_key="craftSkillScienceDesc" title_key="craftSkillScience" group="science" exp_gain_multiplier="0">
 			<requirement perk_level="2" required_player_level="5"/>
 			<requirement perk_level="3" required_player_level="10"/>
@@ -1540,7 +1552,7 @@
 				<multiply perk_level="5" value="0.5"/>
 			</effect>
 		</perk>
-		<player_skill name="Barter" exp_to_level="35" experience_multiplier="1.0606" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging" exp_gain_multiplier="0.2">
+		<player_skill name="Barter" exp_to_level="150" experience_multiplier="1.0606" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging" exp_gain_multiplier="0.2">
 			<effect name="Bartering">
 				<add skill_level="1,10" value="0.00,0.15"/>
 				<add skill_level="10,20" value="0.15,0.23"/>
@@ -1554,7 +1566,7 @@
 				<add skill_level="90,100" value="0.56,0.60"/>
 			</effect>
 		</player_skill>
-		<perk name="Secret Stash" icon="safe" description_key="secretStashDesc" title_key="secretStash" max_level="3" skill_point_cost_multiplier="2" skill_point_cost_per_level="4" always_fire="true" group="scavenging">
+		<perk name="Secret Stash" icon="safe" description_key="secretStashDesc" title_key="secretStash" max_level="3" skill_point_cost_multiplier="2" skill_point_cost_per_level="5" always_fire="true" group="scavenging">
 			<requirement perk_level="1" required_skill_name="Barter" required_skill_level="20"/>
 			<requirement perk_level="2" required_skill_name="Barter" required_skill_level="40"/>
 			<requirement perk_level="3" required_skill_name="Barter" required_skill_level="80"/>
@@ -2121,7 +2133,6 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-
 		<perk name="HandgunPartsPerk" icon="pistol" description_key="Unlock the ability to craft handgun parts" title_key="HandgunPartsPerk" max_level="5" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" group="firearms">
 			<requirement skill_level="1" required_skill_name="HandgunsClass" required_skill_level="1"/>
 			<recipe name="partsPistol_grip" unlock_level="1"/>
@@ -2454,7 +2465,6 @@
 			<requirement perk_level="5" required_skill_name="BowsClass" required_skill_level="1"/>
 			<recipe name="firestormArrow" unlock_level="5"/>
 			<recipe name="shockCrossbowBolt" unlock_level="5"/>
-
 		</perk>
 		<perk name="Explosive Rockets" icon="weapon_smithing" description_key="Learn how to assemble a rocket launcher and craft awesome rockets !" title_key="Explosive Rockets" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="3" group="crafting">
 			<!-- Tier 1 -->
@@ -2583,7 +2593,6 @@
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="5"/>
 			<recipe name="Joint" unlock_level="1"/>
 		</perk>
-
 		<action_skill name="Electric Tools" exp_to_level="999" icon="mining" description_key="You can swing that electric tool like a boss. Increase this by using electric tools" title_key="Electric Tools" group="tools">
 			<effect name="BlockDamage">
 				<multiply skill_level="1,10" value="1.00,1.32"/>

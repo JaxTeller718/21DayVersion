@@ -285,12 +285,13 @@
 			<prefab name="store_salon" max_count="1"/>
 			<prefab name="xcostum_PetStore(by_Jackelmyer)" max_count="1"/>
 			<prefab name="xcostum_Bavarian_Bowse_Shop(by_magoli)" prob="0.5" max_count="2"/>
-			<prefab name="xcostum_kwikemart(by_magoli)"  prob="0.3" max_count="2"/>
-			<prefab name="xcostum_Bank(by_Guppycur)" max_count="1" prob="0.5"/>
-			<prefab name="xcostum_Bank(by_Limodor)" max_count="1" prob="0.5"/>
+			<prefab name="xcostum_kwikemart(by_magoli)"  prob="0.4" max_count="2"/>
+			<prefab name="xcostum_Bank(by_Guppycur)" max_count="1" prob="0.2"/>
+			<prefab name="xcostum_Bank(by_Limodor)" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_McDowell_restaurant(by_LazMan)" max_count="2"/>
 			<prefab name="xcostum_BoxingGym(by_KamR)" max_count="1"/>
 			<prefab name="xcostum_seafoodshop(by_Guppycur)" max_count="1"/>
+			<prefab name="Najax_RedCatDiner_F" max_count="1"/>
 			<prefab name="xcostum_storeset1(by_Guppycur)" max_count="2"/>
 			<prefab name="xcostum_Paintballarena(by_Jackelmyer)" max_count="1"/>
 		</prefab_rule>
@@ -354,9 +355,9 @@
 			<prefab name="skyscraper_02" max_count="1" prob="50"/>
 			<prefab name="skyscraper_03" max_count="1" prob="50"/>
 			<prefab name="skyscraper_04" max_count="1" prob="50"/>
-			<prefab name="xcostum_Skycpraper(by_Peppino)" max_count="1" prob="50"/>
-			<prefab name="bridgesideapartmentsvol" max_count="1" prob="50"/>
-			<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1" prob="50"/>
+			<prefab name="xcostum_Skycpraper(by_Peppino)" max_count="1" prob="25"/>
+			<prefab name="xcostum_Apartments(by_Batman)" max_count="1" prob="25"/>
+			<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1" prob="25"/>
 		</prefab_rule>
 		<prefab_rule name="industrialGroup">
 			<prefab name="utility_waterworks_01" max_count="1"/>
@@ -445,16 +446,17 @@
 			<prefab name="xvanilla_Trailerhousemix04" max_count="1" prob="0.1"/>
 			<prefab name="xcostum_DriveIn(by_Wsiegel)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_Prison(by_Limodur)" max_count="1" prob="0.05"/>
-			<prefab name="xvanilla_cornfield_md" max_count="1" prob="0.4"/>
-			<prefab name="xvanilla_cornfield_sm" max_count="1" prob="0.4"/>
-			<prefab name="xvanilla_potatofield1" max_count="1" prob="0.4"/>
+			<prefab name="xvanilla_cornfield_md" max_count="1" prob="0.2"/>
+			<prefab name="Najax_RedCatDiner_F" max_count="1" prob="0.3"/>
+			<prefab name="xvanilla_cornfield_sm" max_count="1" prob="0.3"/>
+			<prefab name="xvanilla_potatofield1" max_count="1" prob="0.2"/>
 			<prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_TheSect_Followers-of-M(by_magoli)" max_count="1"/>
 			<prefab name="xcostum_BoxingGym(by_KamR)" max_count="1"/>
 			<prefab name="xcostum_PetStore(by_Jackelmyer)" max_count="1"/>
 			<prefab name="drivethru_(bigstep70-A16)" max_count="1" prob="0.3"/>
-			<prefab name="ouch_airport2" max_count="1" prob="0.1"/>
-			<prefab name="ouch_airport1" max_count="1" prob="0.1"/>
+			<prefab name="ouch_airport2" max_count="1" prob="0.2"/>
+			<prefab name="ouch_airport1" max_count="1" prob="0.2"/>
 		</prefab_rule>
 		<prefab_rule name="wildernessGroup">
 			<prefab rule="traderGroup" max_count="1" prob="0.4"/>

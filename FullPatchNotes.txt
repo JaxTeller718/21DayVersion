@@ -693,3 +693,63 @@ Patch 2.08
 -Night Terrors have had their reach extended to hopefully deal damage to blocks
 
 -Night Terrors health has been slightly increased.
+
+-More food balancing
+
+------------------------------------------------------
+
+Patch 2.09
+
+-Fixed Loot List for Bus giving Radiation Buff
+
+-Decreased Heat Slightly on Stations and Forges and Torches and Candles
+
+-Screamers probability to spawn a second and third Screamer Reduced
+
+-New POI Added
+
+-Fixed Model For Kaiser502's Military Generator so that it can now be opened
+
+-Terror Pain Animation Changed so that it no longer stops when you hit it
+
+-Increased Gasser Speed
+
+-Lowered Road Debris
+
+-Lowered Chances of biome particles. You will ONLY see this on a new map. This should help with some frames issues.
+
+-Lowered HP on Gore Blocks to make them easier to clean up
+
+-Added stedman420's Police and Military Vehicles
+
+-Special Zombies added to quest lines (For Example Snow Zombies should ALL count now)
+
+-Readjusted all Crossbow reload times
+
+-Added three08's Working Elevator. To see how it works please visit https://7daystodie.com/forums/showthread.php?63655-Working-Elevator-v2  I do NOT know if this works properly in MP yet.
+
+-Reduced Crafting Time on some ingredients
+
+-Removed some craftable items from being sold to Traders
+
+-Lowered price of Steel Polish
+
+-Removed Heat from Food Prep Table and Mortar and Pestle
+
+-Burning Barrels give off warmth and can burn you if you walk over it.
+
+-Rocks now yield 2 stone arrow heads
+
+-Open times on containers raised by 1-3 seconds to make Fast Eddie more desirable and to add an element of fear to looting as well as create danger while looting a house of sleepers.
+
+-Fixed Bridgeside Apartments from spawning at a high level in RWG
+
+-Lowered Probability for New POI Skycrapers to spawn. (This was forcing book store skyscrapers to be ultra rare)
+
+-Water Well is now a Farmer Class Recipe
+
+-Snow is now required for water recipes instead of Snow Balls. You must craft 3 Snow to fill empty jars and cans. Snow is way OP.
+
+-Sticks recipe Removed. Wood is now Scrap Only
+
+-Raised Barter xp to level slightly

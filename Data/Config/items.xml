@@ -2305,7 +2305,7 @@
 			<property name="Magazine_size" value="1"/>
 			<property name="Magazine_items" value="stonecrossbowBolt, modernCrossbowBolt, ironCrossbowBolt, explodingCrossbowBolt"/>
 			<property name="Rays_spread" value="0.012"/>
-			<property name="Reload_time" value="3"/>
+			<property name="Reload_time" value="2"/>
 			<property name="Bullet_icon" value="uzi"/>
 			<property name="Sound_start" value="crossbow_fire"/>
 			<property name="Sound_repeat" value=""/>
@@ -3877,7 +3877,7 @@
 		<!-- armorMasterHideArmor -->
 		<property name="Insulation" value="4"/>
 		<property name="Encumbrance" value="0.02"/>
-		<property name="Material" value="animalHide"/>
+		<property name="Material" value="leather_strips"/>
 		<property name="RepairTools" value="animalHide"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="FuelValue" value="20"/>
@@ -8334,6 +8334,7 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="70"/>
 		<property name="Group" value="Resources"/>
+		<property name="SellableToTrader" value="false"/>
 	</item>
 	<item id="1323" name="cement">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8345,6 +8346,7 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="70"/>
 		<property name="Group" value="Building,Resources"/>
+		<property name="SellableToTrader" value="false"/>
 	</item>
 	<item id="1324" name="concreteMix">
 		<property name="Meshfile" value="Items/Crafting/Metal/IronBucketWaterPrefab"/>
@@ -8357,6 +8359,7 @@
 		<property name="EconomicValue" value="9"/>
 		<property name="EconomicBundleSize" value="20"/>
 		<property name="Group" value="Resources"/>
+		<property name="SellableToTrader" value="false"/>
 	</item>
 	<item id="1325" name="fertilizer">
 		<property name="Meshfile" value="Items/Food/cornmealPrefab"/>
@@ -8759,7 +8762,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<property name="SellableToTrader" value="false"/>
 		<!-- STK resource -->
-		<property name="EconomicValue" value="100"/>
+		<property name="EconomicValue" value="60"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	</item>
@@ -9522,10 +9525,10 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Launcher"/>
 			<property name="Hitmask_override" value="Arrow"/>
-			<property name="Delay" value="0.7"/>
+			<property name="Delay" value="0.5"/>
 			<property name="Range" value="220"/>
 			<property name="Rays_spread" value="0.01"/>
-			<property name="Reload_time" value="3"/>
+			<property name="Reload_time" value="2"/>
 			<property name="Crosshair_min_distance" value="30"/>
 			<!-- 30 -->
 			<property name="Crosshair_max_distance" value="30"/>
@@ -15147,7 +15150,7 @@
 			<property name="Gain_stamina" value="45"/>
 			<property name="Gain_food" value="6"/>
 			<property name="Gain_water" value="-5"/>
-			<property name="Gain_wellness" value="5"/>
+			<property name="Gain_wellness" value="-0.2"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="stewWarming,eatFood_78_Trigger"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -15174,7 +15177,7 @@
 			<property name="Gain_stamina" value="25"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="25"/>
-			<property name="Gain_wellness" value="5"/>
+			<property name="Gain_wellness" value="-0.2"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="stewWarming,eatFood_78_Trigger"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -15199,7 +15202,7 @@
 			<property name="Gain_stamina" value="25"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="5"/>
-			<property name="Gain_wellness" value="5"/>
+			<property name="Gain_wellness" value="-0.2"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="stewWarming,eatFood_78_Trigger"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -15226,7 +15229,7 @@
 			<property name="Gain_stamina" value="45"/>
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="8"/>
-			<property name="Gain_wellness" value="5"/>
+			<property name="Gain_wellness" value="-0.2"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="stewWarming,eatFood_78_Trigger"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -15821,7 +15824,7 @@
 		<property class="Action0">
 			<property name="Magazine_items" value="ironCrossbowBolt, modernCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt"/>
 			<property name="Range" value="200"/>
-			<property name="Reload_time" value="2"/>
+			<property name="Reload_time" value="1.8"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="4,8"/>

@@ -1084,7 +1084,6 @@
 		<property name="MaxDamage" value="20"/>
 		<property name="Experience" value="3.0"/>
 	</material>
-
 	<!-- Tungsten Material -->
 	<material id="tungsten">
 		<property name="damage_category" value="metal"/>

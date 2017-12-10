@@ -8,33 +8,25 @@
 			<modify id="1" stat="health" amount="-1" rate="1"/>
 		</buff>
 		<!-- QoLaFIM A16.3 - new debuff for the snake! -->
-<buff id="venomActivator" duration="1" mutex="vemonImmunity" type="healthdown" actions="buff(venomBad);buff(venom)"/>
-
-<buff id="venom" duration="2400t" castsound="Player_*sick5" stack="discard" mutex="vemonImmunity" type="healthdown" actions="increment(venomGood, 1, 100t, 0, 0);damage(1,50t,0,0);increment(@wellness, -0.05, 100t, 0, 0)" icon="ui_game_symbol_skull" name_key="Venomous Poison" description_key="You are poisoned with snake venom, there is no cure for it but you can build up an immunity to it." tooltip_key="Venomous Poison">
-	<modify id="0" stat="stamina" amount="-1" rate="3"/>
-	<modify id="1" stat="water" amount="-1" rate="60"/>
-</buff>
-
-<buff id="vemonImmunity" type="healthdown" buffif="venomGood gequal 100" debuffif="venomGood less 1" actions="debuff(venom)" icon="server_cheat" name_key="Venom Immunity" description_key="You are now immune to venom." tooltip_key="Venom Immunity"/>
-
-<buff id="venomBad" duration="1" stack="discard" requires="venom" mutex="vemonImmunity" type="healthdown" actions="increment(venomBad, 50, 0, 0, 1)"/>
-
-<buff id="MetabolizeVenomBad" buffif="venomBad greater 0" debuffif="venomBad less 1" actions="increment(venomBad, -10, 100t, 0, 0);min(venomBad, 0)"/>
-
-<buff id="venomSick" stack="discard" castsound="Player_*sick5" mutex="vemonImmunity,venomExtremelySick" buffif="venomBad gequal 50" debuffif="venomBad less 1" type="healthdown" actions="damage(4,50t,0,0);increment(@wellness, -0.5, 50t, 0, 0)" icon="ui_game_symbol_skull" name_key="Venom Sickness" description_key="You are very sick from venom poisoning." tooltip_key="Very Sick Venomous Poisoning">
-	<modify id="0" stat="stamina" amount="-1" rate="3"/>
-	<modify id="1" stat="water" amount="-1" rate="30"/>
-	<modify id="2" stat="speedmodifier" setValue="0.90"/>
-</buff>
-
-<buff id="venomExtremelySick" stack="discard" castsound="Player_*sick5" mutex="vemonImmunity" buffif="venomBad gequal 100" debuffif="venomBad lequal 50" type="healthdown" actions="damage(9,50t,0,0);debuff(venomSick);increment(@wellness, -0.5, 50t, 0, 0)" icon="ui_game_symbol_skull" name_key="Venom Extreme Sickness" description_key="You are extremely sick from venom poisoning, any more will kill you instantly." tooltip_key="Extremely Sick Venomous Poisoning">
-	<modify id="0" stat="stamina" amount="-1" rate="2"/>
-	<modify id="1" stat="water" amount="-2" rate="30"/>
-	<modify id="2" stat="speedmodifier" setValue="0.60"/>
-</buff>
-
-<buff id="vemonDeath" type="healthdown" buffif="venomBad gequal 150" actions="debuff(venom);debuff(venomStack);debuff(vemonImmunity);setvar(venomGood, 0);setvar(venomBad, 0);kill"/>
-
+		<buff id="venomActivator" duration="1" mutex="vemonImmunity" type="healthdown" actions="buff(venomBad);buff(venom)"/>
+		<buff id="venom" duration="2400t" castsound="Player_*sick5" stack="discard" mutex="vemonImmunity" type="healthdown" actions="increment(venomGood, 1, 100t, 0, 0);damage(1,50t,0,0);increment(@wellness, -0.05, 100t, 0, 0)" icon="ui_game_symbol_skull" name_key="Venomous Poison" description_key="You are poisoned with snake venom, there is no cure for it but you can build up an immunity to it." tooltip_key="Venomous Poison">
+			<modify id="0" stat="stamina" amount="-1" rate="3"/>
+			<modify id="1" stat="water" amount="-1" rate="60"/>
+		</buff>
+		<buff id="vemonImmunity" type="healthdown" buffif="venomGood gequal 100" debuffif="venomGood less 1" actions="debuff(venom)" icon="server_cheat" name_key="Venom Immunity" description_key="You are now immune to venom." tooltip_key="Venom Immunity"/>
+		<buff id="venomBad" duration="1" stack="discard" requires="venom" mutex="vemonImmunity" type="healthdown" actions="increment(venomBad, 50, 0, 0, 1)"/>
+		<buff id="MetabolizeVenomBad" buffif="venomBad greater 0" debuffif="venomBad less 1" actions="increment(venomBad, -10, 100t, 0, 0);min(venomBad, 0)"/>
+		<buff id="venomSick" stack="discard" castsound="Player_*sick5" mutex="vemonImmunity,venomExtremelySick" buffif="venomBad gequal 50" debuffif="venomBad less 1" type="healthdown" actions="damage(4,50t,0,0);increment(@wellness, -0.5, 50t, 0, 0)" icon="ui_game_symbol_skull" name_key="Venom Sickness" description_key="You are very sick from venom poisoning." tooltip_key="Very Sick Venomous Poisoning">
+			<modify id="0" stat="stamina" amount="-1" rate="3"/>
+			<modify id="1" stat="water" amount="-1" rate="30"/>
+			<modify id="2" stat="speedmodifier" setValue="0.90"/>
+		</buff>
+		<buff id="venomExtremelySick" stack="discard" castsound="Player_*sick5" mutex="vemonImmunity" buffif="venomBad gequal 100" debuffif="venomBad lequal 50" type="healthdown" actions="damage(9,50t,0,0);debuff(venomSick);increment(@wellness, -0.5, 50t, 0, 0)" icon="ui_game_symbol_skull" name_key="Venom Extreme Sickness" description_key="You are extremely sick from venom poisoning, any more will kill you instantly." tooltip_key="Extremely Sick Venomous Poisoning">
+			<modify id="0" stat="stamina" amount="-1" rate="2"/>
+			<modify id="1" stat="water" amount="-2" rate="30"/>
+			<modify id="2" stat="speedmodifier" setValue="0.60"/>
+		</buff>
+		<buff id="vemonDeath" type="healthdown" buffif="venomBad gequal 150" actions="debuff(venom);debuff(venomStack);debuff(vemonImmunity);setvar(venomGood, 0);setvar(venomBad, 0);kill"/>
 		<buff id="trapDamage1Trigger" duration="1" type="bleeding" actions="setvar(CTRtrapDmg1, 3);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge)" />
 		<!-- spikes and other traps -->
 		<buff id="trapDamage1Effect" buffif="CTRtrapDmg1 greater 0" debuffif="CTRtrapDmg1 less 1" duration="0" type="bleeding" actions="increment(CTRtrapDmg1, -1, 1, 0, 0)" 	name_key="trapDamage1EffectName" description_key="trapDamage1EffectDesc" tooltip_key="trapDamage1EffectTooltip" icon="ui_game_symbol_critical" >
@@ -253,11 +245,9 @@
 					<modify id="0" stat="stamina" amount="1" rate="3" />
 				</buff>
 				<buff id="asphaltStaBoostTrigger" duration="1" actions="setvar(CTRroadrun, 10)" />
-<!-- 				<buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" >
-					<modify id="0" stat="stamina" amount="1" rate="2"/>
-				</buff> -->
+				<!-- 				<buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" ><modify id="0" stat="stamina" amount="1" rate="2"/></buff> -->
 				<buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" 	icon="ui_game_symbol_run" name_key="Road Runner" description_key="Meep meep!" tooltip_key="Meep meep!">
-				<modify id="0" stat="stamina" amount="1" rate="1"/>
+					<modify id="0" stat="stamina" amount="1" rate="1"/>
 				</buff>
 				<buff id="critGunMP5" duration="1" castsound="Buffs/critical_blunt" >
 					<modify id="1" stat="health" amount="-100" rate="1"/>
@@ -266,33 +256,24 @@
 					<modify id="1" stat="health" amount="-150" rate="1"/>
 				</buff>
 				<buff id="radiation" type="sickness"  duration="5"  buffif="radiation greater 0" debuffif="radiation equals 0" icon="ui_game_symbol_radiation" name_key="radiation" description_key="radiationDesc" tooltip_key="radiationTooltip">
-			<modify id="0" stat="health" amount="-15" rate="1"/>
-	</buff>
-
-<buff id="bloodDrawTrigger" duration="1" actions="increment(BDKbloodLoss, 50, 1, 0, 0)" />
-<buff id="bloodDrawDecay" duration="0" buffif="BDKbloodLoss greater 0" debuffif="BDKbloodLoss less 1" actions="increment(BDKbloodLoss, -5, 50t, 0, 0)" />
-<buff id="bloodBagDecay" duration="1" actions="increment(BDKbloodLoss, -25, 1, 0, 0)" />
-
-<buff id="bloodDrawWarn" stack="discard" mutex="bloodDrawWeak,bloodDrawSick" buffif="BDKbloodLoss greater 100" debuffif="BDKbloodLoss lequal 50" duration="0"
-	icon="ui_game_symbol_skull" name_key="Slight Blood Loss" description_key="You are feeling slightly weak from blood loss but nothing serious" tooltip_key="Slight Blood Loss Nothing Serious" >
-	<modify id="1" stat="stamina" amount="-0.5" rate="1"/>
-</buff>
-
-<buff id="bloodDrawWeak" stack="discard" mutex="bloodDrawSick" buffif="BDKbloodLoss greater 150" debuffif="BDKbloodLoss lequal 100" duration="0" actions="debuff(bloodDrawWarn)"
-	icon="ui_game_symbol_critical" name_key="Blood Loss" description_key="You are feeling weak from blood loss and losing wellness" tooltip_key="Blood Loss" >
-	<modify id="0" stat="wellness" amount="-.25" rate="60" />
-	<modify id="1" stat="stamina" amount="-1" rate="1"/>
-</buff>
-
-<buff id="bloodDrawSick" stack="discard" buffif="BDKbloodLoss greater 200" debuffif="BDKbloodLoss lequal 150" duration="0" actions="debuff(bloodDrawWarn);debuff(bloodDrawWeak)"
-	icon="ui_game_symbol_death" name_key="Extreme Blood Loss" description_key="You are feeling extrememly weak from major blood loss and are losing wellness" tooltip_key="Extreme Blood Loss" >
-	<modify id="0" stat="wellness" amount="-.5" rate="60" />
-	<modify id="1" stat="stamina" amount="-2" rate="1"/>
-	<modify id="2" stat="speedmodifier" setValue="0.80"/>
-</buff>
-
-<buff id="bloodDrawDead" stack="discard" buffif="BDKbloodLoss greater 250" actions="setvar(BDKbloodLoss, 0)kill"/>
-
+					<modify id="0" stat="health" amount="-15" rate="1"/>
+				</buff>
+				<buff id="bloodDrawTrigger" duration="1" actions="increment(BDKbloodLoss, 50, 1, 0, 0)" />
+				<buff id="bloodDrawDecay" duration="0" buffif="BDKbloodLoss greater 0" debuffif="BDKbloodLoss less 1" actions="increment(BDKbloodLoss, -5, 50t, 0, 0)" />
+				<buff id="bloodBagDecay" duration="1" actions="increment(BDKbloodLoss, -25, 1, 0, 0)" />
+				<buff id="bloodDrawWarn" stack="discard" mutex="bloodDrawWeak,bloodDrawSick" buffif="BDKbloodLoss greater 100" debuffif="BDKbloodLoss lequal 50" duration="0" 	icon="ui_game_symbol_skull" name_key="Slight Blood Loss" description_key="You are feeling slightly weak from blood loss but nothing serious" tooltip_key="Slight Blood Loss Nothing Serious" >
+					<modify id="1" stat="stamina" amount="-0.5" rate="1"/>
+				</buff>
+				<buff id="bloodDrawWeak" stack="discard" mutex="bloodDrawSick" buffif="BDKbloodLoss greater 150" debuffif="BDKbloodLoss lequal 100" duration="0" actions="debuff(bloodDrawWarn)" 	icon="ui_game_symbol_critical" name_key="Blood Loss" description_key="You are feeling weak from blood loss and losing wellness" tooltip_key="Blood Loss" >
+					<modify id="0" stat="wellness" amount="-.25" rate="60" />
+					<modify id="1" stat="stamina" amount="-1" rate="1"/>
+				</buff>
+				<buff id="bloodDrawSick" stack="discard" buffif="BDKbloodLoss greater 200" debuffif="BDKbloodLoss lequal 150" duration="0" actions="debuff(bloodDrawWarn);debuff(bloodDrawWeak)" 	icon="ui_game_symbol_death" name_key="Extreme Blood Loss" description_key="You are feeling extrememly weak from major blood loss and are losing wellness" tooltip_key="Extreme Blood Loss" >
+					<modify id="0" stat="wellness" amount="-.5" rate="60" />
+					<modify id="1" stat="stamina" amount="-2" rate="1"/>
+					<modify id="2" stat="speedmodifier" setValue="0.80"/>
+				</buff>
+				<buff id="bloodDrawDead" stack="discard" buffif="BDKbloodLoss greater 250" actions="setvar(BDKbloodLoss, 0)kill"/>
 				<!-- Snowberries double your natural water consumption. If you eat too much they are poisonous. Fun stuff. -->
 				<buff id="eatSnowberryTrigger" duration="1" actions="increment(CTRsnowberry, 144, 0, 0, 1)"/>
 				<buff id="eatsnowberryJuiceTrigger" duration="1" actions="increment(CTRsnowberry, 720, 0, 0, 1);buff(snowberryWarmingBuff)"/>
@@ -347,27 +328,21 @@
 						<buff id="zombieRadiatedBuff80" duration="0" icon="ui_game_symbol_fire">
 							<modify id="0" stat="health" amount="10" rate="5" />
 						</buff>
-<buff id="zombieElectricBuff" duration="0" actions="attach(ParticleEffects/p_electric_shock, @impact)" icon="ui_game_symbol_electric_power"/>
-
-<buff id="shockedBuff" duration="4.5" type="armordown" stack="reset" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
-	actions="attach(ParticleEffects/p_electric_shock, @impact)" castsound="electric_fence_impact"
-	icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
-	<modify id="0" stat="health" amount="-3" rate="0.5" type="armordown"/>
-	<modify id="1" stat="speedmodifier" mulValue="0.3" duration="3.2" type="armordown"/>
-</buff>
-<buff id="shockingBuff" duration="5" type="armordown" stack="reset" actions="increment(shocking, 5, 0, 0, 1);max(shocking, 5)" castsound="electric_fence_impact" icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
-	<modify id="0" stat="health" amount="-3" rate="0.5" type="armordown"/>
-</buff>
-<buff id="MetabolizeShock" type="armordown" buffif="shocking greater 0" debuffif="shocking less 1" actions="increment(shocking, -1, 1, 0, 0);min(shocking, 0);buff(shockedBuff2)"/>
-
-<buff id="shockedBuff2" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff3" actions="attach(ParticleEffects/p_electric_shock, @impact)">
-<modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
-</buff>
-
-<buff id="shockedBuff3" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff2" actions="attach(ParticleEffects/p_electric_shock, @impact)">
-<modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
-</buff>
-
+						<buff id="zombieElectricBuff" duration="0" actions="attach(ParticleEffects/p_electric_shock, @impact)" icon="ui_game_symbol_electric_power"/>
+						<buff id="shockedBuff" duration="4.5" type="armordown" stack="reset" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0" 	actions="attach(ParticleEffects/p_electric_shock, @impact)" castsound="electric_fence_impact" 	icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
+							<modify id="0" stat="health" amount="-3" rate="0.5" type="armordown"/>
+							<modify id="1" stat="speedmodifier" mulValue="0.3" duration="3.2" type="armordown"/>
+						</buff>
+						<buff id="shockingBuff" duration="5" type="armordown" stack="reset" actions="increment(shocking, 5, 0, 0, 1);max(shocking, 5)" castsound="electric_fence_impact" icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
+							<modify id="0" stat="health" amount="-3" rate="0.5" type="armordown"/>
+						</buff>
+						<buff id="MetabolizeShock" type="armordown" buffif="shocking greater 0" debuffif="shocking less 1" actions="increment(shocking, -1, 1, 0, 0);min(shocking, 0);buff(shockedBuff2)"/>
+						<buff id="shockedBuff2" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff3" actions="attach(ParticleEffects/p_electric_shock, @impact)">
+							<modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
+						</buff>
+						<buff id="shockedBuff3" type="armordown" requires="MetabolizeShock" duration="1" stack="reset" onexpired="shockedBuff2" actions="attach(ParticleEffects/p_electric_shock, @impact)">
+							<modify id="1" stat="speedmodifier" setValue="0.3" type="armordown"/>
+						</buff>
 						<buff id="medicalsplint" overrides="brokenLeg,sprainedLeg" type="speedmodifier" overrideicon="true" icon="ui_game_symbol_splint" name_key="splintedLeg" description_key="splintedLegDesc" tooltip_key="splintedLegTooltip">
 							<modify id="0" stat="speedmodifier" mulValue="1.2"/>
 							<modify id="1" buff="brokenLeg" tickrate="5"/>
@@ -460,66 +435,53 @@
 							<modify id="1" stat="speedmodifier" modifyValue="1.3"/>
 							<modify id="0" stat="stamina" amount="5" rate="1"/>
 						</buff>
-
-<buff id="waterBuff" duration="1" type="staminaup" name_key="Murloc Mode" stack="reset" description_key="You are as swift as a Murloc! BLRGHGHGHMLMHGH" tooltip_key="Murloc" icon="ui_game_symbol_run">
-    <modify id="0" stat="speedmodifier" modifyMaxValue="3.01"/>
-    <modify id="0" stat="stamina" amount="2" rate="1"/>
-    <modify id="1" stat="speedmodifier" modifyValue="2.2"/>
-</buff>
-<buff id="horny" notificationClass="WetBuffNotification" duration="100" icon="ui_game_symbol_wet" name_key="Horny" description_key="wetDesc" tooltip_key="wetTooltip">
-	<modify id="0" stat="speedmodifier" mulValue="5"/>
-	<modify id="1" stat="stamina" amount="2" rate="1" />
-</buff>
-<buff id="shockammobuff" duration="5" stack="discard" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
-	actions="attach(ParticleEffects/p_electric_shock, @impact)" castsound="electric_fence_impact"
-	icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
-	<modify id="0" stat="health" amount="-1" rate="1"/>
-	<modify id="1" stat="speedmodifier" mulValue="0.001" duration="5"/>
-</buff>	
-
-<buff id="waterygrip" duration="4" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="Slowed" description_key="She's got you, kill her!" tooltip_key="She's got you!">
-	<modify id="0" stat="speedmodifier" mulValue="0.1"/>
-</buff>
-
-	<!--  Weed by JaxTeller718 -->
-	<buff id="gettingHighBuff" duration="60" stack="extend" type="staminaup" icon="ui_game_symbol_run" name_key="gettingHighBuffName" description_key="gettingHighBuffDesc" tooltip_key="gettingHighBuffTooltip" onexpired="baked" causes="Joint">
-		<modify id="0" stat="stamina" amount="10" rate="1" />
-	<modify id="0" stat="speedmodifier" mulValue="0.5"/>
-	</buff>
-	<buff id="baked" duration="600" stack="extend" actions="debuff(hangover)" type="staminaup" icon="ui_game_symbol_beer" name_key="Baked" description_key="Man you are HUNGRY! Hey what are you doing and where are you going!" tooltip_key="You have no idea what you are doing!" causes="baked">
-		<modify id="0" stat="stamina" amount="-3" rate="2" />
-		<modify id="1" stat="food" amount="-1" rate="140"/>
-	</buff>
-	<!--  Weed by JaxTeller718 -->
-	<buff id="lucilleimpact" hitmask="body;head" duration="1" castsound="lucille_impact" />
-<buff id="biteMark" duration="1200" type="sickness"  onexpired="infection"
-	icon="biteMarkIcon" name_key="biteMark" description_key="biteMarkDesc" tooltip_key="biteMarkTooltip" cures="firstAidBandage,firstAidKit,disinfectantBandage">
-</buff>
-	<buff id="shockTrap" duration="4" name_key="stunned" type="speedmodifier" actions="increment(@wellness, -0.5, 0, 0, 1);attach(ParticleEffects/p_electric_shock, @impact)" description_key="stunnedDesc" tooltip_key="stunnedTooltip" icon="ui_game_symbol_stunned">
-		<modify id="0" stat="speedmodifier" mulValue="0.1"/>
-		<modify id="1" stat="health" amount="-5" rate="1"/>
-	</buff>	
-	<buff id="trapBurning"  mutex="cannotBreath,drowning,burning,extinguishFireBuff" ffcheck="true" duration="5" name_key="burningSmall" description_key="burningSmallDesc" tooltip_key="burningSmallTooltip" actions="attach(ParticleEffects/p_onFire, @impact);damage(10,1,0,0)" icon="ui_game_symbol_fire">
-		<modify id="0" stat="coretemp" amount="1" rate="1" />
-	</buff>	
-	 <buff id="SuicideBomber" duration="10" ffcheck="true" actions="attach(ParticleEffects/p_onFire, @impact)">
-		<modify id="0" stat="speedmodifier" modifyMaxValue="2.0"/>
-		<modify id="1" stat="speedmodifier" modifyValue="2.0"/>
-		<modify id="2" stat="health" setValue="20"/>
-	  </buff>
-	 	<buff id="chestTrap" duration="0.5" icon="ui_game_symbol_stunned">
-		<modify id="0" stat="health" amount="-100" rate="0.4"/>
-	</buff>	
-<buff id="Dirty1" smell="smallSmell" duration="2000" onexpired="Dirty2"  name_key="Messy" tooltip_key="You Are Dirty" description_key="Digging through those bodies has made you quite dirty. Use some soap soon or it will get worse." icon="ui_game_symbol_dirty" cures="wetTowel,wetTowelSoap,soap"/>
-
-<buff id="Dirty2" smell="mediumSmell" duration="1000" onexpired="Dirty3"  name_key="Dirty" tooltip_key="You Are Getting Dirtier" description_key="Its been a while and the smell is getting worse. You need to clean off soon or you could become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap,soap"/>
-<buff id="Dirty3" smell="exLargeSmell" duration="500" onexpired="infection"  name_key="Filthy Mess" tooltip_key="You Need to Wash Up Or Else" description_key="Its gotten pretty bad. Use a washcloth and soap very soon or you will become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap"/>
-
-		<buff id="rottedApple" duration="30" stack="extend" actions="increment(@wellness, -.5, 14, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="Rotten Apple" description_key="You have eaten a rotten apple and have become sick" tooltip_key="Oh No A Bad Apple" causes="Apple">
-			<modify id="0" stat="water" amount="-1" rate="2"/>
-		</buff>
-
-
-		
-
-		</buffs>
+						<buff id="waterBuff" duration="1" type="staminaup" name_key="Murloc Mode" stack="reset" description_key="You are as swift as a Murloc! BLRGHGHGHMLMHGH" tooltip_key="Murloc" icon="ui_game_symbol_run">
+							<modify id="0" stat="speedmodifier" modifyMaxValue="3.01"/>
+							<modify id="0" stat="stamina" amount="2" rate="1"/>
+							<modify id="1" stat="speedmodifier" modifyValue="2.2"/>
+						</buff>
+						<buff id="horny" notificationClass="WetBuffNotification" duration="100" icon="ui_game_symbol_wet" name_key="Horny" description_key="wetDesc" tooltip_key="wetTooltip">
+							<modify id="0" stat="speedmodifier" mulValue="5"/>
+							<modify id="1" stat="stamina" amount="2" rate="1" />
+						</buff>
+						<buff id="shockammobuff" duration="5" stack="discard" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0" 	actions="attach(ParticleEffects/p_electric_shock, @impact)" castsound="electric_fence_impact" 	icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
+							<modify id="0" stat="health" amount="-1" rate="1"/>
+							<modify id="1" stat="speedmodifier" mulValue="0.001" duration="5"/>
+						</buff>
+						<buff id="waterygrip" duration="4" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="Slowed" description_key="She's got you, kill her!" tooltip_key="She's got you!">
+							<modify id="0" stat="speedmodifier" mulValue="0.1"/>
+						</buff>
+						<!--  Weed by JaxTeller718 -->
+						<buff id="gettingHighBuff" duration="60" stack="extend" type="staminaup" icon="ui_game_symbol_run" name_key="gettingHighBuffName" description_key="gettingHighBuffDesc" tooltip_key="gettingHighBuffTooltip" onexpired="baked" causes="Joint">
+							<modify id="0" stat="stamina" amount="10" rate="1" />
+							<modify id="0" stat="speedmodifier" mulValue="0.5"/>
+						</buff>
+						<buff id="baked" duration="600" stack="extend" actions="debuff(hangover)" type="staminaup" icon="ui_game_symbol_beer" name_key="Baked" description_key="Man you are HUNGRY! Hey what are you doing and where are you going!" tooltip_key="You have no idea what you are doing!" causes="baked">
+							<modify id="0" stat="stamina" amount="-3" rate="2" />
+							<modify id="1" stat="food" amount="-1" rate="140"/>
+						</buff>
+						<!--  Weed by JaxTeller718 -->
+						<buff id="lucilleimpact" hitmask="body;head" duration="1" castsound="lucille_impact" />
+						<buff id="biteMark" duration="1200" type="sickness"  onexpired="infection" 	icon="biteMarkIcon" name_key="biteMark" description_key="biteMarkDesc" tooltip_key="biteMarkTooltip" cures="firstAidBandage,firstAidKit,disinfectantBandage"/>
+						<buff id="shockTrap" duration="4" name_key="stunned" type="speedmodifier" actions="increment(@wellness, -0.5, 0, 0, 1);attach(ParticleEffects/p_electric_shock, @impact)" description_key="stunnedDesc" tooltip_key="stunnedTooltip" icon="ui_game_symbol_stunned">
+							<modify id="0" stat="speedmodifier" mulValue="0.1"/>
+							<modify id="1" stat="health" amount="-5" rate="1"/>
+						</buff>
+						<buff id="trapBurning"  mutex="cannotBreath,drowning,burning,extinguishFireBuff" ffcheck="true" duration="5" name_key="burningSmall" description_key="burningSmallDesc" tooltip_key="burningSmallTooltip" actions="attach(ParticleEffects/p_onFire, @impact);damage(10,1,0,0)" icon="ui_game_symbol_fire">
+							<modify id="0" stat="coretemp" amount="1" rate="1" />
+						</buff>
+						<buff id="SuicideBomber" duration="10" ffcheck="true" actions="attach(ParticleEffects/p_onFire, @impact)">
+							<modify id="0" stat="speedmodifier" modifyMaxValue="2.0"/>
+							<modify id="1" stat="speedmodifier" modifyValue="2.0"/>
+							<modify id="2" stat="health" setValue="20"/>
+						</buff>
+						<buff id="chestTrap" duration="0.5" icon="ui_game_symbol_stunned">
+							<modify id="0" stat="health" amount="-100" rate="0.4"/>
+						</buff>
+						<buff id="Dirty1" smell="smallSmell" duration="2000" onexpired="Dirty2"  name_key="Messy" tooltip_key="You Are Dirty" description_key="Digging through those bodies has made you quite dirty. Use some soap soon or it will get worse." icon="ui_game_symbol_dirty" cures="wetTowel,wetTowelSoap,soap"/>
+						<buff id="Dirty2" smell="mediumSmell" duration="1000" onexpired="Dirty3"  name_key="Dirty" tooltip_key="You Are Getting Dirtier" description_key="Its been a while and the smell is getting worse. You need to clean off soon or you could become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap,soap"/>
+						<buff id="Dirty3" smell="exLargeSmell" duration="500" onexpired="infection"  name_key="Filthy Mess" tooltip_key="You Need to Wash Up Or Else" description_key="Its gotten pretty bad. Use a washcloth and soap very soon or you will become infected" icon="ui_game_symbol_dirty" cures="wetTowelSoap"/>
+						<buff id="rottedApple" duration="30" stack="extend" actions="increment(@wellness, -.5, 14, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="Rotten Apple" description_key="You have eaten a rotten apple and have become sick" tooltip_key="Oh No A Bad Apple" causes="Apple">
+							<modify id="0" stat="water" amount="-1" rate="2"/>
+						</buff>
+					</buffs>

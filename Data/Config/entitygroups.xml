@@ -326,78 +326,7 @@
 		<entity name="zombieWightFeral"  prob="0.05"/>
 		<entity name="zombieFatHawaiian"/>
 		<entity name="zombieFemaleFat"/>
-<!-- 		<entity name="followerSargentSlaughter01"  prob="0.1"/>
-		<entity name="followerSargentSlaughter02"  prob="0.1"/>
-		<entity name="followerSargentSlaughter03"  prob="0.1"/>
-		<entity name="followerSargentSlaughter04"  prob="0.1"/>
-		<entity name="followerArnold01"  prob="0.1"/>
-		<entity name="followerArnold02"  prob="0.1"/>
-		<entity name="followerArnold03"  prob="0.1"/>
-		<entity name="followerArnold04"  prob="0.1"/>
-		<entity name="followerCrossbowman01"  prob="0.1"/>
-		<entity name="followerCrossbowman02"  prob="0.1"/>
-		<entity name="followerCrossbowman03"  prob="0.1"/>
-		<entity name="followerCrossbowman04"  prob="0.1"/>
-		<entity name="followerTheEnd01"  prob="0.1"/>
-		<entity name="followerTheEnd02"  prob="0.1"/>
-		<entity name="followerTheEnd03"  prob="0.1"/>
-		<entity name="followerTheEnd04"  prob="0.1"/>
-		<entity name="followerPrivateChang01"  prob="0.1"/>
-		<entity name="followerPrivateChang02"  prob="0.1"/>
-		<entity name="followerPrivateChang03"  prob="0.1"/>
-		<entity name="followerPrivateChang04"  prob="0.1"/>
-		<entity name="followerMedic01"  prob="0.1"/>
-		<entity name="followerMedic02"  prob="0.1"/>
-		<entity name="followerMedic03"  prob="0.1"/>
-		<entity name="followerMedic04"  prob="0.1"/>
-		<entity name="followerBittercup01"  prob="0.1"/>
-		<entity name="followerBittercup02"  prob="0.1"/>
-		<entity name="followerBittercup03"  prob="0.1"/>
-		<entity name="followerBittercup04"  prob="0.1"/>
-		<entity name="followerPilot01"  prob="0.1"/>
-		<entity name="followerPilot02"  prob="0.1"/>
-		<entity name="followerPilot03"  prob="0.1"/>
-		<entity name="followerPilot04"  prob="0.1"/>
-		<entity name="followerRambo01"  prob="0.1"/>
-		<entity name="followerRambo02"  prob="0.1"/>
-		<entity name="followerRambo03"  prob="0.1"/>
-		<entity name="followerRambo04"  prob="0.1"/>
-		<entity name="followerDeathskwad01"  prob="0.1"/>
-		<entity name="followerDeathskwad02"  prob="0.1"/>
-		<entity name="followerDeathskwad03"  prob="0.1"/>
-		<entity name="followerDeathskwad04"  prob="0.1"/>
-		<entity name="followerSargentRock01"  prob="0.1"/>
-		<entity name="followerSargentRock02"  prob="0.1"/>
-		<entity name="followerSargentRock03"  prob="0.1"/>
-		<entity name="followerSargentRock04"  prob="0.1"/>
-		<entity name="followerColonelKurtz01"  prob="0.1"/>
-		<entity name="followerColonelKurtz02"  prob="0.1"/>
-		<entity name="followerColonelKurtz03"  prob="0.1"/>
-		<entity name="followerColonelKurtz04"  prob="0.1"/>
-		<entity name="followerMajorPayne01"  prob="0.1"/>
-		<entity name="followerMajorPayne02"  prob="0.1"/>
-		<entity name="followerMajorPayne03"  prob="0.1"/>
-		<entity name="followerMajorPayne04"  prob="0.1"/>
-		<entity name="followerSwat101"  prob="0.1"/>
-		<entity name="followerSwat102"  prob="0.1"/>
-		<entity name="followerSwat103"  prob="0.1"/>
-		<entity name="followerSwat104"  prob="0.1"/>
-		<entity name="followerSwat201"  prob="0.1"/>
-		<entity name="followerSwat202"  prob="0.1"/>
-		<entity name="followerSwat203"  prob="0.1"/>
-		<entity name="followerSwat204"  prob="0.1"/>
-		<entity name="followerSwat301"  prob="0.1"/>
-		<entity name="followerSwat302"  prob="0.1"/>
-		<entity name="followerSwat303"  prob="0.1"/>
-		<entity name="followerSwat304"  prob="0.1"/>
-		<entity name="followerMedic01"  prob="0.1"/>
-		<entity name="followerMedic02"  prob="0.1"/>
-		<entity name="followerMedic03"  prob="0.1"/>
-		<entity name="followerMedic04"  prob="0.1"/>
-		<entity name="followerBittercup01"  prob="0.1"/>
-		<entity name="followerBittercup02"  prob="0.1"/>
-		<entity name="followerBittercup03"  prob="0.1"/>
-		<entity name="followerBittercup04"  prob="0.1"/> -->
+		<!-- 		<entity name="followerSargentSlaughter01"  prob="0.1"/><entity name="followerSargentSlaughter02"  prob="0.1"/><entity name="followerSargentSlaughter03"  prob="0.1"/><entity name="followerSargentSlaughter04"  prob="0.1"/><entity name="followerArnold01"  prob="0.1"/><entity name="followerArnold02"  prob="0.1"/><entity name="followerArnold03"  prob="0.1"/><entity name="followerArnold04"  prob="0.1"/><entity name="followerCrossbowman01"  prob="0.1"/><entity name="followerCrossbowman02"  prob="0.1"/><entity name="followerCrossbowman03"  prob="0.1"/><entity name="followerCrossbowman04"  prob="0.1"/><entity name="followerTheEnd01"  prob="0.1"/><entity name="followerTheEnd02"  prob="0.1"/><entity name="followerTheEnd03"  prob="0.1"/><entity name="followerTheEnd04"  prob="0.1"/><entity name="followerPrivateChang01"  prob="0.1"/><entity name="followerPrivateChang02"  prob="0.1"/><entity name="followerPrivateChang03"  prob="0.1"/><entity name="followerPrivateChang04"  prob="0.1"/><entity name="followerMedic01"  prob="0.1"/><entity name="followerMedic02"  prob="0.1"/><entity name="followerMedic03"  prob="0.1"/><entity name="followerMedic04"  prob="0.1"/><entity name="followerBittercup01"  prob="0.1"/><entity name="followerBittercup02"  prob="0.1"/><entity name="followerBittercup03"  prob="0.1"/><entity name="followerBittercup04"  prob="0.1"/><entity name="followerPilot01"  prob="0.1"/><entity name="followerPilot02"  prob="0.1"/><entity name="followerPilot03"  prob="0.1"/><entity name="followerPilot04"  prob="0.1"/><entity name="followerRambo01"  prob="0.1"/><entity name="followerRambo02"  prob="0.1"/><entity name="followerRambo03"  prob="0.1"/><entity name="followerRambo04"  prob="0.1"/><entity name="followerDeathskwad01"  prob="0.1"/><entity name="followerDeathskwad02"  prob="0.1"/><entity name="followerDeathskwad03"  prob="0.1"/><entity name="followerDeathskwad04"  prob="0.1"/><entity name="followerSargentRock01"  prob="0.1"/><entity name="followerSargentRock02"  prob="0.1"/><entity name="followerSargentRock03"  prob="0.1"/><entity name="followerSargentRock04"  prob="0.1"/><entity name="followerColonelKurtz01"  prob="0.1"/><entity name="followerColonelKurtz02"  prob="0.1"/><entity name="followerColonelKurtz03"  prob="0.1"/><entity name="followerColonelKurtz04"  prob="0.1"/><entity name="followerMajorPayne01"  prob="0.1"/><entity name="followerMajorPayne02"  prob="0.1"/><entity name="followerMajorPayne03"  prob="0.1"/><entity name="followerMajorPayne04"  prob="0.1"/><entity name="followerSwat101"  prob="0.1"/><entity name="followerSwat102"  prob="0.1"/><entity name="followerSwat103"  prob="0.1"/><entity name="followerSwat104"  prob="0.1"/><entity name="followerSwat201"  prob="0.1"/><entity name="followerSwat202"  prob="0.1"/><entity name="followerSwat203"  prob="0.1"/><entity name="followerSwat204"  prob="0.1"/><entity name="followerSwat301"  prob="0.1"/><entity name="followerSwat302"  prob="0.1"/><entity name="followerSwat303"  prob="0.1"/><entity name="followerSwat304"  prob="0.1"/><entity name="followerMedic01"  prob="0.1"/><entity name="followerMedic02"  prob="0.1"/><entity name="followerMedic03"  prob="0.1"/><entity name="followerMedic04"  prob="0.1"/><entity name="followerBittercup01"  prob="0.1"/><entity name="followerBittercup02"  prob="0.1"/><entity name="followerBittercup03"  prob="0.1"/><entity name="followerBittercup04"  prob="0.1"/> -->
 	</entitygroup>
 	<entitygroup name="ZombiesWastelandNight">
 		<entity name="zombieSpiderFeral"/>
@@ -719,11 +648,10 @@
 		<entity name="valZombieBrute" prob="0.03"/>
 	</entitygroup>
 	<entitygroup name="ZombieScouts">
-		<entity name="Samara"/>
-		<entity name="zombieScreamer5"/>
+		<entity name="zombieScreamer5" prob="0.03"/>
 		<entity name="zombieScreamer"/>
-		<entity name="zombieScreamer7"/>
-		<entity name="zombieScreamer6"/>
+		<entity name="zombieScreamer7" prob="0.03"/>
+		<entity name="zombieScreamer6" prob="0.03"/>
 	</entitygroup>
 	<entitygroup name="ZombiesCrawlers">
 		<entity name="zombieSteveCrawler" prob="1"/>

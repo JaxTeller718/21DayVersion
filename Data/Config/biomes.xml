@@ -46,7 +46,7 @@
 				<Precipitation min="50" max="100" prob=".75"/>
 				<Wind min="20" max="40" prob="0.9"/>
 				<Wind min="40" max="100" prob="0.1"/>
-				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="7"/>
+				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="35"/>
 			</weather>
 			<replacements>
 				<!-- This affects only the grow event of blocks/plants. Grown blocks of one type are auto-replaced by the second.  -->
@@ -763,7 +763,7 @@
 				<Wind min="50" max="75" prob="0.25"/>
 				<Wind min="25" max="50" prob="0.25"/>
 				<Wind min="0" max="25" prob="0.25"/>
-				<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="21"/>
+				<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="35"/>
 			</weather>
 			<subbiome prob="0.1">
 				<!-- Plains Sub Biome Clustered Trees -->
@@ -1006,8 +1006,8 @@
 				<Wind min="50" max="75" prob="0.25"/>
 				<Wind min="25" max="50" prob="0.25"/>
 				<Wind min="0" max="25" prob="0.25"/>
-				<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="14"/>
-				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="21"/>
+				<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="35"/>
+				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="35"/>
 			</weather>
 			<subbiome prob="0.1551">
 				<!-- Desert Sub Biome Clustered Cactus and Desert Shrub -->
@@ -1396,9 +1396,9 @@
 				<Wind min="50" max="75" prob="0.25"/>
 				<Wind min="25" max="50" prob="0.25"/>
 				<Wind min="0" max="25" prob="0.25"/>
-				<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="21"/>
-				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="21"/>
-				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="21"/>
+				<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="35"/>
+				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="35"/>
+				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="35"/>
 				<ParticleEffect prefab="ParticleEffects/p_hotembers" ChunkMargin="7"/>
 			</weather>
 			<subbiome prob="0.25">
@@ -1667,9 +1667,9 @@
 				<Wind min="50" max="75" prob="0.25"/>
 				<Wind min="25" max="50" prob="0.25"/>
 				<Wind min="0" max="25" prob="0.25"/>
-				<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="21"/>
-				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="27"/>
-				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="21"/>
+				<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="35"/>
+				<ParticleEffect prefab="ParticleEffects/p_snowstorm1" ChunkMargin="35"/>
+				<ParticleEffect prefab="ParticleEffects/p_smokestorm" ChunkMargin="35"/>
 				<ParticleEffect prefab="ParticleEffects/p_hotembers" ChunkMargin="7"/>
 			</weather>
 			<subbiome prob="0.02">
@@ -2393,12 +2393,12 @@
 			<blockontop blockname="lootStreetHelper" prob="0.001" rotatemax="7"/>
 			<blockontop blockname="randomCarsHelper" prob="0.0015" rotatemax="3"/>
 			<blockontop blockname="tire" rotatemax="3" prob="0.0007"/>
-			<blockontop blockname="HDTire" rotatemax="3" prob="0.0007"/>
-		<blockontop blockname="driftwood" rotatemax="3" prob="0.0004" />
-		<blockontop blockname="driftwood2" rotatemax="3" prob="0.0004" />
-		<blockontop blockname="graveStone08" rotatemax="3" prob="0.0004" />
-		<blockontop blockname="mattressFlat" rotatemax="7" prob="0.0003" />
-		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0001" />
+			<blockontop blockname="HDTire" rotatemax="3" prob="0.0002"/>
+			<blockontop blockname="driftwood" rotatemax="3" prob="0.00004" />
+			<blockontop blockname="driftwood2" rotatemax="3" prob="0.00004" />
+			<blockontop blockname="graveStone08" rotatemax="3" prob="0.00004" />
+			<blockontop blockname="mattressFlat" rotatemax="7" prob="0.00003" />
+			<blockontop blockname="burningBarrel" rotatemax="3" prob="0.00001" />
 			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0002"/>
@@ -2426,12 +2426,12 @@
 			<blockontop blockname="lootStreetHelper" prob="0.001" rotatemax="7"/>
 			<blockontop blockname="randomCarsHelper" prob="0.0015" rotatemax="3"/>
 			<blockontop blockname="tire" rotatemax="3" prob="0.0007"/>
-			<blockontop blockname="HDTire" rotatemax="3" prob="0.0007"/>
-		<blockontop blockname="driftwood" rotatemax="3" prob="0.0004" />
-		<blockontop blockname="driftwood2" rotatemax="3" prob="0.0004" />
-		<blockontop blockname="graveStone08" rotatemax="3" prob="0.0004" />
-		<blockontop blockname="mattressFlat" rotatemax="7" prob="0.0003" />
-		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0001" />
+			<blockontop blockname="HDTire" rotatemax="3" prob="0.0002"/>
+			<blockontop blockname="driftwood" rotatemax="3" prob="0.00004" />
+			<blockontop blockname="driftwood2" rotatemax="3" prob="0.00004" />
+			<blockontop blockname="graveStone08" rotatemax="3" prob="0.00004" />
+			<blockontop blockname="mattressFlat" rotatemax="7" prob="0.00003" />
+			<blockontop blockname="burningBarrel" rotatemax="3" prob="0.00001" />
 			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0002"/>

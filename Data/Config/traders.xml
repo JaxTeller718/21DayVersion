@@ -361,8 +361,6 @@
 			<item name="challengeBong" count="1" prob="0.2"/>
 			<item name="challengeWalmart" count="1" prob="0.2"/>
 		</trader_item_group>
-
-
 		<trader_item_group name="paintMagazines" count="1">
 			<item name="paintMagazineDecorations"/>
 			<!-- traders -->

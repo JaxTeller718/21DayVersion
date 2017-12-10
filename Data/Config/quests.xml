@@ -1038,8 +1038,6 @@
 		<reward type="SkillPoints" value="5"/>
 	</quest>
 	<!-- Notes and Skills -->
-
-
 	<quest id="skill1" name_key="1 Skill Points" subtitle_key="1 Skill Points" description_key="Read for 1 Skill Point!" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
 		<reward type="SkillPoints" value="1"/>
 	</quest>

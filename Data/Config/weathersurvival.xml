@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Weather survival tuning values-->
 <weathersurvival>
-
 	<!-- Degrees per second in which heat the player generates from melee actions dissapates -->
 	<property name="GeneratedHeatDecayRate" value="2"/>
 	<!-- How much the player heats when doing melee actions that consume stamina. -->
@@ -48,7 +47,6 @@
 	<property name="OutsideTempShiftWhenWalking" value="2"/>
 	<!-- How much the temp changes when you are idle. -->
 	<property name="OutsideTempShiftWhenIdle" value="0"/>
-
 	<TemperatureHeight height="0" addDegrees="1"/>
 	<TemperatureHeight height="12" addDegrees="1"/>
 	<TemperatureHeight height="24" addDegrees="1"/>

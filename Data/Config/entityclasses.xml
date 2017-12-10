@@ -3004,7 +3004,6 @@
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 		<property name="CorpseBlockChance" value="1"/>
 	</entity_class>
-
 	<entity_class name="zombieUtilityWorker1" extends="zombieUtilityWorker">
 		<!-- JZMOD RUN -->
 		<property name="WalkType" value="1"/>
@@ -3014,9 +3013,6 @@
 		<property name="NightApproachSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
-
-
 	<entity_class name="zombieOldTimer1" extends="zombieOldTimer">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="1"/>
@@ -3026,7 +3022,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.56"/>
 	</entity_class>
-
 	<entity_class name="zombieFarmer1" extends="zombieFarmer">
 		<!-- JZMOD RUN -->
 		<property name="WalkType" value="1"/>
@@ -3045,8 +3040,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
-
 	<entity_class name="zombieBusinessMan1" extends="zombieBusinessMan">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="1"/>
@@ -3056,8 +3049,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
-
 	<entity_class name="zombieUtilityWorker2" extends="zombieUtilityWorker">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="2"/>
@@ -3067,7 +3058,6 @@
 		<property name="NightApproachSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="zombieOldTimer2" extends="zombieOldTimer">
 		<!-- JZMOD RUN -->
 		<property name="WalkType" value="2"/>
@@ -3077,7 +3067,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.56"/>
 	</entity_class>
-
 	<entity_class name="zombieFarmer2" extends="zombieFarmer">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="2"/>
@@ -3096,8 +3085,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
-
 	<entity_class name="zombieBusinessMan2" extends="zombieBusinessMan">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="2"/>
@@ -3117,7 +3104,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="zombieUtilityWorker3" extends="zombieUtilityWorker">
 		<!-- JZMOD RUN -->
 		<property name="WalkType" value="3"/>
@@ -3127,8 +3113,6 @@
 		<property name="NightApproachSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
-
 	<entity_class name="zombieBiker3" extends="zombieBiker">
 		<!-- JZMOD WALK -->
 		<property name="CanClimbVertical" value="false"/>
@@ -3148,7 +3132,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="zombieBusinessMan3" extends="zombieBusinessMan">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="3"/>
@@ -3241,7 +3224,6 @@
 		<property name="NightApproachSpeed" value="1.16"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="zombieUtilityWorker4" extends="zombieUtilityWorker">
 		<!-- JZMOD CRAWLER -->
 		<property name="WalkType" value="4"/>
@@ -3251,7 +3233,6 @@
 		<property name="NightApproachSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="zombieSkateboarder4" extends="zombieSkateboarder">
 		<!-- JZMOD CRAWLER -->
 		<property name="WalkType" value="4"/>
@@ -3280,7 +3261,6 @@
 		<property name="NightApproachSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="zombieOldTimer4" extends="zombieOldTimer">
 		<!-- JZMOD CRAWLER -->
 		<property name="WalkType" value="4"/>
@@ -3327,7 +3307,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="zombieBusinessMan4" extends="zombieBusinessMan">
 		<!-- JZMOD CRAWLER -->
 		<property name="WalkType" value="4"/>
@@ -3347,9 +3326,6 @@
 		<property name="NightApproachSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
-
-
 	<entity_class name="zombieUtilityWorker5" extends="zombieUtilityWorker">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="5"/>
@@ -3359,7 +3335,6 @@
 		<property name="NightApproachSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="zombieOldTimer5" extends="zombieOldTimer">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="5"/>
@@ -3434,8 +3409,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
-
 	<entity_class name="zombieOldTimer6" extends="zombieOldTimer">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="6"/>
@@ -3445,8 +3418,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.56"/>
 	</entity_class>
-
-
 	<entity_class name="zombieStripper6" extends="zombieStripper">
 		<!-- JZMOD RUN -->
 		<property name="WalkType" value="6"/>
@@ -3480,8 +3451,6 @@
 		<property name="NightApproachSpeed" value="0.8"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
-
 	<entity_class name="zombieScreamer7" extends="zombieScreamer">
 		<!-- JZMOD WALK -->
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
@@ -3511,7 +3480,6 @@
 		<property name="ApproachSpeed" value="0.55"/>
 		<property name="NightApproachSpeed" value="0.8"/>
 	</entity_class>
-
 	<entity_class name="zombieSnow5" extends="zombieSnow">
 		<!-- JZMOD RUN -->
 		<property name="WalkType" value="5"/>
@@ -3524,8 +3492,6 @@
 		<property name="ApproachSpeed" value="0.35"/>
 		<property name="NightApproachSpeed" value="0.8"/>
 	</entity_class>
-
-
 	<entity_class name="zombieFatCop3" extends="zombieFatCop">
 		<!-- JZMOD WALK -->
 		<property name="WalkType" value="3"/>
@@ -3544,7 +3510,6 @@
 		<property name="NightApproachSpeed" value="0.7"/>
 		<property name="PanicSpeed" value="0.6"/>
 	</entity_class>
-
 	<entity_class name="Samara" extends="zombieTemplateMale">
 		<property name="Mesh" value="Zombies/zombieStandardScreamerRagdoll"/>
 		<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -4194,12 +4159,12 @@
 	</entity_class>
 	<entity_class name="mutantGasser01" extends="SDXTemplate">
 		<property name="Mesh" value="#Mutants?Mutant01"/>
-		<property name="MaxHealth" value="1415"/>
+		<property name="MaxHealth" value="1515"/>
 		<property name="AnimationIdle" value="idle"/>
 		<property name="AnimationSecondIdle" value="idle"/>
 		<property name="AnimationMainAttack" value="attack(3)"/>
 		<property name="AnimationSecondAttack" value="attack(2)"/>
-		<property name="AnimationPain" value="anger"/>
+		<property name="AnimationPain" value="walk"/>
 		<property name="AnimationJump" value="jump"/>
 		<property name="AnimationDeath" value="dead"/>
 		<property name="AnimationRun" value="run"/>
@@ -4212,11 +4177,11 @@
 		<property name="SoundDeath" value="newzombiedeath"/>
 		<property name="SoundSense" value="afroShamanSounds"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
-		<property name="WanderSpeed" value="0.7"/>
-		<property name="ApproachSpeed" value="0.8"/>
-		<property name="NightWanderSpeed" value="0.8"/>
-		<property name="NightApproachSpeed" value="1.1"/>
-		<property name="PanicSpeed" value="0.5"/>
+		<property name="WanderSpeed" value="0.8"/>
+		<property name="ApproachSpeed" value="0.9"/>
+		<property name="NightWanderSpeed" value="1.0"/>
+		<property name="NightApproachSpeed" value="1.3"/>
+		<property name="PanicSpeed" value="1.2"/>
 		<property name="ExperienceGain" value="1225"/>
 		<property name="HandItem" value="handZombieMutant"/>
 		<property name="TimeStayAfterDeath" value="5"/>
@@ -4224,12 +4189,12 @@
 	</entity_class>
 	<entity_class name="mutantGasser02" extends="SDXTemplate">
 		<property name="Mesh" value="#Mutants?Mutant02"/>
-		<property name="MaxHealth" value="1415"/>
+		<property name="MaxHealth" value="1515"/>
 		<property name="AnimationIdle" value="idle"/>
 		<property name="AnimationSecondIdle" value="idle"/>
 		<property name="AnimationMainAttack" value="attack(3)"/>
 		<property name="AnimationSecondAttack" value="attack(2)"/>
-		<property name="AnimationPain" value="anger"/>
+		<property name="AnimationPain" value="walk"/>
 		<property name="AnimationJump" value="jump"/>
 		<property name="AnimationDeath" value="dead"/>
 		<property name="AnimationRun" value="run"/>
@@ -4242,11 +4207,11 @@
 		<property name="SoundDeath" value="newzombiedeath"/>
 		<property name="SoundSense" value="afroShamanSounds"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
-		<property name="WanderSpeed" value="0.7"/>
-		<property name="ApproachSpeed" value="0.8"/>
-		<property name="NightWanderSpeed" value="0.8"/>
-		<property name="NightApproachSpeed" value="1.1"/>
-		<property name="PanicSpeed" value="0.5"/>
+		<property name="WanderSpeed" value="0.8"/>
+		<property name="ApproachSpeed" value="0.9"/>
+		<property name="NightWanderSpeed" value="1.0"/>
+		<property name="NightApproachSpeed" value="1.3"/>
+		<property name="PanicSpeed" value="1.2"/>
 		<property name="ExperienceGain" value="1225"/>
 		<property name="HandItem" value="handZombieMutant"/>
 		<property name="TimeStayAfterDeath" value="5"/>
@@ -4254,12 +4219,12 @@
 	</entity_class>
 	<entity_class name="mutantGasser03" extends="SDXTemplate">
 		<property name="Mesh" value="#Mutants?Mutant03"/>
-		<property name="MaxHealth" value="1415"/>
+		<property name="MaxHealth" value="1515"/>
 		<property name="AnimationIdle" value="idle"/>
 		<property name="AnimationSecondIdle" value="idle"/>
 		<property name="AnimationMainAttack" value="attack(3)"/>
 		<property name="AnimationSecondAttack" value="attack(2)"/>
-		<property name="AnimationPain" value="anger"/>
+		<property name="AnimationPain" value="walk"/>
 		<property name="AnimationJump" value="jump"/>
 		<property name="AnimationDeath" value="dead"/>
 		<property name="AnimationRun" value="run"/>
@@ -4272,11 +4237,11 @@
 		<property name="SoundDeath" value="newzombiedeath"/>
 		<property name="SoundSense" value="afroShamanSounds"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
-		<property name="WanderSpeed" value="0.7"/>
-		<property name="ApproachSpeed" value="0.8"/>
-		<property name="NightWanderSpeed" value="0.8"/>
-		<property name="NightApproachSpeed" value="1.1"/>
-		<property name="PanicSpeed" value="0.5"/>
+		<property name="WanderSpeed" value="0.8"/>
+		<property name="ApproachSpeed" value="0.9"/>
+		<property name="NightWanderSpeed" value="1.0"/>
+		<property name="NightApproachSpeed" value="1.3"/>
+		<property name="PanicSpeed" value="1.2"/>
 		<property name="ExperienceGain" value="1225"/>
 		<property name="HandItem" value="handZombieMutant"/>
 		<property name="TimeStayAfterDeath" value="5"/>

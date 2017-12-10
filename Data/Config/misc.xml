@@ -53,11 +53,11 @@
 		<hold_type id="54" newmodel="false" ray_cast="0.4" holster="0" unholster="0.2" two_handed="true"/>
 	</animation>
 	<smell>
-        <smell name="testSmell" range="15" strength="10" speed="45" duration="5" belt_range="45" belt_strength="15" />
-        <smell name="smallSmell" range="5" strength="6" speed="2" duration="5" belt_range="5" belt_strength="10" />
-        <smell name="mediumSmell" range="15" strength="18" speed="5" duration="10" belt_range="15" belt_strength="30" heat_map_strength="0.01" heat_map_time="120" />
-        <smell name="largeSmell" range="25" strength="30" speed="10" duration="10" belt_range="30" belt_strength="50" heat_map_strength="0.02" heat_map_time="120" />
-        <smell name="exLargeSmell" range="35" strength="42" speed="15" duration="15" belt_range="50" belt_strength="70" heat_map_strength="0.4" heat_map_time="120" />
-        <smell name="fart" range="15" strength="30" speed="15" duration="10" belt_range="10" belt_strength="30" />
+		<smell name="testSmell" range="15" strength="10" speed="45" duration="5" belt_range="45" belt_strength="15" />
+		<smell name="smallSmell" range="5" strength="6" speed="2" duration="5" belt_range="5" belt_strength="10" />
+		<smell name="mediumSmell" range="15" strength="18" speed="5" duration="10" belt_range="15" belt_strength="30" heat_map_strength="0.01" heat_map_time="120" />
+		<smell name="largeSmell" range="25" strength="30" speed="10" duration="10" belt_range="30" belt_strength="50" heat_map_strength="0.02" heat_map_time="120" />
+		<smell name="exLargeSmell" range="35" strength="42" speed="15" duration="15" belt_range="50" belt_strength="70" heat_map_strength="0.4" heat_map_time="120" />
+		<smell name="fart" range="15" strength="30" speed="15" duration="10" belt_range="10" belt_strength="30" />
 	</smell>
 </iteminfo>

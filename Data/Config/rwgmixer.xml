@@ -242,9 +242,6 @@
 			<prefab name="apartment_adobe_red_5_flr" max_count="1"/>
 			<prefab name="apartment_brick_6_flr" max_count="1"/>
 			<prefab name="funeral_home_01" max_count="1"/>
-			<prefab name="xcostum_House_AF02P(17x16)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF03P(35x54)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF04P(15x15)(by_Nodabba)" max_count="1"/>
 			<prefab name="xcostum_crematory(by_magoli)" max_count="1"/>
 			<prefab name="xcostum_simpsonshouse(by_magoli)" max_count="3"/>
 			<prefab name="xcostum_Twinhaus-Hostel(by__Tom_GERPVE)" max_count="1"/>
@@ -488,7 +485,6 @@
 			<prefab name="xvanilla_Trailerhousemix02" max_count="1" prob="0.3"/>
 			<prefab name="xvanilla_Trailerhousemix03" max_count="1" prob="0.3"/>
 			<prefab name="xvanilla_Trailerhousemix04" max_count="1" prob="0.3"/>
-			<!-- <prefab rule="AframeHouses" max_count="1" prob="0.3"/> -->
 			<prefab name="xcostum_TheMill(by_MoNKeYest1)" max_count="1" prob="0.1"/>
 			<prefab name="xcostum_Rangercabin(by_Guppycur)" max_count="2" prob="0.2"/>
 			<prefab name="xcostum_burialshrine(by_snake0567)" max_count="1" prob="0.2"/>

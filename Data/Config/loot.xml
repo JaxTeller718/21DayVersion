@@ -1944,6 +1944,7 @@
 		<item name="firstAidKitSchematic"/>
 		<item name="speedPill" count="1" prob="0.25"/>
 		<item name="rollingPaper" count="1,2"/>
+		<item name="antiVenom"/>
 		<item name="Weed" count="1,2"/>
 		<item name="purifyingTablets" count="1,2"/>
 		<item name="maniacPowder" prob="0.05"/>
@@ -2174,12 +2175,9 @@
 		<item group="cannedfood" prob="0.9"/>
 		<item name="bottledWater" prob="0.5"/>
 		<item name="soda"  count="1,3" prob="1.5"/>
-		<item name="paint" count="10,80" prob="0.15"/>
 		<item name="assortedDyes" count="3,10" prob="0.15"/>
 		<item group="cupboardCookbooks" count="1" prob="0.15"/>
 		<item name="Twine" count="1,3"/>
-		<item name="cookingPot" count="1" prob="0.15"/>
-		<item name="cookingGrill" count="1" prob="0.15"/>
 		<item name="emptyJar" count="1,4"/>
 		<item name="plasticBottle" count="1,4"/>
 		<item name="boxNails" count="1,2"/>
@@ -2191,6 +2189,8 @@
 		<item name="bowl" count="1,3"/>
 		<item name="dinnerPlate" count="1,2"/>
 		<item name="pan" count="1" prob="0.1"/>
+		<item name="butcherKnife" count="1" prob="0.1"/>
+		<item name="tenderizer" count="1" prob="0.1"/>
 		<item group="householdQuestItems" prob="0.15"/>
 		<item name="Weed" count="1,2" prob="0.18"/>
 		<item name="vinegar" count="1,3"/>
@@ -2234,6 +2234,7 @@
 		<item name="Weed" count="1,2" prob="0.18"/>
 		<item name="Twine" count="1,3"/>
 		<item name="boxNails" count="1,2"/>
+		<item name="sewingKit" count="1" prob="0.05"/>
 	</lootcontainer>
 	<!-- medicine cabinets -->
 	<lootcontainer id="7" count="0,2" size="3,3" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" open_time="4" loot_quality_template="baseTemplate">

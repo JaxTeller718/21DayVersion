@@ -14665,7 +14665,7 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="1587" name="elevatorTest">
-		<property name="CreativeMode" value="Dev"/>
+		<property name="CreativeMode" value="Player"/>
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="wood_regular"/>
 		<property name="LightOpacity" value="1"/>

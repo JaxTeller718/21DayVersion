@@ -358,7 +358,7 @@ flagstoneStairs25,blocks,Block,KgNone,Flagstone Stairs,Escaliers en dalle,Steinp
 forestCNRCurb,blocks,Block,KgNone,Forest Corner Curb,Angle de bordure de chemin de forêt,Waldrand – Ecke,,Esquina del cordón forestal
 forestCurb,blocks,Block,KgNone,Forest Curb,Bordure de chemin de forêt,Waldrand,,Cordón forestal
 fountain,blocks,Block,KgNone,Fountain,Fontaine,Brunnen,,Fuente
-furnitureGroupDesc,blocks,Block,KgNone,Furniture can make your place look pretty but it usually has little defensive value.\n [ Crafted in Decorating Station.. ]\n [ Crafted in Advanced Workbench. ],"Le mobilier peut embellir votre chez-vous, mais son apport défensif est très limité.","Möbel sind eine schöne Dekoration, aber sie haben gewöhnlich einen niedrigen Verteidigungswert.",,"El mobiliario sirve para hacer que tu casa sea acogedora, pero no sirve para defenderse."
+furnitureGroupDesc,blocks,Block,KgNone,Furniture can make your place look pretty but it usually has little defensive value.\n [ Crafted in Decorating Station. ]\n [ Crafted in Advanced Workbench. ],"Le mobilier peut embellir votre chez-vous, mais son apport défensif est très limité.","Möbel sind eine schöne Dekoration, aber sie haben gewöhnlich einen niedrigen Verteidigungswert.",,"El mobiliario sirve para hacer que tu casa sea acogedora, pero no sirve para defenderse."
 fusebox,blocks,Block,KgNone,Fusebox,Boîte à fusibles,Sicherungskasten,,Caja de fusibles
 garageDoorMetal_v1,blocks,Block,KgNone,Garage Door Metal,Porte de garage en métal,Metallenes Garagentor,,Puerta metálica de garaje
 garageDoorMetal_v2,blocks,Block,KgNone,Garage Door Metal v2,Porte de garage en métal v2,Metallenes Garagentor v2,,Puerta metálica de garaje v2
@@ -462,7 +462,7 @@ porchLight01,blocks,Block,EnChanged,Old Outdoor Light (POI),Luminaire de porche 
 porchLight04,blocks,Block,EnChanged,Iron Outdoor Light (POI),Luminaire de porche 04,Verandalicht 04 (POI),,Lámpara de porche 04
 porchLight04Brass,blocks,Block,EnChanged,Brass Outdoor Light (POI),Luminaire de porche 04 en laiton,Verandalicht 04 – Messing (POI),,Lámpara de porche de latón 04
 railingBlackSheet,blocks,Block,KgNone,Black Iron Railing,Rambarde en fer noir,Schwarzes Eisengeländer,,Barandilla de hierro negra
-railingGroupDesc,blocks,Block,KgNone,A railing is very useful for not falling from high places.\n [ Crafted in Decorating Station.. ],Une rambarde permet d'éviter de tomber des espaces en hauteur.,"Ein Geländer ist sehr nützlich, um nicht von hochgelegenen Orten zu fallen.",,Una barandilla es muy útil para no caerte desde lugares altos.
+railingGroupDesc,blocks,Block,KgNone,A railing is very useful for not falling from high places.\n [ Crafted in Decorating Station. ],Une rambarde permet d'éviter de tomber des espaces en hauteur.,"Ein Geländer ist sehr nützlich, um nicht von hochgelegenen Orten zu fallen.",,Una barandilla es muy útil para no caerte desde lugares altos.
 railingMetalSheet,blocks,Block,KgNone,Metal Railing,Rambarde en métal,Metallgeländer,,Barandilla de metal
 railingOldWoodSheet,blocks,Block,KgNone,Wood Railing,Rambarde en bois,Holzgeländer,,Barandilla de madera
 railingWoodWhiteSheet,blocks,Block,KgNone,White Wood Railing,Rambarde en bois blanc,Weißes Holzgeländer,,Barandilla de madera blanca
@@ -540,7 +540,7 @@ sandbagCorner2DMG1,blocks,Block,KgNone,Sandbag Corner2 DMG1,Angle de sac de sabl
 sandbagCornerDMG1,blocks,Block,KgNone,Sandbag Corner DMG1,Angle de sac de sable abîmé 1,Sandsack - Ecke Schaden 1,,Daño 1 de esquina de bolsa de arena
 sandbagEnd,blocks,Block,KgNone,Sandbag End,Extrémité de sac de sable,Sandsäcke – Ende,,Extremo de bolsa de arena
 sandbagEnd2,blocks,Block,KgNone,Sandbag End2,Extrémité de sac de sable 2,Sandsack – Ende 2,,Extremo 2 de bolsa de arena
-sandbagsGroupDesc,blocks,Block,KgNone,Sandbags are not very sturdy but can be put down quickly and provide decent protection from bullets.\n [ Crafted in Decorating Station.. ],"Les sacs de sable ne sont pas très robustes, mais ils s'installent rapidement et protègent assez bien des balles.","Sandsäcke sind nicht sehr robust, können aber schnell platziert werden und bieten ganz guten Schutz gegen Kugeln.",,"Las bolsas de arena no son muy robustas, pero se pueden colocar rápido y brindan buena protección contra las balas."
+sandbagsGroupDesc,blocks,Block,KgNone,Sandbags are not very sturdy but can be put down quickly and provide decent protection from bullets.\n [ Crafted in Decorating Station. ],"Les sacs de sable ne sont pas très robustes, mais ils s'installent rapidement et protègent assez bien des balles.","Sandsäcke sind nicht sehr robust, können aber schnell platziert werden und bieten ganz guten Schutz gegen Kugeln.",,"Las bolsas de arena no son muy robustas, pero se pueden colocar rápido y brindan buena protección contra las balas."
 schoolDesk,blocks,Block,KgNone,School Desk,Table d'école,Schultisch,,Escritorio escolar
 scrapHatch_v1,blocks,Block,KgNone,Scrap Iron Hatch,Trappe en ferraille,Alteisenklappe,,Escotilla de chatarra de hierro
 scrapHatch_v2,blocks,Block,KgNone,Scrap Hatch v2,Trappe en ferraille v2,Schrottklappe v2,,Escotilla de chatarra v2
@@ -817,7 +817,7 @@ cntWallOven,blocks,Container,KgNone,Wall Oven,Four mural,Wandofen,,Horno empotra
 cntWallSafe,blocks,Container,KgNone,Wall Safe,Coffre-fort mural,Wandtresor,,Caja fuerte empotrable
 cntWallSafeInsecure,blocks,Container,KgNone,Wall Safe Insecure,Coffre-fort mural précaire,Wandtresor ungesichert,,Caja fuerte empotrable poco segura
 largeStorageGroupDesc,blocks,Container,KgNone,A very large lockable crate with a handy symbol painted on the sides. Press & hold [activate] to lock it or set a combination.,Une très grosse caisse verrouillable avec un symbole pratique peint sur les côtés. Maintenez [activate] pour la verrouiller ou définir un code.,Eine sehr große abschließbare Kiste mit einem praktischen Symbol auf der Seite. Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Una gran caja con cerrojo con un símbolo muy útil pintado en los costados. Mantén presionado [activate] para cerrar con llave o para definir una combinación.
-refrigeratorGroupDesc,blocks,Container,KgNone,If food would ever spoil then it would be a good idea to keep it in here.\n [ Crafted in Advanced Workbench. ]\n [ Crafted in Decorating Station.. ],"Si la nourriture périme, mieux vaut la conserver là-dedans.","Wenn Nahrung verderben würde, wäre es gut, sie hier drinnen aufzubewahren.",,Sería buena idea guardar aquí la comida que se pueda echar a perder.
+refrigeratorGroupDesc,blocks,Container,KgNone,If food would ever spoil then it would be a good idea to keep it in here.\n [ Crafted in Advanced Workbench. ]\n [ Crafted in Decorating Station. ],"Si la nourriture périme, mieux vaut la conserver là-dedans.","Wenn Nahrung verderben würde, wäre es gut, sie hier drinnen aufzubewahren.",,Sería buena idea guardar aquí la comida que se pueda echar a perder.
 treasureChest,blocks,Container,KgNone,Treasure Chest,Coffre au trésor,Schatztruhe,,Cofre del tesoro
 mushroom01Desc,blocks,Farming,KgNone,Mushrooms can be safely eaten uncooked or used in several recipes at the campfire.,"Les champignons peuvent être consommés crus sans risque, ou utilisés dans plusieurs compositions sur le feu de camp.",Pilze können problemlos roh gegessen oder in verschiedenen Rezepten am Lagerfeuer verwendet werden.,,Las setas se pueden comer sin ningún riesgo o usarse en varias recetas en la fogata.
 plantedAloe3Harvest,blocks,Farming,KgNone,Aloe Vera Plant (Harvestable),Aloe vera,Aloe-Vera-Pflanze,,Planta de aloe vera
@@ -4663,13 +4663,13 @@ steelArch,blocks,Block,New,Steel Arch 2m,,,,
 woodArch,blocks,Block,New,Wood Arch 2m,,,,
 woodFrameArch,blocks,Block,New,Wood Frame Arch 2m,,,,
 lightPlayerGroupDesc,blocks,Block,New,Use the wiring tool to connect a power source to this light and you should be able to turn it on.\n [ Crafted in Advanced Workbench. ],,,,
-lightPOIGroupDesc,blocks,Block,New,CREATIVE: Requires no power and can be turned on/off when designing prefabs.\n [ Crafted in Advanced Workbench. ]\n [ Crafted in Decorating Station.. ],,,,
+lightPOIGroupDesc,blocks,Block,New,CREATIVE: Requires no power and can be turned on/off when designing prefabs.\n [ Crafted in Advanced Workbench. ]\n [ Crafted in Decorating Station. ],,,,
 ttPaintTextureIsLocked,UI,Tooltip,New,This paint texture is locked.,,,,
 ttSkillRankAlreadyKnown,UI,Tooltip,New,This skill rank is already known.,,,,
 lblContextActionCurrent,UI,Item Context Menu,New,Current,,,,
 xuiUnlockAmmo,UI,Menu,New,Unlock Ammo,,,,
 xuiLockAmmo,UI,Menu,New,Lock Ammo,,,,
-decorativeBlockGroupDesc,blocks,Block,New,An item of mostly decorative value.\n [ Crafted in Decorating Station.. ]\n [ Crafted in Advanced Workbench. ],,,,
+decorativeBlockGroupDesc,blocks,Block,New,An item of mostly decorative value.\n [ Crafted in Decorating Station. ]\n [ Crafted in Advanced Workbench. ],,,,
 inpGrpPlayerControlName,UI,Controls Dialog,,Player movement,,,,
 inpGrpPlayerControlDesc,UI,Controls Dialog,,"Controlling your character, interacting with the world",,,,
 inpGrpToolbeltName,UI,Controls Dialog,,Toolbelt,,,,
@@ -5422,7 +5422,7 @@ steelGlovesBlack,items,Item Clothes,,Steel Gloves (Black),,,,
 sewingKit,items,Item,,Sewing Kit,,,,
 sewingKitDesc,items,Item,,The sewing kit is used in the Tailors Station to tailor clothing.,,,,
 weldingTorch,items,Item,,Welding Torch,,,,
-weldingTorchDesc,items,Item,,This is used at the Anvil to craft metallic armors.,,,,
+weldingTorchDesc,items,Item,,This is used at the Tailor Station to craft metallic armors.,,,,
 HelmetLightDesc,items,Item Clothes,,This helmet has a flashlight taped to its side to double as a headlamp.,,,,
 ironHelmetLight,items,Item Clothes,,Iron Helmet (Light),,,,
 militaryHelmetLight,items,Item Clothes,,Military Helmet (Light),,,,
@@ -5945,7 +5945,7 @@ electricClubSpikedDesc,items,Melee,New,A badass club with sharp spikes. Added ch
 woodTable2,blocks,Block,KgNone,Food Prep Table,Table en bois,Holztisch,,Mesa de madera
 woodTable2Desc,blocks,Block Building,,This table can be used to prepare all sorts of delicious food.,,,,
 venomGland,items,Food,New,Venom Gland,,,,
-venomGlandDesc,items,Food,New,"Can be eaten to build up an immunity to venom, but if you are not carefull it can be deadly.",,,,
+venomGlandDesc,items,Food,New,"Use this gland harvested from a snake to create Anti Venom at a Chemistry Station.",,,,
 cntTrapChestUpgrade,blocks,Container,KgNone,Unarmed Trap Storage Chest,,,,
 cntTrapChestUpgradeDesc,blocks,Container,KgNone,Use a remote to arm the trap chest.\n [ Crafted in Advanced Workbench. ],,,,
 hiddenDoorDesc,blocks,Block Building,,Use a remote to upgrade the placement block as well as open and close the hidden door.,,,,
@@ -6420,9 +6420,9 @@ stoneFence1,,,,Stone Fencing,,,,
 stoneFence1Desc,,,,Oversized stone fence and post set meant to be used together,,,,
 stonePost1,,,,Stone Post Large,,,,
 tableWood1,,,,Small Wood Table,,,,
-tableWood1Desc,,,,This table looks nice and all but good luck using it for anything\n [ Crafted in Decorating Station.. ],,,,
+tableWood1Desc,,,,This table looks nice and all but good luck using it for anything\n [ Crafted in Decorating Station. ],,,,
 tableWood2,,,,Round Wood Table,,,,
-tableWood2Desc,,,,Dont mind the coffee stain but wouldnt a plant look GREAT on this\n [ Crafted in Decorating Station.. ],,,,
+tableWood2Desc,,,,Dont mind the coffee stain but wouldnt a plant look GREAT on this\n [ Crafted in Decorating Station. ],,,,
 kitchenTable1,,,,Plastic Kitchen Table,,,,
 kitchenTable2,,,,Wooden Kitchen Table,,,,
 trellis,,,,Trellis,,,,
@@ -6505,11 +6505,11 @@ largeStove01,blocks,Workstation,KgNone,Stove (White),Feu de camp,Lagerfeuer,,Fog
 largeStove02,blocks,Workstation,KgNone,Stove (Stainless Steel),Feu de camp,Lagerfeuer,,Fogata
 largeStove03,blocks,Workstation,KgNone,Stove (Red),Feu de camp,Lagerfeuer,,Fogata
 woodSink01,,,,Sink Cabinet (Storage),,,,
-woodSink01Desc,,,,Much better than what those OTHER people own\n [ Crafted in Decorating Station.. ],,,,
+woodSink01Desc,,,,Much better than what those OTHER people own\n [ Crafted in Decorating Station. ],,,,
 newDishwasher01,,,,Small Dishwasher (Red),,,,
 newDishwasher02,,,,Small Dishwasher (White),,,,
 newDishwasher03,,,,Small Dishwasher(Stainless Steel),,,,
-newDishwasher01Desc,,,,Yeah good luck getting me to wash the dishes AFTER everyone is dead\n [ Crafted in Decorating Station.. ],,,,
+newDishwasher01Desc,,,,Yeah good luck getting me to wash the dishes AFTER everyone is dead\n [ Crafted in Decorating Station. ],,,,
 largeDishwasher01,,,,Dishwasher (Red),,,,
 largeDishwasher02,,,,Dishwasher (White),,,,
 largeDishwasher03,,,,Dishwasher (Stainless Steel),,,,
@@ -6822,10 +6822,10 @@ dryingRack,blocks,Station Terrain,,Drying Rack,,,,
 dryingRackDesc,blocks,Station Terrain,,Allows you to dry and cure leather and hides as well as combine leather strips and craft paper.,,,,
 ScrapIronGate3x2R1,,,,Metal Gate,,,,
 WoodGate3x2R1,,,,Wooden Gate,,,,
-WoodGate3x2R1Desc,,,,A gate that swing open and closed.\n [ Crafted in Decorating Station.. ],,,,
-ScrapIronGate3x2R1Desc,,,,A gate that swing open and closed.\n [ Crafted in Decorating Station.. ],,,,
+WoodGate3x2R1Desc,,,,A gate that swing open and closed.\n [ Crafted in Decorating Station. ],,,,
+ScrapIronGate3x2R1Desc,,,,A gate that swing open and closed.\n [ Crafted in Decorating Station. ],,,,
 stove,,,,Iron Stove,,,,
-stoveDesc,,,,An iron stove that gets the job done.\n [ Crafted in Decorating Station.. ],,,,
+stoveDesc,,,,An iron stove that gets the job done.\n [ Crafted in Decorating Station. ],,,,
 plantedAppleTree1,,,,Apple Seeds,,,,
 railingBenchGroupDesc,blocks,Block,KgNone,A railing is very useful for not falling from high places.,Une rambarde permet d'éviter de tomber des espaces en hauteur.,"Ein Geländer ist sehr nützlich, um nicht von hochgelegenen Orten zu fallen.",,Una barandilla es muy útil para no caerte desde lugares altos.
 railingMetalGroupDesc,blocks,Block,KgNone,A railing is very useful for not falling from high places.,Une rambarde permet d'éviter de tomber des espaces en hauteur.,"Ein Geländer ist sehr nützlich, um nicht von hochgelegenen Orten zu fallen.",,Una barandilla es muy útil para no caerte desde lugares altos.
@@ -6859,11 +6859,11 @@ oldRadio,,,,Old Radio,,,,
 oldRadioDesc,,,,Just static but you keep it on just in case.,,,,
 oldVan,,,,Mystery Machine,,,,
 fuelStorage,,,,Fuel Tank (Storage),,,,
-fuelStorageDesc,,,,A great tank for storing your fuel.\n [ Crafted in Decorating Station.. ],,,,
+fuelStorageDesc,,,,A great tank for storing your fuel.\n [ Crafted in Decorating Station. ],,,,
 medicalStorage,,,,Medical Box (Storage),,,,
 medicalStorageDesc,,,,An old health kit where you can store your meds.,,,,
 coffinBlack,,,,Black Coffin (Storage),,,,
-coffinsDesc,,,,So I guess storing your stuff in here is pretty cool if it doe not drive you mad.\n [ Crafted in Decorating Station.. ],,,,
+coffinsDesc,,,,So I guess storing your stuff in here is pretty cool if it doe not drive you mad.\n [ Crafted in Decorating Station. ],,,,
 coffinBrown,,,,Brown Coffin (Storage),,,,
 coffinRed,,,,Red Coffin (Storage),,,,
 buildingHut01,,,,Broken Building,,,,
@@ -6871,7 +6871,7 @@ buildingHut01Desc,,,,Good for keeping out of the elements but very unsecured,,,,
 pottedplantsBlockGroupDesc,,,,They say a plant helps your living space breathe a little and boy do we need that now.,,,,
 grilledMeat,items,Food,KgNone,Grilled Meat,Viande grillée,Gegrilltes Wildbret,,Carne a la parrilla
 grilledMeatDesc,items,Food,EnChanged,"Meat! Meat on fire! Good! Nutritious, filling and will boost your wellness.","Viande ! Viande cuite ! Bonne ! Nourrit, remplit et améliore votre bien-être. Susceptible d'attirer des zombies si vous la portez.","Fleisch! Fleisch auf Feuer! Gut! Nahrhaft, sättigend und erhöht dein Wohlbefinden.",,"¡Carne! ¡Carne cocinada! ¡Bien! Es nutritiva, te saciará y mejorará tu bienestar. Puede atraer zombis si la llevas encima."
-newfurnitureGroupDesc,blocks,Block,KgNone,Furniture can make your place look pretty but it usually has little defensive value.\n [ Crafted in Decorating Station.. ]\n [ Crafted in Advanced Workbench. ]\n [ Crafted in Decorating Station.. ],"Le mobilier peut embellir votre chez-vous, mais son apport défensif est très limité.","Möbel sind eine schöne Dekoration, aber sie haben gewöhnlich einen niedrigen Verteidigungswert.",,"El mobiliario sirve para hacer que tu casa sea acogedora, pero no sirve para defenderse."
+newfurnitureGroupDesc,blocks,Block,KgNone,Furniture can make your place look pretty but it usually has little defensive value.\n [ Crafted in Decorating Station. ],"Le mobilier peut embellir votre chez-vous, mais son apport défensif est très limité.","Möbel sind eine schöne Dekoration, aber sie haben gewöhnlich einen niedrigen Verteidigungswert.",,"El mobiliario sirve para hacer que tu casa sea acogedora, pero no sirve para defenderse."
 maniacPowder,,,,Blue Ice,,,,
 maniacPowderDesc,,,,You may not have an RV but that janky little fella taught you well and this does provide an insane burst of energy.\n [ Crafted in Chemistry Station with a Beaker. ],,,,
 HouseholdChemicals,items,Item,KgNone,House Cleaning Supplies,,,,
@@ -7204,9 +7204,6 @@ damagedVanD0,,,,Old Van,,,,
 damagedVanD1,,,,Damaged Old Van,,,,
 damagedVanD2,,,,Wrecked Old Van,,,,
 FireTruck,,,,Fire Truck,,,,
-SemiTruck01,,,,Semi-Truck,,,,
-SemiTruck02,,,,Semi-Truck,,,,
-SemiTruck03,,,,Semi-Truck,,,,
 SteamTrain,,,,Steam Engine,,,,
 transporter01D0,,,,Old Truck,,,,
 transporter01D1,,,,Damaged Old Truck,,,,
@@ -7215,7 +7212,7 @@ transporter02D0,,,,Old Tanker Truck,,,,
 transporter02D1,,,,Damaged Old Tanker Truck,,,,
 transporter02D2,,,,Wrecked Old Tanker Truck,,,,
 vintageCloset,,,,Wardrobe Closet (Storage),,,,
-vintageClosetDesc,,,,This old wardrobe closet is perfect for storing those old unused clothes.\n [ Crafted in Decorating Station.. ],,,,
+vintageClosetDesc,,,,This old wardrobe closet is perfect for storing those old unused clothes.\n [ Crafted in Decorating Station. ],,,,
 gunLocker,,,,Gun Locker (Storgae),,,,
 gunLockerDesc,,,,Made of sturdy metal this locker is the perfect addition for storing your firearms and weapons.\n [ Crafted in Decorating Station. ],,,,
 tarp,,,,Tarp,,,,
@@ -7232,3 +7229,14 @@ ElevatorShaftDesc,,,,Use this to reach the next floor. This can be placed on top
 ElevatorShaftSmallDesc,,,,Use this to reach the next floor. This can be placed on top of any elevator part. Requires a 3x3 space 1 block high.\n [ Crafted in Advanced Workbench. ],,,,
 ElevatorPlatformBaseDesc,,,,Ground floor requires a 2x2 space 1 blocks high. Sits 1 block bellow the floor. Place floor levels at any height directly above the base. You can place upto 8 additional floors. Use the numpad to select a floor while standing on the platform.\n [ Crafted in Advanced Workbench. ],,,,
 ElevatorPlatformFloorDesc,,,,Adds additional floors to your lift. Requires a 2x2 space 1 block high and can only be placed directly above to base. You can have a total of 9 floors including the ground.\n [ Crafted in Advanced Workbench. ],,,,
+SemiTruck01,,,,Blue Semi-Truck,,,,
+SemiTruck01r,,,,Red Semi-Truck,,,,
+SemiTruck01w,,,,White Semi-Truck,,,,
+SemiTruck02,,,,Blue Semi-Truck,,,,
+SemiTruck02r,,,,Red Semi-Truck,,,,
+SemiTruck02w,,,,White Semi-Truck,,,,
+SemiTruck03,,,,Blue Semi-Truck,,,,
+SemiTruck03r,,,,Red Semi-Truck,,,,
+SemiTruck03w,,,,White Semi-Truck,,,,
+antiVenom,,,,Anti Venom,,,,
+antiVenomDesc,,,,Crafted using a Venom Gland, Blood Bag and Honey this will cure a Snake Bite.\n [ Crafted in Chemistry Station using a Beaker. ],,,,

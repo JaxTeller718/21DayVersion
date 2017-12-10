@@ -998,16 +998,16 @@
 		<reward type="Exp" value="300"/>
 	</quest>
 	<quest id="challenge_junkhunt1" group_name_key="Hunt For Junk" name_key="Scavenging For Orphans 1/2" subtitle_key="Scavenging For Orphans" offer_key="A little orphan girl showed up at the tradingpost and won't stop crying about her lost teddy.  Find her a teddy bear and you will be rewarded!" description_key="Find a teddy bear and you will be rewarded!!" icon="ui_game_symbol_rubberDoll" category_key="challenge" difficulty="medium">
-		<objective type="FetchKeep" id="clothTeddyBear" value="1"/>
+		<objective type="Fetch" id="clothTeddyBear" value="1"/>
 		<reward type="Exp" value="400"/>
 		<reward type="SkillPoints" value="1"/>
 		<reward type="Quest" id="challenge_junkhunt2"/>
 	</quest>
 	<quest id="challenge_junkhunt2" group_name_key="Hunt For Junk" name_key="Scavenging For Orphans 2/2" subtitle_key="Scavenging For Orphans" offer_key="That girl's brother just showed up.  All he talks about is becoming a zombie killing soldier and is missing his toy soldier collection.  Collect some toy soldiers and you will be rewarded!  Are you up for this one too?" description_key="Collect some toy soldiers and you will be rewarded!" icon="ui_game_symbol_plasticSoldier" category_key="challenge" difficulty="medium">
-		<objective type="FetchKeep" id="plasticSoldier" value="1"/>
-		<objective type="FetchKeep" id="woodSoldier" value="1"/>
-		<objective type="FetchKeep" id="ironSoldier" value="1"/>
-		<objective type="FetchKeep" id="leadSoldier" value="1"/>
+		<objective type="Fetch" id="plasticSoldier" value="1"/>
+		<objective type="Fetch" id="woodSoldier" value="1"/>
+		<objective type="Fetch" id="ironSoldier" value="1"/>
+		<objective type="Fetch" id="leadSoldier" value="1"/>
 		<reward type="Exp" value="800"/>
 		<reward type="SkillPoints" value="2"/>
 	</quest>
@@ -1022,7 +1022,7 @@
 	</quest>
 	<quest id="challenge_feedthemole1" group_name_key="Feeding the Clubhouse"  name_key="Feeding the Clubhouse 2/3" subtitle_key="Feeding the Clubhouse" description_key="Gather some raw meat for the boys to cook up on the campfire." icon="ui_game_symbol_fork" 	repeatable="true" category_key="challenge" offer_key="Jax and the boys are hungry and need a day's worth of food. Fetch him some and he might reward you Prospect." difficulty="easy">
 		<action type="TrackQuest"/>
-		<objective type="FetchKeep" id="rawMeat" value="6"/>
+		<objective type="Fetch" id="rawMeat" value="6"/>
 		<reward type="Item" id="cookingGrill" value="1"/>
 		<reward type="Exp" value="400"/>
 		<reward type="SkillPoints" value="3"/>
@@ -1030,7 +1030,7 @@
 	</quest>
 	<quest id="challenge_feedthemole2"  group_name_key="Feeding the Clubhouse" name_key="Feeding the Clubhouse 3/3" subtitle_key="Feeding the Clubhouse" description_key="The guys are thirsty. Fetch some cans and water and cook them up.." icon="ui_game_symbol_fork" 	repeatable="true" category_key="challenge" offer_key="Jax and the boys are hungry and need a day's worth of food. Fetch him some and he might reward you Prospect." difficulty="easy">
 		<action type="TrackQuest"/>
-		<objective type="FetchKeep" id="canMurkyWater" value="2"/>
+		<objective type="Fetch" id="canMurkyWater" value="2"/>
 		<reward type="Item" id="cookingPot" value="1"/>
 		<reward type="Item" id="MRE" value="2"/>
 		<reward type="Item" id="PurifiedWater" value="2"/>

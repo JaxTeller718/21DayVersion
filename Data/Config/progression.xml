@@ -1608,7 +1608,7 @@
 			<recipe name="toolHeadSteelAxe" unlock_level="3"/>
 			<recipe name="toolHeadSteelHoe" unlock_level="3"/>
 		</perk>
-		<crafting_skill name="Cooking"   icon="run" description_key="The higher your skill in cooking the faster you can craft meals." title_key="Cooking"  max_level="10" skill_point_cost_multiplier="0" skill_point_cost_per_level="3" group="crafting">
+		<crafting_skill name="Cooking"   icon="run" description_key="The higher your skill in cooking the faster you can craft meals." title_key="Cooking"  max_level="10" skill_point_cost_multiplier="0" skill_point_cost_per_level="3"  exp_to_level="5000000" group="crafting">
 			<effect name="CraftingTime">
 				<multiply skill_level="0,1" value="1.0,0.95"/>
 				<multiply skill_level="1,2" value="0.95,0.90"/>
@@ -1622,7 +1622,7 @@
 				<multiply skill_level="9,10" value="0.55,0.50"/>
 			</effect>
 		</crafting_skill>
-		<perk name="Advanced Cooking"  icon="run" description_key="Learn new recipes from buying this perk." title_key="Advanced Cooking" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
+		<perk name="Advanced Cooking"  icon="run" description_key="Learn new recipes from buying this perk." title_key="Advanced Cooking" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5"  exp_to_level="5000000" group="crafting">
 			<requirement perk_level="1" required_skill_name="Cooking" required_skill_level="1"/>
 			<requirement perk_level="2" required_skill_name="Cooking" required_skill_level="2"/>
 			<requirement perk_level="3" required_skill_name="Cooking" required_skill_level="3"/>
@@ -2415,7 +2415,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="Traps"  icon="misc_crafting" description_key="Learn how to craft improvised traps." title_key="Traps" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+		<perk name="Traps"  icon="misc_crafting" description_key="Learn how to craft improvised traps." title_key="Traps" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5"  exp_to_level="5000000" group="weapons">
 			<requirement perk_level="1" required_player_level="5"/>
 			<recipe name="woodLogSpike1" unlock_level="1"/>
 			<recipe name="barbedFence" unlock_level="1"/>

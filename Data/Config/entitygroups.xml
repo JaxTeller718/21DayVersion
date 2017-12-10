@@ -5037,7 +5037,6 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS5617">
 		<entity name="zombieMoe"/>
-		<entity name="zombieFatCopFeral" prob="1.012"/>
 		<entity name="zombieMaleHazmat"/>
 		<entity name="zombieBusinessManFeral" prob="1.573"/>
 		<entity name="zombieNurse"/>
@@ -5124,7 +5123,6 @@
 		<entity name="zombieSkateboarder"/>
 		<entity name="zombieFatHawaiianFeral" prob="1.387"/>
 		<entity name="zombieBoeFeral" prob="1.618"/>
-		<entity name="zombieFatCop" prob="1.125"/>
 	</entitygroup>
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  end: auto generated sleeper horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  start: auto generated scout horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->

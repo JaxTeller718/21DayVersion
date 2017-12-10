@@ -3949,11 +3949,6 @@
 		<ingredient name="corn" count="4"/>
 		<ingredient name="dinnerPlate" count="1"/>
 	</recipe>
-	<recipe name="butcherKnife" count="1">
-		<ingredient name="toolHeadKnifeBlade" count="1"/>
-		<ingredient name="wood" count="10"/>
-		<ingredient name="leather" count="1"/>
-	</recipe>
 	<recipe name="skinningKnife2" count="1">
 		<ingredient name="toolHeadKnifeBlade" count="1"/>
 		<ingredient name="wood" count="10"/>
@@ -5642,6 +5637,7 @@
 		<ingredient name="forgedIron" count="25"/>
 		<ingredient name="Twine" count="3"/>
 		<ingredient name="wood" count="50"/>
+		<ingredient name="anvil" count="1"/>
 	</recipe>
 	<recipe name="BigForge" count="1">
 		<ingredient name="rockSmall" count="200"/>
@@ -7295,5 +7291,10 @@
 		<ingredient name="spring" count="15"/>
 		<ingredient name="mechanicalParts" count="20"/>
 		<ingredient name="electricParts" count="15"/>
+	</recipe>
+	<recipe name="antiVenom" count="1" craft_area="chemistryStation" craft_tool="beaker">
+		<ingredient name="foodHoney" count="1"/>
+		<ingredient name="bloodBag" count="1"/>
+		<ingredient name="venomGland" count="1"/>
 	</recipe>
 </recipes>

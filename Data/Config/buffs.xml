@@ -484,4 +484,7 @@
 						<buff id="rottedApple" duration="30" stack="extend" actions="increment(@wellness, -.5, 14, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="Rotten Apple" description_key="You have eaten a rotten apple and have become sick" tooltip_key="Oh No A Bad Apple" causes="Apple">
 							<modify id="0" stat="water" amount="-1" rate="2"/>
 						</buff>
+		<buff id="snakeBite" duration="9000" stack="reset" actions="debuff(firstAid)" type="speedmodifier" icon="ui_game_symbol_scorpionBuff" name_key="Snake Bite" description_key="Your snake bite will slow you down. Use Anti Venom crafted from a Venom Gland to cure it" tooltip_key="You Have Been Bitten By A Snake!"   cures="antiVenom">
+			<modify id="0" stat="speedmodifier" mulValue="0.6"/>
+		</buff>
 					</buffs>

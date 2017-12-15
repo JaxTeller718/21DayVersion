@@ -82,6 +82,7 @@
 	<!-- Basic Survival 10 - Craft a Spear /> -->
 	<quest id="quest_BasicSurvival10" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival10" subtitle="Craft A Spear" subtitle_key="quest_BasicSurvival10_subtitle" description_key="quest_BasicSurvival10_description" 	icon="ui_game_symbol_knife" category_key="quest" difficulty="veryeasy">
 		<objective type="FetchKeep" id="wood" value="20"/>
+		<objective type="Craft" id="stick" value="60"/>
 		<objective type="Craft" id="woodtippedSpear" value="1"/>
 		<reward type="Quest" id="quest_BasicSurvival11"/>
 	</quest>
@@ -120,7 +121,7 @@
 	<!-- CHALLENGES -->
 	<quest id="challenge_silenceofthelambs" name_key="challenge_silenceofthelambs" subtitle_key="challenge_silenceofthelambs_subtitle" description_key="challenge_silenceofthelambs_offer" icon="ui_game_symbol_zombie" 	repeatable="true" category_key="challenge" offer_key="challenge_silenceofthelambs_offer" difficulty="insane">
 		<objective type="Time" value="1200" optional="true"/>
-		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="3"/>
+		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral,zombieScreamer5,zombieScreamer6,zombieScreamer7" value="3"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>
 		<reward type="SkillPoints" value="5" optional="true"/>
@@ -146,7 +147,7 @@
 	</quest>
 	<quest id="challenge_copanattitude" name_key="challenge_copanattitude" subtitle_key="challenge_copanattitude_subtitle" description_key="challenge_copanattitude_offer" icon="ui_game_symbol_zombie"	repeatable="true" category_key="challenge" offer_key="challenge_copanattitude_offer" difficulty="hard">
 		<objective type="Time" value="1500" optional="true"/>
-		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="2"/>
+		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated,zombieFatCop3,zombieFatCop5" value="2"/>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>
 		<reward type="SkillPoints" value="5" optional="true"/>
@@ -189,20 +190,23 @@
 	<quest id="challenge_yournothingspecial" name_key="challenge_yournothingspecial" subtitle_key="challenge_yournothingspecial_subtitle" description_key="challenge_yournothingspecial_offer" icon="ui_game_symbol_zombie"	repeatable="true" category_key="challenge" offer_key="challenge_yournothingspecial_offer" difficulty="insane">
 		<objective type="Time" value="1800" optional="true"/>
 		<objective type="ZombieKill" id="zombieSpider,zombieSpiderFeral,zombieSpiderFeralRadiated" value="1"/>
-		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="1"/>
+		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated,zombieFatCop3,zombieFatCop5" value="1"/>
 		<objective type="ZombieKill" id="zombieWightFeral,zombieWightFeralRadiated" value="1"/>
-		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="1"/>
-		<objective type="ZombieKill" id="zombieBurnt" value="1"/>
+		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral,zombieScreamer5,zombieScreamer6,zombieScreamer7" value="1"/>
+		<objective type="ZombieKill" id="zombieBurnt,zombieBurnt3,zombieBurnt4,zombieBurnt5,zombieBurnt6" value="1"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="SkillPoints" value="5" optional="true"/>
 	</quest>
 	<quest id="challenge_imalumberjackandimokay" name_key="challenge_imalumberjackandimokay" subtitle_key="challenge_imalumberjackandimokay_subtitle" description_key="challenge_imalumberjackandimokay_offer" icon="ui_game_symbol_zombie"	repeatable="true" category_key="challenge" offer_key="challenge_imalumberjackandimokay_offer" difficulty="hard">
 		<objective type="Time" value="900" optional="true"/>
-		<objective type="ZombieKill" id="zombieSnow,zombieSnowFeral" value="3"/>
+		<objective type="ZombieKill" id="zombieSnow,zombieSnowFeral,zombieSnow1,zombieSnow3,zombieSnow5,zombieSnow6" value="3"/>
 		<requirement type="Group" id="requirementGroupFireaxe" value="OR">
 			<requirement type="Holding" id="fireaxeIron"/>
 			<requirement type="Holding" id="fireaxeSteel"/>
+			<requirement type="Holding" id="legendaryFireaxe"/>
+			<requirement type="Holding" id="battleAxe"/>
+			<requirement type="Holding" id="FireaxeDiamond"/>
 		</requirement>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>
@@ -213,6 +217,8 @@
 		<requirement type="Group" id="requirementGroupShotgun" value="OR">
 			<requirement type="Holding" id="gunSawedOffPumpShotgun"/>
 			<requirement type="Holding" id="gunPumpShotgun"/>
+			<requirement type="Holding" id="DoubleBarrel"/>
+			<requirement type="Holding" id="gunBoomstick"/>
 		</requirement>
 		<reward type="SkillPoints" value="2"/>
 		<reward type="Exp" value="800"/>

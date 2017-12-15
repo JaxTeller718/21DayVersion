@@ -416,8 +416,8 @@
 			<!-- 6 -->
 			<property name="Magazine_size" value="15"/>
 			<property name="Magazine_items" value="9mmBullet, 9mmHPBullet, Unload"/>
-			<property name="Magazine_item_ray_counts" value="1, 1, 1"/>
-			<property name="Magazine_item_ray_spreads" value="0.85, 0.99, 0.85"/>
+			<property name="Magazine_item_ray_counts" value="1, 1"/>
+			<property name="Magazine_item_ray_spreads" value="0.85, 0.85"/>
 			<!-- .85 -->
 			<property name="Reload_time" value="2"/>
 			<property name="Bullet_icon" value="pistol"/>
@@ -680,8 +680,8 @@
 			<!-- 28 -->
 			<property name="Magazine_size" value="8"/>
 			<property name="Magazine_items" value="shotgunShell, shotgunSlug, Unload"/>
-			<property name="Magazine_item_ray_counts" value="8, 1, 8"/>
-			<property name="Magazine_item_ray_spreads" value="0.835,0.605,0.835"/>
+			<property name="Magazine_item_ray_counts" value="8, 1"/>
+			<property name="Magazine_item_ray_spreads" value="0.835,0.605"/>
 			<!-- .835 / .605 -->
 			<property name="Reload_time" value="2.6"/>
 			<property name="Bullet_icon" value="uzi"/>
@@ -753,8 +753,8 @@
 			<!-- 9 -->
 			<property name="Magazine_size" value="30"/>
 			<property name="Magazine_items" value="homemadeRifleBullet, 9mmBullet, 9mmHPBullet, Unload"/>
-			<property name="Magazine_item_ray_counts" value="1, 1"/>
-			<property name="Magazine_item_ray_spreads" value="0, 0"/>
+			<property name="Magazine_item_ray_counts" value="1, 1, 1"/>
+			<property name="Magazine_item_ray_spreads" value="0, 0, 0"/>
 			<property name="Reload_time" value="4.1"/>
 			<property name="Bullet_icon" value="uzi"/>
 			<property name="Sound_start" value="mp5_fire_start"/>
@@ -893,8 +893,8 @@
 			<!-- 36 -->
 			<property name="Magazine_size" value="1"/>
 			<property name="Magazine_items" value="762mmBullet, 762mmHPBullet, Unload"/>
-			<property name="Magazine_item_ray_counts" value="1, 1, 1"/>
-			<property name="Magazine_item_ray_spreads" value="0, 0, 0"/>
+			<property name="Magazine_item_ray_counts" value="1, 1"/>
+			<property name="Magazine_item_ray_spreads" value="0, 0"/>
 			<property name="Reload_time" value="2.66"/>
 			<property name="Bullet_icon" value="uzi"/>
 			<property name="Sound_start" value="hunting_rifle_fire"/>
@@ -1559,6 +1559,7 @@
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="PickupJournalEntry" value="toolheadTip"/>
 	</item>
 	<item id="106" name="tazasStoneaxe">
 		<property name="DescriptionKey" value="tazasStoneaxeDesc"/>
@@ -8057,6 +8058,7 @@
 		<property name="LootExpValue" value="1"/>
 		<property name="DescriptionKey" value="woodDesc"/>
 		<property name="CraftingIngredientTime" value="0.25"/>
+		<property name="PickupJournalEntry" value="stickTip"/>
 	</item>
 	<item id="1302" name="crushedSand">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8087,6 +8089,7 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="Group" value="Resources"/>
 		<property name="MeltTimePerUnit" value="0.7"/>
+		<property name="PickupJournalEntry" value="scavengingTip"/>
 	</item>
 	<item id="1305" name="scrapIron">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8104,6 +8107,7 @@
 		<property name="RepairAmount" value="20"/>
 		<property name="MeltTimePerUnit" value="0.5"/>
 		<property name="CraftingIngredientTime" value="0.2"/>
+		<property name="PickupJournalEntry" value="scavengingTip"/>
 	</item>
 	<item id="1306" name="forgedIron">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8185,6 +8189,7 @@
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
+		<property name="PickupJournalEntry" value="leathermakingTip"/>
 	</item>
 	<item id="1313" name="leather">
 		<!-- scrap material -->
@@ -8200,6 +8205,7 @@
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="Weight" value="5"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
+		<property name="PickupJournalEntry" value="leathermakingTip"/>
 	</item>
 	<item id="1314" name="hopsFlower">
 		<property name="CustomIcon" value="plantedHop3Harvest"/>
@@ -14152,6 +14158,7 @@
 		<property name="Stacknumber" value="500"/>
 		<property name="FuelValue" value="20"/>
 		<property name="Group" value="Books"/>
+		<property name="PickupJournalEntry" value="kpTip"/>
 	</item>
 	<item id="2697" name="survivorNotes">
 		<property name="DescriptionKey" value="survivorNotes2Desc"/>
@@ -14163,6 +14170,7 @@
 		<property name="Stacknumber" value="500"/>
 		<property name="FuelValue" value="20"/>
 		<property name="Group" value="Books"/>
+		<property name="PickupJournalEntry" value="kpTip"/>
 	</item>
 	<item id="2698" name="Admin 5 Skillpoints">
 		<property name="CustomIcon" value="survivorNotes"/>
@@ -16912,6 +16920,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<property name="FuelValue" value="20"/>
 		<property name="Group" value="Resources"/>
+		<property name="PickupJournalEntry" value="weaponpartsTip"/>
 	</item>
 	<item id="2985" name="Solder">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -17083,6 +17092,7 @@
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="DescriptionKey" value="carpartsdesc"/>
 		<property name="Group" value="Resources"/>
+		<property name="PickupJournalEntry" value="carpartsTip"/>
 	</item>
 	<!-- New item will be Katana -->
 	<item id="3081" name="katanamichonne">
@@ -17154,6 +17164,7 @@
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="Weight" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
+		<property name="PickupJournalEntry" value="leathermakingTip"/>
 	</item>
 	<!-- items needed to scrap Xyth junk into -->
 	<item id="3" name="itemMaster">

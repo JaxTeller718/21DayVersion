@@ -5751,4 +5751,19 @@
 		<ingredient name="nail" count="5"/>
 		<ingredient name="brokenGlass" count="10"/>
 	</recipe>
+	<recipe name="carBattery" count="1" craft_area="NewWorkBench">
+		<ingredient name="car_parts" count="150"/>
+		<ingredient name="electricParts" count="10"/>
+		<ingredient name="electricCharge" count="4"/>
+	</recipe>
+	<recipe name="HDBattery" count="1" craft_area="NewWorkBench">
+		<ingredient name="car_parts" count="500"/>
+		<ingredient name="electricParts" count="10"/>
+		<ingredient name="electricCharge" count="4"/>
+	</recipe>
+	<recipe name="ECOBattery" count="1" craft_area="NewWorkBench">
+		<ingredient name="car_parts" count="250"/>
+		<ingredient name="electricParts" count="10"/>
+		<ingredient name="electricCharge" count="4"/>
+	</recipe>
 </recipes>

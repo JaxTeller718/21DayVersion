@@ -5110,7 +5110,7 @@
 		</property>
 		<drop event="Harvest" name="cottonPlant" count="1,10" tool_category="Disassemble"/>
 		<drop event="Harvest" name="mechanicalParts" count="1,2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="leatherStrips" count="2,4" tool_category="harvestingTools"/>
+		<drop event="Destroy" name="leatherStrips" count="1,3" tool_category="harvestingTools"/>
 		<drop event="Destroy" name="scrapIron" count="5" tool_category="harvestingTools"/>
 		<property name="EconomicValue" value="65"/>
 	</block>
@@ -5411,7 +5411,7 @@
 		</property>
 		<drop event="Harvest" name="wood" count="5"/>
 		<drop event="Harvest" name="cottonPlant" count="1"/>
-		<drop event="Harvest" name="leatherStrips" count="5"/>
+		<drop event="Harvest" name="leatherStrips" count="3"/>
 		<drop event="Harvest" name="Remote" count="1" prob="0.02"/>
 		<drop event="Harvest" name="nail" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" name="oldCash" count="1,3" prob="0.02"/>
@@ -5492,7 +5492,7 @@
 		<drop event="Harvest" name="rockSmall" count="30" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="rockSmall" count="20" tool_category="Disassemble"/>
 		<drop event="Harvest" name="clayLump" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="leatherStrips" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="leatherStrips" count="3" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
@@ -7040,7 +7040,7 @@
 		<drop event="Harvest" name="rockSmall" count="30" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="rockSmall" count="20" tool_category="Disassemble"/>
 		<drop event="Harvest" name="clayLump" count="20" tool_category="Disassemble"/>
-		<drop event="Harvest" name="leatherStrips" count="5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="leatherStrips" count="3" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
@@ -13548,29 +13548,29 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="ShowModelOnFall" value="false"/>
 		<property name="PassThroughDamage" value="true"/>
-		<drop event="Harvest" name="leatherStrips" count="2,7" prob="0.5"/>
+		<drop event="Harvest" name="leatherStrips" count="2,5" prob="0.5"/>
 		<drop event="Harvest" name="scrapPlastics" count="2,5"/>
 		<drop event="Harvest" name="scrapIron" count="10,20"/>
 		<drop event="Harvest" name="headlight" count="1" prob="0.2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Harvest" name="mechanicalParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="car_parts" count="1,5" prob="0.1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="car_parts" count="1,3" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electronicParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="car_parts" count="1,3" prob="0.25" tool_category="Mechanic"/>
 		<drop event="Harvest" name="carBattery" count="1" prob="0.02" tool_category="Mechanic"/>
 		<drop event="Harvest" name="radiator" count="1" prob="0.25" tool_category="Mechanic"/>
 		<drop event="Harvest" name="oil" count="1,3" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="cloth" count="3,7"  tool_category="Mechanic"/>
-		<drop event="Harvest" name="spring" count="2,4" tool_category="Mechanic"/>
+		<drop event="Harvest" name="spring" count="1,2" tool_category="Mechanic"/>
 		<drop event="Harvest" name="scrapIron" count="10,35" tool_category="Mechanic"/>
-		<drop event="Harvest" name="shortMetalPipe" count="5" prob="0.5" tool_category="Mechanic"/>
-		<drop event="Harvest" name="gasCan" count="25,50" prob="0.5" tool_category="Mechanic"/>
+		<drop event="Harvest" name="shortMetalPipe" count="3" prob="0.5" tool_category="Mechanic"/>
+		<drop event="Harvest" name="gasCan" count="10,20" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="leatherStrips" count="1,5" prob="0.5"  tool_category="Mechanic"/>
 		<drop event="Harvest" name="mechanicalParts" count="0,2" prob="0.1" tool_category="Mechanic"/>
 		<drop event="Harvest" name="electricParts" count="0,2" prob="0.1" tool_category="Mechanic"/>
 		<drop event="Harvest" name="electronicParts" count="0,2" prob="0.1" tool_category="Mechanic"/>
-		<drop event="Harvest" name="smallEngine" count="1" prob="0.15" tool_category="Mechanic"/>
+		<drop event="Harvest" name="smallEngine" count="1" prob="0.05" tool_category="Mechanic"/>
 		<!-- <drop event="Fall" name="cntCar03SedanDamage1" count="1" prob="1.0" stick_chance="1"/> -->
 		<property name="DowngradeBlock" value="cntCar03SedanDamage1"/>
 		<property name="BigDecorationRadius" value="5"/>
@@ -13621,29 +13621,28 @@
 		<drop event="Harvest" name="radiator" count="1" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="oil" count="1,5" prob="0.5" tool_category="Disassemble"/>
 		<drop event="Harvest" name="cloth" count="3,7" tool_category="Disassemble"/>
-		<drop event="Harvest" name="spring" count="2,5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="spring" count="2,3" tool_category="Disassemble"/>
 		<drop event="Harvest" name="ductTape" count="1,3" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="10,150" tool_category="Disassemble"/>
 		<drop event="Harvest" name="gasCan" count="20,250" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Harvest" name="mechanicalParts" count="2,8" tool_category="Disassemble"/>
-		<drop event="Harvest" name="car_parts" count="1,5" prob="0.1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="mechanicalParts" count="2,5" tool_category="Disassemble"/>
+		<drop event="Harvest" name="car_parts" count="1,3" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="1,6" tool_category="Disassemble"/>
-		<drop event="Harvest" name="electronicParts" count="1,5" prob="0.1" tool_category="Disassemble"/>
-		<drop event="Harvest" name="scrapIron" count="25"/>
+		<drop event="Harvest" name="electronicParts" count="1,3" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="car_parts" count="1,3" prob="0.25" tool_category="Mechanic"/>
 		<drop event="Harvest" name="carBattery" count="1" prob="0.02" tool_category="Mechanic"/>
 		<drop event="Harvest" name="radiator" count="1" prob="0.25" tool_category="Mechanic"/>
 		<drop event="Harvest" name="oil" count="1,3" prob="0.5" tool_category="Mechanic"/>
-		<drop event="Harvest" name="HDSmallEngine" count="1" prob="0.05" tool_category="Mechanic"/>
-		<drop event="Harvest" name="ECOSmallEngine" count="1" prob="0.12" tool_category="Mechanic"/>
-		<drop event="Harvest" name="HDBattery" count="1" prob="0.05" tool_category="Mechanic"/>
-		<drop event="Harvest" name="ECOBattery" count="1" prob="0.12" tool_category="Mechanic"/>
+		<drop event="Harvest" name="HDSmallEngine" count="1" prob="0.02" tool_category="Mechanic"/>
+		<drop event="Harvest" name="ECOSmallEngine" count="1" prob="0.05" tool_category="Mechanic"/>
+		<drop event="Harvest" name="HDBattery" count="1" prob="0.02" tool_category="Mechanic"/>
+		<drop event="Harvest" name="ECOBattery" count="1" prob="0.05" tool_category="Mechanic"/>
 		<drop event="Harvest" name="cloth" count="3,7"  tool_category="Mechanic"/>
-		<drop event="Harvest" name="spring" count="2,4" tool_category="Mechanic"/>
+		<drop event="Harvest" name="spring" count="1,3" tool_category="Mechanic"/>
 		<drop event="Harvest" name="scrapIron" count="10,35" tool_category="Mechanic"/>
-		<drop event="Harvest" name="shortMetalPipe" count="5" prob="0.5" tool_category="Mechanic"/>
-		<drop event="Harvest" name="gasCan" count="25,50" prob="0.5" tool_category="Mechanic"/>
+		<drop event="Harvest" name="shortMetalPipe" count="3" prob="0.5" tool_category="Mechanic"/>
+		<drop event="Harvest" name="gasCan" count="10,30" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="leatherStrips" count="1,5" prob="0.5"  tool_category="Mechanic"/>
 		<drop event="Harvest" name="mechanicalParts" count="0,2" prob="0.1" tool_category="Mechanic"/>
 		<drop event="Harvest" name="electricParts" count="0,2" prob="0.1" tool_category="Mechanic"/>
@@ -13698,15 +13697,14 @@
 		<drop event="Harvest" name="headlight" count="1" prob="0.45" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="20" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Harvest" name="mechanicalParts" count="1,5" tool_category="Disassemble"/>
-		<drop event="Harvest" name="car_parts" count="1,3" prob="0.1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="mechanicalParts" count="1,3" tool_category="Disassemble"/>
+		<drop event="Harvest" name="car_parts" count="1,2" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electricParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="12"/>
-		<drop event="Harvest" name="car_parts" count="1,3" prob="0.25" tool_category="Mechanic"/>
+		<drop event="Harvest" name="car_parts" count="1" prob="0.25" tool_category="Mechanic"/>
 		<drop event="Harvest" name="radiator" count="1" prob="0.25" tool_category="Mechanic"/>
 		<drop event="Harvest" name="oil" count="1,3" prob="0.5" tool_category="Mechanic"/>
 		<drop event="Harvest" name="spring" count="1,2" tool_category="Mechanic"/>
-		<drop event="Harvest" name="leatherStrips" count="1,5" prob="0.5"  tool_category="Mechanic"/>
 		<drop event="Harvest" name="mechanicalParts" count="0,2" prob="0.1" tool_category="Mechanic"/>
 		<drop event="Harvest" name="electronicParts" count="0,2" prob="0.1" tool_category="Mechanic"/>
 		<drop event="Harvest" name="smallEngine" count="1" prob="0.15" tool_category="Mechanic"/>
@@ -20520,7 +20518,7 @@
 		<property name="PlantGrowing.Next" value="plantedAppleTree3Harvest"/>
 		<property name="PlantGrowing.GrowthRate" value="180"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
-		<drop event="Harvest" name="wood" count="40" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
 	</block>
 	<block id="112" name="plantedAppleTree3Harvest">
@@ -20535,7 +20533,7 @@
 		<property name="IsPlant" value="true"/>
 		<property name="ParticleOnDeath" value="treeGib_burnt"/>
 		<property name="ModelOffset" value="0,0,0"/>
-		<drop event="Harvest" name="wood" count="80" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="wood" count="60" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="Apple" count="2"/>
 		<drop event="Destroy" name="Apple" count="1" prob="0.6" tool_category="harvestingTools"/>
 	</block>

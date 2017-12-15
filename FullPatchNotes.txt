@@ -754,6 +754,8 @@ Patch 2.09
 
 -Raised Barter xp to level slightly
 
+-Removed Baby Song that was causing some issues with Streamer Version
+
 ---------------------------------------------------------
 
 Patch 2.10
@@ -875,3 +877,30 @@ Patch 2.11
 -Removed Infected Survivor Zombie that may have been causing a server errors)
 
 -Added some more loot to the Night Terrors.
+
+-Increased stacks on some items to help with inventory lag.
+
+-Added Mutex to Bite Mark and Messy (They will now cancel when Infected)
+
+------------------------------------------------
+
+Patch 2.11.01 
+
+
+-Added Burnt, Cop, Snow and Screamer mod zombies to quests
+
+-Added new shotguns and axes to quests requiring them.
+
+-Fixed Damage issue on HP Bullets
+
+-Added Stick Journal Entry
+
+-Fixed Wood Spear Opening Quest to reflect needing sticks.
+
+-Reverted Blacksmith Station to the normal one. You may have to pick up and replace previously loaded stations to get it to work. There may be null errors but they will disappear the second you pick the station up.
+
+-Added Journal Entries for several items in how they work
+
+-Added Batteries craftable with Car Parts. LOTS of car parts.
+
+-Horde Night Gamestage Adjustments. Gamestage 1-100 will have a Max Alive of 1-5, over Stage 100 - 1000 will have 10-30, Stage 1000-2000 will have 30-40, Stage 2000-3000 will have 40-60, Stage 2000-4000 will have 60-80 and the final stages will have 100

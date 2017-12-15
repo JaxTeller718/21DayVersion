@@ -20595,8 +20595,6 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="DescriptionKey" value="AnvilDesc"/>
 		<property name="RecipeList" value="anvilBlock"/>
-		<property name="ParticleName" value="forge"/>
-		<property name="ParticleOffset" value="0,0,0.5"/>
 		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="HeatMapStrength" value="1"/>

@@ -1668,7 +1668,7 @@ clubIronDesc,items,Melee,KgNone,"Like a wooden club, but more durable and does m
 clubSpiked,items,Melee,KgNone,Spiked Club,Massue à pointes,Gespickter Knüppel,,Lucero del alba
 clubSpikedDesc,items,Melee,KgNone,A badass club with sharp spikes. Added chance for bleeding.,Une massue trop cool hérissée de pointes coupantes. Augmente les chances d'infliger une hémorragie.,Ein cooler Knüppel mit scharfen Nägeln. Erhöhte Chance auf Blutungen.,,Una intimidante garrote con clavos afilados. Posibilidad adicional de hemorragia.
 clubWood,items,Melee,KgNone,Wooden Club,Massue en bois,Holzknüppel,,Garrote de madera
-clubWoodDesc,items,Melee,KgNone,A wooden club. Good for breaking knees and skulls.,Une massue en bois. Parfaite pour briser des genoux et défoncer des crânes.,"Ein Holzknüppel. Eignet sich dazu, Kniescheiben und Schädel zu brechen.",,Un garrote de madera. Genial para romper rodillas y cabezas.
+clubWoodDesc,items,Melee,KgNone,A wooden club. Good for breaking knees and skulls.Unlock the Burning Club and using the wood club right click on an open fire to set it ablaze.,Une massue en bois. Parfaite pour briser des genoux et défoncer des crânes.,"Ein Holzknüppel. Eignet sich dazu, Kniescheiben und Schädel zu brechen.",,Un garrote de madera. Genial para romper rodillas y cabezas.
 huntingKnife,items,Melee,KgNone,Hunting Knife,Couteau de chasse,Jagdmesser,,Cuchillo de caza
 huntingKnifeDesc,items,Melee,KgNone,Great for slashing zombies and gutting animals for meat.,Idéal pour taillader des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombies aufzuschlitzen und Tiere auszuweiden.",,Genial para acuchillar zombis y destripar animales para conseguir comida.
 machete,items,Melee,KgNone,Machete,Machette,Machete,,Machete

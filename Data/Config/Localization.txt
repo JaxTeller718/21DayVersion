@@ -216,12 +216,12 @@ leatherChairCouchSofa,blocks,Block,KeyChanged EnChanged GrChanged,Leather Chair,
 leatherCouchSofa,blocks,Block,KeyChanged EnChanged GrChanged,Leather Sofa,Canapé 02,Ledersofa,,Sofá02
 painKillersTooltip,buffs,Buff,KeyCon KgNone,You took painkillers.,Vous avez pris des antidouleurs.,Du hast Schmerzmittel genommen.,,Tomaste analgésicos.
 airConditioner,blocks,Block,KgNone,Air Conditioner,Climatiseur,Klimaanlage,,Aire acondicionado
-alphabetLetterSignGroupDesc,blocks,Block,KgNone,Create your own billboards with these single letter signs.\n [ Crafted in Advanced Workbench. ],Créez vos propres panneaux grâce à ces lettres.,Erstelle mit diesen Buchstaben deine eigenen Plakatwände.,,Crea tus propios carteles con estas letras.
+alphabetLetterSignGroupDesc,blocks,Block,KgNone,Create your own billboards with these single letter signs.\n [ Crafted in Decorating Station. ],Créez vos propres panneaux grâce à ces lettres.,Erstelle mit diesen Buchstaben deine eigenen Plakatwände.,,Crea tus propios carteles con estas letras.
 awningGroupDesc,blocks,Block,KgNone,An awning made from cloth.,Une toile en tissu.,Eine Stoffplane.,,Un toldo hecho de tela.
 bed01,blocks,Block,KgNone,An Old Bed,Un vieux lit,Altes Bett,,Una cama vieja
 bed01Frame,blocks,Block,KgNone,Iron Bed Frame,Cadre de lit en fer,Eisenbettgestell,,Bastidor de cama de hierro
 bed02,blocks,Block,KgNone,King Size Bed,Grand lit,Doppelbett,,Cama king size
-bedGroupDesc,blocks,Block,KgNone,Placing it on the ground will let you spawn there when you die and then show the spot on your map.\n [ Crafted in Advanced Workbench. ],"En le plaçant à terre, vous pourrez réapparaître à cet endroit lorsque vous mourrez et il sera indiqué sur votre carte.","Wenn du dies platzierst, kannst du dort wiedererscheinen, falls du stirbst. Außerdem wird der Standort auf deiner Karte angezeigt.",,"Si la colocas en el suelo, revives allí cada vez que mueras. Además, se mostrará el lugar en el mapa."
+bedGroupDesc,blocks,Block,KgNone,Placing it on the ground will let you spawn there when you die and then show the spot on your map.\n [ Crafted in Decorating Station. ],"En le plaçant à terre, vous pourrez réapparaître à cet endroit lorsque vous mourrez et il sera indiqué sur votre carte.","Wenn du dies platzierst, kannst du dort wiedererscheinen, falls du stirbst. Außerdem wird der Standort auf deiner Karte angezeigt.",,"Si la colocas en el suelo, revives allí cada vez que mueras. Además, se mostrará el lugar en el mapa."
 bedroll,blocks,Block,KgNone,Bedroll,Sac de couchage,Schlafsack,,Saco de dormir
 boardedWindowsSheet4,blocks,Block,KgNone,Window Boards,Rebords de fenêtre,Fensterbretter,,Tapias
 brickBlock,blocks,Block,KgNone,Bricks,Briques,Ziegel,,Ladrillos
@@ -358,7 +358,7 @@ flagstoneStairs25,blocks,Block,KgNone,Flagstone Stairs,Escaliers en dalle,Steinp
 forestCNRCurb,blocks,Block,KgNone,Forest Corner Curb,Angle de bordure de chemin de forêt,Waldrand – Ecke,,Esquina del cordón forestal
 forestCurb,blocks,Block,KgNone,Forest Curb,Bordure de chemin de forêt,Waldrand,,Cordón forestal
 fountain,blocks,Block,KgNone,Fountain,Fontaine,Brunnen,,Fuente
-furnitureGroupDesc,blocks,Block,KgNone,Furniture can make your place look pretty but it usually has little defensive value.\n [ Crafted in Decorating Station. ]\n [ Crafted in Advanced Workbench. ],"Le mobilier peut embellir votre chez-vous, mais son apport défensif est très limité.","Möbel sind eine schöne Dekoration, aber sie haben gewöhnlich einen niedrigen Verteidigungswert.",,"El mobiliario sirve para hacer que tu casa sea acogedora, pero no sirve para defenderse."
+furnitureGroupDesc,blocks,Block,KgNone,Furniture can make your place look pretty but it usually has little defensive value.\n [ Crafted in Decorating Station. ],"Le mobilier peut embellir votre chez-vous, mais son apport défensif est très limité.","Möbel sind eine schöne Dekoration, aber sie haben gewöhnlich einen niedrigen Verteidigungswert.",,"El mobiliario sirve para hacer que tu casa sea acogedora, pero no sirve para defenderse."
 fusebox,blocks,Block,KgNone,Fusebox,Boîte à fusibles,Sicherungskasten,,Caja de fusibles
 garageDoorMetal_v1,blocks,Block,KgNone,Garage Door Metal,Porte de garage en métal,Metallenes Garagentor,,Puerta metálica de garaje
 garageDoorMetal_v2,blocks,Block,KgNone,Garage Door Metal v2,Porte de garage en métal v2,Metallenes Garagentor v2,,Puerta metálica de garaje v2
@@ -792,7 +792,7 @@ cntOven,blocks,Container,KgNone,Oven,Four,Ofen,,Horno
 cntPillCase,blocks,Container,KgNone,Pill Case,Étui à médicaments,Pillendose,,Pastillero
 cntPurse01,blocks,Container,KgNone,Purse,Sac à main,Handtasche,,Bolso
 cntSecureStorageChest,blocks,Container,KgNone,Secure Storage Chest,Coffre de rangement sécurisé,Gesicherte Aufbewahrungstruhe,,Cofre de almacenamiento seguro
-cntSecureStorageChestDesc,blocks,Container,KgNone,A basic storage box used to store stuff in. You can lock this box and code it by Holding E\n [ Crafted in Advanced Workbench. ],Maintenez [activate] pour le verrouiller ou définir un code.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación.
+cntSecureStorageChestDesc,blocks,Container,KgNone,A basic storage box used to store stuff in. You can lock this box and code it by Holding E\n [ Crafted in Decorating Station. ],Maintenez [activate] pour le verrouiller ou définir un code.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación.
 cntShoppingBasket,blocks,Container,KgNone,Shopping Basket,Panier à provisions,Einkaufskorb,,Cesto de compras
 cntShoppingCart,blocks,Container,KgNone,Shopping Cart,Charriot de courses,Einkaufswagen,,Carrito de compras
 cntSportsBag01,blocks,Container,KgNone,Rotting Sports Bag,Sac de sport en décomposition,Verrottende Sporttasche,,Bolsa deportiva podrida
@@ -817,7 +817,7 @@ cntWallOven,blocks,Container,KgNone,Wall Oven,Four mural,Wandofen,,Horno empotra
 cntWallSafe,blocks,Container,KgNone,Wall Safe,Coffre-fort mural,Wandtresor,,Caja fuerte empotrable
 cntWallSafeInsecure,blocks,Container,KgNone,Wall Safe Insecure,Coffre-fort mural précaire,Wandtresor ungesichert,,Caja fuerte empotrable poco segura
 largeStorageGroupDesc,blocks,Container,KgNone,A very large lockable crate with a handy symbol painted on the sides. Press & hold [activate] to lock it or set a combination.,Une très grosse caisse verrouillable avec un symbole pratique peint sur les côtés. Maintenez [activate] pour la verrouiller ou définir un code.,Eine sehr große abschließbare Kiste mit einem praktischen Symbol auf der Seite. Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Una gran caja con cerrojo con un símbolo muy útil pintado en los costados. Mantén presionado [activate] para cerrar con llave o para definir una combinación.
-refrigeratorGroupDesc,blocks,Container,KgNone,If food would ever spoil then it would be a good idea to keep it in here.\n [ Crafted in Advanced Workbench. ]\n [ Crafted in Decorating Station. ],"Si la nourriture périme, mieux vaut la conserver là-dedans.","Wenn Nahrung verderben würde, wäre es gut, sie hier drinnen aufzubewahren.",,Sería buena idea guardar aquí la comida que se pueda echar a perder.
+refrigeratorGroupDesc,blocks,Container,KgNone,If food would ever spoil then it would be a good idea to keep it in here.\n [ Crafted in Decorating Station. ],"Si la nourriture périme, mieux vaut la conserver là-dedans.","Wenn Nahrung verderben würde, wäre es gut, sie hier drinnen aufzubewahren.",,Sería buena idea guardar aquí la comida que se pueda echar a perder.
 treasureChest,blocks,Container,KgNone,Treasure Chest,Coffre au trésor,Schatztruhe,,Cofre del tesoro
 mushroom01Desc,blocks,Farming,KgNone,Mushrooms can be safely eaten uncooked or used in several recipes at the campfire.,"Les champignons peuvent être consommés crus sans risque, ou utilisés dans plusieurs compositions sur le feu de camp.",Pilze können problemlos roh gegessen oder in verschiedenen Rezepten am Lagerfeuer verwendet werden.,,Las setas se pueden comer sin ningún riesgo o usarse en varias recetas en la fogata.
 plantedAloe3Harvest,blocks,Farming,KgNone,Aloe Vera Plant (Harvestable),Aloe vera,Aloe-Vera-Pflanze,,Planta de aloe vera
@@ -1410,7 +1410,7 @@ bakedPotato,items,Food,KgNone,Baked Potato,Pomme de terre au four,Gebackene Kart
 bakedPotatoDesc,items,Food,KgNone,A nutritious baked potato full of carbohydrates. Great for couch potatoes too.\n [ Crafted in Advanced Campfire with a Cooking Grill and Stoves. ],Une pomme de terre au four qui regorge de féculents. C'est l'idéal pour les flemmards.,Eine nahrhafte Kartoffel voller Kohlenhydrate. Ideal für Couchkartoffeln.,,Una nutritiva papa asada repleta de carbohidratos. Genial para personas sedentarias.
 beer,items,Food,KgNone,Beer,Bière,Bier,,Cerveza
 blueberryPie,items,Food,KgNone,Blueberry Pie,Tarte aux myrtilles,Blaubeerkuchen,,Pastel de moras
-blueberryPieDesc,items,Food,KgNone,This homemade blueberry pie is nutritious and raises your wellness. Mmm...just like Grandma used to make.\n [ Crafted in Advanced Campfire and Stoves with a Frying Pan. ],Cette tarte aux myrtilles faite maison vous nourrit et améliore votre bien-être. Miam... Exactement comme celle que faisait mamie.,Dieser selbst gemachte Blaubeerkuchen ist nahrhaft und erhöht dein Wohlbefinden. Mmm … wie von der Oma.,,Este pastel de moras casero es nutritivo y mejora tu bienestar. Mmmm... Tal y como la abuela solía hacerlo.
+blueberryPieDesc,items,Food,KgNone,This homemade blueberry pie is nutritious and raises your wellness. Mmm...just like Grandma used to make.\n [ Crafted in Stoves with a Frying Pan. ],Cette tarte aux myrtilles faite maison vous nourrit et améliore votre bien-être. Miam... Exactement comme celle que faisait mamie.,Dieser selbst gemachte Blaubeerkuchen ist nahrhaft und erhöht dein Wohlbefinden. Mmm … wie von der Oma.,,Este pastel de moras casero es nutritivo y mejora tu bienestar. Mmmm... Tal y como la abuela solía hacerlo.
 boiledMeat,items,Food,KgNone,Boiled Meat,Viande bouillie,Gekochtes Fleisch,,Carne cocida
 boiledMeatDesc,items,Food,EnChanged,"While not as yummy as grilled meat, boiling is an efficient way to prepare a meal.","Bien qu'elle ait moins de goût que la viande grillée, la viande bouillie attire moins l'attention des zombies.",Es ist zwar nicht so lecker wie gegrilltes Wildbret aber mindestens so nahrhaft.,,"Aunque no sabe igual de bien que a la parrilla, la carne cocida es prácticamente imperceptible para los zombis."
 bottledRiverWater,items,Food,KgNone,Bottled Murky Water,Eau trouble en bouteille,Flasche trübes Wasser,,Agua turbia embotellada
@@ -1642,7 +1642,7 @@ yuccaFibers,items,Item,KgNone,Plant Fibers,Fibres végétales,Pflanzenfaser,,Fib
 aloeCream,items,Medical,KgNone,Aloe Cream,Pommade d'aloe vera,Aloe-Creme,,Crema de aloe
 aloeCreamDesc,items,Medical,KgNone,Aloe cream can be used to craft first aid bandages.\n [ Crafted in Mortar and Pestle. ],La pommade d'aloe vera sert à fabriquer des bandages médicaux.,Mit Aloe-Creme können Erste-Hilfe-Bandagen gefertigt werden.,,La crema de aloe se puede usar para elaborar vendajes de primeros auxilios.
 antibiotics,items,Medical,KgNone,Antibiotics,Antibiotiques,Antibiotika,,Antibióticos
-antibioticsDesc,items,Medical,KgNone,Antibiotics can cure infections and dysentery. Can be crafted in a beaker at a campfire.\n [ Crafted in Chemistry Station with a Beaker and Advanced Campfire with a Beaker. ],Les antibiotiques peuvent soigner les infections et la dysenterie. Ils peuvent être fabriqués dans un bécher sur le feu de camp.,Antibiotika heilen Infektionen und Dysenterie. Kann in einem Messbecher am Lagerfeuer gefertigt werden.,,Los antibióticos pueden curar infecciones y la disentería. Se pueden elaborar en un matraz en una fogata.
+antibioticsDesc,items,Medical,KgNone,Antibiotics can cure infections and dysentery. Can be crafted in a beaker at a campfire. Exclusive to Medical Class.\n [ Crafted in Chemistry Station with a Beaker and Advanced Campfire with a Beaker. ],Les antibiotiques peuvent soigner les infections et la dysenterie. Ils peuvent être fabriqués dans un bécher sur le feu de camp.,Antibiotika heilen Infektionen und Dysenterie. Kann in einem Messbecher am Lagerfeuer gefertigt werden.,,Los antibióticos pueden curar infecciones y la disentería. Se pueden elaborar en un matraz en una fogata.
 bandage,items,Medical,KgNone,Bandage,Bandage,Verband,,Vendaje
 bandageDesc,items,Medical,KgNone,A simple bandage. Use it to stop bleeding.,Un simple bandage. Sert à arrêter une hémorragie.,Ein einfacher Verband. Stoppe damit Blutungen.,,Un simple vendaje. Úsalo para detener una hemorragia.
 bloodBag,items,Medical,KgNone,Blood Bag,Poche de sang,Blutbeutel,,Bolsa de sangre
@@ -1652,7 +1652,7 @@ bloodDrawKitDesc,items,Medical,KgNone,Use blood draw kits to make blood bags. Th
 firstAidBandage,items,Medical,KgNone,First Aid Bandage,Bandage médical,Erste-Hilfe-Verband,,Vendaje de primeros auxilios
 firstAidBandageDesc,items,Medical,KgNone,A first aid bandage can stop bleeding and restore some health.,Le bandage médical peut arrêter une hémorragie et restaurer de la santé.,Erste-Hilfe-Verbände können Blutungen stoppen und Gesundheit wiederherstellen.,,Un vendaje de primeros auxilios puede detener una hemorragia y restaurar algo de salud.
 firstAidKit,items,Medical,KgNone,First Aid Kit,Trousse de premiers soins,Verbandskasten,,Botiquín de primeros auxilios
-firstAidKitDesc,items,Medical,KgNone,A first aid kit can stop bleeding and restore a lot of health.\n [ Crafted in Chemistry Station. ],La trousse de premiers soins arrête une hémorragie et restaure beaucoup de santé.,Ein Verbandskasten kann Blutungen stillen und viel Gesundheit wiederherstellen.,,Un botiquín de primeros auxilios puede detener una hemorragia y restaurar bastante salud.
+firstAidKitDesc,items,Medical,KgNone,A first aid kit can stop bleeding and restore a lot of health. Exclusive to Medical Class.\n [ Crafted in Chemistry Station. ],La trousse de premiers soins arrête une hémorragie et restaure beaucoup de santé.,Ein Verbandskasten kann Blutungen stillen und viel Gesundheit wiederherstellen.,,Un botiquín de primeros auxilios puede detener una hemorragia y restaurar bastante salud.
 herbalAntibiotics,items,Medical,KgNone,Herbal Antibiotics,Antibiotiques naturels,Natürliche Antibiotika,,Antibióticos de hierbas
 herbalAntibioticsDesc,items,Medical,KgNone,Herbal antibiotics can cure stage 1 infections and stage 1 and 2 dysentery.\n [ Crafted in Chemistry Station and Advanced Campfire. ],Les antibiotiques naturels peuvent soigner les infections de niveau 1 et la dysenterie de niveau 1 ou 2. Ils peuvent être fabriqués dans une marmite sur le feu de camp.,Natürliche Antibiotika können Infektionen im 1. und Dysenterie im 1. und 2. Stadium heilen. Kann in einem Kochtopf am Lagerfeuer gefertigt werden.,,Los antibióticos herbales pueden curar infecciones de grado 1 y disentería de grado 1 y 2. Se pueden elaborar en una olla en una fogata.
 splint,items,Medical,KgNone,Splint,Attelle,Schiene,,Tablilla
@@ -1767,7 +1767,7 @@ pickaxeSteelDesc,items,Tool,KgNone,The steel pickaxe is best for breaking stone 
 shovelIron,items,Tool,KgNone,Iron Shovel,Pelle en fer,Eisenschaufel,,Pala de hierro
 shovelIronDesc,items,Tool,KgNone,"The iron shovel is great for digging through earth, sand or snow.","La pelle en fer est géniale pour creuser la terre, le sable ou la neige.","Die Eisenschaufel ist ein tolles Werkzeug, um sich durch Erde, Sand und Schnee zu graben.",,"La pala de hierro es excelente para cavar en la tierra, arena o nieve."
 shovelSteel,items,Tool,KgNone,Steel Shovel,Pelle en acier,Stahlschaufel,,Pala de acero
-shovelSteelDesc,items,Tool,KgNone,"The steel shovel is very durable and the ideal tool for digging through earth, sand or snow.","La pelle en acier est un outil durable et idéal pour creuser la terre, le sable ou la neige.","Die Stahlschaufel ist sehr robust und das ideale Werkzeug, um sich durch Erde, Sand und Schnee zu graben.",,"La pala de acero es muy duradera y es la herramienta ideal para cavar en la tierra, arena o nieve."
+shovelSteelDesc,items,Tool,KgNone,"The steel shovel is very durable and the ideal tool for digging through earth, sand or snow."\n [ Crafted in Advanced Workbench. ],"La pelle en acier est un outil durable et idéal pour creuser la terre, le sable ou la neige.","Die Stahlschaufel ist sehr robust und das ideale Werkzeug, um sich durch Erde, Sand und Schnee zu graben.",,"La pala de acero es muy duradera y es la herramienta ideal para cavar en la tierra, arena o nieve."
 stoneAxe,items,Tool,KgNone,Stone Axe,Hache de pierre,Steinaxt,,Hacha de piedra
 stoneAxeDesc,items,Tool,KgNone,"A primitive tool useful for cutting wood, mining stone, repairing & upgrading walls, doors & windows. Not the best weapon.","Un outil primitif pratique pour couper du bois, extraire de la pierre, ainsi que réparer et améliorer les murs, les portes et les fenêtres. Pas ce qui se fait de mieux en matière d'arme.","Ein primitives Werkzeug zum Holzfällen, Abbauen von Stein, Reparieren und Aufwerten von Mauern, Türen und Fenstern. Es gibt bessere Waffen.",,"Una herramienta primitiva para cortar madera, picar piedra y reparar o mejorar paredes, puertas o ventanas. No es la mejor arma."
 stoneShovel,items,Tool,KgNone,Stone Shovel,Pelle en pierre,Steinschaufel,,Pala de piedra
@@ -4669,7 +4669,7 @@ ttSkillRankAlreadyKnown,UI,Tooltip,New,This skill rank is already known.,,,,
 lblContextActionCurrent,UI,Item Context Menu,New,Current,,,,
 xuiUnlockAmmo,UI,Menu,New,Unlock Ammo,,,,
 xuiLockAmmo,UI,Menu,New,Lock Ammo,,,,
-decorativeBlockGroupDesc,blocks,Block,New,An item of mostly decorative value.\n [ Crafted in Decorating Station. ]\n [ Crafted in Advanced Workbench. ],,,,
+decorativeBlockGroupDesc,blocks,Block,New,An item of mostly decorative value.\n [ Crafted in Decorating Station. ],,,,
 inpGrpPlayerControlName,UI,Controls Dialog,,Player movement,,,,
 inpGrpPlayerControlDesc,UI,Controls Dialog,,"Controlling your character, interacting with the world",,,,
 inpGrpToolbeltName,UI,Controls Dialog,,Toolbelt,,,,
@@ -4873,7 +4873,7 @@ cobblestoneWedgeTipStairs,blocks,Block,New,Cobblestone Wedge Tip Stairs,,,,
 flagstoneWedgeStairs,blocks,Block,New,Flagstone Wedge Stairs,,,,
 flagstoneWedgeTipStairs,blocks,Block,New,Flagstone Wedge Tip Stairs,,,,
 macheteBlade,items,Part,New,Machete Blade,,Machetenklinge,,
-macheteBladeDesc,items,Part,New,Used for crafting a machete.\n [ Crafted in Advanced Workbench. ],,Wird gebraucht um eine Machete herzustellen.,,
+macheteBladeDesc,items,Part,New,Used for crafting a machete.\n [ Crafted in Blacksmith Station. ],,Wird gebraucht um eine Machete herzustellen.,,
 teInUse,UI,Misc,New,Currently In Use,Currently In Use,Currently In Use,,
 ttCantPickupInUse,UI,Tooltip,New,This cannot be picked up while it is in use.,,,,
 woodFrameHalf,blocks,Block,New,Wood Frame 1/2 Block,,,,
@@ -4891,8 +4891,8 @@ ttBedrollGone,UI,Tooltip,New,Your bedroll is gone,,Dein Schlafsack ist verschwun
 extinguishFireBuffName,buffs,Buff,New,Extinguish Fire,,Lösche Feuer,,
 extinguishFireBuffDesc,buffs,Buff,New,If you happen to be on fire then this will put out the fire and prevent another while the buff remains active.,,Solltest Du in Flammen stehen dann löscht dies das Feuer und verhindert ein neues solange der Effekt aktiv ist.,,
 DroppedLootContainer,entityclasses,Entity Info,New,Dropped Loot,,,,
-recipebookGardenTools,items,Item Book,,Grass Cutter Schematic,,,,
-recipebookGardenToolsDesc,items,Item Book,,"This schematic teaches you how to craft a grass cutter.",,,,
+recipebookGardenTools,items,Item Book,,Gardening Tools Schematic,,,,
+recipebookGardenToolsDesc,items,Item Book,,"This schematic teaches you how to craft gardening tools.",,,,
 weedCleaver,items,Item Tool,,Grass Cutter,,,,
 weedCleaverDesc,items,Item Tool,,"This tool excels at clearing up grass - but not much else. JaxTeller Brand",,,,
 scrambledEggs,items,Food,KgNone,Fried Eggs,Œuf dur,Gekochtes Ei,,Huevo cocido
@@ -4936,7 +4936,7 @@ cntEPSCoffin,blocks,Loot Container,,Coffin (Storage),,,,
 cntEPSGasPump,blocks,Loot Container,,Gas Pump (Storage),,,,
 zombieLure,blocks,Block,New,Zombie Bait,,,,
 zombieLureDesc,blocks,Block,New,Drop this bait and brace yourself for the zombie hordes,,,,
-extrastorageDesc,blocks,Loot Container,,The perfect compliment to your apocalyptic living quarters. Store whatever you like in here\n [ Crafted in Advanced Workbench. ],,,,
+extrastorageDesc,blocks,Loot Container,,The perfect compliment to your apocalyptic living quarters. Store whatever you like in here\n [ Crafted in Decorating Station. ],,,,
 inkPen,items,Item,KgNone,Ink Pen,,,,
 inkPenDesc,items,Item,KgNone,A fancy pen that you can use to compliment your Research Table, filled with Ink you find in the world.,,,
 Ink,items,Item,KgNone,Ink,,,,
@@ -5493,7 +5493,7 @@ scrapIronAxeDesc,items,Item Melee,,"This crude axe was crafted with scrap and wo
 clubBurning,items,Item Melee,,Burning Club,,,,
 clubBurningDesc,items,Item Melee,,A wooden club set on fire at a campfire. Won't last long but useful for a primitive weapon.,,,,
 reinforcedSplint,items,Item Medical,,Reinforced Splint,,,,
-reinforcedSplintDesc,items,Item Medical,,This metal reinforced splint is certified to send you down the path of recovery quicker than just using sticks and cloth.,,,,
+reinforcedSplintDesc,items,Item Medical,,This metal reinforced splint is certified to send you down the path of recovery quicker than just using sticks and cloth. Exclusive to Medical Class.,,,,
 rottingHarvestDesc,items,Item,EnChanged KgNone,Sometimes you just get a bad harvest but at least you can use it for fertilizer and your compost. You can create rotting harvest by letting certain veggies rot.,"Vous pouvez en manger, mais vous pouvez le regretter.","Du kannst es essen, solltest es aber wohl lassen.",,"Puedes comerla, pero probablemente no deberías."
 rottingHarvest,items,Item,KgNone,Rotten Harvest,Chair pourrie,Verrottendes Fleisch,,Carne podrida
 canGrenade,items,Gun,New,Canned Grenade (Ammo),,Molotov Cocktail (Mun),,
@@ -5621,7 +5621,7 @@ seedPack,items,Item Farming,,Pack of Plant Seed,,,,
 seedPackDesc,items,Item Farming,,Craft this into the plant seed you want. Seeds can only be crafted by a skilled Farmer.\n [ Crafted in Mortar and Pestle. ],,,,
 butcherKnife,items,Item,,Butcher's Knife,,,,
 butcherKnifeDesc,items,Item,,This knife is great for harvesting meat from animals.,,,,
-WorkingSinkDesc,blocks,Block Building,,This working sink can be used as a source of water. Fill your jars or bowls with water by left-clicking with them. You will still need to cook the water.\n [ Crafted in Advanced Workbench. ],,,,
+WorkingSinkDesc,blocks,Block Building,,This working sink can be used as a source of water. Fill your jars or bowls with water by left-clicking with them. You will still need to cook the water.\n [ Crafted in Decorating Station. ],,,,
 workingGranitSink,blocks,Block Building,,Working Granite Sink,,,,
 workingCabinetSink,blocks,Block Building,,Working Sink,,,,
 plumbingKit,items,Item,,Plumbing Kit,,,,
@@ -5639,23 +5639,23 @@ minerParts,items,Item Tool,,Miner Parts,,,,
 minerPartsDesc,items,Item Tool,,Parts used to craft the miner.,,,,
 toolHeadIronAxe,items,Item,KgNone,Tool Head: Iron Axe,,,,
 toolHeadSteelAxe,items,Item,KgNone,Tool Head: Steel Axe,,,,
-toolHeadAxesDesc,items,Item,KgNone,This tool head is used in crafting axes. ,,,,
+toolHeadAxesDesc,items,Item,KgNone,This tool head is used in crafting axes. You can craft this by purchasing the Tool Head Perk. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],,,,
 toolHeadIronPickaxe,items,Item,KgNone,Tool Head: Iron Pickaxe,,,,
 toolHeadSteelPickaxe,items,Item,KgNone,Tool Head: Steel Pickaxe,,,,
-toolHeadPickaxesDesc,items,Item,KgNone,This tool head is used in crafting pickaxes. ,,,,
+toolHeadPickaxesDesc,items,Item,KgNone,This tool head is used in crafting pickaxes. You can craft this by purchasing the Tool Head Perk. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ] ,,,,
 toolHeadIronShovel,items,Item,KgNone,Tool Head: Iron Shovel,,,,
 toolHeadSteelShovel,items,Item,KgNone,Tool Head: Steel Shovel,,,,
-toolHeadShovelDesc,items,Item,KgNone,This tool head is used in crafting shovels. ,,,,
+toolHeadShovelDesc,items,Item,KgNone,This tool head is used in crafting shovels. You can craft this by purchasing the Tool Head Perk. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ] ,,,,
 toolHeadIronHoe,items,Item,KgNone,Tool Head: Iron Hoe,,,,
-toolHeadIronHoeDesc,items,Item,KgNone,This tool head is used in crafting an iron hoe.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ] ,,,,
+toolHeadIronHoeDesc,items,Item,KgNone,This tool head is used in crafting an iron hoe. You can craft this by purchasing the Tool Head Perk. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],,,,
 toolHeadKnifeBlade,items,Item,KgNone,Tool Head: Blade,,,,
-toolHeadKnifeBladeDesc,items,Item,KgNone,This is an unsharpened blade for a knife.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ] ,,,,
+toolHeadKnifeBladeDesc,items,Item,KgNone,This is an unsharpened blade for a knife. You can craft this by purchasing the Tool Head Perk. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],,,,
 toolHeadBladeScythe,items,Item,KgNone,Tool Head: Scythe Blade,,,,
-toolHeadBladeScytheDesc,items,Item,KgNone,This is an unsharpened blade for a scythe.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ] ,,,,
+toolHeadBladeScytheDesc,items,Item,KgNone,This is an unsharpened blade for a scythe. You can craft this by purchasing the Tool Head Perk. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],,,,
 toolHeadSledgehammer,items,Item,KgNone,Tool Head: Sledgehammer,,,,
-toolHeadSledgehammerDesc,items,Item,KgNone,This is used to craft a sledgehammer.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ] ,,,,
+toolHeadSledgehammerDesc,items,Item,KgNone,This is used to craft a sledgehammer. You can craft this by purchasing the Tool Head Perk. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ] ,,,,
 toolHeadHammer,items,Item,KgNone,Tool Head: Hammer,,,,
-toolHeadHammerDesc,items,Item,KgNone,This is used to craft a claw hammer.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ] ,,,,
+toolHeadHammerDesc,items,Item,KgNone,This is used to craft a claw hammer. You can craft this by purchasing the Tool Head Perk. \n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],,,,
 workstationMerchantSchematic,items,Book,KgNone,Merchant Delivery Box Schematic,Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
 workstationMerchantSchematicDesc,items,Book,KgNone,Learn to craft a Merchant Delivery Box by reading this schematic.,Apprenez à fabriquer une arbalète en lisant ce schéma.,"In diesem Bauplan erfährst du, wie Armbrüste gefertigt werden.",,Lee el esquema para aprender a fabricar una ballesta.
 workstationQuestSchematic,items,Book,KgNone,Quest Board Schematic,Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
@@ -5811,13 +5811,13 @@ BowsClass,progression,Skill,KeyChanged,Bows Class,Forgeron d'armes,Waffenschmied
 BowsClassDesc,progression,Skill,KeyChanged EnChanged,"With this skill you will receive a crossbow 250 stone crossbow bolts and a crossbow schematic.","Fabriquez des arcs, des arbalètes, des flèches et des carreaux, et des armes de mêlée plus rapidement et de meilleure qualité. Réduisez les pénalités de réparation et obtenez davantage des kits de réparation. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.","Fertige Bogen, Armbrüste, die jeweilige Munition und Nahkampfwaffen schneller und von besserer Qualität. Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,"Fabrica arcos, ballestas, su munición y armas cuerpo a cuerpo de mano más rápido y de mejor calidad. Reduce los castigos de reparación y otorga más kits de reparación. Mejora tu habilidad al fabricar y reparar objetos de este grupo."
 BluntClass,progression,Skill,KeyChanged,Blunt Class,Forgeron d'armes,Waffenschmied,,Forja de armas
 BluntClassDesc,progression,Skill,KeyChanged EnChanged,"With this skill you will receive a spiked club 20 forged iron and a spiked club schematic.","Fabriquez des arcs, des arbalètes, des flèches et des carreaux, et des armes de mêlée plus rapidement et de meilleure qualité. Réduisez les pénalités de réparation et obtenez davantage des kits de réparation. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.","Fertige Bogen, Armbrüste, die jeweilige Munition und Nahkampfwaffen schneller und von besserer Qualität. Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,"Fabrica arcos, ballestas, su munición y armas cuerpo a cuerpo de mano más rápido y de mejor calidad. Reduce los castigos de reparación y otorga más kits de reparación. Mejora tu habilidad al fabricar y reparar objetos de este grupo."
-bowKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a crossbow 250 stone crossbow bolts and a crossbow schematic. Exclusive Access to the Repeating Crossbow",,,,
+bowKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a crossbow 250 stone crossbow bolts and a crossbow schematic. Exclusive Access to the Repeating Crossbow. This also unlocks Arrow Crafting",,,,
 bladeKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a hunting knife 20 forged iron and a hunting knife schematic. Exclusive Access to the Katana",,,,
 bluntKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a spiked club 20 forged iron and a spiked club schematic. Exclusive access to Lucille",,,,
-handgunKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a pistol 200 homemade bullets and a pistol schematic. Exclusive Access to Desert Eagle",,,,
-shotgunKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a pump shotgun 150 homemade bullets and a pump shotgun schematic. Exclusive Access to Double Barrel Shotgun",,,,
+handgunKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a pistol 200 homemade bullets and a pistol schematic. Exclusive Access to Desert Eagle. This also unlocks the Ammo Class",,,,
+shotgunKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a pump shotgun 150 homemade bullets and a pump shotgun schematic. Exclusive Access to Double Barrel Shotgun. This also unlocks the Ammo Class",,,,
 survivalKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a claw hammer a skinning knife skills in cooking a pot,grill,extra supplies. Exclusive Access to making Jars and pots and grills",,,,
-rifleKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a hunting rifle 150 homemade bullets and a hunting rifle schematic.Exclusive Access to the M25 Sniper Rifle",,,,
+rifleKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a hunting rifle 150 homemade bullets and a hunting rifle schematic.Exclusive Access to the M25 Sniper Rifle. This also unlocks the Ammo Class",,,,
 ironCrossbow,items,Item Gun,,Iron Crossbow,,,,
 ironCrossbowDesc,items,Item Gun,,"This crossbow deals more damage, has further range and improved durability than a normal crossbow. Unlocks after leveling into Archery.",,,,
 ironBow,items,Item Gun,,Iron Bow,,,,
@@ -5902,7 +5902,7 @@ tomatoSoupDesc,items,Item Food,KgNone,Tomato soup can keep the body and the soul
 Tomato,items,Item Food,KgNone,Tomato,,,,
 tomatoDesc,items,Item Food,KgNone,"Tomatoes can be eaten, crafted into seeds or used in several recipes at the campfire.",,,,
 BlueberryPancakes,items,Food,New,Blueberry Pancakes,,,,
-BlueberryPancakesDesc,items,Food,New,Delicious blueberry pancakes.\n [ Crafted in Advanced Campfire with a Cooking Grill and Stoves with a Frying Pan. ],,,,
+BlueberryPancakesDesc,items,Food,New,Delicious blueberry pancakes.\n [ Crafted in Stoves with a Frying Pan. ],,,,
 Pancakes,items,Food,New,Pancakes,,,,
 PancakesDesc,items,Food,New,Delicious pancakes.\n [ Crafted in Advanced Campfire with a Cooking Grill and Stoves with a Frying Pan. ],,,,
 SoyBeans,items,Food,New,Soy Beans,,,,
@@ -5918,9 +5918,9 @@ PizzaDesc,items,Food,New,Who doesnt love pizza.\n [ Crafted in Stoves with a Fry
 SoyMilk,items,Food,New,Soy Milk,,,,
 SoyMilkDesc,items,Food,New,Great for making cheese yogurt or cooking pasteries.\n [ Crafted in Advanced Campfire with a Beaker and Stoves. ],,,,
 BlueberryYogurt,items,Food,New,Blueberry Yogurt,,,,
-BlueberryYogurtDesc,items,Food,New,Ah the better kind of yogurt.\n [ Crafted in Advanced Campfire and Stoves. ],,,,
+BlueberryYogurtDesc,items,Food,New,Ah the better kind of yogurt.\n [ Crafted in Stoves. ],,,,
 Yogurt,items,Food,New,Yogurt,,,,
-YogurtDesc,items,Food,New,Plain yogurt but it will do.\n [ Crafted in Advanced Campfire and Stoves. ],,,,
+YogurtDesc,items,Food,New,Plain yogurt but it will do.\n [ Crafted in Stoves. ],,,,
 Noodles,items,Food,New,Noodles,,,,
 NoodlesDesc,items,Food,New,Plain noodles.,,,,
 Dough,items,Food,New,Dough,,,,
@@ -6483,7 +6483,7 @@ trashbagDesc,,,,"Used to change the bag in a trash can, make sure to double bag 
 Composter_Filling,blocks,Block,KgNone,Composter Composting,,,,
 Full_Composter,blocks,Block,KgNone,Composter (Ready),,,,
 disinfectantBandage,items,Item Medical,,Disinfectant Bandage,,,,
-disinfectantBandageDesc,items,Item Medical,,This bandage has been soaked in peroxide to cure stage 1 infection when applied to bites or scratches.,,,,
+disinfectantBandageDesc,items,Item Medical,,This bandage has been soaked in peroxide to cure stage 1 infection when applied to bites or scratches. Exclusive to Medical Class.,,,,
 DesertEagle,items,Item,KgNone,Desert Eagle,Aigle du désert,Wüste Eagle,,Águila del desierto
 DesertEagleDesc,items,Item,KgNone,"Desert Eagle Pistol uses .44 Mag Bullets and .44 HP Mag Bullets.  Can only be assembled by The Handgun Class.","Bullets Desert Eagle Pistol et utiliser .44 .44 Bullets Mag Mag creux Point et a une taille de magazine 8. Ne peut être assemblé par la classe Marksman.","Desert Eagle Pistol Bullets und verwenden 0,44 0,44 Mag Mag Hollow Point Bullets und hat eine Magazingröße von 8 kann nur durch die Marksman-Klasse montiert werden.",,"Pistola Desert Eagle .44 Puntos negros utiliza Mag y Mag .44 balas de punta hueca y tiene un tamaño de cargador de 8. Sólo puede ser montado por la clase Marksman."
 DesertEagle_Barrel,items,Item,KgNone,Desert Eagle Barrel,Désert Eagle Barrel,Wüste Eagle Barrel,,Desierto Eagle Barrel
@@ -6497,7 +6497,7 @@ DesertEagle_GripDesc,items,Item,KgNone,Gun Part for Desert Eagle Pistol\n [ Craf
 DesertEagleSchematic,items,Item,KgNone,Desert Eagle Schematic,Desert Eagle Schématique,Desert Eagle Schema,,Desert Eagle Esquema
 DesertEagleSchematicDesc,items,Item,KgNone,Learn how to assemble and repair a Desert Eagle Pistol,Apprenez à assembler et à réparer un pistolet Desert Eagle,"Erfahren Sie, wie eine Wüste Eagle Pistol zusammenzubauen und zu reparieren",,Aprenda cómo ensamblar y reparar una pistola de Eagle del desierto
 farmerKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a hoe a Blunderbuss with 100 ammo and fertilizer and some seeds. Exclusive Access to the Compost Bin and Water Well",,,,
-medicKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you some medical supplies and exclusive medical recipes. Exclusive Access to Advanced Splints Disinfectant Bandages and Blue Ice",,,,
+medicKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you some medical supplies and exclusive medical recipes. Exclusive Access to First Aid Kits Antibiotics Advanced Splints Disinfectant Bandages Blue Ice",,,,
 ClassPaperMedicine,items,Item,KgNone,Medic Class Paper,,,,
 ClassPaperFarmer,items,Item,KgNone,Farmer Class Paper,,,,
 largeStove01Desc,blocks,Workstation,KgNone,"This SHOULD work and can be used to cook complex recipes. These stoves give will attract less zombies to your home.","Utile pour cuisiner de la nourriture et se réchauffer. Déverrouillez d'autres compositions en ajoutant une marmite, un grill ou un bécher.","Nützlich zum Kochen von Nahrung und zum Aufwärmen. Schalte mehr Rezepte frei, indem du einen Kochtopf, Kochgrill oder Messbecher hinzufügst.",,"Útil para cocinar comida y calentarse. Añade una olla, una parrilla o un matraz para desbloquear más recetas."
@@ -6806,8 +6806,8 @@ bioFuel,items,Item,,Biofuel,,,,
 bioFuelDesc,items,Item,,Biofuel is made at the oven and can be used to make gasoline.\n [ Crafted in Stoves and Advanced Campfire with a Beaker. ],,,,
 pan,items,Item,,Frying Pan,,,,
 panDesc,items,Item,,A very important cooking tool.,,,,
-pasta,,,,Pasta,,,,
-pastaDesc,,,,You can boil this\n [ Crafted in Food Prep Table. ],,,,
+pasta,,,,Dry Pasta,,,,
+pastaDesc,,,,You can boil this to make spaghetti and combine that with sauce for a hearty meal.\n [ Crafted in Food Prep Table. ],,,,
 boiledPasta,,,,Boiled Pasta,,,,
 boiledPastaDesc,,,,Wouldnt it be great if you had some sauce?\n [ Crafted in Stoves with a Frying Pan. ],,,,
 trapChest,blocks,Loot Container,,Secure Storage Chest,,,,
@@ -6842,7 +6842,7 @@ mealDesc,,,,A delicious serving of a number of side dishes that will surely fill
 OmeletDesc,,,,This is a delicious way to eat eggs and is sure to fill you up.\n [ Crafted in Advanced Campfire and Stoves with a Frying Pan. ],,,,
 grillsteakDesc,,,,Delicious grilled steak. It may not be a T Bone but it sure is damn good.,,,,
 blueberryJamDesc,items,Item Food,,Delicious blueberry jam made with blueberries and water.\n [ Crafted in Mortar and Pestle. ],,,,
-applePieDesc,,,,Delicious homemade apple pie just like Mom used to make.\n [ Crafted in Advanced Campfire and Stoves with a Frying Pan. ],,,,
+applePieDesc,,,,Delicious homemade apple pie just like Mom used to make.\n [ Crafted in Stoves. ],,,,
 arch_3m_full_TEST,blocks,Block,New,Cobblestone Arch 3m,,,,
 arch_3m_window_tipTEST,blocks,Block,New,Cobblestone Arch Window Tip 3m,,,,
 arch_3m_center_windowTEST,blocks,Block,New,Cobblestone Arch Center Window 3m,,,,
@@ -6873,7 +6873,7 @@ grilledMeat,items,Food,KgNone,Grilled Meat,Viande grillée,Gegrilltes Wildbret,,
 grilledMeatDesc,items,Food,EnChanged,"Meat! Meat on fire! Good! Nutritious, filling and will boost your wellness.","Viande ! Viande cuite ! Bonne ! Nourrit, remplit et améliore votre bien-être. Susceptible d'attirer des zombies si vous la portez.","Fleisch! Fleisch auf Feuer! Gut! Nahrhaft, sättigend und erhöht dein Wohlbefinden.",,"¡Carne! ¡Carne cocinada! ¡Bien! Es nutritiva, te saciará y mejorará tu bienestar. Puede atraer zombis si la llevas encima."
 newfurnitureGroupDesc,blocks,Block,KgNone,Furniture can make your place look pretty but it usually has little defensive value.\n [ Crafted in Decorating Station. ],"Le mobilier peut embellir votre chez-vous, mais son apport défensif est très limité.","Möbel sind eine schöne Dekoration, aber sie haben gewöhnlich einen niedrigen Verteidigungswert.",,"El mobiliario sirve para hacer que tu casa sea acogedora, pero no sirve para defenderse."
 maniacPowder,,,,Blue Ice,,,,
-maniacPowderDesc,,,,You may not have an RV but that janky little fella taught you well and this does provide an insane burst of energy.\n [ Crafted in Chemistry Station with a Beaker. ],,,,
+maniacPowderDesc,,,,You may not have an RV but that janky little fella taught you well and this does provide an insane burst of energy. Exclusive to Medical Class.\n [ Crafted in Chemistry Station with a Beaker. ],,,,
 HouseholdChemicals,items,Item,KgNone,House Cleaning Supplies,,,,
 HouseholdChemicalsDesc,items,Item,KgNone,Household cleaning supplies that I am certain you can find a use for.,Produits chimiques qui peuvent être utilisés dans plusieurs recettes telles que Kevlar Crafting et Crafting Batteries,Chemikalien die in mehreren Rezepten wie Kevlar Crafting und Crafting Batteries verwendet werden können,,Productos químicos que se pueden utilizar en varias recetas como Kevlar Crafting y Crafting Baterías
 badZombieCaitlin,entityclasses,Entity,New,Caitlin Zombie,,,,
@@ -7240,3 +7240,5 @@ SemiTruck03r,,,,Red Semi-Truck,,,,
 SemiTruck03w,,,,White Semi-Truck,,,,
 antiVenom,,,,Anti Venom,,,,
 antiVenomDesc,,,,Crafted using a Venom Gland, Blood Bag and Honey this will cure a Snake Bite.\n [ Crafted in Chemistry Station using a Beaker. ],,,,
+Spaghetti,,,,Spaghetti,,,,
+spaghettiDesc,,,,A delicious helping of hearty Italian Spaghetti. Wheres the Meatballs.\n [ Crafted in Food Prep Table. ],,,,

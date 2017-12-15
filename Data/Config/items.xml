@@ -20,7 +20,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="7"/>
 			<!-- 10 is the break even point with maxed Athletics and Sexosaurus, standing still -->
-			<property name="DamageBonus.head" value="6"/>
+			<property name="DamageBonus.head" value="7"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<!-- These are multipliers and correspond to "damage_category" in materials.xml. -->
@@ -29,7 +29,7 @@
 			<property name="ToolCategory.Butcher" value="0" param1="10"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="8,14"/>
+			<property name="EntityDamage" value="9,15"/>
 			<property name="BlockDamage" value="3,12"/>
 			<property name="DegradationMax" value="200,600"/>
 			<property name="DegradationRate" value="3,1"/>
@@ -78,7 +78,7 @@
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="10,17"/>
+			<property name="EntityDamage" value="11,19"/>
 			<property name="BlockDamage" value="11.8,22.5"/>
 			<property name="DegradationMax" value="200,600"/>
 		</property>
@@ -101,7 +101,7 @@
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="12,21"/>
+			<property name="EntityDamage" value="13,23"/>
 			<property name="BlockDamage" value="12.5,24"/>
 			<property name="DegradationMax" value="200,600"/>
 			<property name="DegradationRate" value="1,1"/>
@@ -120,7 +120,7 @@
 			<property name="Stamina_usage" value="8.5"/>
 			<property name="Buff" value="bleeding,criticalBlunt"/>
 			<property name="Buff_chance" value="0.5,0.4"/>
-			<property name="DamageBonus.head" value="12"/>
+			<property name="DamageBonus.head" value="10"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
@@ -156,7 +156,7 @@
 			<property name="Buff" value="criticalBlunt,stunned,sprainedLeg"/>
 			<property name="Buff_chance" value="0.5,0.3,0.3"/>
 			<property name="DamageBonus.wood" value="0.5"/>
-			<property name="DamageBonus.head" value="9"/>
+			<property name="DamageBonus.head" value="12"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="ToolCategory.Butcher" value="0" param1="10"/>
@@ -181,7 +181,7 @@
 		<property name="DropMeshfile" value="Items/Misc/torch_droppedPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="12"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK torch -->
 		<property name="FuelValue" value="24"/>
 		<property name="EconomicValue" value="10"/>
@@ -324,8 +324,8 @@
 			<property name="Range" value="2.4"/>
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
-			<property name="Stamina_usage" value="5.5"/>
-			<property name="DamageBonus.head" value="7"/>
+			<property name="Stamina_usage" value="4.5"/>
+			<property name="DamageBonus.head" value="8"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
@@ -2093,7 +2093,7 @@
 			<!-- xxx trains blade weapons SUPER fast but ActionExp cannot be set lower than 1 -->
 		</property>
 		<property name="Group" value="Tools/Traps"/>
-		<property name="ActionSkillGroup" value="Construction Tools"/>
+		<property name="ActionSkillGroup" value="Electric Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="RepairExpMultiplier" value="10.8"/>
 	</item>
@@ -2442,7 +2442,7 @@
 		<property name="EconomicValue" value="17"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true"/>
-			<property name="EntityDamage" value="4,8"/>
+			<property name="EntityDamage" value="6,10"/>
 			<property name="BlockDamage" value="5.4,13.5"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
@@ -2566,7 +2566,7 @@
 			<property name="FlyTime" value="0"/>
 			<property name="Gravity" value="-4.7"/>
 			<property name="LifeTime" value="12"/>
-			<property name="DamageBonus.head" value="10"/>
+			<property name="DamageBonus.head" value="6"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
@@ -2590,7 +2590,7 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property class="Action1">
 			<property name="Velocity" value="55"/>
-			<property name="DamageBonus.head" value="12"/>
+			<property name="DamageBonus.head" value="7"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="Gravity" value="-4"/>
 			<property name="LifeTime" value="12"/>
@@ -2610,6 +2610,7 @@
 			<property name="Velocity" value="75"/>
 			<property name="Gravity" value="-4"/>
 			<property name="LifeTime" value="12"/>
+			<property name="DamageBonus.head" value="8"/>
 		</property>
 		<property class="Attributes">
 			<!-- A16 Better Balance Mod -->
@@ -2658,7 +2659,7 @@
 			<property name="Velocity" value="75"/>
 			<property name="FlyTime" value="0.25"/>
 			<property name="LifeTime" value="17"/>
-			<property name="DamageBonus.head" value="10"/>
+			<property name="DamageBonus.head" value="7"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
@@ -2693,7 +2694,7 @@
 			<property name="FlyTime" value="0"/>
 			<property name="Gravity" value="-4"/>
 			<property name="LifeTime" value="12"/>
-			<property name="DamageBonus.head" value="12"/>
+			<property name="DamageBonus.head" value="8"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.wood" value="0.1"/>
@@ -2722,6 +2723,7 @@
 			<property name="Velocity" value="85"/>
 			<property name="Gravity" value="-4"/>
 			<property name="LifeTime" value="12"/>
+			<property name="DamageBonus.head" value="9"/>
 		</property>
 		<property class="Attributes">
 			<!-- A16 Better Balance Mod -->
@@ -6226,7 +6228,7 @@
 		<property name="Material" value="organic"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK medical -->
 		<property class="Action0">
 			<property name="Class" value="UseOther"/>
@@ -6257,7 +6259,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="cloth"/>
 		<property name="HoldType" value="16"/>
-		<property name="Stacknumber" value="25"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK medical -->
 		<property name="FuelValue" value="1"/>
 		<property name="Weight" value="5"/>
@@ -6387,7 +6389,7 @@
 		<property name="Material" value="organic"/>
 		<property name="EconomicValue" value="80"/>
 		<property name="HoldType" value="16"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK loot -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -6410,7 +6412,7 @@
 		<property name="Material" value="organic"/>
 		<property name="EconomicValue" value="80"/>
 		<property name="HoldType" value="16"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK loot -->
 		<property class="Action0">
 			<property name="Class" value="UseOther"/>
@@ -6444,7 +6446,7 @@
 		<property name="Material" value="organic"/>
 		<property name="EconomicValue" value="70"/>
 		<property name="HoldType" value="16"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK loot -->
 		<property class="Action0">
 			<property name="Class" value="UseOther"/>
@@ -6478,7 +6480,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="16"/>
 		<property name="EconomicValue" value="200"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK loot -->
 		<property class="Action0">
 			<property name="Class" value="UseOther"/>
@@ -6539,7 +6541,7 @@
 		<property name="Material" value="organic"/>
 		<property name="EconomicValue" value="80"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -6561,7 +6563,7 @@
 		<property name="Meshfile" value="Items/Food/fruit_yucca"/>
 		<property name="Material" value="plants"/>
 		<property name="HoldType" value="14"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -6584,7 +6586,7 @@
 		<property name="Meshfile" value="Items/Food/yucca_juicePrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="25"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK drink -->
 		<property name="EconomicValue" value="36"/>
 		<property class="Action1">
@@ -6609,7 +6611,7 @@
 		<property name="Weight" value="5"/>
 		<property name="EconomicValue" value="60"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -6732,7 +6734,7 @@
 		<property name="Weight" value="5"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="HoldType" value="22"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -6794,7 +6796,7 @@
 		<property name="Meshfile" value="Items/Food/corn_cooked"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="32"/>
 		<property class="Action1">
@@ -6840,7 +6842,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="32"/>
 		<property class="Action1">
@@ -6863,7 +6865,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -6891,7 +6893,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -6969,7 +6971,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="22"/>
 		<property name="SellableToTrader" value="false"/>
@@ -6993,7 +6995,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="24"/>
 		<property class="Action1">
@@ -7015,7 +7017,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="52"/>
 		<property class="Action1">
@@ -7038,7 +7040,7 @@
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="200"/>
 		<property class="Action1">
@@ -7133,7 +7135,7 @@
 		<property name="Meshfile" value="Items/Food/eggPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="30"/>
 		<property class="Action1">
@@ -7155,7 +7157,7 @@
 		<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="60"/>
 		<property class="Action1">
@@ -7163,7 +7165,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="12"/>
+			<property name="Gain_food" value="14"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -7176,7 +7178,7 @@
 		<property name="Meshfile" value="Items/Food/vegetable_potato_bakedPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="8"/>
 		<property name="EconomicBundleSize" value="2"/>
@@ -7185,7 +7187,7 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="6"/>
+			<property name="Gain_food" value="9"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0.067"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -7198,7 +7200,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="64"/>
 		<property class="Action1">
@@ -7206,7 +7208,7 @@
 			<property name="Delay" value="2.1"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="14"/>
+			<property name="Gain_food" value="17"/>
 			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -7242,7 +7244,7 @@
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="65"/>
 		<property class="Action1">
@@ -7266,7 +7268,7 @@
 		<property name="Material" value="metal"/>
 		<property name="Weight" value="5"/>
 		<property name="HoldType" value="14"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -7345,7 +7347,7 @@
 		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK drink -->
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="15"/>
@@ -7386,7 +7388,7 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="25"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK drink -->
 		<property name="EconomicValue" value="20"/>
 		<property class="Action1">
@@ -7411,7 +7413,7 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="25"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK drink -->
 		<property name="EconomicValue" value="20"/>
 		<property class="Action1">
@@ -7455,7 +7457,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="25"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK drink -->
 		<property name="EconomicValue" value="34"/>
 		<property class="Action1">
@@ -7479,7 +7481,7 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="25"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK drink -->
 		<property name="EconomicValue" value="100"/>
 		<property class="Action1">
@@ -7502,7 +7504,7 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="48"/>
 		<property class="Action1">
@@ -7837,7 +7839,7 @@
 		<property name="Material" value="paper"/>
 		<property name="HoldType" value="21"/>
 		<property name="CustomIcon" value="questMaster"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK book -->
 		<property name="EconomicValue" value="1600"/>
 		<property name="SellableToTrader" value="false"/>
@@ -8403,7 +8405,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
 	</item>
-	<!--<item id="1329" name="book"><property name="Meshfile" value="Items/Misc/Book"/><property name="Material" value="paper"/><property name="HoldType" value="21"/><property name="Stacknumber" value="50"/><property name="FuelValue" value="20"/><property name="Weight" value="20"/><property name="Group" value="Decor/Miscellaneous"/></item>-->
+	<!--<item id="1329" name="book"><property name="Meshfile" value="Items/Misc/Book"/><property name="Material" value="paper"/><property name="HoldType" value="21"/><property name="Stacknumber" value="100"/><property name="FuelValue" value="20"/><property name="Weight" value="20"/><property name="Group" value="Decor/Miscellaneous"/></item>-->
 	<item id="1330" name="militaryFiber">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
@@ -8735,7 +8737,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="Msteel"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK repairKit -->
 		<property name="EconomicValue" value="120"/>
 		<property name="RepairTime" value="2"/>
@@ -8914,14 +8916,6 @@
 		<property name="HoldType" value="34"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="EconomicValue" value="88"/>
-		<property class="Action1">
-			<!-- UseAction -->
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value="0.5"/>
-			<property name="Blockname" value="waterMovingBucket"/>
-			<property name="Change_item_to" value="bucket"/>
-			<property name="Sound_start" value="bucketplace_water"/>
-		</property>
 		<property name="Group" value="Tools/Traps"/>
 	</item>
 	<!--<item id="1372" name="masonJar"><property name="Extends" value="emptyJar"/><property name="CustomIcon" value="emptyJar"/><property name="CreativeMode" value="Dev"/></item>-->
@@ -8984,7 +8978,7 @@
 		<property name="Meshfile" value="Items/Crafting/radiator"/>
 		<property name="Material" value="brass"/>
 		<property name="HoldType" value="21"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK loot -->
 		<property name="Weight" value="100"/>
 		<property name="EconomicValue" value="200"/>
@@ -9079,7 +9073,7 @@
 		<property name="Meshfile" value="Items/Tools/candlePrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="12"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK torch -->
 		<property name="FuelValue" value="16"/>
 		<property name="EconomicValue" value="24"/>
@@ -9446,7 +9440,7 @@
 		<property name="DescriptionKey" value="recipebookGardenToolsDesc"/>
 		<property name="Extends" value="schematicMaster"/>
 		<property class="Action1">
-			<property name="Recipes_to_learn" value="sickle"/>
+			<property name="Recipes_to_learn" value="sickle,hoeIron,hoeSteel"/>
 		</property>
 	</item>
 	<item id="2002" name="scrambledEggs">
@@ -9455,7 +9449,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="64"/>
 		<property class="Action1">
@@ -9729,7 +9723,7 @@
 		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="CraftingIngredientTime" value="10"/>
@@ -9752,7 +9746,7 @@
 		<property name="Meshfile" value="Items/Food/vegetable_potato_bakedPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="CustomIcon" value="mushrooms"/>
 		<property name="CustomIconTint" value="b4895a"/>
 		<property name="EconomicValue" value="10"/>
@@ -9777,7 +9771,7 @@
 		<property name="Meshfile" value="Items/Food/corn_cooked"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="CustomIcon" value="cornOnTheCob"/>
 		<property name="CustomIconTint" value="ffd700"/>
 		<property name="EconomicValue" value="10"/>
@@ -9985,7 +9979,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -10067,7 +10061,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="DescriptionKey" value="MREDesc"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="32"/>
 		<property class="Action1">
@@ -10091,7 +10085,7 @@
 		<property name="DescriptionKey" value="PurifiedWaterDesc"/>
 		<property name="HoldType" value="3"/>
 		<!-- A16 Better Balance Mod -->
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK drink -->
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="30"/>
@@ -10186,7 +10180,7 @@
 		<property name="Material" value="organic"/>
 		<property name="Weight" value="5"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="DropScale" value="4"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="Group" value="Books"/>
@@ -10477,7 +10471,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Preview">
 			<property name="Zoom" value="28"/>
 			<property name="Pos" value="0,-0.05"/>
@@ -10528,7 +10522,7 @@
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="12"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="CraftingIngredientTime" value="20"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -10563,7 +10557,7 @@
 		<property name="Weight" value="12"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientTime" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property class="Action1">
@@ -10620,7 +10614,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="CraftingIngredientExp" value="10"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -10657,7 +10651,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -10748,7 +10742,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -10778,7 +10772,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -10929,7 +10923,7 @@
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -13536,7 +13530,7 @@
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="12"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1"/>
@@ -13706,7 +13700,7 @@
 		<property name="DescriptionKey" value="rottingHarvestDesc"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -14695,7 +14689,7 @@
 		<property name="Meshfile" value="Items/Food/blueberry_pie"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -14718,7 +14712,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -14741,7 +14735,7 @@
 		<property name="Material" value="organic"/>
 		<property name="DescriptionKey" value="hamburgerDesc"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -14772,7 +14766,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property class="Preview">
 			<property name="Zoom" value="28"/>
 			<property name="Pos" value="0,-0.05"/>
@@ -14785,7 +14779,7 @@
 		<property name="DescriptionKey" value="SandwichDesc"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -14816,7 +14810,7 @@
 		<property name="DescriptionKey" value="mealDesc"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -14838,7 +14832,7 @@
 		<property name="DescriptionKey" value="mealDesc"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK food -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -14861,7 +14855,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property class="Preview">
 			<property name="Zoom" value="28"/>
 			<property name="Pos" value="0,-0.05"/>
@@ -14911,7 +14905,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="DropScale" value="4"/>
 		<property name="CreativeMode" value="None"/>
 		<property name="EconomicValue" value="12"/>
@@ -15138,7 +15132,7 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="75"/>
 		<property class="Action1">
@@ -15165,7 +15159,7 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="75"/>
 		<property class="Action1">
@@ -15190,7 +15184,7 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="75"/>
 		<property class="Action1">
@@ -15217,7 +15211,7 @@
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="75"/>
 		<property class="Action1">
@@ -15371,7 +15365,7 @@
 			<property name="ActionExp" value="0"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
-		<property name="ActionSkillGroup" value="Construction Tools"/>
+		<property name="ActionSkillGroup" value="Electric Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property class="Attributes">
 			<property name="FalloffRange" value="2.35,2.35"/>
@@ -15458,7 +15452,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="lead"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="59"/>
 		<property name="EconomicBundleSize" value="3"/>
@@ -15474,7 +15468,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="42"/>
 		<property name="EconomicBundleSize" value="3"/>
@@ -15488,7 +15482,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="lead"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="666"/>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -15501,7 +15495,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="666"/>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -15515,7 +15509,7 @@
 		<property name="DropMeshfile" value="Items/Misc/scrapLeadDroppedPrefab"/>
 		<property name="Material" value="Mlead_scrap"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK resource -->
 		<property name="Weight" value="1"/>
 		<property name="EconomicValue" value="666"/>
@@ -15588,7 +15582,7 @@
 		<property name="Material" value="metal"/>
 		<property name="CustomIcon" value="rocketGrenade"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK explosives -->
 		<property name="EconomicValue" value="202"/>
 		<property name="EconomicBundleSize" value="3"/>
@@ -15631,7 +15625,7 @@
 		<property name="Material" value="metal"/>
 		<property name="CustomIcon" value="rockete"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK explosives -->
 		<property name="EconomicValue" value="988"/>
 		<property name="EconomicBundleSize" value="3"/>
@@ -15728,7 +15722,7 @@
 		<property name="Material" value="MDynamite"/>
 		<property name="CustomIcon" value="tnt"/>
 		<property name="HoldType" value="25"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK explosives -->
 		<property name="EconomicValue" value="200"/>
 		<property name="Explosion.BlockDamage" value="2250"/>
@@ -16022,7 +16016,7 @@
 		<property name="Meshfile" value="Items/Food/cornmeal"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -16132,7 +16126,7 @@
 		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property class="Action1">
@@ -16157,7 +16151,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16180,7 +16174,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16204,7 +16198,7 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="35"/>
 		<property name="EconomicBundleSize" value="1"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16228,7 +16222,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16249,7 +16243,7 @@
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16268,7 +16262,7 @@
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
@@ -16294,7 +16288,7 @@
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="15"/>
@@ -16307,7 +16301,7 @@
 			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="0"/>
-			<property name="Gain_wellness" value="0.2"/>
+			<property name="Gain_wellness" value="0.3"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="DescriptionKey" value="SandwichDesc"/>
@@ -16323,7 +16317,7 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16347,7 +16341,7 @@
 		<property name="HoldType" value="31"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16369,7 +16363,7 @@
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="31"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="25"/>
 		<property name="EconomicBundleSize" value="5"/>
@@ -16393,7 +16387,7 @@
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
 		<property name="Material" value="glass"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK resource -->
 		<property name="Weight" value="10"/>
 		<property name="EconomicValue" value="10"/>
@@ -16447,7 +16441,7 @@
 		<property name="HoldType" value="23"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16471,7 +16465,7 @@
 		<property name="HoldType" value="23"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="Eat"/>
@@ -16563,7 +16557,7 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="150"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="DescriptionKey" value="venomGlandDesc"/>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Medicine"/>
@@ -16727,6 +16721,7 @@
 			<property name="Velocity" value="80"/>
 			<property name="Gravity" value="-2"/>
 			<property name="LifeTime" value="12"/>
+			<property name="DamageBonus.head" value="10"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="30,55"/>
@@ -16747,6 +16742,7 @@
 			<property name="Velocity" value="90"/>
 			<property name="Gravity" value="-2"/>
 			<property name="LifeTime" value="12"/>
+			<property name="DamageBonus.head" value="12"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="45,65"/>
@@ -17110,7 +17106,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="4.51"/>
 			<property name="DamageBonus.wood" value="3"/>
-			<property name="DamageBonus.head" value="10"/>
+			<property name="DamageBonus.head" value="15"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
@@ -17119,7 +17115,7 @@
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="20,36"/>
+			<property name="EntityDamage" value="22,40"/>
 			<property name="BlockDamage" value="7,12"/>
 			<property name="DegradationMax" value="300,800"/>
 			<property name="DegradationRate" value="1,1"/>
@@ -17135,7 +17131,7 @@
 		<property name="Meshfile" value="Items/Food/coffeePrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="Group" value="Medicine"/>
 		<property class="Preview">
 			<property name="Zoom" value="28"/>
@@ -17792,11 +17788,11 @@
 			<property name="Delay" value="1.15"/>
 			<property name="Buff" value="bleeding,criticalBlunt"/>
 			<property name="Buff_chance" value="0.3,0.3"/>
-			<property name="DamageBonus.head" value="10"/>
+			<property name="DamageBonus.head" value="12"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="8,19"/>
+			<property name="EntityDamage" value="12,24"/>
 			<property name="BlockDamage" value="7.2,18"/>
 			<property name="DegradationMax" value="200,600"/>
 			<property name="DegradationRate" value="1,1"/>
@@ -17828,7 +17824,7 @@
 			<property name="Sphere" value="0.1"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="8.27"/>
-			<property name="DamageBonus.head" value="5"/>
+			<property name="DamageBonus.head" value="7"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.stone" value="0.5"/>
@@ -17844,7 +17840,7 @@
 			<property name="ToolCategory.Butcher" value="0" param1="10"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="10,17"/>
+			<property name="EntityDamage" value="11,19"/>
 			<property name="BlockDamage" value="2,10"/>
 			<property name="DegradationMax" value="500,1400"/>
 			<property name="DegradationRate" value="1,1"/>
@@ -17884,7 +17880,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="15,35"/>
-			<property name="BlockDamage" value="20,35"/>
+			<property name="BlockDamage" value="22,45"/>
 			<property name="DegradationMax" value="400,1200"/>
 			<property name="DegradationRate" value="1,1"/>
 			<property name="DismembermentBaseChance" value="0.3,0.4"/>
@@ -17903,14 +17899,14 @@
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="SoundJammed" value="ItemNeedsRepair"/>
 		<property class="Action0">
-			<property name="Range" value="2.6"/>
+			<property name="Range" value="2.7"/>
 			<property name="Stamina_usage" value="8"/>
 			<property name="Buff" value="criticalBlunt"/>
 			<property name="Buff_chance" value="0.2"/>
-			<property name="DamageBonus.head" value="7"/>
+			<property name="DamageBonus.head" value="8"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="9,16"/>
+			<property name="EntityDamage" value="10,18"/>
 			<property name="BlockDamage" value="11.8,29.5"/>
 			<property name="DegradationMax" value="200,600"/>
 		</property>
@@ -18010,9 +18006,8 @@
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
 			<property name="Delay" value="1.5"/>
-			<property name="Range" value="2.7"/>
+			<property name="Range" value="2.9"/>
 			<property name="Sphere" value="0.1"/>
-			<property name="DamageEntity" value="12"/>
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="6"/>
 			<property name="DamageBonus.head" value="10"/>
@@ -18024,7 +18019,7 @@
 			<property name="ActionExpBonusMultiplier" value="10"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="8,16"/>
+			<property name="EntityDamage" value="9,18"/>
 			<property name="BlockDamage" value="1,1"/>
 			<property name="DegradationMax" value="600,600"/>
 			<property name="DegradationRate" value="3,1"/>
@@ -18108,11 +18103,11 @@
 			<property name="Delay" value="1.15"/>
 			<property name="Buff" value="bleeding,criticalBlunt"/>
 			<property name="Buff_chance" value="0.3,0.3"/>
-			<property name="DamageBonus.head" value="8"/>
+			<property name="DamageBonus.head" value="9"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="7,17"/>
+			<property name="EntityDamage" value="8,19"/>
 			<property name="BlockDamage" value="7.2,18"/>
 			<property name="DegradationMax" value="200,600"/>
 			<property name="DegradationRate" value="1,1"/>
@@ -18175,7 +18170,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="DescriptionKey" value="rollingPaperDesc"/>
 		<property name="Material" value="paper"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
 		<property name="FuelValue" value="1"/>
 		<property name="Weight" value="1"/>
@@ -18388,7 +18383,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="4.51"/>
 			<property name="DamageBonus.wood" value="3"/>
-			<property name="DamageBonus.head" value="10"/>
+			<property name="DamageBonus.head" value="15"/>
 			<!--			<property name="DamageBonus.body" value=".01"/>  -->
 			<property name="DamageBonus.glass" value="1"/>
 			<property name="DamageBonus.leaves" value="25"/>
@@ -18397,7 +18392,7 @@
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="20,36"/>
+			<property name="EntityDamage" value="22,40"/>
 			<property name="BlockDamage" value="7,12"/>
 			<property name="DegradationMax" value="300,800"/>
 			<property name="DegradationRate" value="1,1"/>
@@ -20195,7 +20190,7 @@
 		<property name="CustomIcon" value="deerHead"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="250"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -20862,7 +20857,7 @@
 		<property name="CustomIcon" value="rocket"/>
 		<property name="Candrop" value="false"/>
 		<property name="IsDeveloper" value="true"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 	</item>
 	<item id="3446" name="partsPistol_gripBandit">
 		<property name="CreativeMode" value="Dev"/>
@@ -21622,7 +21617,7 @@
 		<property name="Meshfile" value="Items/Food/blueberry_pie"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="23"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="100"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -21662,7 +21657,7 @@
 		<property name="Meshfile" value="Items/Food/yucca_juicePrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="EconomicValue" value="36"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -21912,24 +21907,25 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="0..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="8"/>
+			<property name="Gain_food" value="14"/>
 			<property name="Gain_water" value="0"/>
 			<property name="Gain_stamina" value="5"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Smell" value="largeSmell"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="hashDesc"/>
+		<property name="Create_item" value="bowl"/>
 	</item>
 	<item id="3270" name="vegetableLunch">
 		<property name="CustomIcon" value="saladTomCuc"/>
 		<property name="Meshfile" value="Items/Crafting/candy_tin"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -21943,13 +21939,14 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="vegetableLunchDesc"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="Create_item" value="bowl"/>
 	</item>
 	<item id="3271" name="sauerkraut">
 		<property name="CustomIcon" value="sauerkraut"/>
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="52"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -21971,16 +21968,16 @@
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="52"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="0..."/>
 			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="10"/>
-			<property name="Gain_water" value="2"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_food" value="12"/>
+			<property name="Gain_water" value="1"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
@@ -21993,14 +21990,14 @@
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="52"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="0..."/>
 			<property name="Gain_health" value="2"/>
-			<property name="Gain_food" value="10"/>
+			<property name="Gain_food" value="12"/>
 			<property name="Gain_water" value="4"/>
 			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -22142,14 +22139,14 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="0..."/>
 			<property name="Gain_health" value="4"/>
-			<property name="Gain_food" value="8"/>
+			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-1"/>
 			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Smell" value="mediumSmell"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="friedEggsDesc"/>
 	</item>
@@ -22168,7 +22165,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Smell" value="exLargeSmell"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="friedPotatoDesc"/>
@@ -22213,7 +22210,7 @@
 	</item>
 	<item id="3287" name="pasta">
 		<property name="CustomIcon" value="pasta"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property name="Meshfile" value="Items/Food/seed_blueberryPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
@@ -22330,7 +22327,7 @@
 		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property name="Weight" value="10"/>
 		<property name="Group" value="Resources"/>
 		<property name="EconomicValue" value="150"/>
@@ -22382,7 +22379,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="Material" value="metal"/>
 		<property name="Weight" value="8"/>
-		<property name="Stacknumber" value="15"/>
+		<property name="Stacknumber" value="50"/>
 		<property name="Group" value="Resources"/>
 		<property name="EconomicValue" value="100"/>
 	</item>
@@ -22392,7 +22389,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="31"/>
 		<property name="Material" value="organic"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK food -->
 		<property name="EconomicValue" value="64"/>
 		<property class="Action1">
@@ -22414,7 +22411,7 @@
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="3"/>
 		<property name="Weight" value="5"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="75"/>
 		<!-- STK drink -->
 		<property name="EconomicValue" value="15"/>
 		<property name="CraftingIngredientTime" value="15"/>
@@ -22474,7 +22471,7 @@
 		<property name="Meshfile" value="#PBottleEmpty?PBottleEmpty"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="15"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property name="Weight" value="10"/>
 		<property class="Action0">
 			<!-- UseAction -->
@@ -22508,7 +22505,7 @@
 		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="15"/>
 		<property name="Weight" value="10"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -22540,7 +22537,7 @@
 		<property name="HoldType" value="14"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<property name="FuelValue" value="1"/>
 		<property class="Action0">
 			<!-- UseAction -->
@@ -22574,7 +22571,7 @@
 		<property name="HoldType" value="14"/>
 		<property name="EconomicValue" value="3"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="FuelValue" value="1"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -22590,7 +22587,7 @@
 		<property name="DescriptionKey" value="wetTowelSoapDesc"/>
 		<property name="Material" value="cloth"/>
 		<property name="HoldType" value="14"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property name="EconomicValue" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="FuelValue" value="1"/>
@@ -22609,7 +22606,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="45"/>
-		<property name="Stacknumber" value="250"/>
+		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
@@ -22709,7 +22706,7 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="150"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Stacknumber" value="50"/>
+		<property name="Stacknumber" value="100"/>
 		<property class="Action0">
 			<property name="Class" value="UseOther"/>
 			<property name="Delay" value="1.0"/>
@@ -22736,5 +22733,53 @@
 		<property name="DescriptionKey" value="antiVenomDesc"/>
 		<property name="DropScale" value="4"/>
 		<property name="Group" value="Medicine"/>
+	</item>
+	<item id="3313" name="Cheeseburger">
+		<property name="Meshfile" value="#hamburger?hamburgerPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="DescriptionKey" value="hamburgerDesc"/>
+		<property name="HoldType" value="3"/>
+		<property name="Stacknumber" value="100"/>
+		<!-- STK food -->
+		<property class="Action1">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="2.1"/>
+			<property name="Use_time" value="..."/>
+			<property name="Gain_health" value="2"/>
+			<property name="Gain_food" value="28"/>
+			<property name="Gain_water" value="-1"/>
+			<property name="Gain_wellness" value="0.4"/>
+			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property name="Smell" value="exLargeSmell"/>
+		<property name="Group" value="Food/Cooking"/>
+		<property name="CraftingSkillGroup" value="Cooking"/>
+	</item>
+	<item id="3314" name="Spaghetti">
+		<property name="CustomIcon" value="Spaghetti"/>
+		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="21"/>
+		<property class="Action1">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Use_time" value="0..."/>
+			<property name="Gain_health" value="0"/>
+			<property name="Gain_food" value="28"/>
+			<property name="Gain_water" value="-5"/>
+			<property name="Gain_stamina" value="0"/>
+			<property name="Gain_wellness" value="0.4"/>
+			<property name="Sound_start" value="player_eating"/>
+		</property>
+		<property name="Group" value="Food/Cooking"/>
+		<property name="CraftingSkillGroup" value="Cooking"/>
+		<property name="DescriptionKey" value="spaghettiDesc"/>
+	</item>
+	<item id="3315" name="uncutwoodLog">
+		<property name="Extends" value="wood"/>
+		<property name="CustomIcon" value="uncutwoodLog"/>
+		<property name="DescriptionKey" value="woodSpoonDesc"/>
+		<property name="Material" value="wood"/>
+		<property name="Weight" value="7"/>
 	</item>
 </items>

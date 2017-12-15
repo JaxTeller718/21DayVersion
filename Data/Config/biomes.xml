@@ -1941,15 +1941,15 @@
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="leadOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -1962,15 +1962,15 @@
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="coalOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -1983,15 +1983,15 @@
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="potassiumNitrate" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2006,24 +2006,24 @@
 					<resource blockname="gravel" cluster="1" prob="0.811" rwgGenerationType="all"/>
 					<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
 					<resource blockname="clay" cluster="1" prob="0.2" rwgGenerationType="all"/>
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+					<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					<resource blockname="silverOre"  cluster="1" prob="0.00030" rwgGenerationType="all"/>
 					<resource blockname="goldOre"    cluster="1" prob="0.00020" rwgGenerationType="all"/>
 					<resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="1" blockname="stone">
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="10" blockname="stone">
-					<resource blockname="potassiumNitrate" cluster="1" prob="0.1130" rwgGenerationType="all"/>
-					<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
-					<resource blockname="silverOre"  cluster="1" prob="0.00030" rwgGenerationType="all"/>
-					<resource blockname="goldOre"    cluster="1" prob="0.00020" rwgGenerationType="all"/>
-					<resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all"/>
+					<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+					<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
+					<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
+					<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2050,15 +2050,15 @@
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="leadOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2071,15 +2071,15 @@
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="coalOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2092,15 +2092,15 @@
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="potassiumNitrate" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2117,8 +2117,8 @@
 					<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+					<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					<resource blockname="silverOre"  cluster="1" prob="0.00030" rwgGenerationType="all"/>
 					<resource blockname="goldOre"    cluster="1" prob="0.00020" rwgGenerationType="all"/>
 					<resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all"/>
@@ -2127,11 +2127,11 @@
 					<resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="10" blockname="stone">
-					<resource blockname="potassiumNitrate" cluster="1" prob="0.1130" rwgGenerationType="all"/>
-					<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
-					<resource blockname="silverOre"  cluster="1" prob="0.00030" rwgGenerationType="all"/>
-					<resource blockname="goldOre"    cluster="1" prob="0.00020" rwgGenerationType="all"/>
-					<resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all"/>
+					<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+					<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
+					<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
+					<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2160,21 +2160,21 @@
 				<!-- Wasteland_hub Sub Biome Radiation and Corpses -->
 				<layers>
 					<layer depth="5" blockname="radiated">
-						<resource blockname="gravelPlusIron" cluster="1" prob="0.071" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 						<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
 						<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
 						<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="10" blockname="stone">
-						<resource blockname="potassiumNitrate" cluster="1" prob="0.1130" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 						<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
 						<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
 						<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>
@@ -2198,18 +2198,18 @@
 				<!-- Ore Sub Biome: leadOre -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.071" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="3" blockname="dirt">
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="leadOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusLead" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2221,18 +2221,18 @@
 				<!-- Ore Sub Biome: coalOre -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.071" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="3" blockname="dirt">
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="coalOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusCoal" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2244,18 +2244,18 @@
 				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.071" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="3" blockname="dirt">
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.811" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="*" blockname="stone">
-						<resource blockname="potassiumNitrate" cluster="1" prob="0.1030" rwgGenerationType="all"/>
-						<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+						<resource blockname="zincOre" cluster="1" prob="0.1030" rwgGenerationType="all"/>
+						<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					</layer>
 					<layer depth="1" blockname="stone">
 						<resource blockname="gravel" cluster="1" prob="0.8130" rwgGenerationType="all"/>
@@ -2267,28 +2267,28 @@
 			<layers>
 				<layer filluptorg="60" blockname="water"/>
 				<layer depth="1" blockname="destroyedStone">
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.071" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="2" blockname="destroyedStone">
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="3" blockname="dirt">
 					<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.811" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.811" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="ironOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+					<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					<resource blockname="silverOre"  cluster="1" prob="0.00030" rwgGenerationType="all"/>
 					<resource blockname="goldOre"    cluster="1" prob="0.00020" rwgGenerationType="all"/>
 					<resource blockname="diamondOre" cluster="1" prob="0.00010" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="1" blockname="stone">
-					<resource blockname="gravelPlusIron" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 				</layer>
 				<layer depth="10" blockname="stone">
-					<resource blockname="potassiumNitrate" cluster="1" prob="0.1130" rwgGenerationType="all"/>
-					<resource blockname="gravelPlusPotassium" cluster="1" prob="0.8130" rwgGenerationType="all"/>
+					<resource blockname="zincOre" cluster="1" prob="0.1130" rwgGenerationType="all"/>
+					<resource blockname="gravelPlusCopper" cluster="1" prob="0.8130" rwgGenerationType="all"/>
 					<resource blockname="silverOre"  cluster="1" prob="0.0030" rwgGenerationType="all"/>
 					<resource blockname="goldOre"    cluster="1" prob="0.0020" rwgGenerationType="all"/>
 					<resource blockname="diamondOre" cluster="1" prob="0.0010" rwgGenerationType="all"/>

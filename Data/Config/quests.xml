@@ -717,7 +717,7 @@
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_Armored09"/>
 	</quest>
-	<quest id="quest_Armored09" group_name_key="Armor Crafting" name_key="Steel Armor 1/2" subtitle_key="Craft Military Armor" description_key="To craft this you must be in the Tailor Station" icon="ui_game_symbol_armor_leather" category_key="Quest">
+	<quest id="quest_Armored09" group_name_key="Armor Crafting" name_key="Steel Armor 1/2" subtitle_key="Craft Steel Armor" description_key="To craft this you must be in the Tailor Station" icon="ui_game_symbol_armor_leather" category_key="Quest">
 		<objective type="FetchKeep" id="forgedSteel" value="120"/>
 		<objective type="FetchKeep" id="leather" value="17"/>
 		<objective type="Craft" id="steelBoots" value="1"/>
@@ -729,7 +729,7 @@
 		<reward type="Exp" value="300"/>
 		<reward type="Quest" id="quest_Armored10"/>
 	</quest>
-	<quest id="quest_Armored10" group_name_key="Armor Crafting" name_key="Steel Armor 2/2" subtitle_key="Wear Military Armor" description_key="To wear your steel armor, access the Inventory and select an article of clothing, then select Wear in the Action window. Once dressed, access the Character menu to see the insulation and defense your worn clothing provides in the top left of the Character window." icon="ui_game_symbol_armor_leather" category_key="Quest">
+	<quest id="quest_Armored10" group_name_key="Armor Crafting" name_key="Steel Armor 2/2" subtitle_key="Wear Steel Armor" description_key="To wear your steel armor, access the Inventory and select an article of clothing, then select Wear in the Action window. Once dressed, access the Character menu to see the insulation and defense your worn clothing provides in the top left of the Character window." icon="ui_game_symbol_armor_leather" category_key="Quest">
 		<objective type="Wear" id="steelBoots"/>
 		<objective type="Wear" id="steelLegs"/>
 		<objective type="Wear" id="steelChestplate"/>
@@ -1118,7 +1118,9 @@
 		<reward type="Skill" id="SurvivorClass" value="1"/>
 		<reward type="Skill" id="Survival Skills" value="1"/>
 		<reward type="Item" id="clawHammer" value="250"/>
+		<reward type="Item" id="stoneAxe" value="300"/>
 		<reward type="Item" id="skinningKnife2" value="250"/>
+		<reward type="Item" id="butcherKnife" value="250"/>
 		<reward type="Item" id="firstAidKit" value="1"/>
 		<reward type="Item" id="antibiotics" value="1"/>
 		<reward type="Item" id="PurifiedWater" value="1"/>
@@ -1156,12 +1158,16 @@
 		<reward type="Skill" id="MedicalClass" value="1"/>
 		<reward type="Skill" id="Medicine" value="15"/>
 		<reward type="Skill" id="Medical Skills" value="1"/>
-		<reward type="Item" id="firstAidBandage" value="5"/>
+		<reward type="Item" id="clubWood" value="300"/>
+		<reward type="Item" id="firstAidBandage" value="3"/>
 		<reward type="Item" id="splint" value="3"/>
-		<reward type="Item" id="firstAidKit" value="5"/>
-		<reward type="Item" id="antibiotics" value="5"/>
+		<reward type="Item" id="firstAidKit" value="3"/>
+		<reward type="Item" id="beaker" value="1"/>
+		<reward type="Item" id="antibiotics" value="3"/>
 		<reward type="Item" id="Peroxide" value="10"/>
 		<reward type="Item" id="painkillers" value="10"/>
+		<reward type="Item" id="firstAidKitSchematic" value="1"/>
+		<reward type="Item" id="herbalAntibioticsRecipe" value="1"/>
 	</quest>
 	<quest id="farmingclass1" 	name_key="Farmer Class" 	group_name="SurvivalClasses" 	subtitle_key="Farmer Class" 	offer_key="Accepting this will give you some seeds and access to a Composter and fertilizer" 	description_key="Become an expert in Farming" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
 		<reward type="Skill" id="FarmerClass" value="1"/>
@@ -1171,6 +1177,7 @@
 		<reward type="Item" id="blunderbussAmmo" value="150"/>
 		<reward type="Item" id="fertilizer" value="10"/>
 		<reward type="Item" id="mortarAndPestle" value="1"/>
+		<reward type="Item" id="recipebookGardenTools" value="1"/>
 		<reward type="Item" id="seedPack" value="10"/>
 		<reward type="Item" id="hoeIron" value="250"/>
 	</quest>

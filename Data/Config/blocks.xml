@@ -989,7 +989,7 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.Next" value="cropsHarvestableMaster"/>
-		<property name="PlantGrowing.GrowthRate" value="300.0"/>
+		<property name="PlantGrowing.GrowthRate" value="180.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
@@ -1144,7 +1144,7 @@
 		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="PlantGrowing.Next" value="treePlantedMountainPine8m"/>
-		<property name="PlantGrowing.GrowthRate" value="720"/>
+		<property name="PlantGrowing.GrowthRate" value="360"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="EconomicValue" value="24"/>
@@ -4490,7 +4490,7 @@
 		<property name="Explosion.RadiusBlocks" value="2"/>
 		<property name="Explosion.RadiusEntities" value="4"/>
 		<property name="Explosion.BlockDamage" value="10"/>
-		<property name="Explosion.EntityDamage" value="45"/>
+		<property name="Explosion.EntityDamage" value="20"/>
 		<!-- damage for entities in the center of the explosion. Zombies take 2x this damage. -->
 		<property name="Explosion.DamageBonus.stone" value="0.1"/>
 		<property name="Explosion.DamageBonus.metal" value="0.1"/>
@@ -4513,7 +4513,7 @@
 		<property name="Explosion.RadiusBlocks" value="3"/>
 		<property name="Explosion.RadiusEntities" value="5"/>
 		<property name="Explosion.BlockDamage" value="10"/>
-		<property name="Explosion.EntityDamage" value="90"/>
+		<property name="Explosion.EntityDamage" value="40"/>
 		<property name="CanPickup" value="false"/>
 		<property name="EconomicValue" value="146"/>
 		<property name="CraftingSkillGroup" value="craftSkillExplosives"/>
@@ -4527,7 +4527,7 @@
 		<property name="Explosion.RadiusBlocks" value="4"/>
 		<property name="Explosion.RadiusEntities" value="5"/>
 		<property name="Explosion.BlockDamage" value="10"/>
-		<property name="Explosion.EntityDamage" value="180"/>
+		<property name="Explosion.EntityDamage" value="60"/>
 		<property name="CanPickup" value="false"/>
 		<property name="EconomicValue" value="182"/>
 		<property name="CraftingSkillGroup" value="craftSkillExplosives"/>
@@ -6382,7 +6382,7 @@
 		<property name="CreativeMode" value="Player"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntChest01"/>
-		<property name="Material" value="wood+wood"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
@@ -11648,7 +11648,7 @@
 		<property name="DescriptionKey" value="largeStorageGroupDesc"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="10"/>
-		<property name="Material" value="wood+wood"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Texture" value="572"/>
 		<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
 		<property name="FuelValue" value="300"/>
@@ -15037,8 +15037,8 @@
 		<property name="HeatMapStrength" value="0.5"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="15"/>
-		<property name="BuffsWhenWalkedOn" value="blockBurn3Trigger"/>
-		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+		<property name="BuffsWhenWalkedOn" value="burningSmall"/>
+		<property name="ActiveRadiusEffects" value="+heatSource(2)"/>
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
 		<property name="SellableToTrader" value="false"/>
@@ -16293,6 +16293,7 @@
 	<block id="2031" name="cntEPSFridgeTop">
 		<property name="Extends" value="cntFridgeTop"/>
 		<property name="CustomIcon" value="cntFridgeTop"/>
+		<property name="Material" value="metal"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="102"/>
@@ -16301,6 +16302,7 @@
 	</block>
 	<block id="2032" name="cntEPSPillCase">
 		<property name="Extends" value="cntPillCase"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="CustomIcon" value="cntPillCase"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Class" value="SecureLoot"/>
@@ -16311,6 +16313,7 @@
 		<property name="Extends" value="cntBeerCooler"/>
 		<property name="CustomIcon" value="cntBeerCooler"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="107"/>
@@ -16320,6 +16323,7 @@
 		<property name="Extends" value="cntMedicineCabinet"/>
 		<property name="CustomIcon" value="cntMedicineCabinet"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="100"/>
 		<drop event="Destroy" name="0" count="1"/>
@@ -16329,6 +16333,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntBookStoreBookcase"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="106"/>
 		<drop event="Destroy" count="0"/>
@@ -16347,6 +16352,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntCoffin"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="LootList" value="102"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 	</block>
@@ -16356,6 +16362,7 @@
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="LootList" value="101"/>
 		<property name="Material" value="Mmetal_thin"/>
+		<property name="Material" value="metal"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Industrial/gas_pump" param1="main_mesh"/>
@@ -16388,6 +16395,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntLockers"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="metal"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="105"/>
 		<drop event="Destroy" count="0"/>
@@ -16397,6 +16405,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntFileCabinet"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="metal"/>
 		<property name="LootList" value="103"/>
 		<drop event="Destroy" count="0"/>
 	</block>
@@ -16416,6 +16425,7 @@
 		<property name="Extends" value="cntFridge"/>
 		<property name="CustomIcon" value="cntFridge"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="metal"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="107"/>
 		<drop event="Destroy" count="0"/>
@@ -16424,6 +16434,7 @@
 		<property name="Extends" value="cntFridgeBottom"/>
 		<property name="CustomIcon" value="cntFridgeBottom"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="metal"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="102"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -16440,13 +16451,30 @@
 		<drop event="Destroy" count="0"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="PlantGrowing.Next" value="cntCar03SedanDamage0"/>
-		<property name="PlantGrowing.GrowthRate" value="960"/>
+		<property name="PlantGrowing.GrowthRate" value="720"/>
 		<!-- amount of days for respawn 60 equals 1 day-->
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 	</block>
+	<block id="105" name="sdxMaster">
+		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+		<property name="Material" value="woodgMed"/>
+		<property name="Texture" value="241"/>
+		<!-- <property name="ImposterExchange" value="imposterBlock" param1="67"/> -->
+		<property name="FuelValue" value="300"/>
+		<property name="CreativeMode" value="None"/>
+		<property class="RepairItems">
+			<property name="wood" value="12"/>
+		</property>
+		<drop event="Harvest" name="wood" count="2"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="woodDebris" count="5" prob="0.75" stick_chance="1"/>
+		<property name="EconomicValue" value="250"/>
+		<property name="EconomicBundleSize" value="1"/>
+	</block>
 	<block id="1989" name="Empty_Composter">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="LightOpacity" value="0"/>
@@ -16484,7 +16512,7 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1990" name="Composter_Filling">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Group" value="Building"/>
 		<property name="Collide" value="movement,melee,rocket"/>
@@ -16515,7 +16543,7 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="1991" name="Full_Composter">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="emptyComposterDesc"/>
@@ -16598,6 +16626,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntCooler"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="109"/>
 		<drop event="Destroy" count="0"/>
@@ -16607,6 +16636,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntCabinetFiller"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="110"/>
 		<drop event="Destroy" count="0"/>
@@ -16616,6 +16646,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntCabinetTop"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="111"/>
 		<drop event="Destroy" count="0"/>
@@ -16697,6 +16728,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntNightstand"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="120"/>
 		<drop event="Destroy" count="0"/>
@@ -16732,6 +16764,7 @@
 		<property name="Extends" value="cntCabinetOldBottom"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntCabinetOldBottom"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="124"/>
@@ -16742,6 +16775,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntCabinetOldSink"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="125"/>
 		<drop event="Destroy" count="0"/>
@@ -16769,6 +16803,7 @@
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntSuitcase"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="128"/>
 		<drop event="Destroy" count="0"/>
@@ -16786,6 +16821,7 @@
 		<property name="Extends" value="cntCabinetOldTop"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntCabinetOldTop"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="DescriptionKey" value="extrastorageDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="130"/>
@@ -17016,7 +17052,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="PlantGrowing.Next" value="lootMyCarsHelper"/>
-		<property name="PlantGrowing.GrowthRate" value="960"/>
+		<property name="PlantGrowing.GrowthRate" value="720"/>
 		<!-- amount of days for respawn 60 equals 1 day-->
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
@@ -18039,13 +18075,16 @@
 	<block id="1627" name="BigForge">
 		<property name="Extends" value="forge"/>
 		<property name="CustomIcon" value="middleForge"/>
-		<property name="Model" value="#forge2?forge2"/>
+		<property name="Model" value="#forgeTemp?forgeTempPrefab"/>
 		<property name="Mesh" value="models"/>
 		<property name="DescriptionKey" value="BigForgeDesc"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Class" value="Forge"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="ParticleName" value="forge"/>
+		<property name="ParticleOffset" value="0.5,0.2,0"/>
+		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
 		<property name="RecipeList" value="BigForge"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="Stacknumber" value="1"/>
@@ -18287,7 +18326,7 @@
 	</block>
 	<!-- Trellis By JaxTeller718 -->
 	<block id="2019" name="trellis">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#trellis?trellisPrefab"/>
 		<property name="CustomIcon" value="trellis"/>
@@ -18402,7 +18441,7 @@
 	</block>
 	<!-- Wall and Floor Shelves By JaxTeller718 -->
 	<block id="447" name="floorShelf2">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#floorShelf2?floorShelf2Prefab"/>
 		<property name="CustomIcon" value="floorShelf2"/>
@@ -18415,7 +18454,7 @@
 		<property name="Stacknumber" value="50"/>
 	</block>
 	<block id="448" name="wallShelf1">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#wallShelf1?wallShelf1Prefab"/>
 		<property name="CustomIcon" value="wallShelf1"/>
@@ -18426,7 +18465,7 @@
 		<property name="Stacknumber" value="50"/>
 	</block>
 	<block id="449" name="wallShelf2">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#wallShelf2?wallShelf2Prefab"/>
 		<property name="CustomIcon" value="wallShelf2"/>
@@ -18437,7 +18476,7 @@
 		<property name="Stacknumber" value="50"/>
 	</block>
 	<block id="460" name="wallShelf3">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#wallShelf3?wallShelf3Prefab"/>
 		<property name="CustomIcon" value="wallShelf3"/>
@@ -18448,7 +18487,7 @@
 		<property name="Stacknumber" value="50"/>
 	</block>
 	<block id="461" name="wallShelf4">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#wallShelf4?wallShelf4Prefab"/>
 		<property name="CustomIcon" value="wallShelf4"/>
@@ -18460,7 +18499,7 @@
 		<property name="Stacknumber" value="50"/>
 	</block>
 	<block id="462" name="wallShelf5">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#wallShelf5?wallShelf5Prefab"/>
 		<property name="CustomIcon" value="wallShelf5"/>
@@ -18488,7 +18527,7 @@
 		<property name="CustomIcon" value="plantedWeed1"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
-		<property name="PlantGrowing.GrowthRate" value="360.0"/>
+		<property name="PlantGrowing.GrowthRate" value="180.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedWeed2"/>
 		<property class="UpgradeBlock">
@@ -18501,7 +18540,7 @@
 		<property name="CustomIcon" value="plantedWeed2"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#plantedWeed2?plantedWeed2Prefab"/>
-		<property name="PlantGrowing.GrowthRate" value="360.0"/>
+		<property name="PlantGrowing.GrowthRate" value="180.0"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
 		<property name="PlantGrowing.Next" value="plantedWeed3Harvest"/>
@@ -19090,6 +19129,7 @@
 		<property name="Extends" value="concreteMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#stoneFence?stoneFencePrefab"/>
+		<property name="MaxDamage" value="3000"/>
 		<property name="CustomIcon" value="stoneFence1"/>
 		<property name="DescriptionKey" value="stoneFence1Desc"/>
 		<property name="MultiBlockDim" value="3,3,1"/>
@@ -19099,6 +19139,7 @@
 		<property name="Extends" value="concreteMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#stonePost?stonePostPrefab"/>
+		<property name="MaxDamage" value="3000"/>
 		<property name="CustomIcon" value="stonePost1"/>
 		<property name="DescriptionKey" value="stoneFence1Desc"/>
 		<property name="MultiBlockDim" value="1,3,1"/>
@@ -19108,7 +19149,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#tableWood1?tableWood1Prefab"/>
 		<property name="CustomIcon" value="tableWood1"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="FuelValue" value="150"/>
 		<property name="Stacknumber" value="25"/>
 		<property class="RepairItems">
@@ -19128,7 +19169,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#tableWood2?tableWood2Prefab"/>
 		<property name="CustomIcon" value="tableWood2"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="FuelValue" value="150"/>
 		<property name="Stacknumber" value="25"/>
 		<property class="RepairItems">
@@ -19148,7 +19189,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#kitchenTable1?kitchenTable1Prefab"/>
 		<property name="CustomIcon" value="kitchenTable1"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="FuelValue" value="150"/>
 		<property name="Stacknumber" value="25"/>
 		<property class="RepairItems">
@@ -19169,7 +19210,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#kitchenTable2?kitchenTable2Prefab"/>
 		<property name="CustomIcon" value="kitchenTable2"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="FuelValue" value="150"/>
 		<property name="Stacknumber" value="25"/>
 		<property class="RepairItems">
@@ -19189,7 +19230,7 @@
 	<!-- Old Fridges By JaxTeller718 -->
 	<block id="1342" name="oldFridge1">
 		<property name="Class" value="SecureLoot"/>
-		<property name="Material" value="Mmetal_weak"/>
+		<property name="Material" value="metal"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#oldFridge1?oldFridge1Prefab"/>
 		<property name="CustomIcon" value="oldFridge1"/>
@@ -19214,7 +19255,7 @@
 	</block>
 	<block id="1343" name="oldFridge2">
 		<property name="Class" value="SecureLoot"/>
-		<property name="Material" value="Mmetal_weak"/>
+		<property name="Material" value="metal"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#oldFridge2?oldFridge2Prefab"/>
 		<property name="CustomIcon" value="oldFridge2"/>
@@ -19239,7 +19280,7 @@
 	</block>
 	<block id="1344" name="fridgeStainlessSteel">
 		<property name="Class" value="SecureLoot"/>
-		<property name="Material" value="Mmetal_weak"/>
+		<property name="Material" value="metal"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#fridgeStainlessSteel?fridgeStainlessSteelPrefab"/>
 		<property name="CustomIcon" value="fridgeStainlessSteel"/>
@@ -19304,6 +19345,7 @@
 		<property name="MultiBlockDim" value="3,2,1"/>
 		<property name="FuelValue" value="150"/>
 		<property name="DescriptionKey" value="newfurnitureGroupDesc"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
 		<property class="RepairItems">
 			<property name="wood" value="6"/>
 			<property name="leather" value="4"/>
@@ -19326,6 +19368,7 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="FuelValue" value="90"/>
 		<property name="DescriptionKey" value="newfurnitureGroupDesc"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
 		<property class="RepairItems">
 			<property name="cloth" value="5"/>
 			<property name="nail" value="3"/>
@@ -19340,7 +19383,7 @@
 	</block>
 	<!-- Vanity By JaxTeller718 -->
 	<block id="661" name="vanity">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#vanity?vanityPrefab"/>
 		<property name="CustomIcon" value="vanity"/>
@@ -19354,7 +19397,7 @@
 	</block>
 	<!-- Night Table By JaxTeller718 -->
 	<block id="750" name="nightStand">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#nightStand?nightStandPrefab"/>
 		<property name="CustomIcon" value="nightStand"/>
@@ -19367,7 +19410,7 @@
 	</block>
 	<!-- Wood Dresser By JaxTeller718 -->
 	<block id="805" name="woodenDresser1">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#woodenDresser1?woodenDresser1Prefab"/>
 		<property name="CustomIcon" value="woodenDresser1"/>
@@ -19412,7 +19455,7 @@
 		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1599" name="largeShelf2">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#largeShelf2?largeShelf2Prefab"/>
 		<property name="Class" value="SecureLoot"/>
@@ -19425,7 +19468,7 @@
 	</block>
 	<!-- Large Bookshelf By JaxTeller718 -->
 	<block id="1600" name="largeShelf">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#largeShelf?largeShelfPrefab"/>
 		<property name="Class" value="SecureLoot"/>
@@ -19486,14 +19529,14 @@
 	</block>
 	<!-- Bathroom Mirror By JaxTeller718 -->
 	<block id="1341" name="mirrorBath">
-		<property name="Class" value="Loot"/>
+		<property name="Class" value="SecureLoot"/>
 		<property name="Material" value="glass"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#mirrorBath?mirrorBathPrefab"/>
 		<property name="CustomIcon" value="mirrorBath"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="LootList" value="7"/>
+		<property name="LootList" value="100"/>
 		<drop event="Destroy" name="brokenGlass" count="1,2"/>
 		<property name="Stacknumber" value="250"/>
 	</block>
@@ -19506,11 +19549,11 @@
 		<property name="Stacknumber" value="50"/>
 	</block>
 	<block id="1994" name="chickenCoopEmpty">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#chickenCoopEmpty?chickenCoopEmptyPrefab"/>
 		<property name="CustomIcon" value="chickenCoopEmpty"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
@@ -19539,8 +19582,8 @@
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1995" name="chickenCoopFull">
-		<property name="Extends" value="woodMaster"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Extends" value="sdxMaster"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#chickenCoopFull?chickenCoopFullPrefab"/>
 		<property name="CustomIcon" value="chickenCoopFull"/>
@@ -19567,10 +19610,10 @@
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="1996" name="chickenCoopReady">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#chickenCoopReady?chickenCoopReadyPrefab"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Stacknumber" value="1"/>
@@ -19672,7 +19715,7 @@
 		<property name="CanPickup" value="true"/>
 	</block>
 	<block id="1597" name="electricChair">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#electricChair?electricChairPrefab"/>
 		<property name="CustomIcon" value="electricChairPrefab"/>
@@ -20130,7 +20173,7 @@
 	</block>
 	<block id="1014" name="woodSink01">
 		<property name="Class" value="SecureLoot"/>
-		<property name="Material" value="metal"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#woodSink01?woodSink01Prefab"/>
 		<property name="CustomIcon" value="woodSink01"/>
@@ -20266,7 +20309,7 @@
 		<property name="Model" value="#woodCounter01?woodCounter01Prefab"/>
 		<property name="CustomIcon" value="woodCounter01"/>
 		<property name="IsDecoration" value="true"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="woodgMed"/>
 		<property name="FuelValue" value="150"/>
 		<property name="DescriptionKey" value="newfurnitureGroupDesc"/>
 		<property class="RepairItems">
@@ -20463,7 +20506,7 @@
 		<property name="CustomIcon" value="appleSeeds"/>
 		<property name="Extends" value="treePlantedMountainPine1m"/>
 		<property name="PlantGrowing.Next" value="plantedAppleTree2"/>
-		<property name="PlantGrowing.GrowthRate" value="360"/>
+		<property name="PlantGrowing.GrowthRate" value="180"/>
 		<property name="ParticleOnDeath" value="treeGib_sapling"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
 	</block>
@@ -20475,7 +20518,7 @@
 		<property name="MultiBlockDim" value="1,5,1"/>
 		<property name="BigDecorationRadius" value="1"/>
 		<property name="PlantGrowing.Next" value="plantedAppleTree3Harvest"/>
-		<property name="PlantGrowing.GrowthRate" value="360"/>
+		<property name="PlantGrowing.GrowthRate" value="180"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
 		<drop event="Harvest" name="wood" count="40" tool_category="harvestingTools"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
@@ -20552,6 +20595,8 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="DescriptionKey" value="AnvilDesc"/>
 		<property name="RecipeList" value="anvilBlock"/>
+		<property name="ParticleName" value="forge"/>
+		<property name="ParticleOffset" value="0,0,0.5"/>
 		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="HeatMapStrength" value="1"/>
@@ -20560,7 +20605,7 @@
 		<property class="Workstation">
 			<property name="CraftingAreaRecipes" value="anvilBlock"/>
 			<property name="Modules" value="tools,output,fuel,material_input"/>
-			<property name="InputMaterials" value="iron,stone,clay"/>
+			<property name="InputMaterials" value="iron,clay"/>
 		</property>
 		<drop event="Harvest" name="rockSmall" count="20" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
@@ -20605,7 +20650,7 @@
 		<property name="TraderID" value="20"/>
 	</block>
 	<block id="1753" name="questBoard">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#questBoard?questBoardPrefab"/>
 		<property name="MaxDamage" value="50"/>
@@ -20842,7 +20887,7 @@
 	</block>
 	<!-- Deer Trophy By JaxTeller718 -->
 	<block id="77" name="deerTrophy">
-		<property name="Extends" value="woodMaster"/>
+		<property name="Extends" value="sdxMaster"/>
 		<property name="CustomIcon" value="deerTrophy"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#deerTrophy?deerTrophyPrefab"/>
@@ -21041,10 +21086,9 @@
 	<block id="1684" name="carrot1">
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="IsDeveloper" value="true"/>
-		<property name="Material" value="Mtallgrass"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
-		<property name="Model" value="#carrotPlant?carrotPlant0"/>
+		<property name="Model" value="#plantedCarrot1?plantedCarrot1Prefab"/>
 		<property name="PlantGrowing.Next" value="carrot2"/>
 	</block>
 	<block id="1685" name="carrot2">
@@ -21052,16 +21096,19 @@
 		<property name="IsDeveloper" value="true"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
-		<property name="Model" value="#carrotPlant?carrotPlant1"/>
+		<property name="Model" value="#plantedCarrot2?plantedCarrot2Prefab"/>
 		<property name="PlantGrowing.Next" value="carrot3"/>
 	</block>
 	<block id="1686" name="carrot3">
 		<property name="Extends" value="cropsHarvestableMaster"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>
-		<property name="Model" value="#carrotPlant?carrotPlant2"/>
+		<property name="Model" value="#plantedCarrot3?plantedCarrot3Prefab"/>
 		<property name="Collide" value="melee,movement,rocket"/>
-		<drop event="Harvest" name="carrot" count="1"/>
+		<drop event="Harvest" name="carrot" count="1" prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="carrot" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="carrot1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="1687" name="cucumber1">
 		<property name="Extends" value="cropsGrowingMaster"/>
@@ -21086,7 +21133,10 @@
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="#cucumberPlant?cucumberPlant2"/>
 		<property name="Collide" value="melee,movement,rocket"/>
-		<drop event="Harvest" name="cucumber" count="2"/>
+		<drop event="Harvest" name="cucumber" count="1" prob="0.8" tool_category="Pluck"/>
+		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
+		<drop event="Harvest" name="cucumber" count="1" tool_category="Farm"/>
+		<drop event="Harvest" name="cucumber1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="1085" name="Wood_Gate_3x2">
 		<property name="CustomIcon" value="WoodGate3x2"/>
@@ -21140,6 +21190,9 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="RecipeList" value="woodenBarrels"/>
+		<property name="ParticleName" value="campfire" />
+		<property name="ParticleOffset" value="0.5,0,0.5" />
+		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<drop event="Fall" name="woodDebrisBlock" count="1" prob="1.0"  stick_chance="0.75"/>
 		<property name="Class" value="Campfire"/>
@@ -21510,7 +21563,7 @@
 		<property name="MultiBlockDim" value="4,2,2"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="131"/>
-		<property name="Material" value="Mmetal_weak"/>
+		<property name="Material" value="metal"/>
 		<property name="FuelValue" value="300"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
@@ -21623,7 +21676,7 @@
 	</block>
 	<!-- Even More Storage by JaxTeller718 -->
 	<block id="1053" name="gunLocker">
-		<property name="Extends" value="woodMaster" />
+		<property name="Extends" value="sdxMaster" />
 		<property name="Shape" value="ModelEntity" />
 		<property name="Model" value="#gunLocker?gunLockerPrefab" />
 		<property name="CustomIcon" value="gunLocker" />
@@ -21636,7 +21689,7 @@
 		<property name="Stacknumber" value="50" />
 	</block>
 	<block id="89" name="vintageCloset">
-		<property name="Extends" value="woodMaster" />
+		<property name="Extends" value="sdxMaster" />
 		<property name="Shape" value="ModelEntity" />
 		<property name="Model" value="#vintageCloset?vintageClosetPrefab" />
 		<property name="CustomIcon" value="vintageCloset" />
@@ -21980,5 +22033,5 @@
 		<property name="RaycastCallButtons" value="false" />
 		<property name="HasRoof" value="false" />
 	</block>
-	<!-- Free ID Slots in the Blocks.xml    105  106  964   965   You cannot go further than 2047. -->
+	<!-- Free ID Slots in the Blocks.xml   106   965   You cannot go further than 2047. -->
 </blocks>

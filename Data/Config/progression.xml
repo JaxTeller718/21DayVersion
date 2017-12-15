@@ -19,16 +19,16 @@
 				<multiply skill_level="70,100" value="0.72,0.66"/>
 			</effect>
 			<effect name="BreathHoldDuration">
-				<setvalue skill_level="1,10" value="40,47"/>
-				<setvalue skill_level="10,20" value="47,52"/>
-				<setvalue skill_level="20,30" value="52,56"/>
-				<setvalue skill_level="30,40" value="56,60"/>
-				<setvalue skill_level="40,50" value="60,64"/>
-				<setvalue skill_level="50,60" value="64,67"/>
-				<setvalue skill_level="60,70" value="67,71"/>
-				<setvalue skill_level="70,80" value="71,74"/>
-				<setvalue skill_level="80,90" value="74,77"/>
-				<setvalue skill_level="90,100" value="77,80"/>
+				<setvalue skill_level="1,10" value="20,27"/>
+				<setvalue skill_level="10,20" value="27,32"/>
+				<setvalue skill_level="20,30" value="32,36"/>
+				<setvalue skill_level="30,40" value="36,40"/>
+				<setvalue skill_level="40,50" value="40,44"/>
+				<setvalue skill_level="50,60" value="44,47"/>
+				<setvalue skill_level="60,70" value="47,51"/>
+				<setvalue skill_level="70,80" value="51,54"/>
+				<setvalue skill_level="80,90" value="54,57"/>
+				<setvalue skill_level="90,100" value="57,60"/>
 			</effect>
 		</player_skill>
 		<perk name="Deep Diving" icon="ui_game_symbol_oxygen" description_key="deepDivingDesc" title_key="deep Diving" max_level="5" skill_point_cost_multiplier="1.4" passive_effect="true" skill_point_cost_per_level="3" always_fire="true" group="health">
@@ -87,16 +87,16 @@
 		</perk>
 		<player_skill name="Scavenging" icon="loot_sack" description_key="scavengingDesc" title_key="scavenging" exp_to_level="250" group="scavenging">
 			<effect name="LootTime">
-				<multiply skill_level="1,10" value="1,0.76"/>
-				<multiply skill_level="10,20" value="0.76,0.66"/>
-				<multiply skill_level="20,30" value="0.66,0.59"/>
-				<multiply skill_level="30,40" value="0.59,0.53"/>
-				<multiply skill_level="40,50" value="0.53,0.47"/>
-				<multiply skill_level="50,60" value="0.47,0.42"/>
-				<multiply skill_level="60,70" value="0.42,0.37"/>
-				<multiply skill_level="70,80" value="0.37,0.33"/>
-				<multiply skill_level="80,90" value="0.33,0.29"/>
-				<multiply skill_level="90,100" value="0.29,0.25"/>
+				<multiply skill_level="1,10" value="1,0.86"/>
+				<multiply skill_level="10,20" value="0.86,0.79"/>
+				<multiply skill_level="20,30" value="0.79,0.71"/>
+				<multiply skill_level="30,40" value="0.71,0.66"/>
+				<multiply skill_level="40,50" value="0.66,0.59"/>
+				<multiply skill_level="50,60" value="0.59,0.55"/>
+				<multiply skill_level="60,70" value="0.55,0.49"/>
+				<multiply skill_level="70,80" value="0.49,0.44"/>
+				<multiply skill_level="80,90" value="0.44,0.39"/>
+				<multiply skill_level="90,100" value="0.39,0.35"/>
 			</effect>
 			<effect name="LootQuality">
 				<add skill_level="1,5" value="1,8"/>
@@ -120,17 +120,17 @@
 			<recipe name="doubleBlunderbuss" unlock_level="25"/>
 		</player_skill>
 		<!-- QoLaFIM A16.2 - point cost lowered 4>2, it's more of a convenience skill, after all, multiplier lowered 1.49>1.26, level requirements adjusted -->
-		<perk name="Fast Eddie" icon="loot_sack" description_key="fastEddieDesc" title_key="fastEddie" max_level="4" skill_point_cost_multiplier="1.26" skill_point_cost_per_level="2" always_fire="true" group="scavenging">
+		<perk name="Fast Eddie" icon="loot_sack" description_key="fastEddieDesc" title_key="fastEddie" max_level="4" skill_point_cost_multiplier="1.26" skill_point_cost_per_level="4" always_fire="true" group="scavenging">
 			<requirement perk_level="1" required_skill_name="Scavenging" required_skill_level="1"/>
 			<requirement perk_level="2" required_skill_name="Scavenging" required_skill_level="20"/>
 			<requirement perk_level="3" required_skill_name="Scavenging" required_skill_level="40"/>
 			<requirement perk_level="4" required_skill_name="Scavenging" required_skill_level="60"/>
 			<effect name="LootTime">
 				<multiply perk_level="0" value="1"/>
-				<multiply skill_level="1" value="0.70"/>
-				<multiply skill_level="2" value="0.50"/>
-				<multiply skill_level="3" value="0.35"/>
-				<multiply skill_level="4" value="0.25"/>
+				<multiply skill_level="1" value="0.90"/>
+				<multiply skill_level="2" value="0.70"/>
+				<multiply skill_level="3" value="0.50"/>
+				<multiply skill_level="4" value="0.30"/>
 			</effect>
 		</perk>
 		<!-- QoLaFIM A16.2 - multiplier lowered 2>1.58, 4th level added, required skill adjusted -->
@@ -142,11 +142,11 @@
 			<requirement skill_level="5" required_skill_name="Scavenging" required_skill_level="80"/>
 			<effect name="LootQuality">
 				<add perk_level="0" value="0"/>
-				<add skill_level="1" value="25"/>
-				<add skill_level="2" value="50"/>
-				<add skill_level="3" value="100"/>
-				<add skill_level="4" value="150"/>
-				<add skill_level="5" value="200"/>
+				<add skill_level="1" value="20"/>
+				<add skill_level="2" value="30"/>
+				<add skill_level="3" value="50"/>
+				<add skill_level="4" value="70"/>
+				<add skill_level="5" value="100"/>
 			</effect>
 		</perk>
 		<perk name="Treasure Hunter" icon="treasure" description_key="treasureHunterDesc" title_key="treasureHunter" max_level="4" skill_point_cost_multiplier="1.5" skill_point_cost_per_level="3" group="scavenging">
@@ -256,11 +256,11 @@
 			<requirement perk_level="5" required_skill_name="Pummel Pete" required_skill_level="5"/>
 			<effect name="BlockDamage">
 				<multiply perk_level="0" value="1"/>
-				<multiply skill_level="1" value="1.2"/>
-				<multiply skill_level="2" value="1.5"/>
-				<multiply skill_level="3" value="1.9"/>
-				<multiply skill_level="4" value="2.4"/>
-				<multiply skill_level="5" value="3.0"/>
+				<multiply skill_level="1" value="1.1"/>
+				<multiply skill_level="2" value="1.2"/>
+				<multiply skill_level="3" value="1.4"/>
+				<multiply skill_level="4" value="1.6"/>
+				<multiply skill_level="5" value="2.0"/>
 			</effect>
 		</perk>
 		<action_skill name="Blade Weapons" exp_to_level="150" icon="knife" description_key="bladeWeaponsDesc" title_key="bladeWeapons" group="weapons">
@@ -307,11 +307,11 @@
 			</effect>
 			<effect name="HarvestCount">
 				<multiply perk_level="0" value="1"/>
-				<multiply perk_level="1" value="1.05"/>
-				<multiply perk_level="2" value="1.10"/>
-				<multiply perk_level="3" value="1.20"/>
-				<multiply perk_level="4" value="1.35"/>
-				<multiply perk_level="5" value="1.60"/>
+				<multiply perk_level="1" value="1.00"/>
+				<multiply perk_level="2" value="1.00"/>
+				<multiply perk_level="3" value="1.10"/>
+				<multiply perk_level="4" value="1.25"/>
+				<multiply perk_level="5" value="1.50"/>
 			</effect>
 		</perk>
 		<perk name="The Decapitator" icon="knife" description_key="theDecapitatorDesc" title_key="decapitator" max_level="3" skill_point_cost_multiplier="2" skill_point_cost_per_level="4" group="weapons">
@@ -320,9 +320,9 @@
 			<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="80"/>
 			<effect name="DismembermentChance">
 				<add perk_level="0" value="0"/>
-				<add skill_level="1" value="0.05"/>
-				<add skill_level="2" value="0.10"/>
-				<add skill_level="3" value="0.20"/>
+				<add skill_level="1" value="0.04"/>
+				<add skill_level="2" value="0.08"/>
+				<add skill_level="3" value="0.15"/>
 			</effect>
 		</perk>
 		<perk name="Robin Hood" icon="archery" description_key="Increases damage with each rank, using a Bow." title_key="Robin Hood" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
@@ -389,10 +389,10 @@
 			</effect>
 			<effect name="HarvestCount">
 				<multiply perk_level="0" value="1"/>
-				<multiply perk_level="1" value="1.10"/>
-				<multiply perk_level="2" value="1.20"/>
-				<multiply perk_level="3" value="1.30"/>
-				<multiply perk_level="4" value="1.40"/>
+				<multiply perk_level="1" value="1.00"/>
+				<multiply perk_level="2" value="1.00"/>
+				<multiply perk_level="3" value="1.10"/>
+				<multiply perk_level="4" value="1.25"/>
 				<multiply perk_level="5" value="1.50"/>
 			</effect>
 		</perk>
@@ -448,11 +448,6 @@
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 			<requirement skill_level="1" required_skill_name="Clothing/Armor" required_skill_level="10"/>
 			<recipe name="tailorStation" unlock_level="1"/>
-		</perk>
-		<perk name="Dye Station" icon="resource" description_key="The Dye Station is used to color all your armors" title_key="Dye Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
-			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
-			<requirement skill_level="1" required_skill_name="Clothing/Armor" required_skill_level="20"/>
-			<recipe name="dyeStation" unlock_level="1"/>
 		</perk>
 		<perk name="Blacksmithing Station" icon="resource" description_key="The Blacksmithing Station allows you to make metal armor and items using a Blacksmith Hammer and Welding Torch. You can purchase the Hammer and Anvil before you can purchase the Station and craft it in the forge" title_key="Blacksmithing Station" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
 			<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
@@ -525,11 +520,11 @@
 			<requirement perk_level="5" required_skill_name="Construction Tools" required_skill_level="80"/>
 			<effect name="StaminaDegradation">
 				<multiply perk_level="0" value="1"/>
-				<multiply perk_level="1" value="0.8"/>
-				<multiply perk_level="2" value="0.7"/>
-				<multiply perk_level="3" value="0.6"/>
-				<multiply perk_level="4" value="0.5"/>
-				<multiply perk_level="5" value="0.4"/>
+				<multiply perk_level="1" value="0.9"/>
+				<multiply perk_level="2" value="0.8"/>
+				<multiply perk_level="3" value="0.7"/>
+				<multiply perk_level="4" value="0.6"/>
+				<multiply perk_level="5" value="0.5"/>
 			</effect>
 			<effect name="HarvestCount">
 				<multiply perk_level="0" value="1"/>
@@ -562,11 +557,11 @@
 			<effect name="EntityDamage">
 				<multiply skill_level="0" value="1"/>
 				<multiply skill_level="1" value="1.1"/>
-				<multiply skill_level="2" value="1.25"/>
-				<multiply skill_level="3" value="1.4"/>
-				<multiply skill_level="4" value="1.6"/>
-				<multiply skill_level="5" value="1.9"/>
-				<multiply skill_level="6" value="2.2"/>
+				<multiply skill_level="2" value="1.2"/>
+				<multiply skill_level="3" value="1.3"/>
+				<multiply skill_level="4" value="1.4"/>
+				<multiply skill_level="5" value="1.5"/>
+				<multiply skill_level="6" value="1.6"/>
 			</effect>
 		</perk>
 		<perk name="Dead Shot" icon="pistol" description_key="deadShotDesc" title_key="deadShot" max_level="3" skill_point_cost_multiplier="2" skill_point_cost_per_level="4" group="firearms">
@@ -602,11 +597,11 @@
 			<effect name="EntityDamage">
 				<multiply skill_level="0" value="1"/>
 				<multiply skill_level="1" value="1.1"/>
-				<multiply skill_level="2" value="1.25"/>
-				<multiply skill_level="3" value="1.4"/>
-				<multiply skill_level="4" value="1.6"/>
-				<multiply skill_level="5" value="1.9"/>
-				<multiply skill_level="6" value="2.2"/>
+				<multiply skill_level="2" value="1.2"/>
+				<multiply skill_level="3" value="1.3"/>
+				<multiply skill_level="4" value="1.4"/>
+				<multiply skill_level="5" value="1.5"/>
+				<multiply skill_level="6" value="1.6"/>
 			</effect>
 		</perk>
 		<perk name="Splatter Gun" icon="shotgun" description_key="splatterGunDesc" title_key="splatterGun" max_level="3" skill_point_cost_multiplier="2" skill_point_cost_per_level="4" group="firearms">
@@ -615,9 +610,9 @@
 			<requirement perk_level="3" required_skill_name="Shotguns" required_skill_level="80"/>
 			<effect name="DismembermentChance">
 				<add perk_level="0" value="0"/>
-				<add skill_level="1" value="0.05"/>
-				<add skill_level="2" value="0.10"/>
-				<add skill_level="3" value="0.20"/>
+				<add skill_level="1" value="0.04"/>
+				<add skill_level="2" value="0.08"/>
+				<add skill_level="3" value="0.15"/>
 			</effect>
 		</perk>
 		<action_skill name="Rifles" exp_to_level="100" icon="rifle" description_key="riflesDesc" title_key="rifles" group="firearms">
@@ -643,11 +638,11 @@
 			<effect name="EntityDamage">
 				<multiply perk_level="0" value="1"/>
 				<multiply skill_level="1" value="1.1"/>
-				<multiply skill_level="2" value="1.25"/>
-				<multiply skill_level="3" value="1.4"/>
-				<multiply skill_level="4" value="1.6"/>
-				<multiply skill_level="5" value="1.9"/>
-				<multiply skill_level="6" value="2.2"/>
+				<multiply skill_level="2" value="1.2"/>
+				<multiply skill_level="3" value="1.3"/>
+				<multiply skill_level="4" value="1.4"/>
+				<multiply skill_level="5" value="1.5"/>
+				<multiply skill_level="6" value="1.6"/>
 			</effect>
 		</perk>
 		<action_skill name="Archery" exp_to_level="100" icon="archery" description_key="archeryDesc" title_key="archery" group="weapons">
@@ -678,12 +673,6 @@
 				<multiply skill_level="80,90" value="1.89,1.95"/>
 				<multiply skill_level="90,100" value="1.95,2.00"/>
 			</effect>
-			<recipe name="aloeCream" unlock_level="5"/>
-			<recipe name="firstAidBandage" unlock_level="5"/>
-			<recipe name="splint" unlock_level="15"/>
-			<recipe name="firstAidKit" unlock_level="30"/>
-			<recipe name="herbalAntibiotics" unlock_level="45"/>
-			<recipe name="antibiotics" unlock_level="60"/>
 		</player_skill>
 		<!-- Crafting Skills -->
 		<perk name="craftSkillBluntWeapons" max_level="10" skill_point_cost_multiplier="1.21" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="weapon_smithing" description_key="craftSkillBluntWeaponsDesc" title_key="craftSkillBluntWeapons" group="weapons" exp_gain_multiplier="0">
@@ -2566,9 +2555,10 @@
 			<requirement skill_level="1" required_skill_name="BowsClass" required_skill_level="1"/>
 			<recipe name="stonecrossbowBolt" unlock_level="1"/>
 		</perk>
-		<perk name="MedicalClass" icon="ui_game_symbol_classSurvivalist1" description_key="With this class you will receive extra healing items and access to several exclusive health recipes" title_key="MedicalClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="crafting"/>
+		<perk name="MedicalClass" icon="ui_game_symbol_classSurvivalist1" description_key="With this class you will receive extra healing items and access to several exclusive health recipes such as antibiotics, first aid kits and advanced medicine" title_key="MedicalClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="crafting"/>
 		<perk name="Medical Skills" icon="ui_game_symbol_classSurvivalist1" description_key="The medic excels at creating health items" title_key="Medical Skills" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="1"/>
+			<recipe name="antibiotics" unlock_level="1"/>
 			<recipe name="reinforcedSplint" unlock_level="1"/>
 			<recipe name="maniacPowder" unlock_level="1"/>
 			<recipe name="disinfectantBandage" unlock_level="1"/>
@@ -2590,7 +2580,7 @@
 		</perk>
 		<!-- 	<perk name="pressurewell" icon="tool_smithing" description_key="pressurewelldesc" title_key="Pressurewell" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="misc_crafting"><requirement perk_level="1" required_player_level="15"/><recipe name="pressurewell" unlock_level="1"/></perk> -->
 		<perk name="Alternative Medicine" icon="medical" description_key="altmeddesc" title_key="Alt Medicine" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
-			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="5"/>
+			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="1"/>
 			<recipe name="Joint" unlock_level="1"/>
 		</perk>
 		<action_skill name="Electric Tools" exp_to_level="999" icon="mining" description_key="You can swing that electric tool like a boss. Increase this by using electric tools" title_key="Electric Tools" group="tools">

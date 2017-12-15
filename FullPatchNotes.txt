@@ -753,3 +753,125 @@ Patch 2.09
 -Sticks recipe Removed. Wood is now Scrap Only
 
 -Raised Barter xp to level slightly
+
+---------------------------------------------------------
+
+Patch 2.10
+
+-Added Wellness in small amounts to vegetable recipes and teas
+
+-Forced Traps and Cooking to NOT level through crafting
+
+-Removed Dev Only from Elevator
+
+-Added anvil to Tailoring Station recipe
+
+-Added chance to find Sewing Kit to dressers
+
+-Added chance to find Butcher Knfe and Tenderizer to Cupboards
+
+-Removed Butcher Knife as craftable
+
+-Revised some Localization Descriptions and Quest Descriptions
+
+-Changed Snake Bite Buff and added Anti Venom you craft out of Venom Glands you get from harvesting Snakes.
+
+-Fixed Quest not taking certain items upon completion
+
+----------------------------------------------------
+
+Patch 2.11
+
+-Converted All SDX Models from extending from Wood Block to its own block (Fixes upgrade issue on models and low health on them as well)
+
+-Raised Shotgun Damage Slightly
+
+-Added Scythe Recipe
+
+-SP versions have had the dropped back despawn time reduced to 2400 seconds to prevent backpacks from never disappearing.
+
+-SP Versions have had the crops time reduced a bit to compensate for days not running while offline. New Crop Times are 180 a stage so 360 total. Tree times have been reduced to 360.
+
+-Changed all storage items to stronger material
+
+-Added new Medicine Cabinet Storage
+
+-Added First Aid Kit and Antibiotics recipes to Medic Class Only
+
+-Removed first aid kit schematic from loot
+
+-Added herbal antibiotics recipe to rare book loot
+
+-Increased Salt yield and salt required in some recipes.
+
+-Lowered some values for weapons in progression to vanilla. Some were ABOVE vanilla value. (This will eventually require a complete progression overhaul and a wipe in the future, adjusted values that would allow saves to not break for now)
+
+-Added Cheeseburger gives slightly more Wellness than Hamburger
+
+-Added Bread to Ham and Cheese Sandwich and increased Wellness slightly
+
+-Removed legs from the game to increase tension and to allow potatoes to roll down hill faster than you can.
+
+-Added Wellness to Pickles
+
+-Reduced Arrow Damage on all bolts and arrows slightly but gave them progression. Stone/Iron/Steel/Modern is the proper progression for head damage.
+
+-Rebalanced Blunt Weapons so they are more effective as you Progress.
+
+-Added Wood Club to Medic Class Starting Kit.
+
+-Zombie Health Increased SLIGHTLY (Like real slightly, 50 or so hp added)
+
+-Feral zombies Health increased Slightly (roughly 100 more hp)
+
+-Removed Dye Station Recipe, Assorted dyes from loot and all dyed clothing recipes (This will hopefully ease some of the recipe lag)
+
+-Changed carrot plant models to a temporary one due to memory leak in the models
+
+-Reduced texture size on classic cars, coffins, composter and more for optimization and smaller file sizes
+
+-Added additional hitboxes on classic cars.
+
+-Added some better stats to food made in the Stoves
+
+-Increased cost of Class Papers to 175
+
+-Increased cost of Skill Papers and removed the 1 Point Skill papers
+
+-Removed several Vanilla deco blocks from recipes to assist with menu lag
+
+-Removed All Vanilla clothing recipes that can be found in loot to help with Inventory lag.
+
+-Added temporary Advanced Forge Model to replace the broken one
+
+-Added fire to Blacksmith Station and Fermenting Barrel
+
+-Removed Vibrators from the Streamer Friendly Edition
+
+-Removed Children Zombies from Streamer Friendly Edition.
+
+-Added Healing effects to the new Bed and Chair models
+
+-Added Baseball Bat to sporting goods loot
+
+-Reduced chances for treasure maps
+
+-Removed cooking pot from some loot lists due to pots being everywhere.
+
+-Removed stone from Blacksmith Station as it was unnecessary.
+
+-Reduced Damage from Mines slightly
+
+-Slightly Lowered Night Terror Health
+
+-HOPEFULLY Lowered the noise of chainsaws and Augers
+
+-Added Chainsaws to Electric Tools
+
+-Added a Beaker to the Medic Class
+
+-Added a 250 Stone Axe to Survival Class
+
+-Removed Infected Survivor Zombie that may have been causing a server errors)
+
+-Added some more loot to the Night Terrors.

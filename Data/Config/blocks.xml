@@ -3066,7 +3066,7 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Destroy" name="campfire" count="1" tool_category="Disassemble"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Food/Cooking,Basics,Building"/>
+		<property name="Group" value="Food/Cooking,Basics"/>
 		<property name="DescriptionKey" value="campfireDesc"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
@@ -4216,7 +4216,7 @@
 		<property name="DowngradeBlock" value="trapSpikesDamage1"/>
 		<drop event="Destroy" name="wood" count="1,3"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="50"/>
 		<property name="SellableToTrader" value="false"/>
@@ -4328,7 +4328,7 @@
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Destroy" name="wood" count="2,6" prob="1"/>
 		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 		<property name="DescriptionKey" value="woodLogSpike1Desc"/>
 		<property name="EconomicValue" value="30"/>
 		<property name="EconomicBundleSize" value="20"/>
@@ -4471,7 +4471,7 @@
 		<drop event="Harvest" name="scrapIron" count="3"/>
 		<drop event="Destroy" count="0"/>
 		<property name="CanPlayersSpawnOn" value="false"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 		<property name="EconomicValue" value="11"/>
 	</block>
 	<block id="431" name="mineCandyTin">
@@ -5496,7 +5496,7 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Basics,Building"/>
+		<property name="Group" value="Basics,Building,Science"/>
 		<property name="DescriptionKey" value="forgeDesc"/>
 		<property name="EconomicValue" value="214"/>
 	</block>
@@ -5891,7 +5891,7 @@
 		<property name="Model" value="siding_burnt01"/>
 		<property name="CustomIcon" value="burntWoodBlock1"/>
 		<property name="LightOpacity" value="3"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 	</block>
 	<block id="594" name="woodWedgeCNRInsideBottom">
 		<property name="Extends" value="woodMaster"/>
@@ -6014,7 +6014,7 @@
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Destroy" name="brokenGlass" count="1,4"/>
 		<property name="EconomicValue" value="10"/>
-		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="Group" value="Tools/Traps"/>
 	</block>
 	<block id="607" name="trapGlassBusinessSheet1x1">
 		<property name="Extends" value="trapGlassBusinessCTRSheet1x1"/>
@@ -16861,6 +16861,7 @@
 		<drop event="Destroy" name="scrapIron" count="10" prob="1"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
+		<property name="Group" value="Science,Food/Cooking,Basics,"/>
 		<!-- disassemble value 355 -->
 	</block>
 	<block id="1794" name="cntworkingWallOven">
@@ -16894,6 +16895,7 @@
 		<drop event="Destroy" name="scrapIron" count="10" prob="1"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
+		<property name="Group" value="Food/Cooking,Science"/>
 		<!-- disassemble value 355 -->
 	</block>
 	<block id="1795" name="JunctionBox">
@@ -17981,7 +17983,7 @@
 		<drop event="Destroy" name="scrapIron" count="5,10"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob=".5" stick_chance="1"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Food/Cooking,Science"/>
 		<property name="DescriptionKey" value="bbqgrillDesc"/>
 		<property name="TakeDelay" value="15"/>
 		<!--	<property name="CraftingSkillGroup" value="cooking"/> -->
@@ -18008,6 +18010,7 @@
 			<property name="Twine" value="1"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Science"/>
 	</block>
 	<block id="1629" name="NewWorkBench">
 		<property name="Extends" value="workbench"/>
@@ -18029,6 +18032,7 @@
 		</property>
 		<property name="DescriptionKey" value="NewWorkBenchDesc"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Basics,Building,Science"/>
 	</block>
 	<block id="1633" name="BigCampFire">
 		<property name="Extends" value="campfire"/>
@@ -18047,6 +18051,7 @@
 			<property name="wood" value="5"/>
 			<property name="rockSmall" value="5"/>
 		</property>
+		<property name="Group" value="Food/Cooking,Basics,Science"/>
 	</block>
 	<block id="1634" name="ResearchDesk">
 		<property name="Extends" value="workbench"/>
@@ -18069,6 +18074,7 @@
 		<drop event="Destroy" name="nail" count="5" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Science"/>
 	</block>
 	<block id="1627" name="BigForge">
 		<property name="Extends" value="forge"/>
@@ -18098,6 +18104,7 @@
 			<property name="forgedIron" value="2"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Basics,Science"/>
 	</block>
 	<block id="1682" name="mortarAndPestle">
 		<property name="Class" value="Workstation"/>
@@ -18128,7 +18135,7 @@
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Building,Science"/>
+		<property name="Group" value="Food/Cooking,Basics,Science"/>
 	</block>
 	<block id="1680" name="MotorbikeDown">
 		<!-- All 3 motorcycles are free Unity store assets, by Artistic Mechanics -->
@@ -18310,6 +18317,7 @@
 			<property name="wood" value="10"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Clothing/Armor,Science"/>
 	</block>
 	<block id="1609" name="humVee">
 		<property name="Extends" value="cntCar03SedanDamage1"/>
@@ -19534,6 +19542,7 @@
 		<property name="CustomIcon" value="mirrorBath"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="DescriptionKey" value="mirrorBathDesc"/>
 		<property name="LootList" value="100"/>
 		<drop event="Destroy" name="brokenGlass" count="1,2"/>
 		<property name="Stacknumber" value="250"/>
@@ -19764,6 +19773,7 @@
 		<property name="Group" value="Building,Science"/>
 		<property name="MultiBlockDim" value="2,1,1"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="Group" value="Food/Cooking,Science"/>
 	</block>
 	<block id="1992" name="rainCatcherEmpty">
 		<property name="Shape" value="ModelEntity"/>
@@ -20423,6 +20433,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Food/Cooking,Science"/>
 		<!-- disassemble value 355 -->
 	</block>
 	<block id="1012" name="largeStove02">
@@ -20460,6 +20471,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Food/Cooking,Science"/>
 		<!-- disassemble value 355 -->
 	</block>
 	<block id="1013" name="largeStove03">
@@ -20497,6 +20509,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="360"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Food/Cooking,Science"/>
 		<!-- disassemble value 355 -->
 	</block>
 	<block id="110" name="plantedAppleTree1">
@@ -20610,7 +20623,7 @@
 			<property name="wood" value="10"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Basics,Building"/>
+		<property name="Group" value="Basics,Ammo/Weapons,Tools/Traps,Science"/>
 		<property name="EconomicValue" value="214"/>
 	</block>
 	<block id="1632" name="tailorStation">
@@ -20630,6 +20643,7 @@
 			<property name="wood" value="10"/>
 		</property>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Clothing/Armor,Science"/>
 	</block>
 	<block id="1752" name="traderTable">
 		<property name="Extends" value="workbench"/>
@@ -20644,6 +20658,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="Class" value="VendingMachine"/>
 		<property name="TraderID" value="20"/>
+		<property name="Group" value="Science"/>
 	</block>
 	<block id="1753" name="questBoard">
 		<property name="Extends" value="sdxMaster"/>
@@ -20656,6 +20671,7 @@
 		<property name="TraderID" value="21"/>
 		<property name="DescriptionKey" value="questBoardDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="Group" value="Science"/>
 	</block>
 	<block id="1691" name="zombieHordeBeacon">
 		<property name="Material" value="metal"/>
@@ -20827,6 +20843,7 @@
 		</property>
 		<property name="SellableToTrader" value="false"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Tools/Weapons,Science"/>
 	</block>
 	<block id="1045" name="painting1">
 		<property name="Material" value="glass"/>
@@ -21078,6 +21095,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Science"/>
 	</block>
 	<block id="1684" name="carrot1">
 		<property name="Extends" value="cropsGrowingMaster"/>
@@ -21203,6 +21221,7 @@
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Building"/>
 		<property name="DescriptionKey" value="woodenBarrelsDesc"/>
+		<property name="Group" value="Science"/>
 	</block>
 	<block id="85" name="stove">
 		<property name="Class" value="Campfire"/>
@@ -21216,7 +21235,7 @@
 		<property name="HeatMapStrength" value="0.2"/>
 		<property name="HeatMapTime" value="1200"/>
 		<property name="HeatMapFrequency" value="25"/>
-		<property name="Group" value="Building"/>
+		<property name="Group" value="Food/Cooking,Science"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="EconomicValue" value="360"/>
 		<property class="RepairItems">
@@ -21306,6 +21325,7 @@
 		<property name="EconomicValue" value="55"/>
 		<property name="EconomicBundleSize" value="10"/>
 		<property name="TakeDelay" value="15"/>
+		<property name="Group" value="Basics,Science"/>
 	</block>
 	<block id="1090" name="hayFallTrap">
 		<property name="CustomIcon" value="hayTrap"/>
@@ -21473,7 +21493,7 @@
 		<drop event="Destroy" name="scrapIron" count="20" tool_category="Disassemble"/>
 		<drop event="Destroy" name="Twine" count="2" tool_category="Disassemble"/>
 		<property name="TakeDelay" value="15"/>
-		<property name="Group" value="Building"/>
+		<property name="Group" value="Building,Science"/>
 		<property name="DescriptionKey" value="decoStationDesc"/>
 	</block>
 	<block id="1151" name="deerBlind">

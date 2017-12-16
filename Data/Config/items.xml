@@ -22737,6 +22737,7 @@
 	</item>
 	<item id="3313" name="Cheeseburger">
 		<property name="Meshfile" value="#hamburger?hamburgerPrefab"/>
+		<property name="CustomIcon" value="hamburger"/>
 		<property name="Material" value="organic"/>
 		<property name="DescriptionKey" value="hamburgerDesc"/>
 		<property name="HoldType" value="3"/>

@@ -4073,19 +4073,19 @@
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="blueberries" count="6"/>
 	</recipe>
-	<recipe name="zombiePinup01" count="1">
+	<recipe name="zombiePinup01" count="1" craft_area="decoStation">
 		<ingredient name="paint" count="20"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
-	<recipe name="zombiePinup02" count="1">
+	<recipe name="zombiePinup02" count="1" craft_area="decoStation">
 		<ingredient name="paint" count="20"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
-	<recipe name="zombiePinup03" count="1">
+	<recipe name="zombiePinup03" count="1" craft_area="decoStation">
 		<ingredient name="paint" count="20"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
-	<recipe name="zombiePinup04" count="1">
+	<recipe name="zombiePinup04" count="1" craft_area="decoStation">
 		<ingredient name="paint" count="20"/>
 		<ingredient name="paper" count="1"/>
 	</recipe>
@@ -4356,6 +4356,7 @@
 	<!-- Bathroom Mirror by JaxTeller718 -->
 	<recipe name="mirrorBath" count="1" craft_area="decoStation">
 		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="nail" count="5"/>
 		<ingredient name="glassBusinessSheet" count="1"/>
 	</recipe>
 	<!-- Bathroom Mirror By JaxTeller718 -->
@@ -5746,11 +5747,6 @@
 		<ingredient name="foodHoney" count="1"/>
 		<ingredient name="bloodBag" count="1"/>
 		<ingredient name="venomGland" count="1"/>
-	</recipe>
-	<recipe name="mirrorBath" count="1"     craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="nail" count="5"/>
-		<ingredient name="brokenGlass" count="10"/>
 	</recipe>
 	<recipe name="carBattery" count="1" craft_area="NewWorkBench">
 		<ingredient name="car_parts" count="150"/>

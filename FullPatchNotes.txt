@@ -904,3 +904,17 @@ Patch 2.11.01
 -Added Batteries craftable with Car Parts. LOTS of car parts.
 
 -Horde Night Gamestage Adjustments. Gamestage 1-100 will have a Max Alive of 1-5, over Stage 100 - 1000 will have 10-30, Stage 1000-2000 will have 30-40, Stage 2000-3000 will have 40-60, Stage 2000-4000 will have 60-80 and the final stages will have 100
+
+-------------------------------------------
+
+Patch 2.11.02
+
+-Removed Journal Entries which were causing storage issues
+
+--------------------------------------
+
+Patch 2.11.03
+
+-Fixed Machete Blade recipe so it can be crafted in Blacksmith Station
+
+-Added a Debuff to Extreme Blood Loss to Blood Bag. Otherwise the buff would not go away.

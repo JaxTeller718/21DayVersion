@@ -985,7 +985,8 @@
 		<ingredient name="Twine" count="3"/>
 	</recipe>
 	<recipe name="macheteBlade" count="1"  craft_area="anvilBlock" craft_time="30">
-		<ingredient name="forgedSteel" count="20"/>
+		<ingredient name="unit_iron" count="400"/>
+		<ingredient name="unit_clay" count="200"/>
 	</recipe>
 	<recipe name="machete" count="1" craft_area="NewWorkBench" craft_time="60">
 		<ingredient name="macheteBlade" count="1"/>

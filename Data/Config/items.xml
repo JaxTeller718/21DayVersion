@@ -6368,15 +6368,16 @@
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="5"/>
-			<property name="Gain_food" value="5"/>
+			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="5"/>
 			<property name="Sound_start" value="player_drinking"/>
+			<property name="Buff" value="bloodBagDecay"/>
 		</property>
 		<property name="ActionSkillGroup" value="Medicine"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="CraftingIngredientExp" value="3"/>
 		<property name="Group" value="Science"/>
-		<property name="ActionExp" value="10"/>
+		<property name="ActionExp" value="3"/>
 	</item>
 	<item id="663" name="sunblocker">
 		<property name="Extends" value="aloeCream"/>

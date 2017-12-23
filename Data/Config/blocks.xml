@@ -16485,7 +16485,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="PlantGrowing.Next" value="cntCar03SedanDamage0"/>
-		<property name="PlantGrowing.GrowthRate" value="720"/>
+		<property name="PlantGrowing.GrowthRate" value="1800"/>
 		<!-- amount of days for respawn 60 equals 1 day-->
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
@@ -17088,7 +17088,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="PlantGrowing.Next" value="lootMyCarsHelper"/>
-		<property name="PlantGrowing.GrowthRate" value="720"/>
+		<property name="PlantGrowing.GrowthRate" value="1800"/>
 		<!-- amount of days for respawn 60 equals 1 day-->
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>

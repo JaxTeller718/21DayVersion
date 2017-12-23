@@ -34,7 +34,7 @@ gunMP5Desc,items,Gun,EnChanged,This silenced submachine gun uses 9mm ammo. Can b
 animalHideDesc,items,Item,EnChanged,Use animal hide to make warm clothing and leather.\n [ Crafted in Drying Rack. ],"Après avoir lu « Le livre du cuir », servez-vous de peaux de bête pour fabriquer des vêtements, des soufflets pour la forge et du cuir.",Tierhäute dienen dazu warme Kleidung und Leder herzustellen.,,"Una vez que hayas leído el libro del cuero, podrás usar la piel de animal para hacer ropa, fabricar fuelles para la fragua y cuero."
 bellowsDesc,items,Item,EnChanged,"Bellows made with wood, leather and pipes are needed to make a forge.","Un soufflet est fait de bois, de peau de bête et de tuyaux. Il sert à construire une forge.","Blasebälge bestehen aus Holz, Leder und Röhren, und sind notwendig, um eine Schmiede zu bauen.",,"Se necesitan fuelles de madera, piel de animal y tuberías para construir una fragua."
 oilShaleDesc,items,Item,EnChanged,Oil shale can be found in the desert.,,Ölschiefer kann in der Wüste gefunden werden und am Chemietisch zu Benzin verarbeitet werden.,,
-springDesc,items,Item,EnChanged,"Springs are great for making furniture, vault doors, hatches and more.",,"Schraubenfedern eignen sich prima dazu, Möbel, Tresortüren, Klappen und mehr zu fertigen.",,
+springDesc,items,Item,EnChanged,"Springs are great for making furniture, vault doors, hatches and more."\n [ Crafted in Advanced Workbench. ],,"Schraubenfedern eignen sich prima dazu, Möbel, Tresortüren, Klappen und mehr zu fertigen.",,
 yuccaFibersDesc,items,Item,EnChanged,Plant fibers are acquired from destroying grass & small plants. Can be used to craft many things and for planting grass using the secondary action.,"Les fibres végétales sont une ressource commune obtenue en détruisant de l'herbe et de petites plantes. Elles peuvent servir à fabriquer de nombreuses choses, y compris des vêtements.",Pflanzenfasern bekommt man von Gras und kleineren Pflanzen. Sie haben viele Verwendungszwecke. Mit der sekundären Aktion kann Gras gepflanzt werden.,,"La fibra vegetal es un recurso común que se adquiere al destruir hierba y pequeñas plantas. Se puede usar para fabricar diversos objetos, como ropa."
 painkillersDesc,items,Medical,EnChanged,Painkillers help you shrug off stunning blows and heal you a little over time. Like all chems they make you thirsty.,Vous avez pris des antidouleurs.,Du hast Schmerzmittel genommen.,,Tomaste analgésicos.
 partsAuger_bladeDesc,items,Part,EnChanged,Used to assemble an auger. If your science skill is high enough you can recraft and improve it at the workbench.\n [ Crafted in Weapon Station with a Chisel. ],,Ein Teil eines Erdbohrers. Wenn du in Wissenschaft gut bist dann kannst du ihn auf einer Werkbank neu fertigen und verbessern.,,
@@ -217,11 +217,11 @@ leatherCouchSofa,blocks,Block,KeyChanged EnChanged GrChanged,Leather Sofa,Canap�
 painKillersTooltip,buffs,Buff,KeyCon KgNone,You took painkillers.,Vous avez pris des antidouleurs.,Du hast Schmerzmittel genommen.,,Tomaste analgésicos.
 airConditioner,blocks,Block,KgNone,Air Conditioner,Climatiseur,Klimaanlage,,Aire acondicionado
 alphabetLetterSignGroupDesc,blocks,Block,KgNone,Create your own billboards with these single letter signs.\n [ Crafted in Decorating Station. ],Créez vos propres panneaux grâce à ces lettres.,Erstelle mit diesen Buchstaben deine eigenen Plakatwände.,,Crea tus propios carteles con estas letras.
-awningGroupDesc,blocks,Block,KgNone,An awning made from cloth.,Une toile en tissu.,Eine Stoffplane.,,Un toldo hecho de tela.
+awningGroupDesc,blocks,Block,KgNone,An awning made from cloth.\n [ Crafted in Decoration Station. ],Une toile en tissu.,Eine Stoffplane.,,Un toldo hecho de tela.
 bed01,blocks,Block,KgNone,An Old Bed,Un vieux lit,Altes Bett,,Una cama vieja
 bed01Frame,blocks,Block,KgNone,Iron Bed Frame,Cadre de lit en fer,Eisenbettgestell,,Bastidor de cama de hierro
 bed02,blocks,Block,KgNone,King Size Bed,Grand lit,Doppelbett,,Cama king size
-bedGroupDesc,blocks,Block,KgNone,Placing it on the ground will let you spawn there when you die and then show the spot on your map.\n [ Crafted in Decorating Station. ],"En le plaçant à terre, vous pourrez réapparaître à cet endroit lorsque vous mourrez et il sera indiqué sur votre carte.","Wenn du dies platzierst, kannst du dort wiedererscheinen, falls du stirbst. Außerdem wird der Standort auf deiner Karte angezeigt.",,"Si la colocas en el suelo, revives allí cada vez que mueras. Además, se mostrará el lugar en el mapa."
+bedGroupDesc,blocks,Block,KgNone,Placing it on the ground will let you spawn there when you die and then show the spot on your map.,"En le plaçant à terre, vous pourrez réapparaître à cet endroit lorsque vous mourrez et il sera indiqué sur votre carte.","Wenn du dies platzierst, kannst du dort wiedererscheinen, falls du stirbst. Außerdem wird der Standort auf deiner Karte angezeigt.",,"Si la colocas en el suelo, revives allí cada vez que mueras. Además, se mostrará el lugar en el mapa."
 bedroll,blocks,Block,KgNone,Bedroll,Sac de couchage,Schlafsack,,Saco de dormir
 boardedWindowsSheet4,blocks,Block,KgNone,Window Boards,Rebords de fenêtre,Fensterbretter,,Tapias
 brickBlock,blocks,Block,KgNone,Bricks,Briques,Ziegel,,Ladrillos
@@ -240,7 +240,7 @@ burningBarrel,blocks,Block,EnChanged,Burning Barrel (POI),Baril en feu,Brennende
 cable1,blocks,Block,KgNone,Cable1,Câble 1,Kabel 1,,Cable 1
 camoNetBlock,blocks,Block,KgNone,Camo Netting Block,Bloc en filet de camouflage,Tarnnetz – Block,,Bloque de red de camuflaje
 camoNetCNRFull,blocks,Block,KgNone,Camo Netting Corner,Angle en filet de camouflage,Tarnnetz – Ecke,,Esquina de red de camuflaje
-camoNetGroupDesc,blocks,Block,KgNone,"Camouflage your base! Unfortunately, zombies seem to find you by smell.","Camouflez votre base ! Malheureusement, les zombies semblent vous repérer à l'odeur.",Tarne deine Basis! Leider können Zombies dich anscheinend wittern.,,"¡Oculta tu base! Por desgracia, los zombis pueden encontrarte con su olfato."
+camoNetGroupDesc,blocks,Block,KgNone,"Camouflage your base! Unfortunately, zombies seem to find you by smell."\n [ Crafted in Decorating Station. ],"Camouflez votre base ! Malheureusement, les zombies semblent vous repérer à l'odeur.",Tarne deine Basis! Leider können Zombies dich anscheinend wittern.,,"¡Oculta tu base! Por desgracia, los zombis pueden encontrarte con su olfato."
 camoNetRamp,blocks,Block,KgNone,Camo Netting Ramp,Rampe en filet de camouflage,Tarnnetz – Rampe,,Rampa de red de camuflaje
 camoNetSheet,blocks,Block,KgNone,Camo Netting,Filet de camouflage,Tarnnetz,,Red de camuflaje
 cashRegisterEmpty,blocks,Block,KgNone,Cash Register Empty,Caisse enregistreuse vide,Registrierkasse leer,,Caja registradora vacía
@@ -366,7 +366,7 @@ garageDoorMetal_v3,blocks,Block,KgNone,Garage Door Metal v3,Porte de garage en m
 garbage_decor1,blocks,Block,KgNone,Garbage decor1,Détritus 1,Abfall – Dekor 1,,Decoración de basura 1
 garbage_decor2,blocks,Block,KgNone,Garbage decor2,Détritus 2,Abfall – Dekor 2,,Decoración de basura 2
 garbage_decor3,blocks,Block,KgNone,Garbage decor3,Détritus 3,Abfall – Dekor 3,,Decoración de basura 3
-genericBlockDesc,blocks,Block,KgNone,A world decoration block,Bloc décoratif du monde,Ein Block zur Dekoration der Welt.,,Un bloque de decoración para el mundo
+genericBlockDesc,blocks,Block,KgNone,A world decoration block that can be used in builds.\n [ Crafted in Decoration Station. ],Bloc décoratif du monde,Ein Block zur Dekoration der Welt.,,Un bloque de decoración para el mundo
 glassBusinessBlock,blocks,Block,KgNone,Business Glass Block,Bloc pour vitrine,Geschäftsglasblock,,Bloque de cristal de negocios
 glassBusinessCTRSheet,blocks,Block,KgNone,Business Glass Centered,Vitrine centrée,Geschäftsglasblock mittig,,Cristal de negocios centrado
 glassBusinessSheet,blocks,Block,KgNone,Business Glass Pane,Vitre de vitrine,Geschäftsglasscheibe,,Panel de cristal de negocios
@@ -1543,7 +1543,7 @@ candyTinDesc,items,Item,KgNone,Grandma's candy tin. Good for scrapping or a perf
 canEmpty,items,Item,KgNone,Empty Can,Conserve vide,Leere Dose,,Lata vacía
 canEmptyDesc,items,Item,KgNone,An empty can which you can scrap or fill with water.,Une conserve vide que vous pouvez recycler ou remplir d'eau.,"Eine leere Dose, die zerlegt oder mit Wasser gefüllt werden kann.",,Una lata vacía que puedes desechar o llenar de agua.
 carBattery,items,Item,KgNone,Lead Car Battery,Batterie de voiture en plomb,Bleibatterie für Autos,,Batería de coche de plomo
-carBatteryDesc,items,Item,KgNone,"Car batteries can be used in vehicles, scrapped for lead in your backpack or smelted at the forge for lead.","Les batteries de voiture peuvent être utilisées sur les véhicules, recyclées en plomb dans votre sac à dos ou fondues dans la forge pour obtenir du plomb.","Autobatterien können für Fahrzeuge benutzt, für Blei im Rucksack zerlegt oder in der Schmiede eingeschmolzen werden.",,"Las baterías de coche se pueden usar en vehículos, despedazar para tener plomo en tu mochila o fundir en la fragua para obtener plomo."
+carBatteryDesc,items,Item,KgNone,"Car batteries can be used in vehicles, scrapped for lead in your backpack or smelted at the forge for lead.\n [ Crafted in Advanced Workbench. ]","Les batteries de voiture peuvent être utilisées sur les véhicules, recyclées en plomb dans votre sac à dos ou fondues dans la forge pour obtenir du plomb.","Autobatterien können für Fahrzeuge benutzt, für Blei im Rucksack zerlegt oder in der Schmiede eingeschmolzen werden.",,"Las baterías de coche se pueden usar en vehículos, despedazar para tener plomo en tu mochila o fundir en la fragua para obtener plomo."
 casinoCoin,items,Item,KgNone,Duke's Casino Token,Jeton du Duke's Casino,Jeton aus Dukes Kasino,,Ficha del casino de Duke
 casinoCoinDesc,items,Item,KgNone,A Duke's casino coin. After the epidemic and war it became the main currency for trading in Navezgane.,"Une pièce du Duke's Casino. Après l'épidémie et la guerre, ces pièces sont devenues la monnaie principale de Navezgane.",Ein Jeton aus Dukes Kasino. Nach der Seuche und dem Krieg wurden diese Jetons zur Hauptwährung in Navezgane.,,Una moneda del casino de Duke. Se convirtió en la moneda principal para comerciar en Navezgane tras la epidemia y la guerra.
 cement,items,Item,KgNone,Cement,Ciment,Zement,,Cemento
@@ -1682,7 +1682,7 @@ minibike,items,Part,KgNone,Minibike,Mini-moto,Taschenmotorrad,,Minimoto
 minibikeChassis,items,Part,KgNone,Minibike Chassis,Châssis de mini-moto,Taschenmotorrad-Fahrwerk,,Chasis de la minimoto
 minibikeChassisDesc,items,Part,KgNone,Put the chassis on your toolbelt and place it on the ground to start assembling a minibike.\n [ Crafted in Blacksmithing Station with a Blacksmith Hammer. ],"Placez le châssis sur votre ceinture à outils, puis posez-le au sol pour commencer l'assemblage d'une mini-moto.","Gib das Fahrwerk in deinen Werkzeuggürtel und platziere es auf dem Boden, um das Taschenmotorrad zusammenzusetzen.",,Pon el chasis en el cinturón y déjalo en el suelo para empezar a armar la minimoto.
 minibikeHandlebars,items,Part,KgNone,Minibike Handlebars,Guidon de mini-moto,Taschenmotorrad-Lenker,,Manillar de la minimoto
-minibikePartsGroupDesc,items,Part,KgNone,A part of the minibike. Assemble with other parts and set into a placed chassis once you've read the schematic.,Une pièce de la mini-moto. À assembler à d'autres pièces pour constituer le châssis une fois que vous avez lu le schéma.,"Ein Teil von einem Taschenmotorrad. Setze es mit den anderen Teilen zusammen und platziere es in ein Fahrwerk, wenn du den Bauplan gelesen hast.",,"Una parte de una minimoto. Una vez que has leído el esquema, ármala con otras partes e introdúcelas en un chasis."
+minibikePartsGroupDesc,items,Part,KgNone,A part of the minibike. Assemble with other parts and set into a placed chassis once you've read the schematic.\n [ Crafted in Advanced Workbench. ],Une pièce de la mini-moto. À assembler à d'autres pièces pour constituer le châssis une fois que vous avez lu le schéma.,"Ein Teil von einem Taschenmotorrad. Setze es mit den anderen Teilen zusammen und platziere es in ein Fahrwerk, wenn du den Bauplan gelesen hast.",,"Una parte de una minimoto. Una vez que has leído el esquema, ármala con otras partes e introdúcelas en un chasis."
 minibikeSeat,items,Part,KgNone,Minibike Seat,Siège de mini-moto,Taschenmotorrad-Sitzbank,,Asiento de la minimoto
 minibikeWheels,items,Part,KgNone,Minibike Wheels,Roues de mini-moto,Taschenmotorrad-Räder,,Ruedas de la minimoto
 padlock,items,Part,KgNone,Padlock,Cadenas,Vorhängeschloss,,Candado
@@ -1741,7 +1741,7 @@ partsSniperRifleGroupDesc,items,Part,KgNone,A part of the sniper rifle. Assemble
 shoppingBasketItem,items,Part,KgNone,Shopping Basket,Panier à provisions,Einkaufskorb,,Cesto de compras
 shoppingBasketItemDesc,items,Part,KgNone,A shopping basket can be used to add storage to minibikes.\n [ Crafted in Advanced Workbench. ],Un panier à provisions permet d'ajouter un espace de stockage aux mini-motos.,Ein Einkaufskorb für mehr Platz auf dem Taschenmotorrad.,,Se puede usar un cesto de compras para agregar un espacio de almacenamiento a las minimotos.
 smallEngine,items,Part,KgNone,Small Engine,Petit moteur,Kleiner Motor,,Motor pequeño
-smallEngineDesc,items,Part,KgNone,"A common part for a chainsaw, auger or minibike. Can be used to make these items once you've read the schematic.","Une pièce commune aux tronçonneuses, foreuses et mini-motos. Sert à fabriquer ces objets une fois que vous avez lu le schéma.","Ein gewöhnliches Teil einer Kettensäge, eines Erdbohrers oder eines Taschenmotorrads. Kann verwendet werden, um diese Gegenstände zu fertigen, wenn du den richtigen Bauplan gelesen hast.",,"Una parte común de las motosierras, los taladros y las minimotos. Una vez que hayas leído el esquema, úsala para crear estos objetos."
+smallEngineDesc,items,Part,KgNone,"A common part for a chainsaw, auger or minibike. Can be used to make these items once you've read the schematic."\n [ Crafted in Advanced Workbench. ],"Une pièce commune aux tronçonneuses, foreuses et mini-motos. Sert à fabriquer ces objets une fois que vous avez lu le schéma.","Ein gewöhnliches Teil einer Kettensäge, eines Erdbohrers oder eines Taschenmotorrads. Kann verwendet werden, um diese Gegenstände zu fertigen, wenn du den richtigen Bauplan gelesen hast.",,"Una parte común de las motosierras, los taladros y las minimotos. Una vez que hayas leído el esquema, úsala para crear estos objetos."
 q_basicSurvival,items,Quest Note,KgNone,Basic Survival Quest Note,Note de quête « Les bases de la survie »,Questnotiz – Das 1x1 des Überlebens,,Nota de búsqueda de supervivencia básica
 q_basicSurvivalDesc,items,Quest Note,KgNone,A mysterious note from a stranger. I don't know how I got it.,Un petit mot mystérieux provenant d'un étranger. Je ne sais pas comment je l'ai obtenu.,"Eine geheimnisvolle Notiz von einem Fremden. Ich weiß nicht, woher ich sie habe.",,Una nota misteriosa de un extraño. No sé cómo llegó a mí.
 auger,items,Tool,KgNone,Auger,Foreuse,Erdbohrer,,Taladro
@@ -1775,7 +1775,7 @@ stoneShovelDesc,items,Tool,KgNone,"The stone shovel is a primitive tool useful f
 tazasStoneaxe,items,Tool,KgNone,Taza's Stone Axe,Hache de pierre de Taza,Tazas Steinaxt,,Hacha de piedra de Taza
 tazasStoneaxeDesc,items,Tool,KgNone,"Taza's stone axe is a rare, powerful, ancient Indian artifact. The Apache believed those who wielded it were invincible in battle.",La hache de pierre de Taza est un artefact indien rare et puissant. Les Apaches croyaient que ceux qui brandissaient cette arme devenaient invulnérables lors des batailles.,"Tazas Steinaxt ist ein seltenes und mächtiges Artefakt der Indianer. Die Apachen glaubten, dass der Träger dieser Axt im Kampf unbesiegbar ist.",,El hacha de piedra de Taza es un extraño y poderoso artefacto de los antiguos indios. Los apaches creían que aquel que la empuñase sería invencible en la batalla.
 wrench,items,Tool,KgNone,Wrench,Clé à molette,Schraubenschlüssel,,Llave inglesa
-wrenchDesc,items,Tool,KgNone,"Great for disassembling mechanical devices like cars, air conditioners and more. Can also be used to repair and upgrade walls.","Parfaite pour désassembler voitures, climatiseurs et autres. Sert également à réparer et améliorer les murs.","Ist toll, um mechanische Geräte wie Autos, Klimaanlagen usw. auseinanderzunehmen. Kann auch dazu benutzt werden, Mauern zu reparieren und aufzuwerten.",,"Perfecta para desarmar aparatos mecánicos como coches, aires acondicionados y mucho más. También se puede usar para reparar y mejorar paredes."
+wrenchDesc,items,Tool,KgNone,"Great for disassembling mechanical devices like cars, air conditioners and more. Can also be used to repair and upgrade walls."\n [ Crafted in Advanced Workbench. ],"Parfaite pour désassembler voitures, climatiseurs et autres. Sert également à réparer et améliorer les murs.","Ist toll, um mechanische Geräte wie Autos, Klimaanlagen usw. auseinanderzunehmen. Kann auch dazu benutzt werden, Mauern zu reparieren und aufzuwerten.",,"Perfecta para desarmar aparatos mecánicos como coches, aires acondicionados y mucho más. También se puede usar para reparar y mejorar paredes."
 qt_desc,items,Treasure Map,KgNone,A ragged old treasure map I found with some scribbling on it.,Une vieille carte au trésor ornée de gribouillages que j'ai trouvée.,"Eine alte, vergilbte Schatzkarte mit ein paar Kritzeleien, die ich gefunden habe.",,Un viejo mapa del tesoro arrugado y con garabatos que encontré por ahí.
 qt_claude,items,Treasure Map,KgNone,Juice's Treasure Map,La carte au trésor de Claude,Claudes Schatzkarte,,Mapa del tesoro de Claude
 qt_jennifer,items,Treasure Map,KgNone,Gemma's Treasure Map,La carte au trésor de Jennifer,Jennifers Schatzkarte,,Mapa del tesoro de Jennifer
@@ -3623,7 +3623,7 @@ lootWorkstationsHelper,blocks,Container,New,Random Workstation Spawner,,,,
 lootWorkstationsHelperDesc,blocks,Container,New,"Can spawn a working:  forge, workbench, chemistryStation, cementMixer",,,,
 randomLootSpawnerDesc,blocks,Container,New,CREATIVE: Placed in a prefab this will spawn a random block / loot container.,,,,
 autoTurret,blocks,Electricity,New,Auto Turret,,,,
-autoTurretDesc,blocks,Electricity,New,"A motion sensing bullet hose. No really, this thing eats ammunition.",,,,
+autoTurretDesc,blocks,Electricity,New,"A motion sensing bullet hose. No really, this thing eats ammunition."\n [ Crafted in Advanced Workbench. ],,,,
 batterybank,blocks,Electricity,New,Battery Bank,,,,
 bladeTrap,blocks,Electricity,New,Blade Trap,,,,
 bladeTrapDesc,blocks,Electricity,New,Used to chop up zombies into many pieces. Just add zombies and stir.\n [ Crafted in Advanced Workbench. ],,,,
@@ -4271,7 +4271,7 @@ electricBatteryBankDesc,progression,Perk,New,This perk will unlock recipes for e
 electricSolarBankName,progression,Perk,New,Solar Power,,,,
 electricSolarBankDesc,progression,Perk,New,Trader Only,,,,
 doItYourselfName,progression,Perk,New,Do It Yourself,,,,
-doItYourselfDesc,progression,Perk,New,Why go out and risk your life scavenging when you can build your own parts?,,,,
+doItYourselfDesc,progression,Perk,New,Build your own Insulator!,,,,
 securityGateCTRPlate,blocks,Block,New,Security Gate Centered,,,,
 securityGatePlate,blocks,Block,New,Security Gate,,,,
 glassBusinessPlate,blocks,Block,New,Business Glass Plate,,Geschäftsglasblock Platte,,
@@ -4975,11 +4975,11 @@ compostDesc,items,Item,KgNone,Compost can be created by using rotting harvests.,
 Fertilizer,items,Item,KeyTrunk FrNone GrNone KgNone SpNone,Fertilizer,,,,
 FertilizerDesc,items,Item,KeyTrunk FrNone GrNone KgNone SpNone,Fertilizer is made in a composter with compost or by hand with fresh manure rotting harvests or rotten flesh. Right click fresh plants with fertilzer in hand to speed up there grow time.,,,,
 chickenCoop_stage1,blocks,Block,KgNone,Chicken Coop,,,,
-chickenCoopDesc,blocks,Block,KgNone,"Used to farm meat, feathers and eggs. Must be placed outside, right click with chicken feed in hand to feed your chickens so they grow up big and strong.",,,,
+chickenCoopDesc,blocks,Block,KgNone,"Used to farm meat, feathers and eggs. Must be placed outside, right click with chicken feed in hand to feed your chickens so they grow up big and strong."\n [ Crafted in Advanced Workbench. ],,,,
 dewCollector_filling,blocks,Block,KgNone,Dew Collector,,,,
 dewCollectorDesc,blocks,Block,KgNone,Used to collect water over time.,,,,
 Empty_Composter,blocks,Block,KgNone,Composter,,,,
-emptyComposterDesc,blocks,Block,KgNone,Used to turn compost into fertilizer. Right click with compost in hand to fill the composter. Requirs a minimum of 20 compost to fill it.,,,,
+emptyComposterDesc,blocks,Block,KgNone,Used to turn compost into fertilizer. Right click with compost in hand to fill the composter. Requirs a minimum of 20 compost to fill it.\n [ Crafted in Advanced Workbench. ],,,,
 Chicken_Feed,items,Item,KgNone,Chicken Feed,,,,
 chickenFeedDesc,items,Item,KgNone,A combination of wheat and corn seeds to keep your chickens fed.\n [ Crafted in Mortar and Pestle. ],,,,
 qt_zombie,items,Zombie Challenge Note,KgNone,News Report,,,,
@@ -5022,7 +5022,7 @@ cntEPSGraniteSink,blocks,Loot Container,,Sink (Storage),,,,
 cntEPSSuitcase,blocks,Loot Container,,Suitcase (Storage),,,,
 cntEPSTrash_can01,blocks,Loot Container,,Trash Can (Storage),,,,
 cntworkingWallOven,blocks,Workstation,KgNone,Wall Oven,Feu de camp,Lagerfeuer,,Fogata
-workingOvenDesc,blocks,Workstation,KgNone,"Useful to cook food and warm up. Unlock more recipes by adding a cooking pot, cooking grill or beaker.Gives off less heat than a campfire","Utile pour cuisiner de la nourriture et se réchauffer. Déverrouillez d'autres compositions en ajoutant une marmite, un grill ou un bécher.","Nützlich zum Kochen von Nahrung und zum Aufwärmen. Schalte mehr Rezepte frei, indem du einen Kochtopf, Kochgrill oder Messbecher hinzufügst.",,"Útil para cocinar comida y calentarse. Añade una olla, una parrilla o un matraz para desbloquear más recetas."
+workingOvenDesc,blocks,Workstation,KgNone,"Useful to cook food and warm up. Unlock more recipes by adding a cooking pot, cooking grill or beaker.Gives off less heat than a campfire"\n [ Crafted in Decoration Station. ],"Utile pour cuisiner de la nourriture et se réchauffer. Déverrouillez d'autres compositions en ajoutant une marmite, un grill ou un bécher.","Nützlich zum Kochen von Nahrung und zum Aufwärmen. Schalte mehr Rezepte frei, indem du einen Kochtopf, Kochgrill oder Messbecher hinzufügst.",,"Útil para cocinar comida y calentarse. Añade una olla, una parrilla o un matraz para desbloquear más recetas."
 cntworkingOven,blocks,Workstation,KgNone,Oven,Feu de camp,Lagerfeuer,,Fogata
 JunctionBox,blocks,Electricity,New,Junction Box,,,,
 JunctionBoxDesc,blocks,Electricity,New,Used to connect and extend wires between electrical components. This box can be used to hide your wires\n [ Crafted in Advanced Workbench. ],,,,
@@ -5559,10 +5559,10 @@ gunMP5Ext,items,Gun,KgNone,SMG (Extended Mag),Fusil de précision,Scharfschütze
 gunPistolExt,items,Gun,KgNone,Pistol (Extended Mag),Fusil de précision,Scharfschützengewehr,,Rifle de francotirador
 gunSniperRifleExt,items,Gun,KgNone,Sniper Rifle (Extended Mag),Fusil de précision,Scharfschützengewehr,,Rifle de francotirador
 survivorNotes,items,Item Tool,,Knowledge Point,,,,
-survivorNotesDesc,items,Item Tool,,Gather enough of these to craft skill books at the Research Desk.,,,,
-survivorNotes2Desc,items,Item Tool,,Gather enough of these to craft skill books at the Research Desk.,,,,
+survivorNotesDesc,items,Item Tool,,Gather enough of these by scrapping recipes and skill books to craft new skill books and other classes at the Research Desk using an Ink Pen and Ink.,,,,
+survivorNotes2Desc,items,Item Tool,,Gather enough of these by scrapping recipes and skill books to craft new skill books and other classes at the Research Desk using an Ink Pen and Ink.,,,,
 survivorNoteCollection,items,Item Tool,,Collection of Knowledge Points,,,,
-survivorNoteCollectionDesc,items,Item Tool,,Use this crafted item to gain the appropriate points in what you chose to learn more about.,,,,
+survivorNoteCollectionDesc,items,Item Tool,,Crafting this book in the Research Desk will award you the amount of points in that skill that you see listed.,,,,
 ttScrapVeggies,UI,Tooltip,,Save these Knowledge Points.,,,,
 Armor_skill1point,items,Book,KgNone,Clothing Armor (1 Point),Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
 Medicine_skill1point,items,Book,KgNone,Medicine (1 Point),Schéma d'arbalète,Bauplan – Armbrust,,Esquema de ballesta
@@ -5937,7 +5937,7 @@ Cheese,items,Food,New,Cheese,,,,
 CheeseDesc,items,Food,New,Delicious cheddar cheese.\n [ Crafted in Advanced Campfire and Stoves. ],,,,
 plantedSoy1,blocks,Farming,New,Soy Bean Seeds,,,,
 electricMachete,items,Melee,New,Electric Machete,,,,
-electricMacheteDesc,items,Melee,New,"Great for electrifying zombies, chopping zombies limbs off and gutting animals for meat.",Idéale pour démembrer des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombiegliedmaßen abzuschlagen und Tiere auszuweiden.",,Excelente para cortarles las extremidades a los zombis y destripar animales para conseguir carne.
+electricMacheteDesc,items,Melee,New,"Great for electrifying zombies, chopping zombies limbs off and gutting animals for meat."\n [ Crafted in Advanced Workbench. ],Idéale pour démembrer des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombiegliedmaßen abzuschlagen und Tiere auszuweiden.",,Excelente para cortarles las extremidades a los zombis y destripar animales para conseguir carne.
 electricSledgehammer,items,Melee,New,Electric Sledgehammer,,,,
 electricSledgehammerDesc,items,Melee,New,The sledgehammer is one of the best weapons for cracking skulls while electrifying zombies with a better chance to score a critical blow.\n [ Crafted in Advanced Workbench. ],La masse en fer est l'une des meilleures armes pour défoncer des crânes avec de grandes chances de porter un coup critique.,"Der Vorschlaghammer ist eine der besten Waffen, wenn es darum geht, Schädel zu brechen. Mit ihm hast du eine erhöhte Chance, einen kritischen Treffer zu landen.",,El mazo es una de las mejores armas para destrozar cráneos. Aumenta la probabilidad de asestar golpes críticos.
 electricClubSpiked,items,Melee,New,Electric Spiked Club,,,,
@@ -6049,11 +6049,7 @@ bbqgrillDesc,blocks,Workstation,KgNone,"Just like those down home cookouts you a
 gunStation,blocks,Workstation,KgNone,Weapon Station,Feu de camp,Lagerfeuer,,Fogata
 gunStationDesc,blocks,Workstation,KgNone,"A station that when you add calipers and a chisel will allow you to craft better ammo gun parts and combine items","Utile pour cuisiner de la nourriture et se réchauffer. Déverrouillez d'autres compositions en ajoutant une marmite, un grill ou un bécher.","Nützlich zum Kochen von Nahrung und zum Aufwärmen. Schalte mehr Rezepte frei, indem du einen Kochtopf, Kochgrill oder Messbecher hinzufügst.",,"Útil para cocinar comida y calentarse. Añade una olla, una parrilla o un matraz para desbloquear más recetas."
 mortarAndPestle,blocks,Workstation,KgNone,Mortar and Pestle,,,,
-mortarAndPestleDesc,blocks,Workstation,KgNone,A mashing tool that is perfect for creating seeds and other dry items.\n [ Crafted in Advanced Forge. ],,,,
-zombiePinup01,blocks,Block,Zombie Pin Up Girl 1,,,,,
-zombiePinup02,blocks,Block,Zombie Pin Up Girl 2,,,,,
-zombiePinup03,blocks,Block,Zombie Pin Up Girl 3,,,,,
-zombiePinup04,blocks,Block,Zombie Pin Up Girl 4,,,,,
+mortarAndPestleDesc,blocks,Workstation,KgNone,A mashing tool that is perfect for creating seeds and other dry items.\n [ Crafted in Forge and Advanced Forge. ],,,,
 mortarandpestleName,progression,Perk,New,Mortar and Pestle,,,,
 mortarandpestleDesc,progression,Perk,New,Unlock this fundamental tool by purchasing this perk. Mortar and Pestles are needed to make seeds and other dry items.,,,,
 PeroxideDesc,items,Item Medical,,Pour it over a cloth to make a medicated bandage to fight off stage 1 infection.,,,,
@@ -6129,26 +6125,26 @@ GrindingWheel,blocks,Block Building,,Grinding Wheel,,,,
 GrindingWheelDesc,blocks,Block Building,,This workstation is used for dying your armors and creating new clothing and armor using a Welding Torch.,,,,
 ResearchDesk,blocks,Block Building,,Research Desk,,,,
 ResearchDeskDesc,blocks,Block Building,,The Research Desk can be used to brush up on your skills by using Knowledge Points to unlock more classes and gain skill points..,,,,
-BigForge,blocks,Block Building,,Advanced Forge,,,,
-BigForgeDesc,blocks,Block Building,,The Advanced Forge can handle a lot more heavy duty jobs and can make more recipes than a normal forge.,,,,
+advancedForge,blocks,Block Building,,Advanced Forge,,,,
+advancedForgeDesc,blocks,Block Building,,The Advanced Forge can handle a lot more heavy duty jobs and can make more recipes than a normal forge.,,,,
 mirrorBath,,,,Bathroom Mirror (Storage),,,,
 ceilingFan,,,,Ceiling Fan,,,,
-ceilingFanDesc,,,,Maybe I could pull this down in a pinch,,,,
+ceilingFanDesc,,,,Maybe I could pull this down in a pinch.\n [ Crafted in Decoration Station. ],,,,
 chickenCoopEmpty,,,,Chicken Coop (Empty),,,,
-chickenCoopEmptyDesc,,,,"Used to farm meat, feathers and eggs. Must be placed outside, right click with chicken feed in hand to feed your chickens so they grow up big and strong.",,,,
+chickenCoopEmptyDesc,,,,"Used to farm meat, feathers and eggs. Must be placed outside, right click with chicken feed in hand to feed your chickens so they grow up big and strong."\n [ Crafted in Advanced Workbench. ],,,,
 chickenCoopFull,,,,Chicken Coop (Waiting),,,,
 chickenCoopReady,,,,Chicken Coop (Ready),,,,
 chickenFeed,,,,Chicken Feed,,,,
 orangeBarrel,,,,Orange Construction Barrel,,,,
-orangeBarrelDesc,,,,"These can be used to warn of future projects, or to slow zombies down just a bit",,,,
+orangeBarrelDesc,,,,"These can be used to warn of future projects, or to slow zombies down just a bit"\n [ Crafted in Decoration Station. ],,,,
 metalRail2,,,,Metal Railing,,,,
 crookedFence,,,,Crooked Fence,,,,
 desktopPC,,,,Desktop PC,,,,
 desktopPCDesc,,,,You may live alone in this Apocalypse but at least you can still visit Reddit and argue with yourself,,,,
 electricChair,,,,Electric Chair,,,,
-electricChairDesc,,,,Back in the day when law actually ruled the lands this chair saw its fair share of victims. Now it sits hungry and waiting,,,,
+electricChairDesc,,,,Back in the day when law actually ruled the lands this chair saw its fair share of victims. Now it sits hungry and waiting.\n [ Crafted in Decoration Station. ],,,,
 filingCabinetNew,,,,Filing Cabinet (Storage),,,,
-filingCabinetNewDesc,,,,For all of your filing needs,,,,
+filingCabinetNewDesc,,,,For all of your filing needs.\n [ Crafted in Decoration Station. ],,,,
 foodPrepTable,,,,Food Prep Table,,,,
 foodPrepTableDesc,,,,This table can be used to prepare certain types of food,,,,
 qc_junkHunt,,Junk Hunt Challenge Note,,Junk Hunt Challenge,,,,
@@ -6299,16 +6295,16 @@ glassEyeDesc,,,,A small glass eye.  Ewwwwwwww.,,,,
 glassBong,,,,Glass Bong,,,,  
 glassBongDesc,,,,A small Bong pipe.  Time to find something to put in it!,,,,
 largeShelf2,,,,Large Shelf (Storage),,,,
-largeShelf2Desc,,,,Spacious shelf for all your favorite things,,,,
+largeShelf2Desc,,,,Spacious shelf for all your favorite things.\n [ Crafted in Decorating Station.. ],,,,
 largeShelf,,,,Large Bookshelf (Storage),,,,
-largeShelfDesc,,,,Spacious book shelf for all your schematics and books,,,,
+largeShelfDesc,,,,Spacious book shelf for all your schematics and books.\n [ Crafted in Decorating Station.. ],,,,
 ironTippedSpear,,,,Spear (Iron Tipped),,,,
 battleAxeDesc,,,,The blade is worn but sharp and ready to be used\n [ Crafted in Advanced Workbench. ],,,,
 battleAxe,,,,Combat Axe,,,,
 ironTippedSpearDesc,,,,A spear made from an iron arrow head that can be used to pierce enemies from a distance.\n [ Crafted in Advanced Workbench. ],,,,
 batWoodDesc,,,,A trusty old baseball bat. Who is Lucille?,,,,
-scytheDesc,,,,A dangerous weapon that can do some serious damage to the undead and also can clear some grass in your downtime. Can also be used to harvest crops.\n [ Crafted in Advanced Workbench. ],,,,
-sickleDesc,,,,You didnt want to mow your lawn BEFORE the apocalypse why the hell would you want to now? Can also be used to harvest crops.\n [ Crafted in Advanced Workbench. ],,,,
+scytheDesc,,,,A dangerous weapon that can do some serious damage to the undead and also can clear some grass in your downtime.\n [ Crafted in Advanced Workbench. ],,,,
+sickleDesc,,,,You didnt want to mow your lawn BEFORE the apocalypse why the hell would you want to now? Collect mass amounts of grass using this tool. Can harvest crops.\n [ Crafted in Advanced Workbench. ],,,,
 trackerKnifeDesc,,,,A small pocket knife useful for quick combat,,,,
 batWood,,,,Baseball Bat,,,,
 scythe,,,,Scythe,,,,
@@ -6333,7 +6329,7 @@ oldFridge2,,,,Broken Refrigerator (Storage),,,,
 fridgeStainlessSteel,,,,Stainless Steel Refrigerator (Storage),,,,
 metalBed,,,,Classic Metal Bed,,,,
 vanity,,,,Vanity Dresser (Storage),,,,
-vanityDesc,,,,It is always important to look your best on any given day,,,,
+vanityDesc,,,,It is always important to look your best on any given day.\n [ Crafted in Decorating Station.. ],,,,
 classicCouch,,,,Classic Couch,,,,
 loungeChair,,,,Classic Lounge Chair,,,,
 nightStand,,,,Night Table (Storage),,,,
@@ -6416,7 +6412,7 @@ soaposter7,,,,SOA Poster 7,,,,
 soaposter8,,,,SOA Poster 8,,,,
 soapostersDesc,,,,A tribute to Sons of Anarchy. Hang it proudly in your clubhouse,,,,
 stoneFence1,,,,Stone Fencing,,,,
-stoneFence1Desc,,,,Oversized stone fence and post set meant to be used together,,,,
+stoneFence1Desc,,,,Oversized stone fence and post set meant to be used together.\n [ Crafted in Decorating Station. ],,,,
 stonePost1,,,,Stone Post Large,,,,
 tableWood1,,,,Small Wood Table,,,,
 tableWood1Desc,,,,This table looks nice and all but good luck using it for anything\n [ Crafted in Decorating Station. ],,,,
@@ -6425,9 +6421,9 @@ tableWood2Desc,,,,Dont mind the coffee stain but wouldnt a plant look GREAT on t
 kitchenTable1,,,,Plastic Kitchen Table,,,,
 kitchenTable2,,,,Wooden Kitchen Table,,,,
 trellis,,,,Trellis,,,,
-trellisDesc,,,,Its a nice day for a red wedding,,,,
+trellisDesc,,,,Its a nice day for a red wedding.\n [ Crafted in Decorating Station. ],,,,
 flatScreenLarge,,,,HDTV Large with Stand,,,,
-flatScreenDesc,,,,"Now you can catch up on the latest episode of the Walking Dead, oh wait",,,,
+flatScreenDesc,,,,"Now you can catch up on the latest episode of the Walking Dead, oh wait"\n [ Crafted in Decorating Station. ],,,,
 flatScreenSmall,,,,HDTV with Stand,,,,
 flatScreenWall,,,,HDTV Wall Mounted,,,,
 tv70Large,,,,TV Classic,,,,
@@ -6435,8 +6431,8 @@ tv90Large,,,,TV Modern Tube,,,,
 tvFloorLarge,,,,TV Floor Model,,,,
 tvStand,,,,TV with Stand,,,,
 mailboxUSPS,,,,USPS Mailbox,,,,
-mailboxUSPSDesc,,,,Looks like service is just as efficient as it was when people were living,,,,
-wallandfloorshelvesDesc,,,,Collection of shelves for you to store items on,,,,
+mailboxUSPSDesc,,,,Looks like service is just as efficient as it was when people were living.\n [ Crafted in Decorating Station. ],,,,
+wallandfloorshelvesDesc,,,,Collection of shelves for you to store items on.\n [ Crafted in Decorating Station. ],,,,
 floorShelf2,,,,Metal Floor Shelf (Storage),,,,
 wallShelf1,,,,Wall Shelf 01 (Storage),,,,
 wallShelf2,,,,Wall Shelf 02 (Storage),,,,
@@ -6444,7 +6440,7 @@ wallShelf3,,,,Wall Shelf 03 (Storage),,,,
 wallShelf4,,,,Wall Shelf 04 (Storage),,,,
 wallShelf5,,,,Wall Shelf 05 (Storage),,,,
 waterWell,,,,Water Well,,,,
-waterWellDesc,,,,How people got water a long time ago. Seems to be a good idea in this day and age,,,,
+waterWellDesc,,,,How people got water a long time ago. Seems to be a good idea in this day and age. Click on the well to fill jars. \n [ Crafted in Advanced Workbench. ],,,,
 rollingPaper,,,,Rolling Paper,,,,
 jointDesc,,,,This is really a gift from mother nature herself. Smoke this for wellness. Impress your friends and gain trust with the Puma with your badassness. Craft with rolling paper and a funny smelling plant,,,,
 plantedWeed1,,,,Cannabis Seed,,,,
@@ -6499,7 +6495,7 @@ farmerKitDesc,blocks,Block Building,,"Place this kit on the ground and open with
 medicKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you some medical supplies and exclusive medical recipes. Exclusive Access to First Aid Kits Antibiotics Advanced Splints Disinfectant Bandages Blue Ice",,,,
 ClassPaperMedicine,items,Item,KgNone,Medic Class Paper,,,,
 ClassPaperFarmer,items,Item,KgNone,Farmer Class Paper,,,,
-largeStove01Desc,blocks,Workstation,KgNone,"This SHOULD work and can be used to cook complex recipes. These stoves give will attract less zombies to your home.","Utile pour cuisiner de la nourriture et se réchauffer. Déverrouillez d'autres compositions en ajoutant une marmite, un grill ou un bécher.","Nützlich zum Kochen von Nahrung und zum Aufwärmen. Schalte mehr Rezepte frei, indem du einen Kochtopf, Kochgrill oder Messbecher hinzufügst.",,"Útil para cocinar comida y calentarse. Añade una olla, una parrilla o un matraz para desbloquear más recetas."
+largeStove01Desc,blocks,Workstation,KgNone,"This SHOULD work and can be used to cook complex recipes. These stoves give you a chance to cook better recipes and will attract less zombies to your home."\n [ Crafted in Decorating Station. ],"Utile pour cuisiner de la nourriture et se réchauffer. Déverrouillez d'autres compositions en ajoutant une marmite, un grill ou un bécher.","Nützlich zum Kochen von Nahrung und zum Aufwärmen. Schalte mehr Rezepte frei, indem du einen Kochtopf, Kochgrill oder Messbecher hinzufügst.",,"Útil para cocinar comida y calentarse. Añade una olla, una parrilla o un matraz para desbloquear más recetas."
 largeStove01,blocks,Workstation,KgNone,Stove (White),Feu de camp,Lagerfeuer,,Fogata
 largeStove02,blocks,Workstation,KgNone,Stove (Stainless Steel),Feu de camp,Lagerfeuer,,Fogata
 largeStove03,blocks,Workstation,KgNone,Stove (Red),Feu de camp,Lagerfeuer,,Fogata
@@ -6548,12 +6544,12 @@ AK47Scoped,items,Item,KgNone,AK47 (Scoped),,,,
 AK47ScopedDesc,items,Item,KgNone,A AK47 with a Scope Attachment\n [ Crafted in assembly. ],Un AK47 avec une portée Attachment,Ein AK47 mit einem Scope Attachment,,Un AK47 con un Apego de Alcance
 AK47ExtendedMagScoped,items,Item,KgNone,AK47 (Scoped w Extended Magazine),,,,
 AK47ExtendedMagScopedDesc,items,Item,KgNone,A AK47 with a Extended Magazine and Scope Attachments\n [ Crafted in assembly. ],Un AK47 avec un étendu et des accessoires de portée,Ein AK47 mit einem Extended Magazine und Scope Attachments,,Un AK47 con una extensión de la revista y el alcance adjuntos
-FAMASExtendedMag,items,Item,KgNone,FAMAS (Extended Magazine),,,,
-FAMASExtendedMagDesc,A FAMAS Rifle with a Extended Magazine Attachment,Un fusil FAMAS con un accesorio extendido de la revista,Ein FAMAS-Gewehr mit verlängertem Magazin,\n [ Crafted in assembly. ],Un fusil FAMAS con un accesorio extendido de la revista,,,
-FAMASSilenced,items,Item,KgNone,FAMAS Silenced,,,,
-FAMASSilencedDesc,items,Item,KgNone,A FAMAS Rifle with a Silencer Attachment\n [ Crafted in assembly. ],Un fusil FAMAS avec attache silencieuse,Ein FAMAS-Gewehr mit Schalldämpfer-Befestigung,,Un rifle FAMAS con un accesorio de silenciador
-FAMASExtendedMagSilenced,items,Item,KgNone,FAMAS (Extended Mag Silenced),,,,
-FAMASExtendedMagSilencedDesc,items,Item,KgNone,A FAMAS Rifle with a Extended Magazine and Silencer Attachments\n [ Crafted in assembly. ],Un fusil FAMAS avec un compartiment et un silencieux étendus Pièces jointes,Ein FAMAS Gewehr mit einem Extended Magazine und Schalldämpfer Attachments,,Un rifle FAMAS con una extensión de compartimiento y silenciador adjuntos
+FAMASExtendedMag,items,Item,KgNone,LSAT (Extended Magazine),,,,
+FAMASExtendedMagDesc,An LSAT Rifle with a Extended Magazine Attachment,Un fusil LSAT con un accesorio extendido de la revista,Ein LSAT-Gewehr mit verlängertem Magazin,\n [ Crafted in assembly. ],Un fusil LSAT con un accesorio extendido de la revista,,,
+FAMASSilenced,items,Item,KgNone,LSAT Silenced,,,,
+FAMASSilencedDesc,items,Item,KgNone,An LSAT Rifle with a Silencer Attachment\n [ Crafted in assembly. ],Un fusil LSAT avec attache silencieuse,Ein LSAT-Gewehr mit Schalldämpfer-Befestigung,,Un rifle LSAT con un accesorio de silenciador
+FAMASExtendedMagSilenced,items,Item,KgNone,LSAT (Extended Mag Silenced),,,,
+FAMASExtendedMagSilencedDesc,items,Item,KgNone,An LSAT Rifle with a Extended Magazine and Silencer Attachments\n [ Crafted in assembly. ],Un fusil LSAT avec un compartiment et un silencieux étendus Pièces jointes,Ein LSAT Gewehr mit einem Extended Magazine und Schalldämpfer Attachments,,Un rifle LSAT con una extensión de compartimiento y silenciador adjuntos
 PistolExtendedMag,items,Item,KgNone,Pistol (Extended Magazine),,,,
 PistolExtendedMagDesc,items,Item,KgNone,A Pistol with a Extended Magazine Attachment,Un pistolet avec un accessoire de magazine étendu,Eine Pistole mit einem erweiterten Magazin,,Una pistola con un accesorio extendido de la revista
 PistolSilenced,items,Item,KgNone,Pistol (Silenced),,,,
@@ -6584,10 +6580,10 @@ SteelHandlebars,items,Item,KgNone,Strengthened Handlebars,,,,
 SteelHandlebarsDesc,items,Item,KgNone,Handlebars made with Steel\n [ Crafted in Advanced Workbench. ],Poignées en acier,Lenker aus Stahl,,Manillar hecho con acero
 TungstenHandlebars,items,Item,KgNone,Diamond Handlebars,,,,
 TungstenHandlebarsDesc,items,Item,KgNone,Handlebars made with Diamond\n [ Crafted in Advanced Workbench. ],Guidons en tungstène,Lenker aus Wolfram,,Manillares fabricados con Tungsteno
-HDBattery,items,Item,KgNone,Diamond Battery,,,,
-HDBatteryDesc,items,Item,KgNone,A Heavy Duty Battery,Une batterie lourde,Ein Heavy Duty Akku,,Una batería resistente
-ECOBattery,items,Item,KgNone,ECO Battery,,,,
-ECOBatteryDesc,items,Item,KgNone,A Economic Battery,Une batterie économique,Eine wirtschaftliche Batterie,,Una batería económica
+HDBattery,items,Item,KgNone,Superior Battery,,,,
+HDBatteryDesc,items,Item,KgNone,A Heavy Duty Battery that lasts a lot longer and is stronger than all other batteries. \n [ Crafted in Advanced Workbench. ],Une batterie lourde,Ein Heavy Duty Akku,,Una batería resistente
+ECOBattery,items,Item,KgNone,Economic Battery,,,,
+ECOBatteryDesc,items,Item,KgNone,A battery that will last a bit longer than a normal one.\n [ Crafted in Advanced Workbench. ] ,Une batterie économique,Eine wirtschaftliche Batterie,,Una batería económica
 MinibikesForSmartshits,items,Item,KgNone,Minibikes For Smartshits,,,,
 MinibikesForSmartshitsDesc,items,Item,KgNone,Schematic for Assembling a Steel Minibike,Schéma pour l'assemblage d'un minibike en acier,Schematischer Aufbau eines Stahlminibikes,,Esquema para montar un minibike de acero
 MinibikesForToughshits,items,Item,KgNone,Minibikes For Toughshits,,,,
@@ -6624,17 +6620,17 @@ HDChainsaw_Blade,items,Item,KgNone,Diamond Chainsaw Blade,,,,
 HDChainsaw_BladeDesc,items,Item,KgNone,Blade for Assembling a Diamond Chainsaw\n [ Crafted in Weapon Station with a Chisel. ],Lame pour assembler une tronçonneuse HD,Klinge zur Montage einer HD-Motorsäge,,Hoja para ensamblar una motosierra HD
 HDChainsawSchematic,items,Item,KgNone,Diamond Chainsaw Schematic,,,,
 HDChainsawSchematicDesc,items,Item,KgNone,Schematic for Assembling a Diamond Chainsaw,Schéma pour assembler une tronçonneuse HD,Schematischer Aufbau einer HD-Motorsäge,,Esquema para ensamblar una motosierra HD
-FAMASDesc,items,Item,KgNone,"FAMAS Assault Rifle uses 556mm Bullets and 556mm HP Bullets.","Fusil d'assaut FAMAS utilise 556mm et 556mm Bullets Bullets l'OTAN et a une taille de magazine 30 ne peut être assemblé par la classe Marksman.","FAMAS-Sturmgewehr benutzt 556mm und 556mm Bullets und NATO: eine Magazingröße von 30 hat nur durch den Marksman-Klasse montiert werden.",,"Rifle de Asalto FAMAS utiliza 556mm y 556mm Balas Balas y la OTAN: tiene un tamaño de cargador de 30 sólo puede ser montado por la clase Marksman."
-FAMAS_Parts,items,Item,KgNone,FAMAS Parts,Pièces FAMAS,FAMAS Teile,,FAMAS Partes
-FAMAS_PartsDesc,items,Item,KgNone,Gun Part for FAMAS Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut FAMAS,Gun Teil für FAMAS-Sturmgewehr,,Parte de la pistola Rifle de Asalto FAMAS
-FAMAS_Barrel,items,Item,KgNone,FAMAS Barrel,FAMAS Barrel,FAMAS Fass,,FAMAS Barrel
-FAMAS_BarrelDesc,items,Item,KgNone,Gun Part for FAMAS Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut FAMAS,Gun Teil für FAMAS-Sturmgewehr,,Parte de la pistola Rifle de Asalto FAMAS
-FAMAS_Stock,items,Item,KgNone,FAMAS Stock,FAMAS Stock,FAMAS Schaft,,FAMAS Stock
-FAMAS_StockDesc,items,Item,KgNone,Gun Part for FAMAS Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut FAMAS,Gun Teil für FAMAS-Sturmgewehr,,Parte de la pistola Rifle de Asalto FAMAS
-FAMAS_Receiver,items,Item,KgNone,FAMAS Receiver,Récepteur FAMAS,FAMAS Empfänger,,Receptor FAMAS
-FAMAS_ReceiverDesc,items,Item,KgNone,Gun Part for FAMAS Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut FAMAS,Gun Teil für FAMAS-Sturmgewehr,,Parte de la pistola Rifle de Asalto FAMAS
-FAMASSchematics,items,Item,KgNone,FAMAS Schematic,Schématique FAMAS,FAMAS Schema,,Esquema FAMAS
-FAMASSchematicsDesc,items,Item,KgNone,Learn how to assemble and repair a FAMAS Assault Rifle,Apprenez comment assembler et réparer un fusil d'assaut FAMAS,Erlernen Sie wie man ein FAMAS Angriffsgewehr zusammenbauen und reparieren kann,,Aprenda cómo ensamblar y reparar un rifle de asalto FAMAS
+FAMASDesc,items,Item,KgNone,"LSAT Assault Rifle uses 556mm Bullets and 556mm HP Bullets.","Fusil d'assaut LSAT utilise 556mm et 556mm Bullets Bullets l'OTAN et a une taille de magazine 30 ne peut être assemblé par la classe Marksman.","LSAT-Sturmgewehr benutzt 556mm und 556mm Bullets und NATO: eine Magazingröße von 30 hat nur durch den Marksman-Klasse montiert werden.",,"Rifle de Asalto LSAT utiliza 556mm y 556mm Balas Balas y la OTAN: tiene un tamaño de cargador de 30 sólo puede ser montado por la clase Marksman."
+FAMAS_Parts,items,Item,KgNone,LSAT Parts,Pièces LSAT,LSAT Teile,,LSAT Partes
+FAMAS_PartsDesc,items,Item,KgNone,Gun Part for LSAT Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut LSAT,Gun Teil für LSAT-Sturmgewehr,,Parte de la pistola Rifle de Asalto LSAT
+FAMAS_Barrel,items,Item,KgNone,LSAT Barrel,LSAT Barrel,LSAT Fass,,LSAT Barrel
+FAMAS_BarrelDesc,items,Item,KgNone,Gun Part for LSAT Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut LSAT,Gun Teil für LSAT-Sturmgewehr,,Parte de la pistola Rifle de Asalto LSAT
+FAMAS_Stock,items,Item,KgNone,LSAT Stock,LSAT Stock,LSAT Schaft,,LSAT Stock
+FAMAS_StockDesc,items,Item,KgNone,Gun Part for LSAT Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut LSAT,Gun Teil für LSAT-Sturmgewehr,,Parte de la pistola Rifle de Asalto LSAT
+FAMAS_Receiver,items,Item,KgNone,LSAT Receiver,Récepteur LSAT,LSAT Empfänger,,Receptor LSAT
+FAMAS_ReceiverDesc,items,Item,KgNone,Gun Part for LSAT Assault Rifle\n [ Crafted in Weapon Station with a Chisel. ],Gun partie pour fusil d'assaut LSAT,Gun Teil für LSAT-Sturmgewehr,,Parte de la pistola Rifle de Asalto LSAT
+FAMASSchematics,items,Item,KgNone,LSAT Schematic,Schématique LSAT,LSAT Schema,,Esquema LSAT
+FAMASSchematicsDesc,items,Item,KgNone,Learn how to assemble and repair a LSAT Assault Rifle,Apprenez comment assembler et réparer un fusil d'assaut LSAT,Erlernen Sie wie man ein LSAT Angriffsgewehr zusammenbauen und reparieren kann,,Aprenda cómo ensamblar y reparar un rifle de asalto LSAT
 M25SniperRifle,items,Item,KgNone,M25 Sniper Rifle,M25 Sniper Rifle,M25 Scharfschützengewehr,,Rifle de francotirador M25
 M25SniperRifleDesc,items,Item,KgNone,"Sniper Rifle that uses 762mm Bullets and 762mm Hollow Point Bullets.  Can only be assembled by The Rifle Class.","Sniper Rifle qui utilisent 762mm et 762mm Hollow Point revue Bullets Bullets avec une taille de 20. Ne peut être assemblé par la classe Marksman.","Sniper Rifle, dass die Verwendung 762mm und 762mm Hollow Point Bullets Magazin mit einer Größe von 20 kann nur durch die Marksman-Klasse montiert werden.",,"Rifle de francotirador se utiliza 762 mm y 762 mm Balas Balas de punta hueca con un tamaño de cargador de 20. Sólo puede ser montado por la clase Marksman."
 M25SniperRifle_Barrel,items,Item,KgNone,M25 Sniper Rifle Barrel,M25 Barillet de fusil de sniper,M25 Scharfschützengewehr Fass,,Barril del rifle del francotirador M25
@@ -6715,7 +6711,7 @@ CopperFragmentDesc,items,Item,KgNone,Key ingredient in making brass,Ingrédient 
 ZincFragment,items,Item,KgNone,Zinc Fragment,Fragment de zinc,Zink-Fragment,,Fragmento de zinc
 ZincFragmentDesc,items,Item,KgNone,Key ingredient in making brass,Ingrédient clé dans la fabrication de laiton,Hauptbestandteil bei der Herstellung von Messing,,Ingrediente clave en la fabricación de latón
 deerTrophy,,,,Deer Trophy,,,,
-deerTrophyDesc,,,,Did that deers eyes just MOVE. I can swear it was WATCHING me,,,,
+deerTrophyDesc,,,,Did that deers eyes just MOVE. I can swear it was WATCHING me.\n [ Crafted in Decoration Station. ],,,,
 deerHead,,,,Deer Head,,,,
 deerHeadDesc,,,,Well you DID kill it you may as well take this and display it for everyone to admire,,,,
 ironSpikes,blocks,Traps,,Iron Spikes,,,,
@@ -6740,7 +6736,7 @@ iMIGalilStock,items,Item Gun,,IMI Galil Stock,,,,
 iMIGalil_Parts,items,Item Gun,,IMI Galil Parts,,,,
 iMIGalilpartsDesc,items,Item Gun,,A part of the IMI Galil Assault Rifle. Assemble with other parts to create a complete IMI Galil once you've read the schematic.,,,,
 vSSVintorez,items,Item,,VSS 'Vintorez',,,,
-vSSVintorezDesc,items,Item Gun,,A sniper rifle uses 9x39mm ammo and has a scope for zooming. Can be re-assembled and repaired once you've read the schematic.\n [ Crafted in assembly. ],,,,
+vSSVintorezDesc,items,Item Gun,,A sniper rifle uses 762mm ammo and has a scope for zooming. Can be re-assembled and repaired once you've read the schematic.\n [ Crafted in assembly. ],,,,
 vSSVintorezBarrel,items,Item Gun,,VSS 'Vintorez' Barrel,,,,
 vSSVintorezParts,items,Item Gun,,VSS 'Vintorez' Parts,,,,
 vSSReceiver,items,Item Gun,,VSS Receiver,,,,
@@ -6763,7 +6759,7 @@ coltPythonPartsDesc,items,Item Gun,,A part of the Colt Python. Assemble with oth
 coltPythonSchematics,items,Item Book,,Colt Python Schematic,,,,
 coltPythonSchematicsDesc,items,Item Book,,Learn to make Colt Python by reading this schematic.,,,,
 shockingClub,items,Item,,Shocking Club,,,,
-shockingClubDesc,items,Item,,"A interesting weapon, with electricity damage. Added chance for stunning.",,,,
+shockingClubDesc,items,Item,,"A interesting weapon, with electricity damage. Added chance for stunning."\n [ Crafted in Advanced Workbench. ],,,,
 tomatoJuice,items,Item,,Tomato Juice,,,,
 tomatoJuiceDesc,items,Item,,"Juice can cool you, hydrate you, and give you the stamina of a sexual tyrannosaurus.",,,,
 carrotJuise,items,Item Food,,carrot Juice,,,,
@@ -6775,10 +6771,10 @@ carrotCake,items,Item Food,,Carrot Cake,,,,
 carrotCakeDesc,items,Item Food,,This homemade carrot cake is nutritious and raises your wellness. Mmm...just like Grandma used to make.,,,,
 rGOGrenade,items,Item Gun,,RGO Grenade,,,,
 rGOGrenadeDesc,items,Item Gun,,"A defense Grenade exploding on hit, can be lit with the secondary action & thrown with the primary action. The throwing part is very important.",,,,
-cucumberSeed,items,Item Farming,,Cucumber Seed,,,,
-cucumberSeedDesc,items,Item Farming,,A seed of Cucumber plant.\n [ Crafted in Mortar and Pestle. ],,,,
-carrotSeed,items,Item,,Carrot Seed,,,,
-carrotSeedDesc,items,Item,,Carrot seeds can be planted in dirt to grow carrot.\n [ Crafted in Mortar and Pestle. ],,,,
+plantedCucumber1,items,Item Farming,,Cucumber Seed,,,,
+plantedCucumber1Desc,items,Item Farming,,Cucumber seeds can be planted in dirt to grow cucumber.\n [ Crafted in Mortar and Pestle. ],,,,
+plantedCarrot1,items,Item,,Carrot Seed,,,,
+carrotSeedDesc,items,Item,,Carrot seeds can be planted in dirt to grow carrots.\n [ Crafted in Mortar and Pestle. ],,,,
 flintlock,items,Item Gun,,Homemade Pistol,,,,
 flintlockDesc,items,Item Gun,,A handmade pistol.,,,,
 duplet,items,Item Gun,,Homemade Shotgun'',,,,
@@ -6816,7 +6812,7 @@ hutDesc,blocks,Block Terrain,,A small shack that you can place a door on. Perfec
 hayFallTrap,blocks,Block,,Hay Fall Trap,,,,
 dirtFallTrap,blocks,Block,,Dirt Fall Trap,,,,
 grassFallTrap,blocks,Block,,Grass Fall Trap,,,,
-FallTrapsDesc,blocks,Traps,,"Place on the ground using the secondary action. When an enemy steps on it, it will disappear.",,,,
+FallTrapsDesc,blocks,Traps,,"Place on the ground using the secondary action. When an enemy steps on it, it will disappear."\n [ Crafted in Advanced Workbench. ],,,,
 dryingRack,blocks,Station Terrain,,Drying Rack,,,,
 dryingRackDesc,blocks,Station Terrain,,Allows you to dry and cure leather and hides as well as combine leather strips and craft paper.,,,,
 ScrapIronGate3x2R1,,,,Metal Gate,,,,
@@ -6855,7 +6851,7 @@ decoStationDesc,,,,This station is used to make decorative house items and the n
 deerBlind,,,,Deer Blind,,,,
 deerBlindDesc,,,,This deer blind is perfect for hunting animals or OTHER things.,,,,
 oldRadio,,,,Old Radio,,,,
-oldRadioDesc,,,,Just static but you keep it on just in case.,,,,
+oldRadioDesc,,,,Just static but you keep it on just in case.\n [ Crafted in Decorating Station. ],,,,
 oldVan,,,,Mystery Machine,,,,
 fuelStorage,,,,Fuel Tank (Storage),,,,
 fuelStorageDesc,,,,A great tank for storing your fuel.\n [ Crafted in Decorating Station. ],,,,
@@ -7177,8 +7173,8 @@ tunaSandwich,,,,Tuna Sandwich,,,,
 steelClothesGroupDesc,items,Clothes,KgNone,Steel armor provides good protection against concussive and puncture damage but will not keep you warm.\n [ Crafted in Tailor Station with a Welding Torch. ],"Les vêtements en ferraille vous offrent une bonne protection contre les commotions cérébrales et autres blessures perforantes, mais ne vous garderont pas au chaud.","Alteisenkleidung bietet guten Schutz vor Schlag- und Stichschaden, hält aber nicht warm.",,"La ropa de chatarra de hierro ofrece buena protección frente a contusiones y perforaciones, pero no te mantendrá abrigado."
 GeneratorCop,,,,Police Generator,,,,
 Generator,,,,Military Generator,,,,
-GeneratorCopDesc,,,,A Police Generator,,,,
-GeneratorDesc,,,,A Military Generator,,,,
+GeneratorCopDesc,,,,Police generators will last longer but can attarct more attention,\n [ Crafted in Advanced Workbench. ],,,,
+GeneratorDesc,,,, Military generators last longer and are more silent to use.\n [ Crafted in Advanced Workbench. ],,,,
 hashDesc,,,,Delicious hash is the first thing you want to smell in the morning.\n [ Crafted in Stoves. ],,,,
 vegetableLunchDesc,,,,Toss a few veggies into a bowl and you too can claim you eat healthy,,,,
 sauerkrautDesc,,,,Delicious Kraut,,,,
@@ -7243,3 +7239,59 @@ Spaghetti,,,,Spaghetti,,,,
 spaghettiDesc,,,,A delicious helping of hearty Italian Spaghetti. Wheres the Meatballs.\n [ Crafted in Food Prep Table. ],,,,
 mirrorBathDesc,,,,A good place to store your medical supplies.\n [ Crafted in Decorating Station. ],,,,
 PinupsDesc,,,,This may look a little weird to some but Farrah Fawcett is dead now and this will do.\n [ Crafted in Decorating Station. ],,,,
+adminbucket,,,,Admin Bucket,,,,
+adminbucketWater,,,,Admin Water Filled Bucket,,,,
+adminbucketDesc,,,,Admin use only. Can be used to fill pools and dump water.,,,,
+BricksDesc,,,,Bricks can be used to make brick blocks for building bases and houses.\n [ Crafted in Forge and Advanced Forge. ],,,,
+tipSticks,,,,Journal Entry 1,,,,
+tipsToolheads,,,,Journal Entry 2,,,,
+tipScavenging,,,,Journal Entry 3,,,,
+tipLeathermaking,,,,Journal Entry 4,,,,
+tipCarparts,,,,Journal Entry 5,,,,
+tipKP,,,,Journal Entry 6,,,,
+tipWeaponparts,,,,Journal Entry 7,,,,
+tipDryingrack,,,,Journal Entry 8,,,,
+tipTailorstation,,,,Journal Entry 9,,,,
+tipNewstations,,,,Journal Entry 10,,,,
+tipNightterrors,,,,Journal Entry 11,,,,
+tipNewores,,,,Journal Entry 12,,,,
+tipAdvancedworkbench,,,,Journal Entry 13,,,,
+tipAdvancedforge,,,,Journal Entry 14,,,,
+tipnewSeeds,,,,Journal Entry 15,,,,
+tipNewcooking,,,,Journal Entry 16,,,,
+tipRecipeunlocks,,,,Journal Entry 17,,,,
+tipPrimitivetools,,,,Journal Entry 18,,,,
+tipIronsteel,,,,Journal Entry 19,,,,
+tipScraptools,,,,Journal Entry 20,,,,
+tipCrowbars,,,,Journal Entry 21,,,,
+tipKnives,,,,Journal Entry 22,,,,
+tipWeaponstation,,,,Journal Entry 23,,,,
+journalQuest,,,,Ravenhearst Guide,,,,
+journalQuestDesc,,,,After the entries are added to the Journal Click one of these books and click Recipes to make 1 Collection of Knowledge Points that can be scrapped into 2 Knowledge Points.,,,,
+ravenhearstguideDesc,,,,Craft this book and read it to learn the ins and outs of Ravenhearst. BE CAREFUL as it will place 20 Items in your bag so make sure you have room! After the entries are added to the Journal Click one of these books and click Recipes to make 1 Collection of Knowledge Points that can be scrapped into 2 Knowledge Points.,,,,
+zombiePinup01,,,,Zombie Pin Up Girl 1,,,,
+zombiePinup02,,,,Zombie Pin Up Girl 2,,,,
+zombiePinup03,,,,Zombie Pin Up Girl 3,,,,
+zombiePinup04,,,,Zombie Pin Up Girl 4,,,,
+plantedCarrot3Harvestable,,,,Planted Carrot 3 (Harvestable),,,,
+plantedCucumber3Harvestable,,,,Planted Cucumber 3 (Harvestable),,,,
+plantedLettuce3Harvest,,,,Planted Lettuce 3 (Harvestable),,,,
+plantedOnion3Harvest,,,,Planted Onion 3 (Harvestable),,,,
+plantedCarrot1,,,,Carrot Seed,,,,
+plantedCarrot1Desc,,,,Carrot seeds can be planted in dirt to grow carrot.\n [ Crafted in Mortar and Pestle. ],,,,
+plantedLettuce1,,,,Lettuce Seed,,,,
+plantedOnion1,,,,Onion Seed,,,,
+plantedLettuce1Desc,,,,Lettuce seeds can be planted in dirt to grow lettuce.\n [ Crafted in Mortar and Pestle. ],,,,
+plantedOnion1Desc,,,,Onion seeds can be planted in dirt to grow onions.\n [ Crafted in Mortar and Pestle. ],,,,
+onionDesc,,,,Onions can be used as an ingredient in other dishes.,,,,
+lettuceDesc,,,,Lettuce can be used as an ingredient in other dishes.,,,,
+shed,,,,Storage Shed (Storage),,,,
+laddersteelDesc,,,,The strongest ladder that you can make.\n [ Crafted in Advanced Workbench. ],,,,
+genericWBBlockDesc,blocks,Block,KgNone,A world decoration block that can be used in builds.\n [ Crafted in Adavnced Workbench. ],Bloc décoratif du monde,Ein Block zur Dekoration der Welt.,,Un bloque de decoración para el mundo
+elevatorTestDesc,,,,This small elevator can be locked and used to advanced up a few floors.\n [ Crafted in Advanced Workbench. ] ,,,,
+torchPlayerGroupDECODesc,blocks,Block,New,Open flames and flickering lights like with torches (less so with candles) will attract zombies.\n [ Crafted in Decoration Station. ],,Offene Flammen und flackerndes Licht wie bei Fackeln (weniger bei Kerzen) werden Zombies anziehen.,,
+bedBigGroupDesc,blocks,Block,KgNone,Placing it on the ground will let you spawn there when you die and then show the spot on your map. These beds will heal you better than a bedroll\n [ Crafted in Decorating Station. ],"En le plaçant à terre, vous pourrez réapparaître à cet endroit lorsque vous mourrez et il sera indiqué sur votre carte.","Wenn du dies platzierst, kannst du dort wiedererscheinen, falls du stirbst. Außerdem wird der Standort auf deiner Karte angezeigt.",,"Si la colocas en el suelo, revives allí cada vez que mueras. Además, se mostrará el lugar en el mapa."
+tombstoneLarge01Desc,,,,"Place this large marker to commemorate a lost loved one"\n [ Crafted in Decoration Station. ],,,,
+largeStorageUnlockGroupDesc,blocks,Container,KgNone,A very large lockable storage unit.\n [ Crafted in Decoration Station. ],Une très grosse caisse verrouillable avec un symbole pratique peint sur les côtés. Maintenez [activate] pour la verrouiller ou définir un code.,Eine sehr große abschließbare Kiste mit einem praktischen Symbol auf der Seite. Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Una gran caja con cerrojo con un símbolo muy útil pintado en los costados. Mantén presionado [activate] para cerrar con llave o para definir una combinación.
+ovensDesc,,,,These ovens can be upgraded to working ovens you can use but you will lose the loot inside. Upgrade with an Oven Kit.\n [ Crafted in Decoration Station. ],,,,
+brokensinkDesc,,,,I wish I could get this to work but the pipes are missing.\n [ Crafted in Decorating Station. ],,,,

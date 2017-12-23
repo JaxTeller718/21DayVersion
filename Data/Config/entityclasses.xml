@@ -4135,11 +4135,11 @@
 		<property name="SoundDeath" value="newzombiedeath"/>
 		<property name="SoundSense" value="newzombiesense"/>
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
-		<property name="WanderSpeed" value="0.4"/>
-		<property name="ApproachSpeed" value="0.4"/>
-		<property name="NightWanderSpeed" value="0.5"/>
-		<property name="NightApproachSpeed" value="0.8"/>
-		<property name="PanicSpeed" value="0.5"/>
+		<property name="WanderSpeed" value="0.5"/>
+		<property name="ApproachSpeed" value="0.7"/>
+		<property name="NightWanderSpeed" value="0.8"/>
+		<property name="NightApproachSpeed" value="0.9"/>
+		<property name="PanicSpeed" value="1.1"/>
 		<property name="ExperienceGain" value="1525"/>
 		<property name="HandItem" value="handZombieMechanic"/>
 		<property name="TimeStayAfterDeath" value="3"/>

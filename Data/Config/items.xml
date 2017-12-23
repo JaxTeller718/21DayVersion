@@ -6558,7 +6558,7 @@
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="701" name="foodYuccaFruit">
 		<property name="Meshfile" value="Items/Food/fruit_yucca"/>
@@ -7084,7 +7084,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="3"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="751" name="blueberries">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
@@ -7544,7 +7544,7 @@
 			<!-- When first learned the multiplier is applied. After that only the action exp is applied but it's applied for EACH item in the book. -->
 			<property name="Sound_start" value="recipe_unlocked"/>
 		</property>
-		<property name="Group" value="Books"/>
+		<property name="Group" value="Schematics"/>
 	</item>
 	<item id="901" name="invisibleRecipesForRepairCost">
 		<!-- Gating book for lootable things we dont want the player to repair -->
@@ -7851,7 +7851,7 @@
 		</property>
 		<property name="FuelValue" value="2"/>
 		<property name="Weight" value="2"/>
-		<property name="Group" value="Special Items"/>
+		<property name="Group" value="Quests"/>
 	</item>
 	<item id="1151" name="challengeQuestMaster">
 		<property name="Extends" value="questMaster"/>
@@ -7859,6 +7859,7 @@
 		<property name="DescriptionKey" value="qc_ZombieGroupDesc"/>
 		<property name="CustomIcon" value="challengeQuestMaster"/>
 		<property name="EconomicValue" value="400"/>
+		<property name="Group" value="Quests"/>
 	</item>
 	<item id="1152" name="treasureQuestMaster">
 		<property name="Extends" value="questMaster"/>
@@ -7866,6 +7867,7 @@
 		<property name="DescriptionKey" value="qt_desc"/>
 		<property name="CustomIcon" value="treasureQuestMaster"/>
 		<property name="PickupJournalEntry" value="treasureMapTip"/>
+		<property name="Group" value="Maps"/>
 	</item>
 	<item id="1160" name="q_basicSurvival">
 		<property name="Extends" value="questMaster"/>
@@ -8055,7 +8057,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources,Basics"/>
 		<property name="RepairAmount" value="100"/>
-		<property name="LootExpValue" value="1"/>
 		<property name="DescriptionKey" value="woodDesc"/>
 		<property name="CraftingIngredientTime" value="0.25"/>
 	</item>
@@ -8114,7 +8115,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="15"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="10"/>
 		<property name="RepairTime" value="0.5"/>
 		<property name="RepairAmount" value="350"/>
@@ -8137,7 +8138,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="50"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="400"/>
@@ -8154,7 +8155,7 @@
 		<property name="EconomicValue" value="16"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8171,7 +8172,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="DropScale" value="8"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="2"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="1312" name="animalHide">
 		<property name="Meshfile" value="Items/Crafting/animal_hidePrefab"/>
@@ -8183,7 +8184,7 @@
 		<!-- STK resource -->
 		<property name="FuelValue" value="5"/>
 		<property name="EconomicValue" value="20"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Clothing"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 	</item>
@@ -8197,7 +8198,7 @@
 		<!-- STK resource -->
 		<property name="FuelValue" value="5"/>
 		<property name="EconomicValue" value="22"/>
-		<property name="Group" value="Resources,Clothing"/>
+		<property name="Group" value="Clothing"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="Weight" value="5"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
@@ -8404,7 +8405,7 @@
 		<property name="EconomicValue" value="15"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Special Items"/>
+		<property name="Group" value="Books"/>
 	</item>
 	<!--<item id="1329" name="book"><property name="Meshfile" value="Items/Misc/Book"/><property name="Material" value="paper"/><property name="HoldType" value="21"/><property name="Stacknumber" value="100"/><property name="FuelValue" value="20"/><property name="Weight" value="20"/><property name="Group" value="Decor/Miscellaneous"/></item>-->
 	<item id="1330" name="militaryFiber">
@@ -8414,7 +8415,7 @@
 		<property name="HoldType" value="14"/>
 		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="10"/>
 		<property name="RepairTime" value="0.6"/>
 		<property name="RepairAmount" value="120"/>
@@ -8434,7 +8435,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="32"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8449,7 +8450,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="50"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8457,13 +8458,13 @@
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="45"/>
-		<property name="Material" value="metal"/>
+		<property name="Material" value="MmechanicalParts"/>
 		<property name="Weight" value="5"/>
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
-		<property name="EconomicValue" value="32"/>
+		<property name="EconomicValue" value="12"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8479,7 +8480,7 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Clothing"/>
 		<property name="DescriptionKey" value="plantedCotton3HarvestDesc"/>
 	</item>
 	<item id="1335" name="goldenrodPlant">
@@ -8496,7 +8497,7 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="plantedGoldenrod3HarvestDesc"/>
-		<property name="CraftingIngredientExp" value="5"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="1336" name="oldCash">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8509,7 +8510,7 @@
 		<!-- STK resource -->
 		<!--<property name="EconomicValue" value="5"/><property name="EconomicBundleSize" value="50"/>-->
 		<property name="EconomicValue" value="5"/>
-		<property name="Group" value="Special Items"/>
+		<property name="Group" value="Books"/>
 	</item>
 	<item id="1337" name="snowberryPlant">
 		<property name="Extends" value="blueberries"/>
@@ -8545,7 +8546,7 @@
 		<property name="EconomicValue" value="30"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8560,7 +8561,7 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingIngredientTime" value="1"/>
 	</item>
 	<item id="1341" name="ironArrowHead">
@@ -8697,7 +8698,7 @@
 			<property name="EntityDamage" value="5,10"/>
 			<property name="BlockDamage" value="0.1,0.2"/>
 		</property>
-		<property name="Group" value="Ammo/Weapons"/>
+		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1354" name="rocketTip">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -9036,7 +9037,7 @@
 		<property name="Stacknumber" value="500"/>
 		<!-- STK loot -->
 		<property name="EconomicValue" value="250"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="400"/>
@@ -9046,7 +9047,7 @@
 	<item id="1391" name="goldNugget">
 		<property name="Extends" value="silverNugget"/>
 		<property name="EconomicValue" value="700"/>
-		<property name="CraftingIngredientTime" value="15"/>
+		<property name="CraftingIngredientTime" value="0"/>
 		<property name="DescriptionKey" value="rareOresGroupDesc"/>
 	</item>
 	<item id="1392" name="rawDiamond">
@@ -9227,7 +9228,7 @@
 		<!-- STK resource -->
 		<property name="Weight" value="100"/>
 		<property name="EconomicValue" value="225"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Special Items"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 	</item>
 	<item id="1445" name="anvil">
@@ -9250,7 +9251,7 @@
 		<property name="Stacknumber" value="1"/>
 		<!-- STK loot -->
 		<property name="EconomicValue" value="2000"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Special Items"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 	</item>
 	<item id="1448" name="forgeCrucible">
@@ -9259,7 +9260,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="Material" value="organic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Special Items"/>
 		<property name="EconomicValue" value="600"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 	</item>
@@ -10165,12 +10166,11 @@
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="5000"/>
 		<!-- STK resource -->
-		<property name="FuelValue" value="100"/>
+		<property name="FuelValue" value="175"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="LootExpValue" value="1"/>
 		<property name="DescriptionKey" value="CharcoalDesc"/>
 		<property name="CraftingIngredientTime" value="0.25"/>
 	</item>
@@ -10184,7 +10184,7 @@
 		<property name="Stacknumber" value="50"/>
 		<property name="DropScale" value="4"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="Group" value="Books"/>
+		<property name="Group" value="Quest Items"/>
 		<property name="EconomicValue" value="50"/>
 	</item>
 	<item id="2701" name="questItemRing">
@@ -10616,7 +10616,7 @@
 		<property name="HoldType" value="23"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Stacknumber" value="100"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -14145,11 +14145,11 @@
 	</item>
 	<item id="2696" name="survivorNoteCollection">
 		<property name="DescriptionKey" value="survivorNoteCollectionDesc"/>
-		<property name="CustomIcon" value="knowledgePoint"/>
+		<property name="CustomIcon" value="knowledgePointCollection"/>
 		<property name="Meshfile" value="Items/Misc/paper"/>
 		<property name="HoldType" value="21"/>
 		<property name="Material" value="knowledge_Points"/>
-		<property name="Weight" value="10"/>
+		<property name="Weight" value="3"/>
 		<property name="Stacknumber" value="500"/>
 		<property name="FuelValue" value="20"/>
 		<property name="Group" value="Books"/>
@@ -14628,7 +14628,7 @@
 		<property name="Material" value="paper"/>
 		<property name="Weight" value="1"/>
 		<property name="FuelValue" value="20"/>
-		<property name="Group" value="Survival"/>
+		<property name="Group" value="Skills"/>
 		<property class="Action1">
 			<property name="Class" value="Quest"/>
 			<property name="QuestGiven" value="skill1"/>
@@ -14645,7 +14645,7 @@
 		<property name="Material" value="paper"/>
 		<property name="Weight" value="1"/>
 		<property name="FuelValue" value="20"/>
-		<property name="Group" value="Survival"/>
+		<property name="Group" value="Skills"/>
 		<property class="Action1">
 			<property name="Class" value="Quest"/>
 			<property name="QuestGiven" value="skill3"/>
@@ -14662,7 +14662,7 @@
 		<property name="Material" value="paper"/>
 		<property name="Weight" value="1"/>
 		<property name="FuelValue" value="20"/>
-		<property name="Group" value="Survival"/>
+		<property name="Group" value="Skills"/>
 		<property class="Action1">
 			<property name="Class" value="Quest"/>
 			<property name="QuestGiven" value="skill5"/>
@@ -14873,7 +14873,6 @@
 		<!-- STK resource -->
 		<property name="Group" value="Resources"/>
 		<property name="RepairAmount" value="100"/>
-		<property name="LootExpValue" value="1"/>
 		<property name="CraftingIngredientTime" value="0.5"/>
 	</item>
 	<item id="2791" name="ovenKit">
@@ -14886,7 +14885,6 @@
 		<!-- STK resource -->
 		<property name="Group" value="Resources"/>
 		<property name="RepairAmount" value="100"/>
-		<property name="LootExpValue" value="1"/>
 		<property name="CraftingIngredientTime" value="0.5"/>
 	</item>
 	<item id="2792" name="minerParts">
@@ -17151,7 +17149,7 @@
 		<!-- STK resource -->
 		<property name="FuelValue" value="5"/>
 		<property name="EconomicValue" value="22"/>
-		<property name="Group" value="Resources,Clothing"/>
+		<property name="Group" value="Clothing"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="Weight" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
@@ -18520,7 +18518,7 @@
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
-			<property name="Range" value="2.8"/>
+			<property name="Range" value="3.5"/>
 			<property name="DamageEntity" value="40"/>
 			<property name="DamageBlock" value="120"/>
 			<property name="Buff" value="bleeding,sprainedLeg,stunned"/>
@@ -18533,9 +18531,9 @@
 		<property class="Action0">
 			<property name="Range" value="2.3"/>
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="30"/>
+			<property name="DamageBlock" value="40"/>
 			<property name="Buff" value="bleeding,burningSmall,stunned"/>
-			<property name="Buff_chance" value="0.15,0.5,0.3"/>
+			<property name="Buff_chance" value="0.15,0.3,0.3"/>
 		</property>
 	</item>
 	<item id="3130" name="handZombieRaptor">
@@ -18915,7 +18913,7 @@
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillMiscParts"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
@@ -18930,7 +18928,7 @@
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillMiscParts"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="750"/>
 	</item>
@@ -19898,8 +19896,8 @@
 		<property name="DescriptionKey" value="gunBoomstickDesc"/>
 		<property class="Parts">
 			<property name="Stock" value="partsPumpShotgun_stockShort"/>
-			<property name="Receiver" value="partsPumpShotgun_parts"/>
-			<property name="Pump" value="partsPumpShotgun_receiver"/>
+			<property name="Receiver" value="partsPumpShotgun_receiver"/>
+			<property name="Pump" value="partsPumpShotgun_parts"/>
 			<property name="Barrel" value="partsPumpShotgun_barrelShort"/>
 		</property>
 		<property class="Action0">
@@ -21568,7 +21566,7 @@
 			<property name="ActionExp" value="10"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Seeds"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
@@ -22358,7 +22356,7 @@
 		</property>
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="8"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="DescriptionKey" value="slicedrawMeatDesc"/>
 	</item>
 	<item id="3293" name="tenderizer">
@@ -22737,7 +22735,7 @@
 	</item>
 	<item id="3313" name="Cheeseburger">
 		<property name="Meshfile" value="#hamburger?hamburgerPrefab"/>
-		<property name="CustomIcon" value="hamburger"/>
+		<property name="CustomIcon" value="Hamburger"/>
 		<property name="Material" value="organic"/>
 		<property name="DescriptionKey" value="hamburgerDesc"/>
 		<property name="HoldType" value="3"/>
@@ -22783,5 +22781,60 @@
 		<property name="DescriptionKey" value="woodSpoonDesc"/>
 		<property name="Material" value="wood"/>
 		<property name="Weight" value="7"/>
+	</item>
+	<item id="3316" name="adminbucket">
+		<property name="CustomIcon" value="bucket"/>
+		<property name="CustomIconTint" value="172,33,50"/>
+		<property name="Candrop" value="false"/>
+		<property name="DescriptionKey" value="adminbucketDesc"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Meshfile" value="Items/Crafting/Metal/IronBucket"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="metal"/>
+		<property name="HoldType" value="34"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="EconomicValue" value="84"/>
+		<property class="Action0">
+			<!-- AttackAction -->
+			<property name="Class" value="BailLiquid"/>
+			<property name="Delay" value="0.35"/>
+			<property name="Sound_start" value="bucketbail_water"/>
+		</property>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="ExchangeItem"/>
+			<property name="Delay" value="0.35"/>
+			<property name="Change_item_to" value="adminbucketWater"/>
+			<property name="Do_block_action" value="deplete3"/>
+			<property name="Focused_blockname_1" value="water"/>
+			<property name="Focused_blockname_2" value="waterMoving"/>
+			<property name="Focused_blockname_3" value="waterStaticBucket"/>
+			<property name="Focused_blockname_4" value="waterMovingBucket"/>
+			<property name="Focused_blockname_5" value="waterSource8"/>
+			<property name="Sound_start" value="bucketfill_water"/>
+		</property>
+		<property name="Group" value="Tools/Traps"/>
+	</item>
+	<item id="3317" name="adminbucketWater">
+		<property name="CustomIcon" value="bucketWater"/>
+		<property name="CustomIconTint" value="172,33,50"/>
+		<property name="DescriptionKey" value="adminbucketDesc"/>
+		<property name="Candrop" value="false"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Meshfile" value="Items/Crafting/Metal/IronBucketWaterPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="metal"/>
+		<property name="HoldType" value="34"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="EconomicValue" value="88"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="waterMovingBucket"/>
+			<property name="Change_item_to" value="adminbucket"/>
+			<property name="Sound_start" value="bucketplace_water"/>
+		</property>
+		<property name="Group" value="Tools/Traps"/>
 	</item>
 </items>

@@ -996,7 +996,7 @@
 		<!--<property name="PlantGrowing.LightLevelGrow" value="8"/> default, light required for growing up<property name="PlantGrowing.LightLevelStay" value="0"/> default, light required for not dieing off<property name="PlantGrowing.GrowOnTop" value="treeSnowyGrassDiagonal"/><property name="PlantGrowing.GrowIfAnythinOnTop" value="false"/><property name="PlantGrowing.IsGrowOnTopEnabled" value="false"/>-->
 		<property name="HarvestOverdamage" value="false"/>
 		<drop event="Destroy" count="0"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Seeds"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 		<property name="EconomicValue" value="12"/>
 		<property name="SellableToTrader" value="false"/>
@@ -1024,6 +1024,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
+		<property name="Group" value="Seeds"/>
 	</block>
 	<block id="121" name="stainlessSteelMaster">
 		<property name="Group" value="Building"/>
@@ -3581,6 +3582,7 @@
 	<block id="352" name="graveStone01">
 		<property name="Material" value="stone"/>
 		<property name="StabilitySupport" value="false"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
@@ -3657,6 +3659,7 @@
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Industrial/pole_top01" param1="main_mesh"/>
 		<property name="IsTerrainDecoration" value="true"/>
@@ -3689,6 +3692,7 @@
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Model" value="Appliances/ac_unit" param1="main_mesh"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="52"/>
 		<drop event="Harvest" name="electricParts" count="3,7" tool_category="Disassemble"/>
@@ -4565,7 +4569,7 @@
 	</block>
 	<!-- kind of free<block id="437" name="pipeGreen"><property name="Material" value="metal"/><property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/><property name="Mesh" value="models"/><property name="Model" value="Plumbing/pipe_green" param1="main_mesh"/><drop event="Destroy" name="scrapIron" count="1,15"/><drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/></block><block id="438" name="pipeGreen3Way"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_3way" param1="main_mesh"/></block><block id="439" name="pipeGreen3WayVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_3way_vertical" param1="main_mesh"/></block><block id="440" name="pipeGreen3WayVertical2"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_3way_vertical2" param1="main_mesh"/></block><block id="441" name="pipeGreenCap"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_cap" param1="main_mesh"/></block><block id="442" name="pipeGreenCurve"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_curve" param1="main_mesh"/></block><block id="443" name="pipeGreenCurveVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_curve_vertical" param1="main_mesh"/></block><block id="444" name="pipeGreenFlange"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_flange" param1="main_mesh"/></block><block id="445" name="pipeGreenFlangeVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_flange_vertical" param1="main_mesh"/></block><block id="446" name="pipeGreenValve"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_valve" param1="main_mesh"/></block><block id="447" name="pipeGreenValveVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_valve_vertical" param1="main_mesh"/></block><block id="448" name="pipeGreenVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_vertical" param1="main_mesh"/></block><block id="449" name="pipeRed"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red" param1="main_mesh"/></block><block id="450" name="pipeRed3Way"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_3way" param1="main_mesh"/></block><block id="451" name="pipeRed3WayVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_3way_vertical" param1="main_mesh"/></block><block id="452" name="pipeRed3WayVertical2"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_3way_vertical2" param1="main_mesh"/></block><block id="453" name="pipeRedCap"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_cap" param1="main_mesh"/></block><block id="454" name="pipeRedCurve"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_curve" param1="main_mesh"/></block><block id="455" name="pipeRedCurveVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_curve_vertical" param1="main_mesh"/></block><block id="456" name="pipeRedFlange"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_flange" param1="main_mesh"/></block><block id="457" name="pipeRedFlangeVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_flange_vertical" param1="main_mesh"/></block><block id="458" name="pipeRedValve"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_valve" param1="main_mesh"/></block><block id="459" name="pipeRedValveVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_valve_vertical" param1="main_mesh"/></block><block id="460" name="pipeRedVertical"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_vertical" param1="main_mesh"/></block><block id="461" name="pipeGreenCurveVertical2"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_green_curve_vertical2" param1="main_mesh"/></block><block id="462" name="pipeRedCurveVertical2"><property name="Extends" value="pipeGreen"/><property name="Model" value="Plumbing/pipe_red_curve_vertical2" param1="main_mesh"/></block>-->
 	<block id="463" name="bed01">
-		<property name="DescriptionKey" value="bedGroupDesc"/>
+		<property name="DescriptionKey" value="bedBigGroupDesc"/>
 		<property name="Class" value="SleepingBag"/>
 		<property name="Material" value="Mmetal_weak"/>
 		<property name="Shape" value="Ext3dModel"/>
@@ -4625,7 +4629,7 @@
 		<!-- disassemble value -->
 	</block>
 	<block id="466" name="mattressFlat">
-		<property name="DescriptionKey" value="bedGroupDesc"/>
+		<property name="DescriptionKey" value="bedBigGroupDesc"/>
 		<property name="Class" value="SleepingBag"/>
 		<property name="Material" value="furniture"/>
 		<property name="Shape" value="Ext3dModel"/>
@@ -8041,6 +8045,7 @@
 	<block id="792" name="iBeamSmall">
 		<property name="Extends" value="rScrapIronMaster"/>
 		<property name="Shape" value="New"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="i_beam_small"/>
 		<property name="Texture" value="446"/>
@@ -8090,6 +8095,7 @@
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="4"/>
 		<property name="Model" value="curtain"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="63"/>
 		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
@@ -9529,7 +9535,7 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="80"/>
-		<property name="DescriptionKey" value="ladderMetalDesc"/>
+		<property name="DescriptionKey" value="laddersteelDesc"/>
 		<property name="Group" value="Building"/>
 	</block>
 	<!-- 35 Free -->
@@ -10112,6 +10118,7 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="metal"/>
 		<property name="Texture" value="346,345,341,345,262,345"/>
+		<property name="DescriptionKey" value="ovensDesc"/>
 		<property name="LootList" value="5"/>
 		<drop event="Harvest" name="mechanicalParts" count="0,1" tool_category="Disassemble"/>
 		<drop event="Harvest" name="shortMetalPipe" count="1,2" tool_category="Disassemble"/>
@@ -10622,6 +10629,13 @@
 		<property name="ImposterExclude" value="true"/>
 		<property name="ShapeMinBB" value="0.3,0,0.3"/>
 		<property name="DescriptionKey" value="railingGroupDesc"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="railingBlackSheet"/>
+			<property name="Item" value="forgedIron"/>
+			<property name="ItemCount" value="5"/>
+			<property name="UpgradeHitCount" value="1"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
 	</block>
 	<block id="1144" name="railingOldWoodSheet">
 		<property name="Extends" value="railingWoodWhiteSheet"/>
@@ -11182,7 +11196,7 @@
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="416"/>
 		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
-		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<drop event="Destroy" name="scrapPlastics" count="1,2"/>
 		<property name="EconomicValue" value="20"/>
 	</block>
@@ -12353,6 +12367,7 @@
 	<block id="1339" name="cashRegisterEmpty">
 		<property name="Material" value="MmetalNoGlue"/>
 		<property name="MaxDamage" value="250"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
@@ -12368,6 +12383,7 @@
 		<property name="Class" value="Loot"/>
 		<property name="Material" value="MmetalNoGlue"/>
 		<property name="MaxDamage" value="250"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
@@ -13796,7 +13812,7 @@
 	</block>
 	<!-- 1 Free -->
 	<block id="1467" name="bed02">
-		<property name="DescriptionKey" value="bedGroupDesc"/>
+		<property name="DescriptionKey" value="bedBigGroupDesc"/>
 		<property name="Class" value="SleepingBag"/>
 		<property name="Material" value="furniture"/>
 		<property name="Shape" value="Ext3dModel"/>
@@ -14006,6 +14022,7 @@
 		<property name="Material" value="metal"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Industrial/control_panel_base_01" param1="main_mesh"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -14076,6 +14093,7 @@
 		<property name="LightOpacity" value="0"/>
 		<property name="Model" value="pipe_thin"/>
 		<property name="Texture" value="519"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<drop event="Destroy" name="scrapIron" count="5" prob="1"/>
 		<property name="ImposterExclude" value="true"/>
 	</block>
@@ -14351,6 +14369,7 @@
 	<block id="1554" name="electricalBox01">
 		<property name="Extends" value="controlPanelBase01"/>
 		<property name="Model" value="Industrial/electrical_box01" param1="main_mesh"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<!-- 1 Free -->
 	<block id="1556" name="conduit01">
@@ -14361,6 +14380,7 @@
 		<property name="LightOpacity" value="2"/>
 		<property name="Model" value="decal"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Texture" value="526"/>
 		<drop event="Harvest" name="electricParts" count="0,4" tool_category="Disassemble"/>
 	</block>
@@ -14573,6 +14593,7 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1576" name="forestCurb">
 		<property name="Extends" value="concreteNoUpgradeMaster"/>
@@ -14585,10 +14606,12 @@
 		<property name="GrassBlock2" value=""/>
 		<!-- add this for an empty grass block -->
 		<property name="LightOpacity" value="1"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1577" name="forestCNRCurb">
 		<property name="Extends" value="forestCurb"/>
 		<property name="Model" value="Curb_Corner"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1578" name="woodPoleSupport">
 		<property name="Extends" value="woodNoUpgradeMaster"/>
@@ -14608,12 +14631,14 @@
 		<property name="Texture" value="329,8,8,8,8,8"/>
 		<property name="ImposterExchange" value="imposterHalf" param1="2"/>
 		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1580" name="plainsCurb">
 		<property name="Extends" value="forestCurb"/>
 		<property name="Texture" value="376,8,8,8,8,8"/>
 		<property name="ImposterExchange" value="imposterHalf" param1="2"/>
 		<property name="GrassBlock1" value="treeBrownGrassDiagonal"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1581" name="woodCrossCtr">
 		<property name="Extends" value="woodNoUpgradeMaster"/>
@@ -14625,6 +14650,7 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1582" name="woodCross">
 		<property name="Extends" value="woodNoUpgradeMaster"/>
@@ -14636,20 +14662,24 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1583" name="plainsCNRCurb">
 		<property name="Extends" value="plainsCurb"/>
 		<property name="Model" value="Curb_Corner"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1584" name="wastelandCurb">
 		<property name="Extends" value="forestCurb"/>
 		<property name="Texture" value="326,8,8,8,8,8"/>
 		<property name="ImposterExchange" value="imposterHalf" param1="2"/>
 		<property name="GrassBlock1" value="treeBrownGrassDiagonal"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1585" name="wastelandCNRCurb">
 		<property name="Extends" value="wastelandCurb"/>
 		<property name="Model" value="Curb_Corner"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1586" name="woodPoleSupport2">
 		<property name="Extends" value="woodNoUpgradeMaster"/>
@@ -14661,11 +14691,13 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1587" name="elevatorTest">
 		<property name="CreativeMode" value="Player"/>
 		<property name="Class" value="DoorSecure"/>
-		<property name="Material" value="wood_regular"/>
+		<property name="Material" value="MmetalCatwalk"/>
+		<property name="DescriptionKey" value="elevatorTestDesc"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/Elevators/elevator_testPrefab"/>
@@ -14692,6 +14724,7 @@
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1593" name="rustyIronCrossCtr">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
@@ -14704,6 +14737,7 @@
 		<property name="UseGlobalUV" value="Local"/>
 		<property name="Place" value="TowardsPlacer"/>
 		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<!-- n Free -->
 	<block id="1610" name="roadRailing">
@@ -14715,6 +14749,7 @@
 		<property name="ImposterExchange" value="imposterQuarter" param1="2"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Group" value="Building"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 	</block>
 	<block id="1611" name="roadRailingPole">
 		<property name="Extends" value="roadRailing"/>
@@ -15038,7 +15073,7 @@
 		<property name="BuffsWhenWalkedOn" value="burningSmall"/>
 		<property name="ActiveRadiusEffects" value="+heatSource(2)"/>
 		<property name="Group" value="Building"/>
-		<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
+		<property name="DescriptionKey" value="torchPlayerGroupDECODesc"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1775" name="burningBarrel">
@@ -15050,7 +15085,7 @@
 		<!-- no effect on the heat map -->
 		<property name="Stacknumber" value="500"/>
 		<property name="CanPickup" value="true" param1="burningBarrelPlayer"/>
-		<property name="DescriptionKey" value="torchGroupDesc"/>
+		<property name="DescriptionKey" value="torchPlayerGroupDECODesc"/>
 	</block>
 	<block id="1776" name="stainlessSteelBlock">
 		<property name="Extends" value="stainlessSteelMaster"/>
@@ -15374,6 +15409,7 @@
 		<property name="Model" value="Entities/Decor/flag_polePrefab"/>
 		<property name="MultiBlockDim" value="1,20,1"/>
 		<property name="ImposterDontBlock" value="true"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="42"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
@@ -15437,11 +15473,13 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Science"/>
+		<property name="DescriptionKey" value="genericWBBlockDesc"/>
 	</block>
 	<block id="1929" name="barStool">
 		<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
 		<property name="MaxDamage" value="500"/>
 		<property name="Shape" value="Ext3dModel"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
 		<property name="Model" value="Furniture/barstool" param1="main_mesh"/>
@@ -15450,7 +15488,6 @@
 		<property name="Collide" value="melee,bullet,arrow,rocket"/>
 		<property name="EconomicValue" value="60"/>
 		<!-- disassemble value -->
-		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
 	</block>
 	<!-- n Free -->
 	<block id="1931" name="rConcreteStairs25CornerCNR">
@@ -15672,7 +15709,6 @@
 		<property name="Pose" value="5"/>
 		<property name="LookIdentity" value="0,0,1"/>
 	</block>
-	<!-- ore block visualisation.  Uncomment this section to make underground ores visible.<block id="7" name="ironOre"><property name="Extends" value="glassShowerBlock"/><property name="MaxDamage" value="3500"/><property name="CanPickup" value="true"/><property name="ActivationDistance" value="50"/><property name="ActivationDistance" value="50"/></block><block id="6" name="potassiumNitrate"><property name="Extends" value="rConcretePillar50"/><property name="CanPickup" value="true"/><property name="ActivationDistance" value="50"/></block><block id="11" name="leadOre"><property name="Extends" value="scrapIronBlock"/><property name="CanPickup" value="true"/><property name="ActivationDistance" value="50"/></block><block id="16" name="gravel"><property name="Material" value="cloth"/><property name="Shape" value="Ext3dModel"/><property name="Texture" value="293"/><property name="Mesh" value="models"/><property name="Model" value="Rocks/Rock05" param1="main_mesh"/><property name="MaxDamage" value="3500"/><property name="CanPickup" value="true"/><property name="ActivationDistance" value="50"/></block><block id="27" name="coalOre"><property name="Extends" value="woodCrossCtr"/><property name="CanPickup" value="true"/><property name="ActivationDistance" value="50"/></block><block id="33" name="oilDeposit"><property name="Extends" value="rustyIronCrossCtr"/><property name="CanPickup" value="true"/><property name="ActivationDistance" value="50"/></block><block id="70" name="gravelPlusIron"><property name="Extends" value="gravel"/><property name="MaxDamage" value="3500"/><property name="CanPickup" value="true"/></block><block id="71" name="gravelPlusLead"><property name="Extends" value="gravel"/><property name="CanPickup" value="true"/></block><block id="72" name="gravelPlusPotassium"><property name="Extends" value="gravel"/><property name="CanPickup" value="true"/></block><block id="73" name="gravelPlusCoal"><property name="Extends" value="gravel"/><property name="CanPickup" value="true"/></block><block id="10" name="clay"><property name="Material" value="clay"/><property name="Shape" value="Ext3dModel"/><property name="Texture" value="293"/><property name="Mesh" value="models"/><property name="Model" value="LootContainers/backpack02" param1="main_mesh"/><property name="MaxDamage" value="3500"/><property name="CanPickup" value="true"/><property name="ActivationDistance" value="50"/></block><block id="47" name="clayInSandstone"><property name="Extends" value="clay"/></block><block id="23" name="silverOre"><property name="Material" value="wood_regular"/><property name="Shape" value="Ext3dModel"/><property name="Texture" value="293"/><property name="Mesh" value="models"/><property name="Model" value="Plants/plant02" param1="main_mesh"/><property name="CanPickup" value="true"/><property name="ActivationDistance" value="50"/></block><block id="29" name="goldOre"><property name="Extends" value="silverOre"/><property name="CanPickup" value="true"/></block><block id="34" name="diamondOre"><property name="Extends" value="silverOre"/><property name="CanPickup" value="true"/></block>-->
 	<block id="1999" name="cntCollapsedBatterybank">
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Class" value="Loot"/>
@@ -18533,7 +18569,6 @@
 		<property name="CustomIcon" value="plantedWeed1"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
-		<property name="PlantGrowing.GrowthRate" value="180.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedWeed2"/>
 		<property class="UpgradeBlock">
@@ -18546,7 +18581,6 @@
 		<property name="CustomIcon" value="plantedWeed2"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#plantedWeed2?plantedWeed2Prefab"/>
-		<property name="PlantGrowing.GrowthRate" value="180.0"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
 		<property name="PlantGrowing.Next" value="plantedWeed3Harvest"/>
@@ -19041,6 +19075,7 @@
 	<block id="827" name="newSink1">
 		<property name="Material" value="metal"/>
 		<property name="Shape" value="ModelEntity"/>
+		<property name="DescriptionKey" value="brokensinkDesc"/>
 		<property name="Model" value="#newSink1?newSink1Prefab"/>
 		<property name="CustomIcon" value="newSink1"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -19059,6 +19094,7 @@
 		<property name="Material" value="metal"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#newSink2?newSink2Prefab"/>
+		<property name="DescriptionKey" value="brokensinkDesc"/>
 		<property name="CustomIcon" value="newSink2"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="IsDecoration" value="true"/>
@@ -19311,7 +19347,7 @@
 	</block>
 	<!-- Metal Bed By JaxTeller718 -->
 	<block id="123" name="metalBed">
-		<property name="DescriptionKey" value="bedGroupDesc"/>
+		<property name="DescriptionKey" value="bedBigGroupDesc"/>
 		<property name="Class" value="SleepingBag"/>
 		<property name="Material" value="Mmetal_weak"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -19433,7 +19469,7 @@
 		<property name="CreativeMode" value="Player"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#oldTrunk?oldTrunkPrefab"/>
-		<property name="DescriptionKey" value="largeStorageGroupDesc"/>
+		<property name="DescriptionKey" value="largeStorageUnlockGroupDesc"/>
 		<property name="CustomIcon" value="oldTrunk"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="10"/>
@@ -20335,6 +20371,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="IsDecoration" value="true"/>
 		<property name="Material" value="metal"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="CustomIcon" value="dryerFull"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="4"/>
@@ -20358,6 +20395,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="IsDecoration" value="true"/>
 		<property name="Material" value="metal"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="CustomIcon" value="washingMachine01"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="4"/>
@@ -20379,6 +20417,7 @@
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#washingMachine02?washingMachine02Prefab"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="IsDecoration" value="true"/>
 		<property name="Material" value="metal"/>
 		<property name="CustomIcon" value="washingMachine02"/>
@@ -21900,7 +21939,7 @@
 		<property name="Group" value="Building" />
 		<property name="MultiBlockDim" value="3,4,3" />
 		<property name="DescriptionKey" value="ElevatorBottomFloorDesc" />
-		<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
+		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 		<property name="MaxDamage" value="2000" />
 		<!-- Elevator Settings -->
 		<property name="ElevatorUpSpeed" value="2.3" />
@@ -21929,7 +21968,7 @@
 			<property name="electricParts" value="50" />
 		</property>
 		<drop event="Destroy" count="0" />
-		<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
+		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 		<property name="DescriptionKey" value="ElevatorFloorDesc" />
 		<property name="MultiBlockDim" value="3,4,3" />
 		<property name="Group" value="Building" />
@@ -21947,7 +21986,7 @@
 			<property name="electricParts" value="20" />
 		</property>
 		<drop event="Destroy" count="0" />
-		<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
+		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 		<property name="DescriptionKey" value="ElevatorShaftDesc" />
 		<property name="MultiBlockDim" value="3,4,3" />
 		<property name="Group" value="Building" />
@@ -21968,7 +22007,7 @@
 			<property name="electricParts" value="20" />
 		</property>
 		<drop event="Destroy" count="0" />
-		<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
+		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 		<property name="DescriptionKey" value="ElevatorShaftSmallDesc" />
 		<property name="MultiBlockDim" value="3,1,3" />
 		<property name="Group" value="Building" />
@@ -21997,7 +22036,7 @@
 		<property name="Group" value="Building" />
 		<property name="MultiBlockDim" value="2,1,2" />
 		<property name="DescriptionKey" value="ElevatorPlatformBaseDesc" />
-		<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
+		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 		<property name="MaxDamage" value="2000" />
 		<!-- Elevator Settings -->
 		<property name="ElevatorUpSpeed" value="2.5" />
@@ -22039,7 +22078,7 @@
 			<property name="mechanicalParts" value="5" />
 		</property>
 		<drop event="Destroy" count="0" />
-		<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
+		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 		<property name="DescriptionKey" value="ElevatorPlatformFloorDesc" />
 		<property name="MultiBlockDim" value="2,1,2" />
 		<property name="Group" value="Building" />

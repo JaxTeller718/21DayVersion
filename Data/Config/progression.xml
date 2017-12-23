@@ -1972,7 +1972,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="craftSkillToolParts" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="misc_crafting" description_key="craftSkillToolPartsDesc" title_key="craftSkilToolParts" group="crafting" exp_gain_multiplier="0">
+		<perk name="craftSkillToolParts" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="misc_crafting" description_key="Purchase this skill to control the Quality of the Tool Parts you craft. This perk controls Augers and Chainsaw Parts Crafting" title_key="Tool Parts Crafting" group="crafting" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="SurvivorClass" required_skill_level="1"/>
 			<requirement skill_level="2" required_skill_name="SurvivorClass" required_skill_level="1"/>
 			<requirement skill_level="3" required_skill_name="SurvivorClass" required_skill_level="1"/>

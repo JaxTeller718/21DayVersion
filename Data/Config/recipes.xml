@@ -1962,6 +1962,10 @@
 		<ingredient name="scrapIronPlating" count="4"/>
 		<ingredient name="mechanicalParts" count="8"/>
 	</recipe>
+	<recipe name="gunLocker" count="1"   craft_area="decoStation">
+		<ingredient name="scrapIronPlating" count="6"/>
+		<ingredient name="mechanicalParts" count="8"/>
+	</recipe>
 	<recipe name="cntEPSFridge" count="1"   craft_area="decoStation">
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="shortMetalPipe" count="2"/>
@@ -2279,10 +2283,6 @@
 		<ingredient name="forgedIron" count="2"/>
 		<ingredient name="mechanicalParts" count="1"/>
 		<ingredient name="electricParts" count="1"/>
-	</recipe>
-	<recipe name="bottledWater" count="1">
-		<ingredient name="bottledRiverWater" count="1"/>
-		<ingredient name="purifyingTablets" count="1"/>
 	</recipe>
 	<recipe name="purifyingTablets" count="1" craft_area="chemistryStation">
 		<ingredient name="coal" count="3"/>
@@ -2692,7 +2692,7 @@
 		<ingredient name="bowlWater" count="1"/>
 		<ingredient name="mushrooms" count="3"/>
 	</recipe>
-	<recipe name="tunaSandwich" count="1">
+	<recipe name="tunaSandwich" count="1" craft_area="foodPrepTable">
 		<ingredient name="canTuna" count="1"/>
 		<ingredient name="Bread" count="2"/>
 	</recipe>
@@ -3001,14 +3001,11 @@
 	<recipe name="Cheeseburger" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="slicedrawMeat" count="2"/>
 		<ingredient name="Bread" count="2"/>
-		<ingredient name="Cheese" count="1"/>
+		<ingredient name="slicedCheese" count="1"/>
 	</recipe>
 	<recipe name="honeyHam" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="foodHoney" count="1"/>
 		<ingredient name="boiledMeat" count="1"/>
-	</recipe>
-	<recipe name="grillSteak" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
-		<ingredient name="slicedrawMeat" count="2"/>
 	</recipe>
 	<recipe name="steakSandwich" count="1"  craft_time = "8" craft_area="foodPrepTable" craft_tool="butcherKnife">
 		<ingredient name="grillSteak" count="1"/>
@@ -3549,37 +3546,13 @@
 	<recipe name="bridgeWoodBlock" count="1" craft_area="NewWorkBench">
 		<ingredient name="polishedWood" count="20"/>
 	</recipe>
-	<recipe name="woodCrossCtr" count="1" craft_area="NewWorkBench">
+	<recipe name="woodCrossCtr" count="1" craft_area="decoStation">
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="woodCross" count="1" craft_area="NewWorkBench">
+	<recipe name="woodCross" count="1" craft_area="decoStation">
 		<ingredient name="wood" count="10"/>
-	</recipe>
-	<recipe name="emberPile1" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="emberPile2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="emberPile3" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="emberPile4" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="coal" count="5"/>
 	</recipe>
 	<recipe name="commercialDoor1_v1" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
-	<recipe name="commercialDoor1_v2" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
-	<recipe name="commercialDoor1_v3" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="spring" count="2"/>
 	</recipe>
@@ -3587,31 +3560,32 @@
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="spring" count="2"/>
 	</recipe>
-	<recipe name="commercialDoor4_v2" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
-	<recipe name="commercialDoor4_v3" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
 	<recipe name="houseFrontDoor1_v1" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
-	</recipe>
-	<recipe name="houseFrontDoor1_v2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
-	</recipe>
-	<recipe name="houseFrontDoor1_v3" count="1" craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="houseFrontDoor2_v1" count="1" craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
 	</recipe>
-	<recipe name="houseFrontDoor2_v2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+	<recipe name="forestCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="houseFrontDoor2_v3" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+	<recipe name="forestCNRCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="sidewalkCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="plainsCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="plainsCNRCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="wastelandCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="wastelandCNRCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="ice" count="1">
 		<ingredient name="snowBall" count="12"/>
@@ -3750,7 +3724,7 @@
 	<recipe name="ductSoftCorner2" count="1"  craft_area="decoStation">
 		<ingredient name="scrapIron" count="20"/>
 	</recipe>
-	<recipe name="electricalBox01" count="1"  craft_area="NewWorkBench">
+	<recipe name="electricalBox01" count="1"  craft_area="decoStation">
 		<ingredient name="shortMetalPipe" count="1"/>
 		<ingredient name="spring" count="1"/>
 		<ingredient name="electricParts" count="3"/>
@@ -4123,6 +4097,10 @@
 		<ingredient name="nail" count="25"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
+	<recipe name="vintageCloset" count="1" craft_area="decoStation">
+		<ingredient name="polishedWood" count="100"/>
+		<ingredient name="nail" count="10"/>
+	</recipe>
 	<!-- Large Shelf by JaxTeller718 -->
 	<recipe name="largeShelf2" count="1" craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
@@ -4238,7 +4216,7 @@
 	<!-- Stone Fencing by JaxTeller718 -->
 	<recipe name="stoneFence1" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="10"/>
-		<ingredient name="concreteMix" count="20"/>
+		<ingredient name="concreteMix" count="100"/>
 	</recipe>
 	<recipe name="stonePost1" count="1" craft_area="decoStation">
 		<ingredient name="concreteMix" count="50"/>
@@ -4641,7 +4619,7 @@
 		<ingredient name="bowl" count="1"/>
 		<ingredient name="snow" count="3"/>
 	</recipe>
-	<recipe name="applePie" count="1" craft_area="Stoves">
+	<recipe name="applePie" count="1" craft_area="Stoves" craft_tool="pan">
 		<ingredient name="egg" count="1"/>
 		<ingredient name="Flour" count="1"/>
 		<ingredient name="bowlWater" count="1"/>
@@ -4659,14 +4637,14 @@
 	<recipe name="Cheeseburger" count="1" craft_area="Stoves" craft_tool="pan">
 		<ingredient name="slicedrawMeat" count="2"/>
 		<ingredient name="Bread" count="2"/>
-		<ingredient name="Cheese" count="1"/>
+		<ingredient name="slicedCheese" count="1"/>
 	</recipe>
 	<recipe name="honeyHam" count="1" craft_area="Stoves"  craft_tool="pan">
 		<ingredient name="foodHoney" count="1"/>
 		<ingredient name="boiledMeat" count="1"/>
 	</recipe>
-	<recipe name="grillSteak" count="1" craft_area="Stoves">
-		<ingredient name="slicedrawMeat" count="2"/>
+	<recipe name="grillSteak" count="1" craft_area="bbqgrill">
+		<ingredient name="slicedrawMeat" count="4"/>
 	</recipe>
 	<recipe name="stewChunkyMeat" count="1" craft_area="Stoves">
 		<ingredient name="bowlWater" count="1"/>
@@ -4692,7 +4670,11 @@
 		<ingredient name="Tomato" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="Crackers" count="1" craft_time = "8" craft_area="Stoves">
+	<recipe name="tomatoJuice" count="1" craft_area="foodPrepTable">
+		<ingredient name="Tomato" count="5"/>
+		<ingredient name="PurifiedWater" count="1"/>
+	</recipe>
+	<recipe name="Crackers" count="4" craft_time = "8" craft_area="Stoves">
 		<ingredient name="Dough" count="1"/>
 	</recipe>
 	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="foodPrepTable">
@@ -4701,10 +4683,10 @@
 	</recipe>
 	<recipe name="Pizza" count="1" craft_time = "16" craft_area="Stoves"  craft_tool="pan">
 		<ingredient name="Dough" count="1"/>
-		<ingredient name="slicedHam" count="6"/>
-		<ingredient name="Cheese" count="1"/>
-		<ingredient name="mushrooms" count="2"/>
-		<ingredient name="marinatedTomatoes" count="3"/>
+		<ingredient name="slicedHam" count="3"/>
+		<ingredient name="Cheese" count="2"/>
+		<ingredient name="mushrooms" count="3"/>
+		<ingredient name="Tomato" count="3"/>
 	</recipe>
 	<recipe name="Cheese" count="1" craft_time = "8" craft_area="Stoves">
 		<ingredient name="SoyMilk" count="4"/>
@@ -4951,10 +4933,10 @@
 	<recipe name="roadRailingEnd2" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 	</recipe>
-	<recipe name="rustyIronCrossCtr" count="1" craft_area="NewWorkBench">
+	<recipe name="rustyIronCrossCtr" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 	</recipe>
-	<recipe name="rustyIronPoleSupportCtr" count="1" craft_area="NewWorkBench">
+	<recipe name="rustyIronPoleSupportCtr" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 	</recipe>
 	<recipe name="railingWroughtIronSheet" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
@@ -5257,7 +5239,7 @@
 		<ingredient name="polishedWood" count="50"/>
 		<ingredient name="deerHead" count="1"/>
 	</recipe>
-	<recipe name="hash" count="1" craft_area="Stoves"  craft_time="30">
+	<recipe name="hash" count="1" craft_area="Stoves" craft_tool="pan" craft_time="30">
 		<ingredient name="potato" count="1"/>
 		<ingredient name="slicedrawMeat" count="1"/>
 		<ingredient name="eggboiled" count="1"/>

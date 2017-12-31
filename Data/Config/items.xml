@@ -6598,7 +6598,7 @@
 			<property name="Gain_water" value="15"/>
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_stamina" value="30"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="yuccaJuiceCooling,extinguishFireBuff"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -7006,7 +7006,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="-2"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Smell" value="mediumSmell"/>
@@ -7028,7 +7028,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="emptyJar"/>
 		</property>
@@ -7399,7 +7399,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="20"/>
 			<property name="Gain_stamina" value="40"/>
-			<property name="Gain_wellness" value="0.05"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="extinguishFireBuff"/>
 			<property name="Debuff" value="dysentery"/>
@@ -7424,7 +7424,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="20"/>
 			<property name="Gain_stamina" value="40"/>
-			<property name="Gain_wellness" value="0.05"/>
+			<property name="Gain_wellness" value="0.1"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="redTeaCooling,extinguishFireBuff"/>
 			<property name="Debuff" value="dysentery"/>
@@ -21667,7 +21667,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_stamina" value="15"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0.2"/>
 			<property name="Create_item" value="emptyJar"/>
 			<property name="Buff" value="yuccaJuiceCooling"/>
 			<property name="Debuff" value="burning"/>
@@ -21681,7 +21681,6 @@
 		<property class="Action1">
 			<property name="Gain_water" value="15"/>
 			<property name="Gain_stamina" value="15"/>
-			<property name="Gain_wellness" value="0.067"/>
 		</property>
 	</item>
 	<item id="3249" name="tomatoJuice">

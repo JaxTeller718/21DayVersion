@@ -918,3 +918,54 @@ Patch 2.11.03
 -Fixed Machete Blade recipe so it can be crafted in Blacksmith Station
 
 -Added a Debuff to Extreme Blood Loss to Blood Bag. Otherwise the buff would not go away.
+
+-------------------------------------------
+
+Patch 2.11.05   
+
+-Massive Localization Fixes
+
+-Fixed Boomstick Not Being Assembled
+
+-Fixed XP Bug on Food Items
+
+-Fixed Machete Blade Recipe
+
+-Fixed Probability for Auger Schematic
+
+-Mechanic fixed so that he is faster and does more ranged damage.
+
+-Fix for iron scrapping to Mechanical Parts when learning the Mechanical Parts recipe
+
+-Added an Admin Bucket which can pick up and deposit water
+
+-Commented out the Halicopter Recipe on MP version since it does not work in MP. It is still craftable in SP versions
+
+-Removed some junk loot to make way for better looting.
+
+-Sticks are still not a recipe and you must scrap wood for sticks
+
+-Decreased Padlock and flashlight loot
+
+-Hands replaced by goo. If your goo runs out Dogs become Seals and will sing Beatles songs to you
+
+-Charcoal is now crafttable and has a longer burn time then its ingredients.
+
+-Adjusted Sounds All Around. Terrors should be lower, Augers and Chainsaws should be quieter. Unfortunately Wind is hardcoded.
+
+-Cars now Take 30 Days to Respawn after being destroyed
+
+
+---------------------------------------------------
+
+Patch 2.12    No Wipe Needed   Required File Updates - XML
+
+-Certain Blocks that had been upgrading to solid blocks have been fixed (Water Well)
+
+-New additions like Storages can now be rep[aired properly
+
+-Treasure Maps slightly increased
+
+-Added some wellness to basic foods like Boiled Meat, Grilled Meat, Teas and Juices.
+
+-FINAL Update 3.0 Is now FULLY underway with game changing new features, rebalances and new additions. Look for a release sometime in January or February.

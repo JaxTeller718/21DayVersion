@@ -865,7 +865,9 @@
 		<property name="Material" value="copper"/>
 		<property name="DropScale" value="2"/>
 		<drop event="Harvest" name="CopperFragment" count="10" tool_category="harvestingTools"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="goldNugget" count="0,1" prob=".4"/>
+		<drop event="Destroy" name="silverNugget" count="0,1" prob=".2" />
+		<drop event="Destroy" name="rawDiamond" count="0,1" prob=".05" />
 		<drop event="Fall" name="CopperFragment" count="10" prob=".5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 	</block>
@@ -874,7 +876,10 @@
 		<property name="CustomIcon" value="bedrock"/>
 		<property name="Material" value="zinc"/>
 		<drop event="Harvest" name="ZincFragment" count="10" tool_category="harvestingTools"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="ZincFragment" count="1"/>
+		<drop event="Destroy" name="goldNugget" count="0,1" prob=".4"/>
+		<drop event="Destroy" name="silverNugget" count="0,1" prob=".2" />
+		<drop event="Destroy" name="rawDiamond" count="0,1" prob=".05" />
 		<drop event="Fall" name="ZincFragment" count="10" prob=".5" stick_chance="0"/>
 		<property name="CanMobsSpawnOn" value="true"/>
 	</block>
@@ -18553,7 +18558,8 @@
 	</block>
 	<!-- Water Well By JaxTeller718 -->
 	<block id="1724" name="waterWell">
-		<property name="Extends" value="concreteMaster"/>
+		<property name="Extends" value="sdxMaster"/>
+		<property name="Material" value="Mconcrete"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#waterWell?waterWellPrefab"/>
 		<property name="CustomIcon" value="waterWell"/>
@@ -18561,6 +18567,10 @@
 		<property name="MultiBlockDim" value="2,3,2"/>
 		<property name="CanMobsSpawnOn" value="false"/>
 		<property name="Stacknumber" value="1"/>
+		<property class="RepairItems">
+			<property name="concreteMix" value="100"/>
+		</property>
+		<drop event="Destroy" name="concreteMix" count="50"/>
 	</block>
 	<block id="1737" name="plantedWeed1">
 		<property name="Extends" value="cropsGrowingMaster"/>
@@ -18677,7 +18687,8 @@
 		<property name="FuelValue" value="150"/>
 		<property name="Stacknumber" value="25"/>
 		<property class="RepairItems">
-			<property name="wood" value="3"/>
+			<property name="wood" value="5"/>
+			<property name="nail" value="5"/>
 		</property>
 		<property name="CustomUpgradeSound" value="place_block_wood"/>
 		<drop event="Destroy" name="wood" count="1,5"/>
@@ -18706,6 +18717,9 @@
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="EconomicValue" value="100"/>
 		<property name="EconomicBundleSize" value="1"/>
+		<property class="RepairItems">
+			<property name="brokenGlass" value="2"/>
+		</property>
 	</block>
 	<block id="1544" name="poster2">
 		<property name="Extends" value="poster1"/>
@@ -19124,6 +19138,9 @@
 		<property name="EconomicValue" value="100"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="Stacknumber" value="5"/>
+		<property class="RepairItems">
+			<property name="brokenGlass" value="2"/>
+		</property>
 	</block>
 	<block id="1625" name="soaposter2">
 		<property name="Extends" value="soaposter1"/>
@@ -19168,7 +19185,8 @@
 		<property name="Shape" value="ModelEntity"/>
 	</block>
 	<block id="1618" name="stoneFence1">
-		<property name="Extends" value="concreteMaster"/>
+		<property name="Extends" value="sdxMaster"/>
+		<property name="Material" value="Mconcrete"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#stoneFence?stoneFencePrefab"/>
 		<property name="MaxDamage" value="3000"/>
@@ -19176,9 +19194,13 @@
 		<property name="DescriptionKey" value="stoneFence1Desc"/>
 		<property name="MultiBlockDim" value="3,3,1"/>
 		<property name="Stacknumber" value="100"/>
+		<property class="RepairItems">
+			<property name="concreteMix" value="20"/>
+		</property>
 	</block>
 	<block id="1594" name="stonePost1">
-		<property name="Extends" value="concreteMaster"/>
+		<property name="Extends" value="sdxMaster"/>
+		<property name="Material" value="Mconcrete"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#stonePost?stonePostPrefab"/>
 		<property name="MaxDamage" value="3000"/>
@@ -19186,6 +19208,9 @@
 		<property name="DescriptionKey" value="stoneFence1Desc"/>
 		<property name="MultiBlockDim" value="1,3,1"/>
 		<property name="Stacknumber" value="50"/>
+		<property class="RepairItems">
+			<property name="concreteMix" value="10"/>
+		</property>
 	</block>
 	<block id="583" name="tableWood1">
 		<property name="Shape" value="ModelEntity"/>
@@ -19282,9 +19307,6 @@
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="4"/>
-			<property name="shortMetalPipe" value="2"/>
-			<property name="electricParts" value="4"/>
-			<property name="electronicParts" value="1"/>
 		</property>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electronicParts" count="0,1" tool_category="Disassemble"/>
@@ -19307,9 +19329,6 @@
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="4"/>
-			<property name="shortMetalPipe" value="2"/>
-			<property name="electricParts" value="4"/>
-			<property name="electronicParts" value="1"/>
 		</property>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electronicParts" count="0,1" tool_category="Disassemble"/>
@@ -19331,10 +19350,7 @@
 		<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property class="RepairItems">
-			<property name="forgedIron" value="4"/>
-			<property name="shortMetalPipe" value="2"/>
-			<property name="electricParts" value="4"/>
-			<property name="electronicParts" value="1"/>
+			<property name="forgedSteel" value="4"/>
 		</property>
 		<drop event="Harvest" name="electricParts" count="1,4" tool_category="Disassemble"/>
 		<drop event="Harvest" name="electronicParts" count="0,1" tool_category="Disassemble"/>
@@ -19364,9 +19380,7 @@
 		<property name="BuffsWhenWalkedOn" value="sleepingBedTrigger"/>
 		<property class="RepairItems">
 			<property name="cloth" value="20"/>
-			<property name="cottonPlant" value="20"/>
 			<property name="spring" value="10"/>
-			<property name="shortMetalPipe" value="10"/>
 		</property>
 		<drop event="Harvest" name="shortMetalPipe" count="4" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="20" tool_category="Disassemble"/>
@@ -21517,7 +21531,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="RecipeList" value="decoStation"/>
-		<property name="MultiBlockDim" value="3,2,1"/>
+		<property name="MultiBlockDim" value="2,2,1"/>
 		<drop event="Fall" name="woodDebrisBlock" count="1" prob="1.0"  stick_chance="0.75"/>
 		<property name="Class" value="Workstation"/>
 		<property class="Workstation">
@@ -21599,7 +21613,7 @@
 		<property name="DescriptionKey" value="medicalStorageDesc"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="100"/>
-		<property name="Material" value="Mmetal_weak"/>
+		<property name="Material" value="Mmetal_medium"/>
 		<property name="FuelValue" value="300"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
@@ -21618,11 +21632,11 @@
 		<property name="MultiBlockDim" value="4,2,2"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="131"/>
-		<property name="Material" value="metal"/>
+		<property name="Material" value="MmetalCatwalk"/>
 		<property name="FuelValue" value="300"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
-			<property name="scrapIron" value="10"/>
+			<property name="forgedIron" value="10"/>
 		</property>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Building"/>
@@ -21738,7 +21752,7 @@
 		<property name="DescriptionKey" value="gunLockerDesc" />
 		<property name="MultiBlockDim" value="2,2,1" />
 		<property name="Place" value="TowardsPlacerInverted" />
-		<property name="Material" value="metal" />
+		<property name="Material" value="Mmetal_medium" />
 		<property name="Class" value="SecureLoot" />
 		<property name="LootList" value="108" />
 		<property name="Stacknumber" value="50" />
@@ -22088,5 +22102,7 @@
 		<property name="RaycastCallButtons" value="false" />
 		<property name="HasRoof" value="false" />
 	</block>
-	<!-- Free ID Slots in the Blocks.xml   106   965   You cannot go further than 2047. -->
+	<!-- ***** Free ID Slots in the Blocks.xml *********
+               106   965
+			   You cannot go further than 2047. -->
 </blocks>

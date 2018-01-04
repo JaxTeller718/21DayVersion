@@ -273,7 +273,11 @@
 					<modify id="1" stat="stamina" amount="-2" rate="1"/>
 					<modify id="2" stat="speedmodifier" setValue="0.80"/>
 				</buff>
-				<buff id="bloodDrawDead" stack="discard" buffif="BDKbloodLoss greater 250" actions="setvar(BDKbloodLoss, 0)kill"/>
+				<buff id="bloodDrawinternalBleeding" duration="30" stack="reset" actions="damage(0,1,0,1);damage(0,3,0,0)"  buffif="BDKbloodLoss greater 250" type="bleeding" icon="ui_game_symbol_critical" name_key="Bleeding To Death" description_key="You are now suffering extreme intenral bleeding and will die" tooltip_key="You are Dying!">
+					<modify id="0" stat="stamina" amount="-20" rate="1"/>
+					<modify id="1" stat="health" amount="-20" rate="1"/>
+				</buff>
+				<!-- <buff id="bloodDrawDead" stack="discard" buffif="BDKbloodLoss greater 250" actions="setvar(BDKbloodLoss, 0)kill"/> -->
 				<!-- Snowberries double your natural water consumption. If you eat too much they are poisonous. Fun stuff. -->
 				<buff id="eatSnowberryTrigger" duration="1" actions="increment(CTRsnowberry, 144, 0, 0, 1)"/>
 				<buff id="eatsnowberryJuiceTrigger" duration="1" actions="increment(CTRsnowberry, 720, 0, 0, 1);buff(snowberryWarmingBuff)"/>

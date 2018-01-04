@@ -969,3 +969,25 @@ Patch 2.12    No Wipe Needed   Required File Updates - XML
 -Added some wellness to basic foods like Boiled Meat, Grilled Meat, Teas and Juices.
 
 -FINAL Update 3.0 Is now FULLY underway with game changing new features, rebalances and new additions. Look for a release sometime in January or February.
+
+------------------------------------------------------------
+
+Patch 2.12 Hotfix   No Wipe Needed   Required File Updates - XML  Dlls
+
+-Removed Auto Favoriting from the Dlls
+
+-Added a fix for the eating and bandaging from inventory and fire bug. You STILL may see it if you spam click too fast though, so go slow and steady on it. Tested and it is a DRAMATIC improvement.
+
+-Machete Blade will now be craftable in the Blacksmith Station
+
+-Material adjustments on the Bridge Blocks
+
+-Kitchen Table materials now match up.
+
+-Added more wellness to foods and slightly increased wellness on existing foods.
+
+-Removed all Ingredient XP (should prevent "magical level ups")
+
+-Nano terrain blocks are now spawn free
+
+-Using the Admin Nailgun will now no longer level Construction Tools

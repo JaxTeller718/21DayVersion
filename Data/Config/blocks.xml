@@ -20000,54 +20000,63 @@
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="stone"/>
 		<property name="CustomIcon" value="stone"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="954" name="nano_grass">
 		<property name="Extends" value="grass" param1="PlaceAltBlockValue"/>
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="grass"/>
 		<property name="CustomIcon" value="grass"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="955" name="nano_dirt">
 		<property name="Extends" value="dirt"/>
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="dirt"/>
 		<property name="CustomIcon" value="dirt"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="956" name="nano_plainsGround">
 		<property name="Extends" value="plainsGround" param1="PlaceAltBlockValue"/>
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="plainsGround"/>
 		<property name="CustomIcon" value="plainsGround"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="958" name="nano_sand">
 		<property name="Extends" value="sand"/>
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="sand"/>
 		<property name="CustomIcon" value="sand"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="959" name="nano_snow">
 		<property name="Extends" value="snow"/>
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="snow"/>
 		<property name="CustomIcon" value="snow"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="963" name="nano_desertGround">
 		<property name="Extends" value="desertGround"/>
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="desertGround"/>
 		<property name="CustomIcon" value="desertGround"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="970" name="nano_burntForestGround">
 		<property name="Extends" value="burntForestGround" param1="PlaceAltBlockValue"/>
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="burntForestGround"/>
 		<property name="CustomIcon" value="burntForestGround"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="971" name="nano_forestGround">
 		<property name="Extends" value="forestGround" param1="PlaceAltBlockValue"/>
 		<property name="Class" value="LiquidMoving"/>
 		<property name="LiquidStatic" value="forestGround"/>
 		<property name="CustomIcon" value="forestGround"/>
+		<property name="CanMobsSpawnOn" value="false"/>
 	</block>
 	<block id="977" name="nano_steelBlock">
 		<property name="Extends" value="steelBlock"/>

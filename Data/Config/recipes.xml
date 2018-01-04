@@ -984,7 +984,7 @@
 		<ingredient name="leather" count="10"/>
 		<ingredient name="Twine" count="3"/>
 	</recipe>
-	<recipe name="macheteBlade" count="1"  craft_area="anvilBlock" craft_time="30">
+	<recipe name="macheteBlade" count="1"  craft_area="anvilBlock" craft_time="30" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="400"/>
 		<ingredient name="unit_clay" count="200"/>
 	</recipe>
@@ -3531,20 +3531,25 @@
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="blueberries" count="1"/>
 	</recipe>
-	<recipe name="poleTop01" count="1"  craft_area="NewWorkBench">
-		<ingredient name="shortMetalPipe" count="2"/>
-		<ingredient name="electricParts" count="4"/>
-		<ingredient name="mechanicalParts" count="1"/>
+	<recipe name="poleTop01" count="1"  craft_area="decoStation">
+		<ingredient name="forgedSteel" count="10"/>
+		<ingredient name="electricParts" count="6"/>
+		<ingredient name="mechanicalParts" count="8"/>
 		<ingredient name="wood" count="5"/>
 	</recipe>
 	<recipe name="bridgeAsphaltBlock" count="1" craft_area="cementMixer">
-		<ingredient name="concreteMix" count="10"/>
+		<ingredient name="crushedSand" count="12"/>
+		<ingredient name="concreteMix" count="25"/>
+		<ingredient name="oilShale" count="10"/>
 	</recipe>
 	<recipe name="bridgeConcreteBlock" count="1" craft_area="cementMixer">
-		<ingredient name="concreteMix" count="10"/>
+		<ingredient name="concreteMix" count="20"/>
 	</recipe>
 	<recipe name="bridgeWoodBlock" count="1" craft_area="NewWorkBench">
-		<ingredient name="polishedWood" count="20"/>
+		<ingredient name="polishedWood" count="40"/>
+	</recipe>
+	<recipe name="bridgeMetalRivetBlock" count="1" craft_area="NewWorkBench">
+		<ingredient name="scrapIron" count="30"/>
 	</recipe>
 	<recipe name="woodCrossCtr" count="1" craft_area="decoStation">
 		<ingredient name="wood" count="10"/>
@@ -4232,11 +4237,11 @@
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="kitchenTable1" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
+		<ingredient name="scrapPlastics" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<recipe name="kitchenTable2" count="1" craft_area="decoStation">
-		<ingredient name="scrapPlastics" count="10"/>
+		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="5"/>
 	</recipe>
 	<!-- Trellis by JaxTeller718 -->

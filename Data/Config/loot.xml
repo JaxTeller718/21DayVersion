@@ -799,7 +799,7 @@
 	</lootgroup>
 	<lootgroup name="zombieQuests">
 		<item group="questChallenge" count="1"/>
-		<item group="treasureMaps" count="1" prob="0.03"/>
+		<item group="treasureMaps" count="1" prob="0.05"/>
 		<item group="SpecialQuests" count="1"/>
 	</lootgroup>
 	<lootgroup name="craftingTools" count="1">
@@ -1660,7 +1660,7 @@
 		<item group="seeds" prob="0.3"/>
 		<item group="questChallenge" count="1" prob="0.11"/>
 		<!-- 0.06 = .23 % -->
-		<item group="treasureMaps" count="1" prob="0.003"/>
+		<item group="treasureMaps" count="1" prob="0.05"/>
 		<item name="scrapPlastics" count="1,6" prob="2"/>
 		<item group="itemJunk"/>
 		<item group="moviePosters" prob="0.05"/>
@@ -2366,7 +2366,7 @@
 		<item group="airdropMedicine" count="1,4"/>
 		<item name="Lockpick"  count="1,2" prob="0.071"/>
 		<item group="questChallenge" count="1" prob="0.056"/>
-		<item group="treasureMaps" count="1" prob="0.031"/>
+		<item group="treasureMaps" count="1" prob="0.05"/>
 		<item group="weaponsBasicGuns+ammo" prob="0.1"/>
 		<item group="weaponsCompoundBowParts" prob="0.2"/>
 		<item group="weaponsCommonParts" prob="0.5"/>
@@ -3382,7 +3382,7 @@
 	<lootcontainer id="172" count="1,2" size="3,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" open_time="5" loot_quality_template="treasureTemplate">
 		<item group="books" count="1"/>
 		<item group="questChallenge" count="1" prob="0.035"/>
-		<item group="treasureMaps" count="1" prob="0.035"/>
+		<item group="treasureMaps" count="1" prob="0.05"/>
 		<!-- total 2.2% for a quest thing -->
 		<item group="zombieQuests" count="1" prob="0.035"/>
 	</lootcontainer>

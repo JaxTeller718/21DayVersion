@@ -6042,8 +6042,8 @@ partsAuger_partsDiamond,items,Part,KgNone,Strengthened Auger Parts,Pièces de fo
 partsHandlebarsStrengthened,items,Part,KgNone,Strengthened Handlebars,Guidon,Handgriffe,,Manillar
 augerDiamondtipped,items,Tool,KgNone,Strengthened Auger,Foreuse,Erdbohrer,,Taladro
 supahEngine,items,Part,KgNone,Reinforced Engine,Petit moteur,Kleiner Motor,,Motor pequeño
-katanamichonne,items,Melee,KgNone,Katana,,,,
-katanamichonneDesc,items,Melee,New,Michonne's katana is ready to slice and dice up the zombies\n [ Crafted in Advanced Workbench. ],,,,
+katanamichonne,items,Melee,KgNone,Blade of Helmel,,,,
+katanamichonneDesc,items,Melee,New,Helmel's katana is ready to slice and dice up the zombies when you grow tired of perfecting your headshot game.\n [ Crafted in Advanced Workbench. ],,,,
 bbqgrill,blocks,Workstation,KgNone,Barbecue Grill,Feu de camp,Lagerfeuer,,Fogata
 bbqgrillDesc,blocks,Workstation,KgNone,"Just like those down home cookouts you and the boys used to have minus the boys.","Utile pour cuisiner de la nourriture et se réchauffer. Déverrouillez d'autres compositions en ajoutant une marmite, un grill ou un bécher.","Nützlich zum Kochen von Nahrung und zum Aufwärmen. Schalte mehr Rezepte frei, indem du einen Kochtopf, Kochgrill oder Messbecher hinzufügst.",,"Útil para cocinar comida y calentarse. Añade una olla, una parrilla o un matraz para desbloquear más recetas."
 gunStation,blocks,Workstation,KgNone,Weapon Station,Feu de camp,Lagerfeuer,,Fogata

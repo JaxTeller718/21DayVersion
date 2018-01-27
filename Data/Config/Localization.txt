@@ -5817,7 +5817,7 @@ bluntKitDesc,blocks,Block Building,,"Place this kit on the ground and open with 
 handgunKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a pistol 200 homemade bullets and a pistol schematic. Exclusive Access to Desert Eagle. This also unlocks the Ammo Class",,,,
 shotgunKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a pump shotgun 150 homemade bullets and a pump shotgun schematic. Exclusive Access to Double Barrel Shotgun. This also unlocks the Ammo Class",,,,
 survivalKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a claw hammer a skinning knife skills in cooking a pot,grill,extra supplies. Exclusive Access to making Jars and pots and grills",,,,
-rifleKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you a hunting rifle 150 homemade bullets and a hunting rifle schematic.Exclusive Access to the M25 Sniper Rifle. This also unlocks the Ammo Class",,,,
+rifleKitDesc,blocks,Block Building,,"Place this kit on the ground and open with the provided key. This will give you an SMG 150 homemade bullets and a hunting rifle schematic.Exclusive Access to the M25 Sniper Rifle. This also unlocks the Ammo Class",,,,
 ironCrossbow,items,Item Gun,,Iron Crossbow,,,,
 ironCrossbowDesc,items,Item Gun,,"This crossbow deals more damage, has further range and improved durability than a normal crossbow. Unlocks after leveling into Archery.",,,,
 ironBow,items,Item Gun,,Iron Bow,,,,

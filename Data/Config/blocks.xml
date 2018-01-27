@@ -17038,7 +17038,7 @@
 	</block>
 	<block id="1767" name="trapSteelFireSpike">
 		<property name="Class" value="Damage"/>
-		<property name="MaxDamage" value="2"/>
+		<property name="MaxDamage" value="30"/>
 		<property name="Damage" value="9"/>
 		<property name="Damage_received" value="1"/>
 		<property name="Material" value="Msteel"/>

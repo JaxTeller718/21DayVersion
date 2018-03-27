@@ -19893,7 +19893,7 @@
 	<block id="1994" name="chickenCoopEmpty">
 		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#chickenCoop?chickenCoopEmptyPrefab"/>
+		<property name="Model" value="#ChickenCoop?chickenCoopEmptyPrefab"/>
 		<property name="CustomIcon" value="chickenCoopEmpty"/>
 		<property name="Material" value="woodgMed"/>
 		<property name="Stacknumber" value="1"/>
@@ -19927,7 +19927,7 @@
 		<property name="Extends" value="sdxMaster"/>
 		<property name="Material" value="woodgMed"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#chickenCoop?chickenCoopFullPrefab"/>
+		<property name="Model" value="#ChickenCoop?chickenCoopFullPrefab"/>
 		<property name="CustomIcon" value="chickenCoopFull"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
 		<property name="Stacknumber" value="1"/>
@@ -19954,7 +19954,7 @@
 	<block id="1996" name="chickenCoopReady">
 		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#chickenCoop?chickenCoopReadyPrefab"/>
+		<property name="Model" value="#ChickenCoop?chickenCoopReadyPrefab"/>
 		<property name="Material" value="woodgMed"/>
 		<property name="MultiBlockDim" value="1,1,1"/>
 		<property name="Place" value="TowardsPlacerInverted"/>

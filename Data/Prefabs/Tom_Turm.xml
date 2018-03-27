@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+	<property name="CopyAirBlocks" value="True"/>
+	<property name="AllowTopSoilDecorations" value="True"/>
+	<property name="TraderArea" value="False"/>
+	<property name="ExcludeDistantPOIMesh" value="False"/>
+	<property name="Zoning" value="Commercial,Downtown,Industrial,ResidentialNew,ResidentialOld"/>
+	<property name="RotationToFaceNorth" value="0"/>
+	<property name="YOffset" value="-2"/>
+	<property name="DistantPOIYOffset" value="0"/>
+	<property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland_hub,wasteland,city,city_wasteland"/>
+	<property name="AllowedTownships" value="city,rural,town,wilderness"/>
+	<property name="SleeperVolumeStart" value="0,1,1#0,1,26#28,1,36#29,1,16#1,121,2#18,143,19#25,143,22#36,134,11"/>
+	<property name="SleeperVolumeSize" value="41,24,39#32,36,38#7,5,22#33,26,49#30,57,62#26,10,13#19,10,24#27,29,47"/>
+	<property name="SleeperVolumeGroup" value="S_AbandonedHouse_1,S_FootballStadium_L,S_AbandonedHouse_1,S_FootballStadium_L,S_FootballStadium_L,S_AbandonedHouse_1,S_AbandonedHouse_1,S_AbandonedHouse_1"/>
+	<property name="SleeperVolumeGameStageAdjust" value="250,350,350,350,medium,350,350,easy"/>
+	<property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False"/>
+</prefab>

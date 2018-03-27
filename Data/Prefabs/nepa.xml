@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+	<property name="CopyAirBlocks" value="True" />
+	<property name="ExcludeDistantPOIMesh" value="False" />
+	<property name="DistantPOIYOffset" value="0" />
+	<property name="Zoning" value="BiomeOnly"/>
+	<property name="AllowTopSoilDecorations" value="False" />
+	<property name="TraderArea" value="False" />
+	<property name="DisallowedBiomes" value="snow,plains,pine_forest,forest,desert,burnt_forest,wasteland_hub,wasteland"/>
+	<property name="AllowedBiomes" value="radiated"/>
+</prefab>

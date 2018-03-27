@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+	<property name="CopyAirBlocks" value="True"/>
+	<property name="AllowTopSoilDecorations" value="False"/>
+	<property name="TraderArea" value="False"/>
+	<property name="ExcludeDistantPOIMesh" value="False"/>
+	<property name="Zoning" value="any"/>
+	<property name="DistantPOIYOffset" value="0"/>
+	<property name="Condition" value="Old"/>
+	<property name="AllowedBiomes" value="desert"/>
+	<property name="AllowedTownships" value="rural,wilderness"/>
+	<property name="SleeperVolumeStart" value="46,8,46#57,8,46#60,8,50#60,8,60#56,8,94#57,7,81#61,8,104#51,7,111#52,7,119#46,8,123#31,7,124#44,8,151#48,7,128#20,7,160#23,8,152#13,7,127#26,8,123#14,8,121#14,7,110#12,7,95#14,7,83#3,7,63#14,7,46#55,13,62#47,12,122#26,12,122#4,13,63#32,7,35#66,7,2#30,7,115#47,7,127"/>
+	<property name="SleeperVolumeSize" value="19,3,7#9,3,8#7,3,15#7,3,27#15,3,15#8,4,17#5,3,11#32,4,14#15,4,17#9,3,6#18,14,37#13,3,13#23,3,27#41,3,21#15,3,11#19,3,28#8,3,6#8,3,8#19,4,14#22,5,18#18,5,14#29,7,21#19,5,19#17,8,23#7,9,7#7,9,7#18,7,21#16,9,91#25,3,24#20,3,47#25,3,29"/>
+	<property name="SleeperVolumeGroup" value="S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_GhostTown_Med,S_ZombieDogs_L"/>
+	<property name="SleeperVolumeGameStageAdjust" value="medium,medium,medium,medium,medium,medium,medium,medium,medium,medium,400,medium,hard,medium,medium,medium,hard,medium,medium,medium,medium,medium,medium,medium,hard,hard,medium,medium,medium,hard,hard"/>
+	<property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+</prefab>

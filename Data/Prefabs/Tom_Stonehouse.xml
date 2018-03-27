@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+	<property name="CopyAirBlocks" value="True"/>
+	<property name="AllowTopSoilDecorations" value="True"/>
+	<property name="TraderArea" value="False"/>
+	<property name="ExcludeDistantPOIMesh" value="False"/>
+	<property name="Zoning" value="BiomeOnly"/>
+	<property name="RotationToFaceNorth" value="1"/>
+	<property name="YOffset" value="0"/>
+	<property name="DistantPOIYOffset" value="0"/>
+	<property name="AllowedBiomes" value="radiated,wasteland"/>
+	<property name="AllowedTownships" value="city,rural,town,wilderness"/>
+	<property name="SleeperVolumeStart" value="0,-1,0#0,-1,0#13,0,16#13,0,28#18,0,8#22,0,28#26,-1,7#13,6,28"/>
+	<property name="SleeperVolumeSize" value="36,11,12#18,21,39#14,13,13#10,7,12#9,7,9#7,7,14#14,21,37#12,7,10"/>
+	<property name="SleeperVolumeGroup" value="S_LootRoom_XS,S_LootRoom_XS,S_LootRoom_XS,S_LootRoom_XS,S_LootRoom_XS,S_LootRoom_XS,S_LootRoom_XS,S_LootRoom_XS"/>
+	<property name="SleeperVolumeGameStageAdjust" value="200,200,medium,medium,medium,250,medium,200"/>
+	<property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False"/>
+</prefab>

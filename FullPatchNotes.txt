@@ -1,0 +1,1676 @@
+Mod Development Team
+
+The following people have been a huge part of this amazing mod. When thanking me make sure to thank them for their hard work.
+
+sinder
+FallenDice
+dancapo
+2ndRecon
+bradmin
+Frantic Dan
+DeX#8513 
+shortypants1976
+Copendub
+Soulbreeze
+Azuren
+
+
+
+Thank yous and info
+
+
+Ravenhearst has descended upon us! Ravenhearst is an SDX mod that adds over 200 new items, stations, weapons, decorative pieces and more to give you an experience like never before. Military presence in the Wastelands, Awful creatures that come out to play at night and an overhauled Progression system that rewards players of all types while increasing the distance it takes to get to the end game are some of the things awaiting your play through.
+
+
+Keep in Mind this is a mod that is very much a work in progress. There will be frequent updates and game save wipes when necessary. We can NOT offer help or support to older version of the Mod. Please stay Current if Possible.
+
+2.2 was a huge unexpected success and with 3.0 we tried our hardest to deliver a more rewarding and complete experience for all of you. This version is a labor of love for sure by many people. Our goal was to slow every possible gameplay style a bit to give a more rewarding and hopefully more scary survival experience. Day one will NOT be easy this go around!
+
+My first endeavour was very much a solo project with some input from our server members. This time around we assembled a team of the best people who understood what Ravenhearst is about. I want to give a second to thank them. You should as well. Without them, their hours of testing, arguing, discussion, brainstorming and blood sweat and tears 3.0 would not be what it is right now.
+
+Sinder, for being loyal as F and for her reassuring talks in my time of anger and doubt. She put in hours upon hours of questing, testing, starting over, designing our town for our server and good lord going over descriptions with a fine tooth comb. There is so much more that I can never truly thank her enough for.
+
+Dan Capo for his tireless work in food balancing, poi editing and pouring over XMLS for mistakes, misspellings, categories and so much more. Dan has truly been a gift to our mod. When you die of hunger, please give Dan a special thought 
+
+Fallen Dice for his firmness on balancing, and helping me to see things when I was very biased in one direction. Frantic Dan for his work on checking weapons and balancing as well as progression and his patience in starting over. Copendub for his countless hours of testing during a busy schedule. Bradmin for his loyalty and his ideas as well as his help on the test servers, along with 2nd Recon for his inspiring ideas. Dex for his friendship and advice. So many people came together to make this mod special.
+
+Also bear in mind that there are SDX models in this game and as such loading times may be a bit slower than usual. Patience will be the key here. If you do experience in game lag turning down zombies can help with this.
+
+I want to give credit and thanks to those who have influenced me in ways I can not express. Pacco, Valmar, Dwallorde, sphereii, Guppycur, drkstardragon, Spider, Xyth, Skippy, Xtrakicking, StompyNZ, Smegz0r and so many others who without your help and guidance I couldn't have made this mod possible.
+
+Special Thanks to Sirillion for working with us to create the awesome UI you see in game. You can check out his work here
+
+For another fantastic SDX mod check out Sergant1000 and his Experimental Recipes mod. Over the year of piecing together some of this mod we have included his pickaxe and his water bottles.
+
+A very special thank you to Xyth, Morte and the rest of the Starvation Team. The Vintorez model is indeed the model used in Starvation. This may not be distributed or used without their permission.
+
+Starvation
+
+Special thank you to Kaiser502 for his radiated sewers and generators.
+
+Special shout to Tin and his fantastic work on random gen and his discussions on Zombie AI. We have used many of his tweaks over the course of developing Ravenhearst and they have made our mod that much stronger. Check out his AWESOME harddcore mod The Devils Eden
+
+TopMinder gets a HUGE thank you for his awesome and amazing POIs like the Hospital. Andyjoki's Pyramid is a HUGE end game goal in Ravenhearst and we thank him for allowing us to use it. These POIs bring so much life to our world and we are eternally grateful for letting us include them.
+
+MANY huge thanks to a very talented new SDX modder for allowing the use of his vehicles in our mod stedman420. He is preparing his OWN mod and his work can be found here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Patch 3.0a  Release Date 12/22/2017
+
+
+-Removed A-Frame House Group from rwgmixer
+
+-Decreased Trader probabilities from 0.4 to 0.3
+
+-Fixed Machete Blade being uncraftable
+
+-Added wellness to bowl of ramen noodles and removed it from ramen packages
+
+-You can now view your map and inventory while on a minibike
+
+-Hitting zombies with your minibike may now damage them but could also damage you too
+
+-Removed auto favorites
+
+-Added Tomato Juice recipe
+
+-Adjusted Crackers Recipe
+
+-Added Sliced Cheese to Cheeseburger Recipe
+
+-Added Marijuana Seed to Alternative Medicine Perk
+
+-Renamed Green Thumb to Advanced Farming
+
+-Added Minibike Box for Admins or to edit into loot comes with complete bike and gas
+
+-Adjusted Metal Bed Model
+
+-Lowered texture size on some models for faster load
+
+-Added metal rail upgrade path to wood railings
+
+-Removed craft-able Mechanical, Electric and Electronic Parts and Perk associated with them.
+
+-Lowered requirement to make Solder
+
+-Interim Model and Placement fixes for the Deer Blind
+
+-Added Onions and Lettuce along with seeds and plants. No recipes.
+
+-Added a new fix for Crafting Lag that allows categories to be created for Benches.
+
+-Added new Storage Shed
+
+-Forged Steel now required to repair Combat Axe
+
+-Increased Probability for Auger Schematic over the HD and ECO versions
+
+-Added Wheat to Plains biomes
+
+--------------------------------
+
+Patch 3.0b  Release Date 12/23/2017
+
+
+-Reordered and redid the Progression categories. Removed some, merged a few.
+
+-Changed station names in the XML to make them easier to find
+
+-Added Mortar and Pestle to Farm Class since its used primarily for seed recipes.
+
+-Removed some requirements for certain Perks
+
+-Test adding categories to food, drink, storage, ammo and basics. Check the Deco Station, Campfires, Stoves and Advanced Workbench to test this out.
+
+--------------------------------
+
+Patch 3.0c  Release Date 12/25/2017
+
+
+-Changed Feed recipe to use actual veggies
+
+-Added Player level requirement for Quality Joe instead of Scavenging level requirement.
+
+-Shed is now stronger and takes less time to craft-able
+
+-Deep Diving WAY more balanced
+
+-Icon and Localization Fixes
+
+-Merged Tool Heads into the Blacksmithing Perk.
+
+-Fixed Forge and Shed Models
+
+-Removed Junk Quest and Soldier Items
+
+-Merged Double Barrel and Boomstick and removed the quest associated with it
+
+-Removed Journal Tips
+
+-Adjusted Advanced Forge Model
+
+-Added Microwave and Blender models but they can not be accessed yet and have no recipes or icons
+
+-Added Holiday Surprise
+
+-Replaced Wood with Logs from Trees. Scrap them to make wood. 
+
+-Wood Chipper Added that will give you back MORE from wood and logs if used. This NEEDS balanced. Right now wood from trees is the SAME even though it is logs. So you will get way more wood from scrapping logs. Tree harvests need to be adjusted down to compensate for logs.
+
+-Changed the Fermenting Barrels to a new model, renamed it the Brewery Station. Has wrong icon.
+
+--------------------------------
+
+Patch 3.0d  Release Date 12/28/2017
+
+
+-Cleaned up some unneeded zombie files and archetypes.
+
+-Added over 50 new zombie audio cues (The volumes may be loud and them they have not been adjusted)
+
+-Added new nightmare
+
+-Changed Blood Draw buff from instant kill to bleed-out rapidly (should fix the kit errors)
+
+-Moved Pot and Grill to Advanced Forge
+
+-Secret Stash now unlocks at player levels 20/40/80
+
+-Grilled Steak moved to Barbecue Grill
+
+-Homemade Shotgun reload speed increased
+
+-Removed incorrect Bottled Water recipe
+
+-Oven and Sink repair kits moved up a level in Science
+
+-Fixed Explosives recipes being material based which resulted in improper recipes showing
+
+-Add ALL Tool Head craft able tools and weapons to the Advanced Workbench
+
+-Bandits have been tweaked. Their guns will fire less rapidly, reloading will be a bit slower but they now have an armor layer and are harder to kill. Loot has also been reworked on them.
+
+-Fixed hitboxes on Wood Chipper although certain bits and pieces are invisible. This is due to the model and how it was constructed.
+
+-Very odd bug on the Advanced Forge where the bottom piece has no hitbox.....but if you destroy the ground in front of it or place it on frames it DOES have a hitbox. I assume this is because of our terrain edits?
+
+-Multiple Deco Items should now be repairable.
+
+-Posters are stronger and can now be repaired
+
+-Stone Fence and Post and Water Well should no longer upgrade to a block and can be repaired.
+
+-Added Gun Locker and Wardrobe recipes
+
+-Adjusted repair materials for certain items. (More work MAY be needed)
+
+-Added a Flaming Zombie who is not happy
+
+-Increased probability for above ground ore pimples slightly.
+
+-Increased chance of getting a rare ore cluster below Wasteland ground. Still must dig to the bottom, but chances of finding one there are much better.
+
+-Traders can no longer spawn in burnt areas and wasteland. Bandits will now spawn in the wasteland Biome ;)
+
+-Added a UMA Texture fix. I need to know if this is worth it. It adds about 100mb to the download as it comes with all the UMA textures, also it will take longer to load in to the Main Menu. But im really checking to see if it increases performance in game with UMA zombies. The load as well, is it too much? 
+
+-Added a fix for drinking and eating from the inventory and campfires. This needs ample testing. To make sure it actually works and to make sure it doesn't break anything else when eating bandaging and drinking.
+
+--------------------------------
+
+Patch 3.0e  Release Date 12/29/2017
+
+
+-Cleaned up Admin Tools, Vegetables, Canned Food, Hands and Station Tools Sections
+
+-Added more Skill and XP to the Admin Starter
+
+-Removed Admin Nailgun giving XP 
+
+-Added 100 decoration Prefabs scattered around the world. (Need to see if any of these are OP)
+
+-MAJOR clean up of Localization. Descriptions should display proper now so anything missing needs re-reported.
+
+-Hitboxes on Deco Station and Advanced Forge adjusted. (Deco may be a lost cause)
+
+-Wood Chipper now balanced as well as wood logs from trees.
+
+-Destroying and harvesting items in the world now gives back sticks instead of wood. 
+
+-Added 2 new POIs for testing, a HUGE apartment and a HUGE hospital. Need to check FPS in those buildings.
+
+--------------------------------
+
+Patch 3.0f  Release Date 12/30/2017
+
+
+-Completely reworked Pistol, Shotgun and Rifle tier of weapons
+
+-Redid the bullets to remove damage from actual bullet. This may cause all guns except Pistols to not work until other tiers are adjusted to fit this so beware.
+
+-Removed Homemade Pistol and ammo
+
+-Added normal pistol and bullets to Pistols Class
+
+-Removed flintlock quests and recipes
+
+-Removed Gun Parts from all pistols and added actual pistols to rare loot
+
+-Removed HP bullets so that entity damage can be confined to actual guns and not bullets
+
+-Added all attributes to the actual pistols and removed them from pistol parts
+
+-Did the same for shotguns and rifles. All weapons rebalanced, parts removed, now loot only. From safes, terrors, ferals and shotgun messiahs and treasures.
+
+-Increased treasures slightly. Can be found more often in safes.
+
+-Lowered biome poi chances in decorations
+
+-Moved two new POIs to rural and wilderness areas only to save FPS
+
+-Moved diamonds to be a chance every time you hit a copper or zinc vein. Very rare chance but they should drop now.
+
+-Redid Starting gun classes to reflect the changes made. Homemade ammo and guns removed completely now.
+
+-Turrets now constructed using the FULL gun instead of Parts
+
+-Price adjustment on posters
+
+--------------------------------
+
+Patch 3.0g  Release Date 1/1/2018
+
+
+-Bow and Arrow class rebalanced top to bottom
+
+-Bows and Crossbows now have progression  Wooden Bow/Iron Bow/Compound Bow  and  Crossbow/Iron Crossbow/Repeating Crossbow
+
+-Each tier of bow gains and loses an ammo type. Wooden has arrow, iron arrow, flaming arrow  /  Iron Bow has iron arrow, steel arrow, shock arrow and flaming arrow / Compound Bow has steel arrow, modern arrow, shock arrow, flaming arrow / Crossbow has crossbow bolt, iron crossbow bolt, steel crossbow bolt / Iron Crossbow has iron crossbow bolt, steel crossbow bolt, exploding crossbow bolt / Repeating Crossbow has steel crossbow bolt, modern crossbow bolt, exploding crossbow bolt and shock crossbow bolt
+
+-Compound Bows and Repeating Crossbows can now be found in treasures, night terrors, safes sporting good loot and irradiated ferals.
+
+-Removed all dyed armor from the xmls to clean it up
+
+-Removed all scrap junk items. Should help with loads and with loot.
+
+-Blade class rebalanced.
+
+-Removed scythe due to confusion with sickle
+
+-Enhanced Sickle to harvest better
+
+-Removed Duplicate Katana recipe
+
+-Increased bonuses on Butcher Knife and Skinning Knife
+
+-Skinning Knife now harvest more hides and feathers
+
+-Butcher knife now harvests extra animal fat
+
+-Removed Plains Dirt from Wasteland above ores. Now you must search for it.
+
+-Removed a stage from Dirty buff. It now has 2 stages, Stage 1 is cured by a Wet Towel, stage two is cured by a Soapy Wet Towel.
+
+-Rebalanced Screamer Hordes. Now they will increase in size and ferocity every 200-400 stages until after gamestage 4000 when you will ONLY see ferals, irradiated and terrors! (needs live testing eventually) If you make it past stage 6000....you win. No more screamer hordes will spawn (1 zombie will spawn)
+
+-Wandering hordes now come in 2 waves. The first wave is a generic normal horde followed by a specialty horde.
+
+-Rebalanced crowbar harvesting. The crowbar should now have a greater chance of being better on cars
+
+-Increased probability of Deco Pois in the world.
+
+-Traders moved to Industrial areas in cities. They have a VERY low chance of spawning out in the world now. 
+
+-Steel Pillars now have proper downgrade path
+
+-Zombie Adjustments. Block Range for being spotted is now 50 previously it was 60, Sleepers should also not see you until you are slightly closer than before.
+
+-Rebalanced Progression file for Guns
+
+-Adjusted requirements for support perks and added them to be exclusives for the class. Pummel Pete for Blunt Class, Legolas for Bow Class, Decapitator for Blades Class etc
+
+-Tool Heads now unlock at the appropriate Skill level for that tool. Ex: Iron Tools level 1 purchase will give you all the iron tool heads, Steel Tools level 1 will give you all the Steel Tool Heads.
+
+-Silenced, Extended and Scoped weapons removed from loot and now craft-able only. You can find Silencers, Mags and scopes in safes. They are crafted with the actual gun you want to use. The quality of the gun you get back is dependent on the level of your class crafting skill. No matter what you put in quality wise you will get back what your quality level is for crafting it.
+
+-Fixed Advanced Forge, Blender and Microwave models
+
+-Added Toaster, Griller and Coffeemaker Models for possible future use
+
+-What the hell, Baileys is AWESOME! Added some recipes to the coffeemaker and Blender and microwave to test out stuffs
+
+-Fixed Broken Minibike Box
+
+--------------------------------
+
+Patch 3.0h  Release Date 1/8/2018
+
+
+-Categories should now display properly.
+
+-Reinstated the Transmogrifier by sphereii which varies zombie walk, run and size
+
+-Added a short Farmer and Medic Quest line. To be expanded upon.
+
+-Both First Aid Kits now crafted in Chem Station
+
+-Description Fixes for seeds
+
+-Sickle SHOULD yield better resources now.
+
+-Adjusted Damage on shivs, spears, hunting knife, sledgehammer, machete and electric machete
+
+-Fixed recipe and descriptions for bridge blocks
+
+-Rebalanced Blunt, Hoes, Pickaxes, Medical Items and Axes as well as adding categories to them.
+
+-Hoes should now have progression and SHOULD yield extra crops depending on type of farm tool used.
+
+-Removed Spiked Club, Hunting Knife and sledgehammer from Blunt skills progression and re added them to recipe books to find in the world. Certain classes will start off with the schematic.
+
+-Added all guns to three books, Handgun Repairs, Rifle Repairs and Shotgun Repairs. They are given to the starting class for each but can also be found rarely in the world so everyone can eventually repair a gun.
+
+-Lowered probability for Traders in the wilderness
+
+-Increased trader prob in industrial and rural west as well as Commercial.
+
+-Increased flat terrain number slightly so possibly more hills
+
+-Added new model for the survivor kits
+
+-Rebalanced Melee Weapon loot
+
+-Cleaned up all clothing and added categories to armor
+
+-Cleaned up all stews and soups and added categories and some wellness
+
+-Cleaned up all drinks and added categories and some wellness.
+
+-Added Miso Soup and Warm Miso Soup Recipes
+
+-Removed Heat Free Wall Torches but also removed heat from candles entirely so now theres a choice. Lowered heat on torches a bit so it is fairer.
+
+-Categorized every item in the items.xmls
+
+-Rebalanced Harvest tools wrench and crowbar
+
+-Removed second wrench to avoid confusion.
+
+-Balanced explosion damage for SP versions. 
+
+-Rebalanced chainsaws and augers. Removed Diamond types and made them lootable legendaries only. The Eco set of power tools is now the Diamond set.
+
+-Lowered Minibike Health from 10000000 health to 100000 so bikes can ACTUALLY take damage properly.
+
+--------------------------------
+
+Patch 3.0i  Release Date 1/9/2018
+
+
+-Fixed descriptions
+
+-Reordered Medic Quest
+
+-Fixed all Farmer Quest Dialog
+
+-Removed Mechanical Parts scrapping
+
+-Increased gas slightly on broken cars
+
+-Removed traders from Wilderness and increased their spawns in commercial, industrial and rural groups.
+
+-Removed torch recipe
+
+-All candles are heat free now
+
+-Tried to add extra harvest to Hoes
+
+-Added new Military Hatchet and Military Shovel that yields great resources. Rare Loot Drops
+
+-Added craftable Hatchet that is poor at harvest but good at fighting zombies.
+
+-5 new redesigned Prefabs
+
+-Added Feral, Radiated and Feral Radiated versions of all vanilla zombies.
+
+-Fixed Farmer Class
+
+-Added Binoculars to starting items
+
+-Removed and edited the wandering horde lines of defense to see if it actually works now.
+
+-Added a rare feral and radiated screamer to the screamer spawn list...hehehe
+
+-Added price values to all guns.
+
+-Made Iron and Steel Tools part of Secret Stash Perk. Also lowered the probability of finding them.
+
+-Added sounds to Coffeemaker, Blender and Microwave. They MAY be annoying unsure yet. Also gave them icons.
+
+-Added 30 residential houses to wilderness spawns.
+
+--------------------------------
+
+Patch 3.0j  Release Date 1/12/2018
+
+
+-Added some stores and gas stations to wilderness
+
+-Removed traders from wilderness completely and increased their spawns in towns (we shall see if this works)
+
+-Fixed some models for things like Wood and Scrap Gates, Python, some vehicles, the Galil and some stations (texture reductions or better placements)
+
+-Multiple Description fixes (all listed in the file)
+
+-Removed burgers and meals from Advanced Campfire so they are Stove exclusives
+
+-Fixed fuel storage hitbox
+
+-Fixed Key recipe
+
+-Cleaned up parts recipes
+
+-Added Catwalk Corner recipe
+
+-Added a 1 wide and 2 wide draw bridge
+
+-Removed wood and metal gate that had bad hitboxes.
+
+-Added a double doored iron gate
+
+-Added 2 new pistols and one new shotgun
+
+-Removed Soldering Gun as it has no use with no Weapon Station.
+
+-Removed several OP biome decos.
+
+-Added Ammo Box
+
+-Added Arm Chair and Garden Benches
+
+-Fixed rotations on some pois like the Notre Dame Build.
+
+--------------------------------
+
+Patch 3.0k  Release Date 1/15/2018
+
+
+-Added some stores and gas stations to wilderness
+
+-Added test blocks from vanilla Trim, Gutters, Glass and Cubes found by searching the word Test
+
+-Added commented out Reinforced Double Metal Drawbridge
+
+-Fixed up tons of categories, groups and descriptions
+
+-Adjusted recipes (added some to workbenches, eggs to advanced campfire etc)
+
+-Added the first two new zombie terrors Susan and Halle. MANY more to come. Walk speeds and movement transitions may not be final yet.
+
+-Added Billboard for testing. In the future we can write on this beforehand and upload multiple billboards for rules signs
+
+-New format for traders to keep them out of wilderness and spawning in cities and towns
+
+-Fixed new guns from taking too little damage per use.
+
+-Less compost is now needed.
+
+-Possible fix for "arrow in the hand" vanilla glitch
+
+-Bread can now be sliced in the Food Prep Table and slices are used to make sandwiches
+
+--------------------------------
+
+Patch 3.0l  Release Date 1/19/2018
+
+
+-Added zombies Bert, Ernie, Blackwell, Washington, Ana and Pamela
+
+-Added a cow with milk
+
+-Added crows
+
+-Lowered probability for army camps
+
+-Lowered probability for Space Needle
+
+-Increased Time Between Corpse Block Changing
+
+-Lowered storage space on some blocks
+
+-Gated storages behind perks
+
+-Cardboard Box is now the first tier of storage
+
+-Opening Quest changed to reflect new storage.
+
+-Added multiple rebar frame shapes
+
+-Added craftable Rebar in the Advanced Forge, which is used to make rebar frames in the Advanced Workbench.
+
+-Lowered Forged Iron given in classes from 10 to 3
+
+-Reordered and changed opening quest line
+
+-Added several new quests after the Basic quest line to help teach the basics of the mod. (looking to add more)
+
+-Nails have been added to all wood block recipes
+
+-Azalea Bushes and Dead Branches give wood back instead of sticks.
+
+-Redid rwgmixer to hopefully include more rare pois in cities.
+
+-Added moonshine
+
+-Fixed spear recipe
+
+-Added new version of the Hospital with sleepers
+
+-Rotated several POIS properly including the airports.
+
+--------------------------------
+
+Patch 3.0lv1  Release Date 1/20/2018
+
+
+-Adjusted Pamelas hitbox
+
+-Lowered texture res on zombies
+
+-Lowered Rebar cost
+
+-Fixed opening quest line
+
+-Gave the crow different animations and its own attack without an infection
+
+-Azaleas give sticks, driftwood gives wood.
+
+--------------------------------
+
+Patch 3.0m  Release Date 1/21/2018
+
+
+-Added zombies Nathan, Alan, Kramer and Lloyd
+
+-Lowered RWG world size for test purposes
+
+-First part of a Rad Zone system added. This is by no means complete, it probably wont even work properly yet. 
+
+-Added vehicles and loot containers to the borders Radiation area.
+
+-Added Anti Radiation Pills that do not work yet.
+
+-Added crafting a bone shiv to the advanced quests
+
+-Required only a Stag to kill for the animal quest.
+
+-Consolidated Night Terrors and herd zombies so that the Terrors will spawn like a boss in the middle of them.
+
+--------------------------------
+
+Patch 3.0n  Release Date 1/29/2018
+
+
+-Re-added dyed armor
+
+-Readded the Dye Station and perks
+
+-Re-Added the various clothing that you can craft
+
+-Added cold versions of some drinks by right clicking an ice chest.
+
+-Fixed Buff Text
+
+-Fleshed out all class quests and Advanced Survival quests
+
+-Added new iron spikes to spike upgrade path
+
+-Added military loot list to rad area. (more adjusting needed for whats in the loot)
+
+-Pine Forest is now Radiated. Special POIs and loot will spawn there. Anti Rad Pills will give you 60 seconds of freedom then must be taken again. This area is open to major re-balancing and is considered rough draft.
+
+-Re-adjusted the world decorations like those brick farms etc.
+
+-Increased wolves and bears slightly (they were being drowned out by the added zombies)
+
+-Adjusted sounds on Auger and zombies again (hopefully theres a difference)
+
+-Changed some Terror animations that made them look like they glided or floated. Do not have the original models so I cant fix the disappearing textures (open plea to sphereii to let me fix them lol)
+
+-Stations will now disassemble properly
+
+-Special Ferals and Radiated added to Rad Zones
+
+-----------------------------------
+
+Patch 3.0p  The "O Looked Silly So We Skipped It" Edition  Release Date 2/1/2018
+
+
+-Removed OP Yellow House
+
+-Lowered Prob for Blue House with Ammo Boxes (lol)
+
+-Increased Walmart POI slightly
+
+-Removed Plant from Second Towel Quest
+
+-Lowered Craft Times of all Leather in Rack
+
+-Removed Paper from Chem Station.
+
+-Increased Paper made in Rack from 15 to 25
+
+-Removed Twine from BS Station Quest
+
+-Added Empty Needle, Infected Blood
+
+-Added ability to use needle on zombie corpses to acquire Infected Blood
+
+-Certain stations now take 60 seconds to craft
+
+-Boiled Meat and Boiled Eggs now give .2 wellness (may need lowered more)
+
+-Fixed Dye Station Hitbox
+
+-Increased Semi Truck Decoration Radius to hopefully stop POI clipping
+
+-Added nails to wood recipes
+
+-Removed nail from log recipe
+
+-Anti Rad buff stacks. May change 
+
+-Secret Stash Levels rebalanced
+
+-Mortar and Pestle Unlock added to Farmer
+
+-Glass Pane now used for all recipes instead of Glass Business
+
+-Fixed all text relating to Parts crafting for guns
+
+-Removed Rad Biomes and added it back to border around map. 
+
+-Massive Station Tag and comma removals lol
+
+-Class Papers now scrap to class selection
+
+-Lowered chances for guns to spawn in loot
+
+-Blunt Weapons are all properly tagged as a Blunt Weapon rather than Primitive Crafting (except wooden club)
+
+-Dwarven Forge Model re assembled. Hopeful fix for fire bug.
+
+-Radiated Biome removed. The Radiated area is now the border of the map. This needs balance. There is a lot of loot and possibly unneeded buildings. When we test make note of any crummy loot buildings or if there is too many of something like Tanks or Safes in the world.
+
+---------------------------------
+
+Patch 3.0RC1  Release Date 2/9/2018
+
+
+-Added Milking Bottle that can be used on Cows to gather extra milk
+
+-Reorganized entityclasses.xml to be neater
+
+-Added specific loot lists for all feral, radiated and feral radiated zombies
+
+-Rebalanced meat and hide harvest from animals
+
+-Increased health of Bears
+
+-Removed Duplicate Worker Feral Hand
+
+-Removed Duplicate Poured Concrete Block
+
+-Added Craftable Blocks to Player Mode
+
+-Removed Test blocks that were a bit weird
+
+-Fixed Class Kit Names
+
+-Bricks are now used to repair Brick Blocks instead of cobblestone
+
+-Removed Griller and Toaster
+
+-All road signs now have proper names
+
+-Animal Hide Colored Armor now have proper names
+
+-Added winter clothing to lumberjacks
+
+-Cleaned up Localization (added several items with uppercase letters to it)
+
+-Removed certain colliders from plants that may have been causing issues
+
+-Adjusted some recipes (too many to list)
+
+-Major adjustments to Radiated Biome debris, car and tree spawning
+
+-Increased Radius of all vehicles to prevent clipping (hopeful may need more adjusting)
+
+-Decreased chances of garbage loot container spawns in the Radiated area
+
+-Changed material of Kits to scrap and give back a class selection paper. Removed that material from class papers
+
+-All dyed armor are now found in Radiated loot
+
+-Ferals and Radiateds now drop at least 1 loot. They also have increased chances of ammo and guns, and less chances of junk (You still may get junk though)
+
+-Increased tick time of radiation to every 10 seconds 40 health is lost.
+
+-Removed Dye Station and recipe and quests due to colored armor dropping in radiation zones
+
+-Balanced and fixed HP on Spikes
+
+-Fixed crop icons
+
+-Removed storage sold by traders
+
+-Removed Butcher Knife and Skinning Knife from Start Pack of Survival Class. You now get them by questing.
+
+-Added Blunderbuss and ammo to Farmer Zombie loot
+
+-Major rebalance of Crowbar and Wrench. Crowbars give more on cars and have a much higher chance at batteries and engine.
+
+-You can now use all families of a gun group to complete quests (Pistol, Silenced, Extended etc)
+
+-Added some missing recipes
+
+-Added Cabbage because....sauerkraut :)
+
+-Worked on axe hitboxes.
+
+-Tweaks to Vintorez Model
+
+-Increased Radius on cars and trucks to prevent bad spawns
+
+-Added some icons
+
+-Added Localization fixes
+
+-Added Steel Bar upgrade after Iron. 
+
+-Added sewing kit to Lockers  :O
+
+-Increased Treasure Maps slightly
+
+-Added more ammo to zombies loot
+
+-Removed and Added Radiated tags to pois so that we have more exclusive rad zone POIs and less houses
+
+-Added smoke effects to Burnt, Wasteland and Radiated biomes
+
+-Added Blood Moon sky to Rad zones
+
+-Made Radiated dirt IMPOSSIBLE to dig into (hehe i sensed THAt exploit coming)
+
+-Increased size of vehicle modded hitboxes and radius's to prevent building clips.
+
+-Added whiskey and vodka
+
+-Redone Transmogrifier to remove the running zombies
+
+-Added TopMinders redone Hospital with LOTS of surprises in it
+
+-Removed scrambled eggs
+
+-Added missing vanilla localizations
+
+-Added all liquor to The Brewery Station perk
+
+---------------------------------------
+
+**Patch 3.0RC2  Release Date 2/10/2018**
+
+
+-Changed and fixed the axes shovels and pickaxes that had the wrong models (More Testing Needed)
+
+-Cooking Pot is now an item when you pick it up and can be placed like a block as usual. This is to help with the Advanced Campfire Quest
+
+-Reduced time for scrapping sticks
+
+-Combined wood and stick quests
+
+-New opening quest text to TRY to tell people to READ and to give thanks :)
+
+-Fixed Iron Bars not Upgrading in the proper position
+
+-Fixed improper tags on Medical Items
+
+-Adjusted Loot
+
+-Added stack limit of 5 to Rad Pills and Rad Pills Buff
+
+-Moved "Extends" property to the first line of every item (except the dyed armor, too many and blame Valmar for that)
+
+-Added Buff to Alcohol.
+
+-Lowered Wood given back when scrapping from logs by 1
+
+-Fixed the hitbox and multi block of the new generators.
+
+-Added Wrench to Admin Kit
+
+-Added Padlock and ensured the value of Minibike Parts in the Admin Bike Box are 500 Quality
+
+---------------------------------------------------------
+
+**Patch 3.0RC3  Release Date 2/12/2018**
+
+
+-Reordered Advanced Survival Quests
+
+-Lowered Pistol Loot
+
+-Lowered chance for Sink Tools slightly
+
+-Minibike Box should NOW give proper quality parts
+
+-Stone Axe given in opening quest raised to level 100
+
+-Slightly lowered clay yields
+
+-Added Arrows to Survival Starter Kit
+
+-Scaled UI
+
+-Added Commas back to starting quests, also adjusted all the descriptions so they are more accurate.
+
+-Fixed Open Quest Texts
+
+-Lowered Prob for certain POIs
+
+-Removed Stonehenge from cities and towns
+
+-Made large towns slightly rarer, small towns and rural towns probability to spawn larger
+
+-Reduced frequency of clay patches
+
+-Added new safe material and increased all safes damage slightly to make them harder to break into
+
+-Adjusted Weight of Tree Log
+
+-Lowered bonus damage to woods on certain guns
+
+-Removed Tools from Basic Campfire
+
+-Removed Ax models and tinted the normal axes to differentiate (might need to change tinting.)
+
+-Lowered Twine by 1 in loot
+
+-Removed sugar and vinegar from sinks, added seeds to sinks.
+
+-Removed Kitchen Cookbooks from all loot besides sinks and cupboards
+
+-Increased Fall off range on Bandits so they cant shoot as far
+
+-Decreased Accuracy a bit so Bandits have a better chance of missing
+
+-Increased gun damage done by Bandits (did you think id be THAT nice)
+
+-Increased Bandit Health slightly
+
+-FIXED IRRADIATED AND FERALS SPAWNING ON DAY ONE
+
+-Reduced rad zone safes and crates
+
+-Increased normal vanilla cars in the world (may help with lag spikes)
+
+-Decreased Helis, Jeeps and Semis in the normal world
+
+-Lowered chance of wheat in the Plains
+
+-Removed Armor Defense from Radiation Perk
+
+-Clarified the Anvil Description
+
+-Added scalpel to game as well as to Medic Class (no model just a knife for now)
+
+-Fixed name of skinning knife which was causing a null in quests
+
+-Decreased Backpacks slightly in the Rad Zone
+
+-Lowered Probabilities of Bandits spawning in Wastelands
+
+-Added item cooking pot and burning barrel to help complete the opening quests. They work just like the normal ones and will place as blocks and pick up as items.
+
+-Fixed sound of Camo Bag
+
+-Temporary Loot List for Herd Zombies Added (Still OP but better and will be adjusted)
+
+-Lowered Probability of tree seeds dropping from trees
+
+-Lowered Probability of Apples dropping from trees
+
+-All quests after the first Scrap Sticks replaced by Gather to make the quests not drive you insane
+
+-Lowered Animal Kills needed to 3
+
+-Combined Bone Shiv quest with Animal Kill Quest
+
+-Added Trader quest back in to help people find a city trader
+
+-Increased XP Rewards for questing in Advanced Survival
+
+-Proper requirements for the Forge and Advanced Forge added to those quests
+
+-Adjusted Loot to make more sense (glue and tape in dressers and lockers, more beverages in coolers and fridges)
+
+-Slowed Scavenging and Athletics leveling a bit
+
+-Decreased craft times of paper, leather and hide
+
+-Decreased craft times of towels, soap and wet towels
+
+-Fixed a bunch of Group tags
+
+-Slightly lowered Harvests from all animals
+
+-Slowed deer down and lowered health slightly
+
+-Cow will now panic faster
+
+-Clarified Tool Head Quest
+
+-Added some more gas to Minibike Box
+
+-Gave Military Safe and Ammo Box their own loot lists
+
+
+----------------------------------------------------------
+
+
+**Patch 3.0RC4  Release Date 2/16/2018 **
+
+
+-Ceiling Fan Model Size Increased
+
+-Decreased Classic Chair Model Size
+
+-Decreased Forge Size
+
+-Increased Military Hatchet Size
+
+-Removed some excess models from classic cars
+
+-Lowered height of Old Van so it sits better on ground
+
+-Added Bull
+
+-Fixed Crow Death Loop
+
+-Reduced Deer Panic Speed
+
+-Removed Upgrades from Bridge Blocks
+
+-Added Storage Quest to Opening Quest
+
+-Added number of items crafted to item names ex. Paper (25)
+
+-Lowered Wooden Spear Arrowheads to 4
+
+-Fixed and adjusted plant models (need opinions)
+
+-Added seed pack rewards to certain steps of Farming Class
+
+-Fixed more quest items that said to craft when you could just acquire them
+
+-Added and adjusted loot for desks, lockers, cardboard boxes, filing cabinets and cupboards
+
+-Lowered vinegar AGAIN
+
+-Streamlined opening quest line. Separated some quests from Advanced Survival and gave them their own questline so you can do certain ones when you would like. They also act like in game tips people can read back on.
+
+-Removed silly zombie sounds
+
+-LOWERED AUDIO ON ALL ZOMBIES!!!  (Night Terrors are still loud, audio needs changed)
+
+-Fixed final stage of Survival Quest
+
+-Driftwood now drops logs instead of wood
+
+-Cleaned up the streets. Much less road debris now.
+
+-Tweaked Wheat models
+
+-Tweaked several models for better optimization
+
+-Added needle models
+
+-Added Rad Pill bottles
+
+-Added new look for the player storage cardboard box
+
+-Added toilet paper!!
+
+-Added new part to Advanced Survival Finding Water
+
+-Removed gun recipes that no longer require recipes to repair
+
+-Fixed some Localization (Burning Barrel, Ammo)
+
+-Adjusted Zombie Quest Drops
+
+-Added proper tagging to all storage
+
+-Added description text to recipe books that gun quality depends on level of weapon skill for crafted attachment versions
+
+-Beakers still dont stack
+
+-Added Tool Head clarification to both Iron Tools and to the Tool Head Quest
+
+-Resurrected the Omelet!!
+
+-Moved Heres Johnny Perk to its proper place with the proper requirements
+
+-Added flavor and uniqueness to the rook and five seven guns. 
+
+-Lowered Ingredients for Rotting Harvest
+
+-You can no longer buy Radiation skill.
+
+-Advanced Forge will no longer harness the mythical power of the Netherworld Dwarves and be set ablaze upon login!!!
+
+-Modified opening quest texts.
+
+-Adjusted Survival Class description
+
+-Increased Range of the Milk Bottle/Bucket
+
+-Created some new loot groups for rare items in the rad zone
+
+-Fixed cabbage seed icon and description
+
+-Added missing icons
+
+-Raised chance of ammo drops from all zombies
+
+-Lowered opening quests for weapons from 100 zombies to 50
+
+-Increased ammo for all gun classes
+
+-All weapons are now Quality 300 on class start
+
+-Added Scrap Nails made from scrap iron to all frame recipes to make them easier to craft.
+
+-Reordered Progression.
+
+-Added 5 new Herd Zombies (One with Peculiar Attacks)
+
+-Fixed Gun Class Errors when tabbing into Quests section
+
+-Added 7 New Quests, 3 of which are Hardcore and will reward the most requested and complained items in the game. All you have to do is kill TEN of each Night Terror, and each new Herd Zombie
+
+-Removed normal ammo from Military loot and replaced with Military Ammo loot group
+
+-Added cold drink description to fridges and coolers
+
+-Added 5 Tiers of Horde Night Vanilla Zombies all with rising block and health damage as well as HP. These will replace irradiateds in hordes. Tiers are 1=500  2=2000 3=3000 4=4000 5=5000
+
+-Added Night Terrors to Horde Night after GS 1000 with rising probabilities
+
+-Removed Lines of Defense to Wandering Hordes to control the crazy spawns
+
+-Adjusted Rad Zone Loot Spawns
+
+-Added 7 new POIs
+
+-Adjusted house spawning in Rad Zone
+
+-Increased Anti Rad Buff to 90 seconds
+
+-Added Radiation Immunity to Zombies
+
+-Added Radiation Suit and AntiRad Pills to Starting Admin Loot
+
+
+--------------------------------------
+
+
+**Patch 3.0RC5  Release Date 2/17/2018**
+
+
+-Increased ammo given in Classes for Guns and Bows as well as rewarding ammo for the second step of classes
+
+-Fixed Box Icon
+
+-Strengthened Simple Box
+
+-Added Scrap Nails to Basics
+
+-Increased Herd Health Slightly
+
+-Made Cardboard Boxes Stronger
+
+-Increased Damage on Scalpel
+
+-Added Campfire Descriptions to campfire recipes
+
+
+-------------------------------------------------------
+
+**Patch 3.0RC6  Release Date 2/20/2018**
+
+
+-Added Scrap Nails to wood hatch recipe
+
+-Added calipers to Shotgun Messiah Loot
+
+-Added more ammo supplies to shotgun messiah
+
+-Reduced beaker chance and overall craft tool chance (they were appearing more often with reduced junk loot)
+
+-Added Scrap Nails to a few more basic wood recipes
+
+-Added Storage Labels
+
+-Lowered Prob of Cotton in desert
+
+-Driftwood now gives a 0.7 chance at logs
+
+-Added Jerky
+
+-Added Trail Mix
+
+-Major rebalance of houses in towns and wilderness
+
+-Made Aloe free for all to plant
+
+-Removed trader quest
+
+-Removed tools from Food Prep Table
+
+-Fixed Night Terrors spawning with Herds in Forest, Desert, Plains and Snow. They still spawn in Wasteland and Burnt
+
+-Microwave, Coffeemaker and Blender should all be allowed to be picked up now
+
+-Microwave and Blender should now actually work
+
+-Reworked and rebalanced some quests that required tools or had improper descriptions like the tool heads.
+
+-Changed level requirements for Quality Joe
+
+-Rebalanced Cupboard loot (should find more bowls and plates)
+
+-Hopeful Fix for Cars being able to pick up.
+
+-Rebalanced Sink Loot
+
+-Added Light Bulbs found in sinks, cupboards and stiffs loot.
+
+-Added Light Bulbs to all light recipes
+
+-Removed craftable salt, added it to cupboard and sink loot.
+
+-Air Conditioners are now Lootable
+
+-Book probabilities and Map probabilities adjusted.
+
+-More chances to find electronic, electric and mechanical parts in the world.
+
+-Removed Test Blocks
+
+-Added RareBookProb back to the rare book loot. (Needs testing)
+
+-Removed some OP and out of place Dekko POIs
+
+-Removed background food buffs that interfered with food and drink value calculations
+
+-Added The Pyramid by Andyjoki, and end game style raid.
+
+-Reduced chances of mansions in Wilderness
+
+-Reduced Health of Herd zombies slightly
+
+-Slightly lowered XP needed to level
+
+-Breaking the Simple Box now gives you the Simple Box Back (Movable storage you are WELCOME lol)
+
+-Reduced trees slightly in forest biomes
+
+-Removed Power Capability from the Windmill
+
+-Removed Admin Items
+
+
+---------------------------------------------------
+
+
+**Patch 3.0RC7  Release Date 2/25/2018**
+
+
+-Reduced Animals a bit
+
+-Added a new POI the Nuclear Power Plant
+
+-Added dancapos Medieval Tower
+
+-Reordered Progression for all tool unlocks
+
+-Removed Scrap Tools from the unlocks and added them to its own Progression skill
+
+-Lowered some POI Probabilities
+
+-Removed Race Track
+
+-Added a second Junction Box
+
+-Added models for Junction Boxes
+
+-Added 7 Gothic Statues
+
+-Added new Advanced Workbench model
+
+-Added new Ammo Table model
+
+-Added new animals for testing
+
+-Removed Scrap Tools
+
+-Added Stone Pickaxe. Stone Axe is now ONLY good for harvesting trees and repair. Stone Pickaxes are used for rocks and mining.
+
+-Added new model for Advanced Campfire
+
+-Added models for some food items
+
+-Cleaned up and changed some Herd zombie Animations (no longer silly drunk walking)
+
+-Reduced chance of Bite Mark
+
+-Added Reworked and Redone POIs by dancapo with added sleepers and improved security (locked doors and safes replaced unlocked ones)
+
+-Added Pois by sinder with help from dancapo
+
+-Added a Power Move to all Melee Weapons. Increased chance of strike and bleed, with bonus headshot damage but a bit slower and drains more stamina
+
+-Separated the passive skill unlock into their own Perks so they are easier to find (Bow recipes, Blunt recipes, Blade recipes etc)
+
+-Rebalanced Gamestages (Should go up a bit faster now)
+
+-Redid some POI probabilities
+
+-Added icons for all the new food models to match (Liquor types need work)
+
+-Reorganized Storage Perks so they made sense in tiers (Need to check for any storage that might not be locked by Progression)
+
+-Removed unnecessary zombie walks due to Transmogrifier doing that for used
+
+-Reworked the entire skill and xp rewards for all quests
+
+-Fixed version of dancapos Medieval Tower Added
+
+-5 Forged Iron and 5 Repair Kits in starter classes instead of 3
+
+
+-------------------------------
+
+
+**Patch 3.0RC8  Release Date 2/25/2018**
+
+
+-Fixed Rocket Grenade Name and description
+
+-Fixed sleeper entity FatCop3 which was removed but still listed in Groups
+
+-Fixed Icon for Flour
+
+-Fixed Stone Pick Axe Harvests
+
+-Fixed Pickaxe Quest spell error
+
+-Added second candy bar to junk loot
+
+-Adjusted Stone Pickaxe speed and harvest
+
+-Significantly lowered metal and stone damage on Stone Axe
+
+-Added Illegible Auger Schematic with some appropriate rewards (Balance advice on the reward)
+
+-Added a second set of Wilderness Vanilla zombie Daytime spawns to bump up wilderness zombies
+
+-Moved Pyramid to Radiated Only
+
+
+------------------------------------------
+
+
+**Patch 3.0RC9  Release Date 3/2/2018**
+
+
+-Lowered Zombie Spawn
+
+-Stone Pickaxe takes up LESS Stamina per swing
+
+-Skinning Knife has been balanced
+
+-Campfire is now returned when you destroy it.
+
+-Advanced Campfire now requires campfire to craft
+
+-Rebalanced XP given from certain mining of ores
+
+-Rebalanced Harvest Amount of Stone Axe, Pick Axe, Shovels, Hammers
+
+-Removed First step of all gun quests due to redundancy
+
+-Split Forge and BS Station quests from Advanced Survival Chain
+
+-Added Mold Quest to Advanced Forge Chain
+
+-Fixed some speed and disappearing texture issues on some Herd Zombies (Needs tested)
+
+-Lowered Crafting Requirements for Tree Cutter
+
+-Lowered Crafting Requirements for Ammunition Table
+
+-Re-adjusted Construction Tools Requirements for each level of all Storage Perks
+
+-Added Calipers as reward for Completing Ammunition Table Quest (You are WELCOME)
+
+-Adjusted Size of Advanced Campfire
+
+-Adjusted Particles on Advanced Campfire
+
+-Rebalanced zombie loot. removed some items that should be found via POI hunting, toned down amount of ammo slightly
+
+-Added station tools to more loot spots but reduced their chances
+
+-Added new junk loot list to zombies that include some supplies such as wood, stone and some ores instead of craftables like oil and glue
+
+-Increased feather drops from Zombies
+
+-Added Gun Parts back to all guns, but kept full gun loot. Gun Part upgrading is optional.
+
+-Added the Benelli Shotgun
+
+-Removed some excess guns (simplified guns to make later guns more attractive. Removed long Scoped Snipers and silenced LSAT as well as Silenced Magnum which never made any sense to begin with)
+
+-Major food rebalance. Full dishes mostly removed. Ingredients added instead. More cans less fully cooked foods.
+
+-Backpacks, purses and Bags in the world can now be destroyed and you will receive the item so you can place as storage in your base. They are very small though.
+
+-Fixed error in Wood Chipper Quest
+
+-Removed crawlers from Transmogrifier and slowed zombies down a bit
+
+-Readjusted Gamestage Scaling
+
+-Lowered Probability of Fat Zombies and Bikers in the world
+
+-Started to replace Night Terror Sounds
+
+-Added scrap plastic and other odds and ends to garage storage
+
+-Fixed walk animations on some herd zombies
+
+-Fixed duplicate loot container id
+
+-Added Benelli Shotgun to quests
+
+-Removed Running Burning Zombies
+
+-Reordered Rifles Class Quest
+
+-Added Pitchfork to Farmer Class, as well as exclusive recipe (Pitchfork is Blade Skill right now, but consider moving to Primitive so Farmers can make it?)
+
+-Removed Stonehenge for now
+
+-Slightly lowered chance of Dirty from looting corpses
+
+-Readjusted Infection times so they are even with 60 minute days as well as renaming it so stages are more clear
+
+-Gave Burnt Zombie its own loot list
+
+
+---------------------------------------------------------------
+
+
+**Patch 3.0final  Release Date 3/??/2018**
+
+
+-Increased Difficulty on the Boar
+
+-Added Gravel Nano Ground
+
+-Fixed Steel Bars
+
+-Adjusted Hitboxes on Tubs and Trains
+
+-Lightened Tool Chest
+
+-Updated Tailor Station
+
+-Added Bradmins Trash Can Smoker
+
+-Increased Driftwood Logs Drop
+
+-Removed Helicopters causing map corruption
+
+-Fixed Charred White Meat Icon
+
+-Removed Halicopter recipe
+
+-Rocket Launcher and Rockets can now be sold
+
+-Cold Drinks can now be turned normal in Campfires by clicking on it
+
+-Duffle Bag Name Fixed
+
+-Added Multiple Icons to Creative Menu
+
+-Switched some blocks to Dev Only
+
+-Fixed Train Car hitboxes
+
+-Fixed Shed Hitboxes
+
+-Added snowball Icon
+
+-Pigs can now attack
+
+-Rotters health lowered
+
+-Both meats now make Boiled Meat
+
+-Tightened Working Stiffs loot (Best place to get Station Tools)
+
+-Gave Herd Zombies Better Loot
+
+-Removed Burning Club (Pretty useless) but added the power swing to Wooden Clubs
+
+-Wooden club given in opening quest now a 150 quality
+
+-Kukri added (new model not added yet) to Blades. Bone Shiv quest removed
+
+-New Item Medical Powder used in various medical recipes crafted in the Mortar and Pestle
+
+-Minibikes of all types have had their durability re-balanced
+
+-Twine added to most trap recipes
+
+-Nerfed Jerky Slightly and added Salt
+
+-Added Station Tools Quest
+
+-Added a fun gather quest for those bored
+
+-Added over 18 new findable quests
+
+-Added Darker Tint to Steel Bars
+
+-Added more feral types to the Feral Group
+
+-Fixed some descriptions
+
+-Classic Bed now has Cozy Comfort
+
+-Twine Added to Repair Kits
+
+-Added Multiple Smoker recipes created by Bradmin and Dan Capo (Cook Times are all one time so far they WILL be properly changed in next update)
+
+-Readjusted Cupboard loot
+
+-Adjusted Fuel Values on several blocks and items
+
+-Fixed Cabbage Model
+
+-Trash bags will now give back at least 1 plastic
+
+-3 BBQ Grills Added (Models MAY need Adjusted)
+
+-Large Christmas Tree Added (Model May Need Adjusted)
+
+-2 Wagons Added
+
+-Western Trader Table Added
+
+-Dan Capos Super Secret Quest Line Added (Waiting on POIs)
+
+-Added Shortys Stew
+
+-Fixed Blade Quest
+
+-Added Kukri Model
+
+-Removed Ammo Craft Skill and added ammo to Miscellaneous Crafting
+
+-Ammo Class unlocked with Gun Classes can now buy any ammo they want at level 1
+
+-Ammo Boxes are now reverted back to quest reads so everyone can acquire ammo from them
+
+-Cactus recipe Removed
+
+-Cleaned up Some Assets
+
+-Fixed Charred White Meat Icon (For Real This Time)
+
+-Added New Icons for Kukri, Adv Campfire and Ammo Table
+
+-Added new Kukri model and "skins" for it
+
+-Added 4 new Rotters
+
+-Brightened some zombie textures
+
+-Adjusted some zombie hitboxes
+
+-Removed Small Game quest due to crows and vultures not registering as animals (no fix vanilla issue with flying class)
+
+-Added Fishing. While not as complex as the one we previously had it gets the job done.
+
+-Added Fishing Pole Schematic
+
+-Added Fish recipes to grills and stoves and campfires. Stews also added
+
+-Several POI rebalances by our own DanCapo (sleepers added, munitions boxes balanced etc)
+
+-More Asset Optimizations
+
+-Added Guillotine
+
+-Added Bear Skin gotten rarely from bears with Butcher Knife. Can be used to make a bear rug
+
+-Added special rewards to Dan Capos Skyscraper Quests. Royal Bed and Royal Throne both of which provide Royal Comfort
+
+-Fixed Station Tools Quests
+
+-Added Fishing Assets
+
+-Toilet Paper quests now need only 1 Toilet Paper
+
+-Literature quest is now only three parts
+
+-Kukri quest now accepts all kukri blades
+
+-Added Mine Cart Storage
+
+-Added Flashlight as reward during opening quest
+
+-Added Radiated Zombies to the Radiation Zone
+
+-Added New True Mining TNT Model
+
+-Loot containers in the Radiated zone will now instantly poison you with Radiation if you do not have Trioxin effect on you.
+
+-Added MASSIVE new POI from Frantic Dan to the wilderness!
+
+
+-------------------------------------------------------------------
+
+
+**Patch 3.0 Release Patch Release Date 3/26/2018**
+
+-Fixed weight on Scrap Nails
+
+-Added Small Engine to quest requirements for Wood Chipper
+
+-Removed Shark (Sorry Bruce)
+
+-Added Barbed Club and Spiked Club to Advanced Workbench
+
+-Decreased Multiplier on Skill Points
+
+-Added Business Suit to Average Joe Class
+
+-Added Some Pois to RWG instead of biome decos
+
+-Added Frantic Dans RE Mansion to Town mixers.
+
+-Lowered snow needed for all water recipes
+
+-Removed murky water craft from all snow and jar and can recipes
+
+-Removed a pond poi that was causing issues
+
+-All garbage and trash in the world now destroy into a garbage bag you can use for small storage
+
+-Lowered Feral running slightly to compensate for the Transmogrifier run speeds
+
+-Increased health on Bandits slightly
+
+-Added Cookies Icon
+
+-Adjusted Stamina Usage on Spears
+
+-Raised Stamina Use on Power Swings
+
+-Fixed Fish Stew Recipe
+
+-Added Chainsaw Parts Recipe
+
+-Removed Bed Class from Royal Bed due to its size
+
+-Rewrote Opening Text
+
+-Removed one instance of full Minibike Book in loot
+
+-Added German Translations thanks to Scomar for doing this challenging work!
+
+-Trader Protection returned due to possible future errors with trader damage
+
+-Readded Heat free torches that take extra materials and craft time to make
+
+-Increased the rate at which gamestages increase (may need some additional work)
+
+-Fixed material counts for Survival Expert 5 Quest
+
+-Adjusted Feral Wight Speeds
+
+-Adjusted Shotgun Skill Leveling
+
+-Adjusted chance of Sink Tools
